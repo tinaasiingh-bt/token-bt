@@ -1,0 +1,10 @@
+{
+  "tokenSetOrder": [
+    "global",
+    "Styling/Light Mode",
+    "Styling/Dark Mode",
+    "SDS colors/Dark",
+    "SDS colors/Light",
+    "Typography/Mode 1"
+  ]
+}
