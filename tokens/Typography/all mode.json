@@ -1,7 +1,7 @@
 {
-  "font family primary": {
+  "font family": {
     "$type": "text",
-    "$value": "inter"
+    "$value": "Open Sans"
   },
   "font": {
     "weight": {
@@ -78,9 +78,5 @@
         "$value": "2.25rem"
       }
     }
-  },
-  "font family secondary": {
-    "$type": "text",
-    "$value": "noto sans"
   }
 }
