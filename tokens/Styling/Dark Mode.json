@@ -1,4 +1,34 @@
 {
+  "Badge": {
+    "Color": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "new-text-color": {
+      "$type": "color",
+      "$value": "{Forest green.300}"
+    },
+    "preview-text-color": {
+      "$type": "color",
+      "$value": "{Raspberry.300}"
+    },
+    "new-bg": {
+      "$type": "color",
+      "$value": "{Forest green.100}"
+    },
+    "preview-bg-color": {
+      "$type": "color",
+      "$value": "{Raspberry.100}"
+    },
+    "new-border": {
+      "$type": "color",
+      "$value": "{Forest green.200}"
+    },
+    "preview-border": {
+      "$type": "color",
+      "$value": "{Raspberry.200}"
+    }
+  },
   "Background": {
     "bg-primary": {
       "$type": "color",
@@ -37,6 +67,10 @@
       "$value": "{Black.600}"
     },
     "bg-hightlight": {
+      "$type": "color",
+      "$value": "{Black.900}"
+    },
+    "bg-bg-text field": {
       "$type": "color",
       "$value": "{Black.900}"
     }
@@ -152,32 +186,6 @@
     "Gridline": {
       "$type": "color",
       "$value": "{Black.400}"
-    }
-  },
-  "Badge": {
-    "new-text-color": {
-      "$type": "color",
-      "$value": "{Forest green.300}"
-    },
-    "preview-text-color": {
-      "$type": "color",
-      "$value": "{Raspberry.300}"
-    },
-    "new-bg": {
-      "$type": "color",
-      "$value": "{Forest green.100}"
-    },
-    "preview-bg-color": {
-      "$type": "color",
-      "$value": "{Raspberry.100}"
-    },
-    "new-border": {
-      "$type": "color",
-      "$value": "{Forest green.200}"
-    },
-    "preview-border": {
-      "$type": "color",
-      "$value": "{Raspberry.200}"
     }
   },
   "Feedback": {
@@ -308,86 +316,86 @@
   },
   "Radius": {
     "radius-none": {
-      "$type": "dimension",
-      "$value": "0rem"
+      "$type": "number",
+      "$value": 0
     },
     "radius-xxs": {
-      "$type": "dimension",
-      "$value": "0.125rem"
+      "$type": "number",
+      "$value": 2
     },
     "radius-xs": {
-      "$type": "dimension",
-      "$value": "0.25rem"
+      "$type": "number",
+      "$value": 4
     },
     "radius-sm": {
-      "$type": "dimension",
-      "$value": "0.375rem"
+      "$type": "number",
+      "$value": 6
     },
     "radius-md": {
-      "$type": "dimension",
-      "$value": "0.5rem"
+      "$type": "number",
+      "$value": 8
     },
     "radius-lg": {
-      "$type": "dimension",
-      "$value": "0.625rem"
+      "$type": "number",
+      "$value": 10
     },
     "radius-xl": {
-      "$type": "dimension",
-      "$value": "0.75rem"
+      "$type": "number",
+      "$value": 12
     },
     "radius-2xl": {
-      "$type": "dimension",
-      "$value": "1rem"
+      "$type": "number",
+      "$value": 16
     },
     "radius-full": {
-      "$type": "dimension",
-      "$value": "624.938rem"
+      "$type": "number",
+      "$value": 9999
     }
   },
   "Space": {
     "space-none": {
-      "$type": "dimension",
-      "$value": "0rem"
+      "$type": "number",
+      "$value": 0
     },
     "space-xxs": {
-      "$type": "dimension",
-      "$value": "0.25rem"
+      "$type": "number",
+      "$value": 4
     },
     "space-xs": {
-      "$type": "dimension",
-      "$value": "0.5rem"
+      "$type": "number",
+      "$value": 8
     },
     "space-sm": {
-      "$type": "dimension",
-      "$value": "0.75rem"
+      "$type": "number",
+      "$value": 12
     },
     "space-md": {
-      "$type": "dimension",
-      "$value": "1rem"
+      "$type": "number",
+      "$value": 16
     },
     "space-lg": {
-      "$type": "dimension",
-      "$value": "1.25rem"
+      "$type": "number",
+      "$value": 20
     },
     "space-2xl": {
-      "$type": "dimension",
-      "$value": "1.75rem"
+      "$type": "number",
+      "$value": 28
     },
     "space-3xl": {
-      "$type": "dimension",
-      "$value": "2rem"
+      "$type": "number",
+      "$value": 32
     },
     "space-4xl": {
-      "$type": "dimension",
-      "$value": "2.5rem"
+      "$type": "number",
+      "$value": 40
     },
     "space-none 2": {
-      "$type": "dimension",
-      "$value": "0.125rem"
+      "$type": "number",
+      "$value": 2
     },
     "space-xl": {
-      "$type": "dimension",
-      "$value": "1.5rem"
+      "$type": "number",
+      "$value": 24
     }
   }
 }
