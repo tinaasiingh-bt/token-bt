@@ -1,242 +1,242 @@
 {
   "font family primary": {
-    "$type": "text",
-    "$value": "inter"
+    "value": "inter",
+    "type": "text"
   },
   "font": {
     "weight": {
       "400": {
-        "$type": "text",
-        "$value": "regular"
+        "value": "regular",
+        "type": "text"
       },
       "500": {
-        "$type": "text",
-        "$value": "Medium"
+        "value": "Medium",
+        "type": "text"
       },
       "600": {
-        "$type": "text",
-        "$value": "semi-bold"
+        "value": "semi-bold",
+        "type": "text"
       },
       "700": {
-        "$type": "text",
-        "$value": "bold"
+        "value": "bold",
+        "type": "text"
       }
     },
     "size": {
       "xs": {
-        "$type": "dimension",
-        "$value": "0.75rem"
+        "value": "0.75rem",
+        "type": "dimension"
       },
       "s": {
-        "$type": "dimension",
-        "$value": "0.875rem"
+        "value": "0.875rem",
+        "type": "dimension"
       },
       "m": {
-        "$type": "dimension",
-        "$value": "1rem"
+        "value": "1rem",
+        "type": "dimension"
       },
       "xxxxl": {
-        "$type": "dimension",
-        "$value": "2.25rem"
+        "value": "2.25rem",
+        "type": "dimension"
       },
       "l": {
-        "$type": "dimension",
-        "$value": "1.125rem"
+        "value": "1.125rem",
+        "type": "dimension"
       },
       "xl": {
-        "$type": "dimension",
-        "$value": "1.25rem"
+        "value": "1.25rem",
+        "type": "dimension"
       },
       "xxl": {
-        "$type": "dimension",
-        "$value": "1.5rem"
+        "value": "1.5rem",
+        "type": "dimension"
       },
       "xxxl": {
-        "$type": "dimension",
-        "$value": "2rem"
+        "value": "2rem",
+        "type": "dimension"
       },
       "xsmall": {
-        "$type": "number",
-        "$value": 12
+        "value": 12,
+        "type": "number"
       },
       "small": {
-        "$type": "number",
-        "$value": 14
+        "value": 14,
+        "type": "number"
       },
       "medium": {
-        "$type": "number",
-        "$value": 16
+        "value": 16,
+        "type": "number"
       },
       "5xlarge": {
-        "$type": "number",
-        "$value": 36
+        "value": 36,
+        "type": "number"
       },
       "large": {
-        "$type": "number",
-        "$value": 18
+        "value": 18,
+        "type": "number"
       },
       "xlarge": {
-        "$type": "number",
-        "$value": 20
+        "value": 20,
+        "type": "number"
       },
       "2xlarge": {
-        "$type": "number",
-        "$value": 24
+        "value": 24,
+        "type": "number"
       },
       "4xlarge": {
-        "$type": "number",
-        "$value": 32
+        "value": 32,
+        "type": "number"
       },
       "6xlarge": {
-        "$type": "number",
-        "$value": 40
+        "value": 40,
+        "type": "number"
       },
       "3xlarge": {
-        "$type": "number",
-        "$value": 28
+        "value": 28,
+        "type": "number"
       },
       "7xlarge": {
-        "$type": "number",
-        "$value": 44
+        "value": 44,
+        "type": "number"
       },
       "7xlarge 2": {
-        "$type": "number",
-        "$value": 44
+        "value": 44,
+        "type": "number"
       },
       "xsmall 2": {
-        "$type": "number",
-        "$value": 12
+        "value": 12,
+        "type": "number"
       },
       "medium 2": {
-        "$type": "number",
-        "$value": 16
+        "value": 16,
+        "type": "number"
       },
       "8xlarge 2": {
-        "$type": "number",
-        "$value": 48
+        "value": 48,
+        "type": "number"
       },
       "xlarge 2": {
-        "$type": "number",
-        "$value": 20
+        "value": 20,
+        "type": "number"
       },
       "small 2": {
-        "$type": "number",
-        "$value": 14
+        "value": 14,
+        "type": "number"
       },
       "4xlarge 2": {
-        "$type": "number",
-        "$value": 32
+        "value": 32,
+        "type": "number"
       },
       "6xlarge 2": {
-        "$type": "number",
-        "$value": 40
+        "value": 40,
+        "type": "number"
       },
       "3xlarge 2": {
-        "$type": "number",
-        "$value": 28
+        "value": 28,
+        "type": "number"
       },
       "2xlarge 2": {
-        "$type": "number",
-        "$value": 24
+        "value": 24,
+        "type": "number"
       },
       "large 2": {
-        "$type": "number",
-        "$value": 18
+        "value": 18,
+        "type": "number"
       },
       "5xlarge 2": {
-        "$type": "number",
-        "$value": 36
+        "value": 36,
+        "type": "number"
       }
     },
     "line height": {
       "xs": {
-        "$type": "number",
-        "$value": 16
+        "value": 16,
+        "type": "number"
       },
       "s": {
-        "$type": "number",
-        "$value": 18
+        "value": 18,
+        "type": "number"
       },
       "m": {
-        "$type": "number",
-        "$value": 20
+        "value": 20,
+        "type": "number"
       },
       "l": {
-        "$type": "number",
-        "$value": 22
+        "value": 22,
+        "type": "number"
       },
       "xl": {
-        "$type": "number",
-        "$value": 24
+        "value": 24,
+        "type": "number"
       },
       "xxl": {
-        "$type": "number",
-        "$value": 36
+        "value": 36,
+        "type": "number"
       },
       "xsmall": {
-        "$type": "number",
-        "$value": 12
+        "value": 12,
+        "type": "number"
       },
       "medium": {
-        "$type": "number",
-        "$value": 16
+        "value": 16,
+        "type": "number"
       },
       "8xlarge": {
-        "$type": "number",
-        "$value": 48
+        "value": 48,
+        "type": "number"
       },
       "xlarge": {
-        "$type": "number",
-        "$value": 20
+        "value": 20,
+        "type": "number"
       },
       "7xlarge": {
-        "$type": "number",
-        "$value": 44
+        "value": 44,
+        "type": "number"
       },
       "small": {
-        "$type": "number",
-        "$value": 14
+        "value": 14,
+        "type": "number"
       },
       "4xlarge": {
-        "$type": "number",
-        "$value": 32
+        "value": 32,
+        "type": "number"
       },
       "6xlarge": {
-        "$type": "number",
-        "$value": 40
+        "value": 40,
+        "type": "number"
       },
       "3xlarge": {
-        "$type": "number",
-        "$value": 28
+        "value": 28,
+        "type": "number"
       },
       "2xlarge": {
-        "$type": "number",
-        "$value": 24
+        "value": 24,
+        "type": "number"
       },
       "large": {
-        "$type": "number",
-        "$value": 18
+        "value": 18,
+        "type": "number"
       },
       "5xlarge": {
-        "$type": "number",
-        "$value": 36
+        "value": 36,
+        "type": "number"
       }
     }
   },
   "font family secondary": {
-    "$type": "text",
-    "$value": "noto sans"
+    "value": "noto sans",
+    "type": "text"
   },
   "font-family-primary": {
-    "$type": "text",
-    "$value": "inter"
+    "value": "inter",
+    "type": "text"
   },
   "font-family-secondary": {
-    "$type": "text",
-    "$value": "noto sans"
+    "value": "noto sans",
+    "type": "text"
   },
   "font-family-monospace": {
-    "$type": "text",
-    "$value": "Fira Code"
+    "value": "Fira Code",
+    "type": "text"
   }
 }
