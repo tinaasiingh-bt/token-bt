@@ -45,7 +45,7 @@
       "type": "color"
     }
   },
-  "Grey": {
+  "Gray": {
     "25": {
       "value": "#fcfcfc",
       "type": "color"
@@ -393,64 +393,6 @@
       "type": "color"
     }
   },
-  "Grey-alpha-shadow": {
-    "25": {
-      "value": "#fcfcfc",
-      "type": "color"
-    },
-    "50": {
-      "value": "#fafafa",
-      "type": "color"
-    },
-    "100": {
-      "value": "#f4f5f733",
-      "type": "color"
-    },
-    "200": {
-      "value": "#e4e7ec33",
-      "type": "color"
-    },
-    "300": {
-      "value": "#d1d1d633",
-      "type": "color"
-    },
-    "400": {
-      "value": "#9da4ae33",
-      "type": "color"
-    },
-    "500": {
-      "value": "#6c737f33",
-      "type": "color"
-    },
-    "600": {
-      "value": "#47546733",
-      "type": "color"
-    },
-    "700": {
-      "value": "#38425033",
-      "type": "color"
-    },
-    "800": {
-      "value": "#1f2a3733",
-      "type": "color"
-    },
-    "900": {
-      "value": "#11192733",
-      "type": "color"
-    },
-    "950": {
-      "value": "#0c111d33",
-      "type": "color"
-    },
-    "black": {
-      "value": "#00000047",
-      "type": "color"
-    },
-    "black-toast": {
-      "value": "#2537461a",
-      "type": "color"
-    }
-  },
   "Rose": {
     "100": {
       "value": "#fe5666",
@@ -502,5 +444,75 @@
       "value": "#a1a1a1",
       "type": "color"
     }
+  },
+  "2xs": {
+    "value": "4",
+    "type": "spacing"
+  },
+  "xs": {
+    "value": "8",
+    "type": "spacing"
+  },
+  "sm": {
+    "value": "12",
+    "type": "spacing"
+  },
+  "md": {
+    "value": "16",
+    "type": "spacing"
+  },
+  "lg": {
+    "value": "20",
+    "type": "spacing"
+  },
+  "xl": {
+    "value": "24",
+    "type": "spacing"
+  },
+  "2xl": {
+    "value": "24",
+    "type": "spacing"
+  },
+  "3xl": {
+    "value": "32",
+    "type": "spacing"
+  },
+  "4xl": {
+    "value": "40",
+    "type": "spacing"
+  },
+  "5xl": {
+    "value": "48",
+    "type": "spacing"
+  },
+  "borderRadius-none": {
+    "value": "0",
+    "type": "borderRadius",
+    "description": "for samll inputs"
+  },
+  "borderRadius-2xs": {
+    "value": "2",
+    "type": "borderRadius",
+    "description": "button corner radius"
+  },
+  "borderRadius-xs": {
+    "value": "4px",
+    "type": "borderRadius"
+  },
+  "borderRadius-sm": {
+    "value": "6",
+    "type": "borderRadius"
+  },
+  "borderRadius-md": {
+    "value": "8",
+    "type": "borderRadius"
+  },
+  "borderRadius-lg": {
+    "value": "10",
+    "type": "borderRadius"
+  },
+  "borderRadius-xl": {
+    "value": "12",
+    "type": "borderRadius"
   }
 }
