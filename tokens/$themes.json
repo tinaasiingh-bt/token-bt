@@ -6,8 +6,7 @@
     "selectedTokenSets": {
       "Primitive": "enabled",
       "Semantic": "enabled",
-      "Components": "enabled",
-      "Theme/light": "disabled"
+      "Components": "enabled"
     },
     "$figmaVariableReferences": {}
   }
