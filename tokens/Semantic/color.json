@@ -185,7 +185,7 @@
         "fontWeight": "{font-weight.inter-regular}",
         "fontSize": "{font-size.sm}",
         "lineHeight": "{line-height.sm}",
-        "textDecoration": "{text-decorartion-underline}"
+        "textDecoration": "{text-decoration-underline}"
       },
       "type": "typography"
     },
@@ -269,5 +269,10 @@
       },
       "type": "typography"
     }
+  },
+  "color-background-primary": {
+    "value": "{Blue.100}",
+    "type": "color",
+    "description": "button background"
   }
 }

@@ -77,7 +77,7 @@
       "Primitive": "source",
       "Components": "enabled",
       "Themes/Light Mode": "enabled",
-      "Semantic": "enabled"
+      "Semantic/color": "enabled"
     },
     "$figmaVariableReferences": {
       "Background.bg-tiles": "2fe7d2df0b408a1ebbd3d5b2f7000b7f01c433ab",
@@ -259,7 +259,7 @@
       "Primitive": "source",
       "Components": "enabled",
       "Themes/Dark Mode": "enabled",
-      "Semantic": "enabled"
+      "Semantic/color": "enabled"
     },
     "group": "Theme",
     "$figmaCollectionId": "VariableCollectionId:6190:4332",

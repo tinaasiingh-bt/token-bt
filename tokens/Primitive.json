@@ -697,7 +697,7 @@
       "type": "border"
     }
   },
-  "text-decorartion-underline": {
+  "text-decoration-underline": {
     "value": "underline",
     "type": "textDecoration"
   },
