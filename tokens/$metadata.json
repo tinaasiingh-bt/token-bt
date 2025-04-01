@@ -1,7 +1,7 @@
 {
   "tokenSetOrder": [
     "Primitive",
-    "Semantic/Typography",
+    "Semantic",
     "Components",
     "Themes/Light Mode",
     "Themes/Dark Mode"

@@ -696,11 +696,6 @@
       "value": "{Color.Gray.200}",
       "type": "color",
       "description": "Background Primary"
-    },
-    "bg-secondary": {
-      "value": "{Color.Gray.100}",
-      "type": "color",
-      "description": "Background Primary"
     }
   }
 }

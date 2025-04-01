@@ -98,7 +98,7 @@
   },
   "Text": {
     "text-primary": {
-      "value": "{Color.Black.50}",
+      "value": "{Black.50}",
       "type": "color"
     },
     "text-secondary": {
@@ -132,7 +132,7 @@
   },
   "Border": {
     "border-primary": {
-      "value": "{Color.Black.400}",
+      "value": "{Black.400}",
       "type": "color"
     },
     "border-focus-active": {
@@ -195,7 +195,7 @@
     },
     "Severity": {
       "critical": {
-        "value": "{Color.Rose.100}",
+        "value": "{Rose.100}",
         "type": "color"
       },
       "high": {
