@@ -1,303 +1,303 @@
 {
   "Background": {
     "bg-tiles": {
-      "value": "{Black.800}",
-      "type": "color",
-      "description": "Background Primary"
+      "$type": "color",
+      "$value": "{Black.800}",
+      "$description": "Background Primary"
     },
     "header-bg": {
-      "value": "{Black.800}",
-      "type": "color",
-      "description": "Background Primary"
+      "$type": "color",
+      "$value": "{Black.800}",
+      "$description": "Background Primary"
     },
     "input-box-background": {
-      "value": "{Black.950}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Black.950}"
     },
     "sidenav-primary": {
-      "value": "{Black.800}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Black.800}"
     },
     "sidenav-secondary": {
-      "value": "{Black.700}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Black.700}"
     },
     "sidenav-tertiary": {
-      "value": "{Black.600}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Black.600}"
     },
     "bg-hightlight": {
-      "value": "{Black.900}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Black.900}"
     },
     "bg-bg-text field": {
-      "value": "{Black.900}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Black.900}"
     }
   },
   "Button": {
     "button-danger": {
-      "value": "{Red.100}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Red.100}"
     },
     "button-primary": {
-      "value": "{Sky blue.100}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Sky blue.100}"
     },
     "button-secondary": {
-      "value": "{Steel blue.100}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Steel blue.100}"
     },
     "button-text-primary": {
-      "value": "{Black.950}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Black.950}"
     },
     "button-tertiary": {
-      "value": "{Sky blue.100}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Sky blue.100}"
     },
     "button-text-secondary": {
-      "value": "{Black.50}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Black.50}"
     },
     "button-primary-hover": {
-      "value": "{Sky blue.200}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Sky blue.200}"
     },
     "button-primary-focus": {
-      "value": "{Orange.400}",
-      "type": "color",
-      "description": "stroke 2 px inside"
+      "$type": "color",
+      "$value": "{Orange.400}",
+      "$description": "stroke 2 px inside"
     },
     "button-primary-active": {
-      "value": "{Sky blue.300}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Sky blue.300}"
     }
   },
   "Icon": {
     "icon-primary": {
-      "value": "{Neutral.Ash}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Neutral.Ash}"
     },
     "icon-primary-nav": {
-      "value": "{Orange.400}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Orange.400}"
     },
     "icon-primary-hover": {
-      "value": "{Sky blue.200}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Sky blue.200}"
     },
     "icon-primary-focus": {
-      "value": "{Sky blue.100}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Sky blue.100}"
     },
     "icon-bg-primary-hover 2": {
-      "value": "{Neutral.Slate}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Neutral.Slate}"
     }
   },
   "Text": {
     "text-primary": {
-      "value": "{Black.50}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Black.50}"
     },
     "text-secondary": {
-      "value": "{Neutral.light-ash}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Neutral.light-ash}"
     },
     "text-link": {
-      "value": "{Cyan.800}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Cyan.800}"
     },
     "text-hover": {
-      "value": "{Orange.400}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Orange.400}"
     },
     "text-active": {
-      "value": "{Cyan.500}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Cyan.500}"
     },
     "text-tertiary": {
-      "value": "{Black.400}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Black.400}"
     },
     "text-heading-primary": {
-      "value": "{Neutral.Slate}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Neutral.Slate}"
     },
     "text-primary-nav": {
-      "value": "{Color.Neutral.light-ash}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Color.Neutral.light-ash}"
     }
   },
   "Border": {
     "border-primary": {
-      "value": "{Black.400}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Black.400}"
     },
     "border-focus-active": {
-      "value": "{Orange.400}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Orange.400}"
     },
     "divider": {
-      "value": "{Black.50}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Black.50}"
     },
     "Gridline": {
-      "value": "{Black.400}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Black.400}"
     }
   },
   "Badge": {
     "new-text-color": {
-      "value": "{Forest green.300}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Forest green.300}"
     },
     "preview-text-color": {
-      "value": "{Raspberry.300}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Raspberry.300}"
     },
     "new-bg": {
-      "value": "{Forest green.100}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Forest green.100}"
     },
     "preview-bg-color": {
-      "value": "{Raspberry.100}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Raspberry.100}"
     },
     "new-border": {
-      "value": "{Forest green.200}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Forest green.200}"
     },
     "preview-border": {
-      "value": "{Raspberry.200}",
-      "type": "color"
+      "$type": "color",
+      "$value": "{Raspberry.200}"
     }
   },
   "Feedback": {
     "Status": {
       "success-green": {
-        "value": "{Green.100}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{Green.100}"
       },
       "warning-Orange": {
-        "value": "{Orange.275}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{Orange.275}"
       },
       "error-red": {
-        "value": "{Red.50}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{Red.50}"
       },
       "Informational": {
-        "value": "{Blue.50}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{Blue.50}"
       }
     },
     "Severity": {
       "critical": {
-        "value": "{Rose.100}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{Rose.100}"
       },
       "high": {
-        "value": "{Sunset.100}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{Sunset.100}"
       },
       "moderate": {
-        "value": "{Sunset.300}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{Sunset.300}"
       },
       "low": {
-        "value": "{Ocean.100}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{Ocean.100}"
       },
       "Undetemined": {
-        "value": "{Stone.100}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{Stone.100}"
       }
     },
     "Chart": {
       "bg-chart-coral": {
-        "value": "#ff8178",
-        "type": "color"
+        "$type": "color",
+        "$value": "#ff8178"
       },
       "bg-chart-fusia": {
-        "value": "#ff6cfa",
-        "type": "color"
+        "$type": "color",
+        "$value": "#ff6cfa"
       },
       "bg-chart orchid": {
-        "value": "#b83dff",
-        "type": "color"
+        "$type": "color",
+        "$value": "#b83dff"
       },
       "bg-chart-violet": {
-        "value": "#be99ff",
-        "type": "color"
+        "$type": "color",
+        "$value": "#be99ff"
       },
       "bg-chart-indigo": {
-        "value": "#b1bbf2",
-        "type": "color"
+        "$type": "color",
+        "$value": "#b1bbf2"
       },
       "bg-chart-azure": {
-        "value": "#69bcff",
-        "type": "color"
+        "$type": "color",
+        "$value": "#69bcff"
       },
       "bg-chart -cerulean": {
-        "value": "#9ee1ff",
-        "type": "color"
+        "$type": "color",
+        "$value": "#9ee1ff"
       },
       "bg-chart-turquoise": {
-        "value": "#00e0fc",
-        "type": "color"
+        "$type": "color",
+        "$value": "#00e0fc"
       },
       "bg-chart-golden": {
-        "value": "#faec71",
-        "type": "color"
+        "$type": "color",
+        "$value": "#faec71"
       },
       "bg-chart-amber": {
-        "value": "#ffce3b",
-        "type": "color"
+        "$type": "color",
+        "$value": "#ffce3b"
       },
       "bg-chart-tangerine": {
-        "value": "#ffba54",
-        "type": "color"
+        "$type": "color",
+        "$value": "#ffba54"
       },
       "bg-chart-ember": {
-        "value": "#ff7f57",
-        "type": "color"
+        "$type": "color",
+        "$value": "#ff7f57"
       },
       "bg-chart-ashen gray": {
-        "value": "#9e9e9e",
-        "type": "color"
+        "$type": "color",
+        "$value": "#9e9e9e"
       },
       "bg-chart-aqua": {
-        "value": "#c7eaf9",
-        "type": "color"
+        "$type": "color",
+        "$value": "#c7eaf9"
       },
       "bg-chart-charcoal blue": {
-        "value": "#4184a3",
-        "type": "color"
+        "$type": "color",
+        "$value": "#4184a3"
       },
       "bg-chart-emerald": {
-        "value": "#67f06d",
-        "type": "color"
+        "$type": "color",
+        "$value": "#67f06d"
       },
       "bg-chart-lime": {
-        "value": "#adf25c",
-        "type": "color"
+        "$type": "color",
+        "$value": "#adf25c"
       },
       "bg-chart-citrus lime": {
-        "value": "#eeff42",
-        "type": "color"
+        "$type": "color",
+        "$value": "#eeff42"
       },
       "bg-chart-teal": {
-        "value": "#00edd7",
-        "type": "color"
+        "$type": "color",
+        "$value": "#00edd7"
       }
     }
   },
   "Shadow": {
     "drop-shadow": {
-      "value": "#ffffff",
-      "type": "color"
+      "$type": "color",
+      "$value": "#ffffff"
     }
   }
 }

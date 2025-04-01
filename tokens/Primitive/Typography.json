@@ -1,150 +1,150 @@
 {
   "fontFamily": {
     "inter": {
-      "value": "Inter",
-      "type": "fontFamilies"
+      "$type": "fontFamilies",
+      "$value": "Inter"
     },
     "notoSans": {
-      "value": "Noto Sans",
-      "type": "fontFamilies"
+      "$type": "fontFamilies",
+      "$value": "Noto Sans"
     },
     "firaCode": {
-      "value": "Fira Code",
-      "type": "fontFamilies"
+      "$type": "fontFamilies",
+      "$value": "Fira Code"
     }
   },
   "fontSize": {
     "xs": {
-      "value": "12",
-      "type": "fontSizes"
+      "$type": "fontSizes",
+      "$value": "12"
     },
     "sm": {
-      "value": "14",
-      "type": "fontSizes"
+      "$type": "fontSizes",
+      "$value": "14"
     },
     "md": {
-      "value": "16",
-      "type": "fontSizes"
+      "$type": "fontSizes",
+      "$value": "16"
     },
     "lg": {
-      "value": "18",
-      "type": "fontSizes"
+      "$type": "fontSizes",
+      "$value": "18"
     },
     "xl": {
-      "value": "20",
-      "type": "fontSizes"
+      "$type": "fontSizes",
+      "$value": "20"
     },
     "2xl": {
-      "value": "24",
-      "type": "fontSizes"
+      "$type": "fontSizes",
+      "$value": "24"
     },
     "3xl": {
-      "value": "28",
-      "type": "fontSizes"
+      "$type": "fontSizes",
+      "$value": "28"
     },
     "4xl": {
-      "value": "32",
-      "type": "fontSizes"
+      "$type": "fontSizes",
+      "$value": "32"
     },
     "5xl": {
-      "value": "36",
-      "type": "fontSizes"
+      "$type": "fontSizes",
+      "$value": "36"
     },
     "6xl": {
-      "value": "40",
-      "type": "fontSizes"
+      "$type": "fontSizes",
+      "$value": "40"
     }
   },
   "font-weight": {
     "inter": {
       "regular": {
-        "value": "Regular",
-        "type": "fontWeights"
+        "$type": "fontWeights",
+        "$value": "Regular"
       },
       "medium": {
-        "value": "Medium",
-        "type": "fontWeights"
+        "$type": "fontWeights",
+        "$value": "Medium"
       },
       "semi-bold": {
-        "value": "SemiBold",
-        "type": "fontWeights"
+        "$type": "fontWeights",
+        "$value": "SemiBold"
       },
       "bold": {
-        "value": "Bold",
-        "type": "fontWeights"
+        "$type": "fontWeights",
+        "$value": "Bold"
       }
     },
     "noto-sans": {
       "regular": {
-        "value": "Regular",
-        "type": "fontWeights"
+        "$type": "fontWeights",
+        "$value": "Regular"
       },
       "medium": {
-        "value": "Medium",
-        "type": "fontWeights"
+        "$type": "fontWeights",
+        "$value": "Medium"
       },
       "semi-bold": {
-        "value": "Semi Bold",
-        "type": "fontWeights"
+        "$type": "fontWeights",
+        "$value": "Semi Bold"
       },
       "bold": {
-        "value": "Bold",
-        "type": "fontWeights"
+        "$type": "fontWeights",
+        "$value": "Bold"
       }
     },
     "fira-code": {
       "regular": {
-        "value": "Regular",
-        "type": "fontWeights"
+        "$type": "fontWeights",
+        "$value": "Regular"
       }
     }
   },
   "lineHeight": {
     "xs": {
-      "value": "18",
-      "type": "lineHeights"
+      "$type": "lineHeights",
+      "$value": "18"
     },
     "sm": {
-      "value": "20",
-      "type": "lineHeights"
+      "$type": "lineHeights",
+      "$value": "20"
     },
     "md": {
-      "value": "24",
-      "type": "lineHeights"
+      "$type": "lineHeights",
+      "$value": "24"
     },
     "lg": {
-      "value": "28",
-      "type": "lineHeights"
+      "$type": "lineHeights",
+      "$value": "28"
     },
     "xl": {
-      "value": "32",
-      "type": "lineHeights"
+      "$type": "lineHeights",
+      "$value": "32"
     },
     "2xl": {
-      "value": "36",
-      "type": "lineHeights"
+      "$type": "lineHeights",
+      "$value": "36"
     },
     "3xl": {
-      "value": "40",
-      "type": "lineHeights"
+      "$type": "lineHeights",
+      "$value": "40"
     },
     "4xl": {
-      "value": "44",
-      "type": "lineHeights"
+      "$type": "lineHeights",
+      "$value": "44"
     },
     "5xl": {
-      "value": "48",
-      "type": "lineHeights"
+      "$type": "lineHeights",
+      "$value": "48"
     }
   },
   "textDecoration": {
     "underline": {
-      "value": "underline",
-      "type": "textDecoration"
+      "$type": "textDecoration",
+      "$value": "underline"
     },
     "none": {
-      "value": "none",
-      "type": "textDecoration"
+      "$type": "textDecoration",
+      "$value": "none"
     }
   }
 }

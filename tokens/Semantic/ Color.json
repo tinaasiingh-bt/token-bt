@@ -1,1 +1,10 @@
-{}
+{
+  "color": {
+    "text": {
+      "default": {
+        "$type": "color",
+        "$value": "{Black.50}"
+      }
+    }
+  }
+}

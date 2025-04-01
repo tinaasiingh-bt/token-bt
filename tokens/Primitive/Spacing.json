@@ -1,48 +1,48 @@
 {
   "spacing": {
     "space-none": {
-      "value": "0",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "0"
     },
     "space-2xs": {
-      "value": "4",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "4"
     },
     "space-xs": {
-      "value": "8",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "8"
     },
     "space-sm": {
-      "value": "12",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "12"
     },
     "space-md": {
-      "value": "16",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "16"
     },
     "space-lg": {
-      "value": "20",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "20"
     },
     "space-xl": {
-      "value": "24",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "24"
     },
     "space-2xl": {
-      "value": "28",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "28"
     },
     "space-3xl": {
-      "value": "32",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "32"
     },
     "space-4xl": {
-      "value": "40",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "40"
     },
     "space-5xl": {
-      "value": "48",
-      "type": "spacing"
+      "$type": "spacing",
+      "$value": "48"
     }
   }
 }

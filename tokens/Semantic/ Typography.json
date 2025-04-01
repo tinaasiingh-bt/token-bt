@@ -3,126 +3,126 @@
     "display": {
       "lg": {
         "fontFamily": {
-          "value": "Inter",
-          "type": "other"
+          "$type": "other",
+          "$value": "Inter"
         },
         "fontSize": {
-          "value": "48px",
-          "type": "other"
+          "$type": "other",
+          "$value": "48px"
         },
         "lineHeight": {
-          "value": "48px",
-          "type": "other"
+          "$type": "other",
+          "$value": "48px"
         },
         "fontWeight": {
-          "value": "SemiBold",
-          "type": "other"
+          "$type": "other",
+          "$value": "SemiBold"
         },
         "description": {
-          "value": "Large display text for prominent headings",
-          "type": "other"
+          "$type": "other",
+          "$value": "Large display text for prominent headings"
         }
       },
       "md": {
         "fontFamily": {
-          "value": "Inter",
-          "type": "other"
+          "$type": "other",
+          "$value": "Inter"
         },
         "fontSize": {
-          "value": "44px",
-          "type": "other"
+          "$type": "other",
+          "$value": "44px"
         },
         "lineHeight": {
-          "value": "44px",
-          "type": "other"
+          "$type": "other",
+          "$value": "44px"
         },
         "fontWeight": {
-          "value": "SemiBold",
-          "type": "other"
+          "$type": "other",
+          "$value": "SemiBold"
         },
         "description": {
-          "value": "Medium display text for secondary headings",
-          "type": "other"
+          "$type": "other",
+          "$value": "Medium display text for secondary headings"
         }
       }
     },
     "heading": {
       "h1": {
         "fontFamily": {
-          "value": "Inter",
-          "type": "other"
+          "$type": "other",
+          "$value": "Inter"
         },
         "fontSize": {
-          "value": "48px",
-          "type": "other"
+          "$type": "other",
+          "$value": "48px"
         },
         "lineHeight": {
-          "value": "1.2",
-          "type": "other"
+          "$type": "other",
+          "$value": "1.2"
         },
         "fontWeight": {
-          "value": "SemiBold",
-          "type": "other"
+          "$type": "other",
+          "$value": "SemiBold"
         },
         "description": {
-          "value": "Primary page titles or sections",
-          "type": "other"
+          "$type": "other",
+          "$value": "Primary page titles or sections"
         }
       },
       "h2": {
         "fontFamily": {
-          "value": "Inter",
-          "type": "other"
+          "$type": "other",
+          "$value": "Inter"
         },
         "fontSize": {
-          "value": "24px",
-          "type": "other"
+          "$type": "other",
+          "$value": "24px"
         },
         "fontWeight": {
-          "value": "SemiBold",
-          "type": "other"
+          "$type": "other",
+          "$value": "SemiBold"
         },
         "description": {
-          "value": "Section headings",
-          "type": "other"
+          "$type": "other",
+          "$value": "Section headings"
         }
       },
       "h3": {
         "fontFamily": {
-          "value": "Inter",
-          "type": "other"
+          "$type": "other",
+          "$value": "Inter"
         },
         "fontSize": {
-          "value": "18px",
-          "type": "other"
+          "$type": "other",
+          "$value": "18px"
         },
         "fontWeight": {
-          "value": "SemiBold",
-          "type": "other"
+          "$type": "other",
+          "$value": "SemiBold"
         },
         "description": {
-          "value": "Subsection titles or UI headers",
-          "type": "other"
+          "$type": "other",
+          "$value": "Subsection titles or UI headers"
         }
       }
     },
     "body": {
       "default": {
         "fontFamily": {
-          "value": "Inter",
-          "type": "other"
+          "$type": "other",
+          "$value": "Inter"
         },
         "fontSize": {
-          "value": "16px",
-          "type": "other"
+          "$type": "other",
+          "$value": "16px"
         },
         "lineHeight": {
-          "value": "24px",
-          "type": "other"
+          "$type": "other",
+          "$value": "24px"
         },
         "description": {
-          "value": "Default body text",
-          "type": "other"
+          "$type": "other",
+          "$value": "Default body text"
         }
       }
     }
