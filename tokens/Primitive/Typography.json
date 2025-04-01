@@ -131,8 +131,14 @@
       "type": "lineHeights"
     }
   },
-  "text-decoration-underline": {
-    "value": "underline",
-    "type": "textDecoration"
+  "text-decoration": {
+    "underline": {
+      "value": "underline",
+      "type": "textDecoration"
+    },
+    "none": {
+      "value": "none",
+      "type": "textDecoration"
+    }
   }
 }

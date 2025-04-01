@@ -80,9 +80,7 @@
       "Primitive/Color": "source",
       "Primitive/Typography": "source",
       "Semantic/Typography": "enabled",
-      "Components/Color": "disabled",
-      "Components/ Typography": "enabled",
-      "Semantic/ Color": "disabled"
+      "Components/ Typography": "enabled"
     },
     "$figmaVariableReferences": {
       "Background.bg-tiles": "6130c410d8d0eb2aba58668597423ffa5ea3c917",
@@ -273,9 +271,7 @@
       "Primitive/Color": "source",
       "Primitive/Typography": "source",
       "Semantic/Typography": "enabled",
-      "Components/Color": "disabled",
-      "Components/ Typography": "enabled",
-      "Semantic/ Color": "disabled"
+      "Components/ Typography": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:7:365",
     "$figmaModeId": "7:10",
