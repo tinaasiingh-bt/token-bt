@@ -5,9 +5,9 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "Primitive": "source",
-      "Semantic": "enabled",
       "Components": "enabled",
-      "Themes/Light Mode": "enabled"
+      "Themes/Light Mode": "enabled",
+      "Semantic/Typography": "enabled"
     },
     "$figmaVariableReferences": {
       "Background.bg-tiles": "c031a64d6060f70080d66acc4dec962e1cde73b2",
@@ -118,9 +118,9 @@
     },
     "selectedTokenSets": {
       "Primitive": "source",
-      "Semantic": "enabled",
       "Components": "enabled",
-      "Themes/Dark Mode": "enabled"
+      "Themes/Dark Mode": "enabled",
+      "Semantic/Typography": "enabled"
     },
     "group": "Theme",
     "$figmaCollectionId": "VariableCollectionId:1:328",
