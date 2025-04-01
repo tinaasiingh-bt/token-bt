@@ -1,19 +1,19 @@
 {
-  "font-family": {
+  "fontFamily": {
     "inter": {
       "value": "Inter",
       "type": "fontFamilies"
     },
-    "noto-sans": {
+    "notoSans": {
       "value": "Noto Sans",
       "type": "fontFamilies"
     },
-    "fira": {
+    "firaCode": {
       "value": "Fira Code",
       "type": "fontFamilies"
     }
   },
-  "font-size": {
+  "fontSize": {
     "xs": {
       "value": "12",
       "type": "fontSizes"
@@ -55,45 +55,51 @@
       "type": "fontSizes"
     }
   },
-  "fontWeights": {
-    "inter-400": {
-      "value": "Regular",
-      "type": "fontWeights"
+  "font-weight": {
+    "inter": {
+      "regular": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "medium": {
+        "value": "Medium",
+        "type": "fontWeights"
+      },
+      "semi-bold": {
+        "value": "SemiBold",
+        "type": "fontWeights"
+      },
+      "bold": {
+        "value": "Bold",
+        "type": "fontWeights"
+      }
     },
-    "inter-500": {
-      "value": "Medium",
-      "type": "fontWeights"
+    "noto-sans": {
+      "regular": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "medium": {
+        "value": "Medium",
+        "type": "fontWeights"
+      },
+      "semi-bold": {
+        "value": "Semi Bold",
+        "type": "fontWeights"
+      },
+      "bold": {
+        "value": "Bold",
+        "type": "fontWeights"
+      }
     },
-    "inter-600": {
-      "value": "Semi Bold",
-      "type": "fontWeights"
-    },
-    "inter-700": {
-      "value": "Bold",
-      "type": "fontWeights"
-    },
-    "noto-sans-400": {
-      "value": "Regular",
-      "type": "fontWeights"
-    },
-    "noto-sans-500": {
-      "value": "Medium",
-      "type": "fontWeights"
-    },
-    "noto-sans-600": {
-      "value": "SemiBold",
-      "type": "fontWeights"
-    },
-    "noto-sans-700": {
-      "value": "Bold",
-      "type": "fontWeights"
-    },
-    "fira-code-400": {
-      "value": "Regular",
-      "type": "fontWeights"
+    "fira-code": {
+      "regular": {
+        "value": "Regular",
+        "type": "fontWeights"
+      }
     }
   },
-  "line-height": {
+  "lineHeight": {
     "xs": {
       "value": "18",
       "type": "lineHeights"
@@ -131,7 +137,7 @@
       "type": "lineHeights"
     }
   },
-  "text-decoration": {
+  "textDecoration": {
     "underline": {
       "value": "underline",
       "type": "textDecoration"

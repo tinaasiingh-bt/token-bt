@@ -1,0 +1,31 @@
+{
+  "display": {
+    "lg": {
+      "value": {
+        "fontFamily": "{fontFamily.inter}",
+        "fontWeight": "{font-weight.inter.medium}",
+        "fontSize": "{fontSize.6xl}",
+        "lineHeight": "{lineHeight.4xl}"
+      },
+      "type": "typography"
+    },
+    "md": {
+      "value": {
+        "fontFamily": "{fontFamily.inter}",
+        "fontWeight": "{font-weight.inter.semi-bold}",
+        "fontSize": "{fontSize.5xl}",
+        "lineHeight": "{lineHeight.md}"
+      },
+      "type": "typography"
+    },
+    "sl": {
+      "value": {
+        "fontFamily": "{fontFamily.notoSans}",
+        "fontWeight": "{font-weight.noto-sans.bold}",
+        "fontSize": "{fontSize.6xl}",
+        "lineHeight": "{lineHeight.md}"
+      },
+      "type": "typography"
+    }
+  }
+}
