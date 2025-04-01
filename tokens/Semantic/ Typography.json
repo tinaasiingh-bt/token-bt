@@ -367,7 +367,7 @@
   "Card": {
     "lg": {
       "value": {
-        "fontFamily": "{fontFamily.inter}",
+        "fontFamily": "{fontFamily.notoSans}",
         "fontWeight": "{font-weight.noto-sans.semi-bold}",
         "lineHeight": "{lineHeight.xl}",
         "fontSize": "{fontSize.5xl}",

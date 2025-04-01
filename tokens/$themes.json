@@ -74,7 +74,6 @@
       "Shadow.drop-shadow": "S:542b2129f587c870f934116584aa4520d95d7019,"
     },
     "selectedTokenSets": {
-      "Themes/Light Mode": "enabled",
       "Primitive/Spacing": "source",
       "Primitive/Border": "source",
       "Primitive/Color": "source",
@@ -82,7 +81,8 @@
       "Components/ Typography": "enabled",
       "Semantic/ Typography": "enabled",
       "Semantic/ Color": "enabled",
-      "Components/Color": "enabled"
+      "Components/Color": "enabled",
+      "Modes/Light Mode": "enabled"
     },
     "$figmaVariableReferences": {
       "Background.bg-tiles": "674927611f7749f60eb9be0fe54a9dc1d097e70e",
@@ -270,13 +270,15 @@
       "display.sl": "S:5634ae3b51100fb16b11f61edededa9006f41eb8,"
     },
     "selectedTokenSets": {
-      "Themes/Dark Mode": "enabled",
       "Primitive/Spacing": "source",
       "Primitive/Border": "source",
       "Primitive/Color": "source",
       "Primitive/Typography": "source",
       "Semantic/ Typography": "enabled",
-      "Semantic/ Color": "enabled"
+      "Semantic/ Color": "enabled",
+      "Components/ Typography": "enabled",
+      "Components/Color": "enabled",
+      "Modes/Dark Mode": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:1:310",
     "$figmaModeId": "1:11",
