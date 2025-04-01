@@ -1,8 +1,10 @@
 {
   "tokenSetOrder": [
-    "Primitive",
+    "Primitive/Spacing",
+    "Primitive/Border",
+    "Primitive/Color",
+    "Primitive/Typography",
     "Semantic/Typography",
-    "Semantic/color",
     "Components",
     "Components/button",
     "Themes/Light Mode",

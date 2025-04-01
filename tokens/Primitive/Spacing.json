@@ -1,0 +1,48 @@
+{
+  "spacing": {
+    "space-none": {
+      "value": "0",
+      "type": "spacing"
+    },
+    "space-2xs": {
+      "value": "4",
+      "type": "spacing"
+    },
+    "space-xs": {
+      "value": "8",
+      "type": "spacing"
+    },
+    "space-sm": {
+      "value": "12",
+      "type": "spacing"
+    },
+    "space-md": {
+      "value": "16",
+      "type": "spacing"
+    },
+    "space-lg": {
+      "value": "20",
+      "type": "spacing"
+    },
+    "space-xl": {
+      "value": "24",
+      "type": "spacing"
+    },
+    "space-2xl": {
+      "value": "28",
+      "type": "spacing"
+    },
+    "space-3xl": {
+      "value": "32",
+      "type": "spacing"
+    },
+    "space-4xl": {
+      "value": "40",
+      "type": "spacing"
+    },
+    "space-5xl": {
+      "value": "48",
+      "type": "spacing"
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "font-family": {
+    "inter": {
+      "value": "Inter",
+      "type": "fontFamilies"
+    },
+    "noto-sans": {
+      "value": "Noto Sans",
+      "type": "fontFamilies"
+    },
+    "fira": {
+      "value": "Fira Code",
+      "type": "fontFamilies"
+    }
+  },
+  "font-size": {
+    "xs": {
+      "value": "12",
+      "type": "fontSizes"
+    },
+    "sm": {
+      "value": "14",
+      "type": "fontSizes"
+    },
+    "md": {
+      "value": "16",
+      "type": "fontSizes"
+    },
+    "lg": {
+      "value": "18",
+      "type": "fontSizes"
+    },
+    "xl": {
+      "value": "20",
+      "type": "fontSizes"
+    },
+    "2xl": {
+      "value": "24",
+      "type": "fontSizes"
+    },
+    "3xl": {
+      "value": "28",
+      "type": "fontSizes"
+    },
+    "4xl": {
+      "value": "32",
+      "type": "fontSizes"
+    },
+    "5xl": {
+      "value": "36",
+      "type": "fontSizes"
+    },
+    "6xl": {
+      "value": "40",
+      "type": "fontSizes"
+    }
+  },
+  "fontWeights": {
+    "inter-400": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "inter-500": {
+      "value": "Medium",
+      "type": "fontWeights"
+    },
+    "inter-600": {
+      "value": "Semi Bold",
+      "type": "fontWeights"
+    },
+    "inter-700": {
+      "value": "Bold",
+      "type": "fontWeights"
+    },
+    "noto-sans-400": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "noto-sans-500": {
+      "value": "Medium",
+      "type": "fontWeights"
+    },
+    "noto-sans-600": {
+      "value": "SemiBold",
+      "type": "fontWeights"
+    },
+    "noto-sans-700": {
+      "value": "Bold",
+      "type": "fontWeights"
+    },
+    "fira-code-400": {
+      "value": "Regular",
+      "type": "fontWeights"
+    }
+  },
+  "line-height": {
+    "xs": {
+      "value": "18",
+      "type": "lineHeights"
+    },
+    "sm": {
+      "value": "20",
+      "type": "lineHeights"
+    },
+    "md": {
+      "value": "24",
+      "type": "lineHeights"
+    },
+    "lg": {
+      "value": "28",
+      "type": "lineHeights"
+    },
+    "xl": {
+      "value": "32",
+      "type": "lineHeights"
+    },
+    "2xl": {
+      "value": "36",
+      "type": "lineHeights"
+    },
+    "3xl": {
+      "value": "40",
+      "type": "lineHeights"
+    },
+    "4xl": {
+      "value": "44",
+      "type": "lineHeights"
+    },
+    "5xl": {
+      "value": "48",
+      "type": "lineHeights"
+    }
+  },
+  "text-decoration-underline": {
+    "value": "underline",
+    "type": "textDecoration"
+  }
+}
