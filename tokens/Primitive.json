@@ -684,5 +684,23 @@
   "text-decorartion-underline": {
     "value": "underline",
     "type": "textDecoration"
+  },
+  "Badge": {
+    "Color": {
+      "value": "#ffffff",
+      "type": "color"
+    }
+  },
+  "Background": {
+    "bg-primary": {
+      "value": "{Color.Gray.200}",
+      "type": "color",
+      "description": "Background Primary"
+    },
+    "bg-secondary": {
+      "value": "{Color.Gray.100}",
+      "type": "color",
+      "description": "Background Primary"
+    }
   }
 }

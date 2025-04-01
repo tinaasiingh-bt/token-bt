@@ -4,10 +4,22 @@
     "name": "light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Primitive": "enabled",
+      "Primitive": "source",
       "Semantic": "enabled",
-      "Components": "enabled"
+      "Components": "enabled",
+      "Theme/Light Mode": "enabled"
     },
     "$figmaVariableReferences": {}
+  },
+  {
+    "id": "9ad92b26719f488a85ea6362260839526f1d79a5",
+    "name": "dark",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Primitive": "source",
+      "Semantic": "enabled",
+      "Components": "enabled",
+      "Theme/Dark Mode": "enabled"
+    }
   }
 ]
