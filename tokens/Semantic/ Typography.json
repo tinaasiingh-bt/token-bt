@@ -319,7 +319,7 @@
       },
       "code": {
         "value": {
-          "fontFamily": "{fontFamily.firaCode}",
+          "fontFamily": "{fontFamily.fira}",
           "fontWeight": "{font-weight.fira-code.regular}",
           "lineHeight": "{lineHeight.sm}",
           "fontSize": "{fontSize.sm}",
