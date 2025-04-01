@@ -4,9 +4,10 @@
     "Primitive/Border",
     "Primitive/Color",
     "Primitive/Typography",
+    "Semantic/ Color",
     "Semantic/Typography",
-    "Components",
-    "Components/button",
+    "Components/Color",
+    "Components/ Typography",
     "Themes/Light Mode",
     "Themes/Dark Mode"
   ]

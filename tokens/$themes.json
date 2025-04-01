@@ -74,14 +74,15 @@
       "Shadow.drop-shadow": "S:542b2129f587c870f934116584aa4520d95d7019,"
     },
     "selectedTokenSets": {
-      "Components": "enabled",
       "Themes/Light Mode": "enabled",
       "Primitive/Spacing": "source",
       "Primitive/Border": "source",
       "Primitive/Color": "source",
       "Primitive/Typography": "source",
       "Semantic/Typography": "enabled",
-      "Components/button": "enabled"
+      "Components/Color": "disabled",
+      "Components/ Typography": "enabled",
+      "Semantic/ Color": "disabled"
     },
     "$figmaVariableReferences": {
       "Background.bg-tiles": "6130c410d8d0eb2aba58668597423ffa5ea3c917",
@@ -153,7 +154,7 @@
       "Feedback.Chart.bg-chart-citrus lime": "998cdccb07f3e8b3deafcac5a48a02167fe126c8",
       "Feedback.Chart.bg-chart-teal": "d1757b50709d4e7d6a667ebbdb1b868678a505c2",
       "Shadow.drop-shadow": "2715074b620a5021354f1a7479021cb10aa6d3c6",
-      "button.primary.background": "c03e7a3d0ab4e5736e8184450d669d5dd54779d6"
+      "color-background-primary": "c03e7a3d0ab4e5736e8184450d669d5dd54779d6"
     },
     "$figmaCollectionId": "VariableCollectionId:7:365",
     "$figmaModeId": "7:9",
@@ -266,14 +267,15 @@
       "instructional.strong": "S:f82b4147885c2b23d9083fead172e91d04f9716c,"
     },
     "selectedTokenSets": {
-      "Components": "enabled",
       "Themes/Dark Mode": "enabled",
       "Primitive/Spacing": "source",
       "Primitive/Border": "source",
       "Primitive/Color": "source",
       "Primitive/Typography": "source",
       "Semantic/Typography": "enabled",
-      "Components/button": "enabled"
+      "Components/Color": "disabled",
+      "Components/ Typography": "enabled",
+      "Semantic/ Color": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:7:365",
     "$figmaModeId": "7:10",
@@ -347,7 +349,7 @@
       "Feedback.Chart.bg-chart-citrus lime": "998cdccb07f3e8b3deafcac5a48a02167fe126c8",
       "Feedback.Chart.bg-chart-teal": "d1757b50709d4e7d6a667ebbdb1b868678a505c2",
       "Shadow.drop-shadow": "2715074b620a5021354f1a7479021cb10aa6d3c6",
-      "button.primary.background": "c03e7a3d0ab4e5736e8184450d669d5dd54779d6"
+      "color-background-primary": "c03e7a3d0ab4e5736e8184450d669d5dd54779d6"
     },
     "group": "Theme"
   }
