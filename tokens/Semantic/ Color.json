@@ -1,1 +1,10 @@
-{}
+{
+  "color": {
+    "text": {
+      "default": {
+        "value": "{Black.50}",
+        "type": "color"
+      }
+    }
+  }
+}
