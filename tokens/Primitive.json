@@ -483,6 +483,22 @@
     "2xl": {
       "value": "24",
       "type": "fontSizes"
+    },
+    "3xl": {
+      "value": "28",
+      "type": "fontSizes"
+    },
+    "4xl": {
+      "value": "32",
+      "type": "fontSizes"
+    },
+    "5xl": {
+      "value": "36",
+      "type": "fontSizes"
+    },
+    "6xl": {
+      "value": "40",
+      "type": "fontSizes"
     }
   },
   "spacing": {
@@ -597,30 +613,26 @@
       "type": "lineHeights"
     },
     "lg": {
-      "value": "24",
-      "type": "lineHeights"
-    },
-    "xl": {
       "value": "28",
       "type": "lineHeights"
     },
-    "2xl": {
+    "xl": {
       "value": "32",
       "type": "lineHeights"
     },
-    "3xl": {
+    "2xl": {
       "value": "36",
       "type": "lineHeights"
     },
-    "4xl": {
+    "3xl": {
       "value": "40",
       "type": "lineHeights"
     },
-    "5xl": {
+    "4xl": {
       "value": "44",
       "type": "lineHeights"
     },
-    "6xl": {
+    "5xl": {
       "value": "48",
       "type": "lineHeights"
     }
@@ -668,5 +680,9 @@
       },
       "type": "border"
     }
+  },
+  "text-decorartion-underline": {
+    "value": "underline",
+    "type": "textDecoration"
   }
 }
