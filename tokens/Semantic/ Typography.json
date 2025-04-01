@@ -1,31 +1,130 @@
 {
-  "display": {
-    "lg": {
-      "value": {
-        "fontFamily": "{fontFamily.inter}",
-        "fontWeight": "{font-weight.inter.medium}",
-        "fontSize": "{fontSize.6xl}",
-        "lineHeight": "{lineHeight.4xl}"
+  "typography": {
+    "display": {
+      "lg": {
+        "fontFamily": {
+          "value": "Inter",
+          "type": "other"
+        },
+        "fontSize": {
+          "value": "48px",
+          "type": "other"
+        },
+        "lineHeight": {
+          "value": "48px",
+          "type": "other"
+        },
+        "fontWeight": {
+          "value": "SemiBold",
+          "type": "other"
+        },
+        "description": {
+          "value": "Large display text for prominent headings",
+          "type": "other"
+        }
       },
-      "type": "typography"
+      "md": {
+        "fontFamily": {
+          "value": "Inter",
+          "type": "other"
+        },
+        "fontSize": {
+          "value": "44px",
+          "type": "other"
+        },
+        "lineHeight": {
+          "value": "44px",
+          "type": "other"
+        },
+        "fontWeight": {
+          "value": "SemiBold",
+          "type": "other"
+        },
+        "description": {
+          "value": "Medium display text for secondary headings",
+          "type": "other"
+        }
+      }
     },
-    "md": {
-      "value": {
-        "fontFamily": "{fontFamily.inter}",
-        "fontWeight": "{font-weight.inter.semi-bold}",
-        "fontSize": "{fontSize.5xl}",
-        "lineHeight": "{lineHeight.md}"
+    "heading": {
+      "h1": {
+        "fontFamily": {
+          "value": "Inter",
+          "type": "other"
+        },
+        "fontSize": {
+          "value": "48px",
+          "type": "other"
+        },
+        "lineHeight": {
+          "value": "1.2",
+          "type": "other"
+        },
+        "fontWeight": {
+          "value": "SemiBold",
+          "type": "other"
+        },
+        "description": {
+          "value": "Primary page titles or sections",
+          "type": "other"
+        }
       },
-      "type": "typography"
+      "h2": {
+        "fontFamily": {
+          "value": "Inter",
+          "type": "other"
+        },
+        "fontSize": {
+          "value": "24px",
+          "type": "other"
+        },
+        "fontWeight": {
+          "value": "SemiBold",
+          "type": "other"
+        },
+        "description": {
+          "value": "Section headings",
+          "type": "other"
+        }
+      },
+      "h3": {
+        "fontFamily": {
+          "value": "Inter",
+          "type": "other"
+        },
+        "fontSize": {
+          "value": "18px",
+          "type": "other"
+        },
+        "fontWeight": {
+          "value": "SemiBold",
+          "type": "other"
+        },
+        "description": {
+          "value": "Subsection titles or UI headers",
+          "type": "other"
+        }
+      }
     },
-    "sl": {
-      "value": {
-        "fontFamily": "{fontFamily.notoSans}",
-        "fontWeight": "{font-weight.noto-sans.bold}",
-        "fontSize": "{fontSize.6xl}",
-        "lineHeight": "{lineHeight.md}"
-      },
-      "type": "typography"
+    "body": {
+      "default": {
+        "fontFamily": {
+          "value": "Inter",
+          "type": "other"
+        },
+        "fontSize": {
+          "value": "16px",
+          "type": "other"
+        },
+        "lineHeight": {
+          "value": "24px",
+          "type": "other"
+        },
+        "description": {
+          "value": "Default body text",
+          "type": "other"
+        }
+      }
     }
   }
 }
