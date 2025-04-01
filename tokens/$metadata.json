@@ -3,7 +3,7 @@
     "Primitive",
     "Semantic",
     "Components",
-    "Theme/Light Mode",
-    "Theme/Dark Mode"
+    "Themes/Light Mode",
+    "Themes/Dark Mode"
   ]
 }
