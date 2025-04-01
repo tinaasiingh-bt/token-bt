@@ -582,19 +582,35 @@
     }
   },
   "font-weight": {
-    "regular": {
+    "inter-regular": {
       "value": "400",
       "type": "fontWeights"
     },
-    "medium": {
+    "inter-medium": {
       "value": "500",
       "type": "fontWeights"
     },
-    "semibold": {
+    "inter-semibold": {
       "value": "600",
       "type": "fontWeights"
     },
-    "bold": {
+    "inter-bold": {
+      "value": "700",
+      "type": "fontWeights"
+    },
+    "noto-sans-regular": {
+      "value": "400",
+      "type": "fontWeights"
+    },
+    "noto-sans-medium": {
+      "value": "500",
+      "type": "fontWeights"
+    },
+    "noto-sans-semi-bold": {
+      "value": "600",
+      "type": "fontWeights"
+    },
+    "noto-sans-bold": {
       "value": "700",
       "type": "fontWeights"
     }
