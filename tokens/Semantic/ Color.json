@@ -42,11 +42,415 @@
       "danger": {
         "value": "{Red.200}",
         "type": "color"
+      },
+      "link": {
+        "value": "{Blue.100}",
+        "type": "color"
+      },
+      "link-hover": {
+        "value": "#",
+        "type": "color"
       }
     },
-    "link": {
-      "value": "{Blue.100}",
-      "type": "color"
+    "background": {
+      "default": {
+        "value": "{Gray.200}",
+        "type": "color"
+      },
+      "surface": {
+        "value": "{Gray.100}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{Gray.50}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{Navy.50}",
+        "type": "color"
+      },
+      "hover-alternative": {
+        "value": "{Gray.50}",
+        "type": "color"
+      },
+      "selected": {
+        "value": "{Cyan.100}",
+        "type": "color"
+      },
+      "danger": {
+        "value": "{Red.100}",
+        "type": "color"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "{Gray.200}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{Gray.300}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{Blue.200}",
+        "type": "color"
+      },
+      "focus": {
+        "value": "{Cyan.700}",
+        "type": "color"
+      },
+      "focus-alternate": {
+        "value": "{Cyan.700}",
+        "type": "color"
+      },
+      "selected": {
+        "value": "{Blue.100}",
+        "type": "color"
+      },
+      "selected-alternate": {
+        "value": "{Blue-gray.100}",
+        "type": "color"
+      },
+      "error": {
+        "value": "{Red.100}",
+        "type": "color"
+      }
+    },
+    "state": {
+      "success": {
+        "value": "{Green.100}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{Sunset.250}",
+        "type": "color"
+      },
+      "error": {
+        "value": "{Red.100}",
+        "type": "color"
+      },
+      "info": {
+        "value": "{Cyan.800}",
+        "type": "color"
+      }
+    },
+    "icon": {
+      "default": {
+        "value": "{Navy.500}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{Gray.300}",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "{Cyan.800}",
+        "type": "color"
+      }
+    }
+  },
+  "color-copy": {
+    "text": {
+      "default": {
+        "value": "{Navy.700}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{Navy.600}",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "{Gray.25}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{Blue.100}",
+        "type": "color"
+      },
+      "selected": {
+        "value": "{Blue.100}",
+        "type": "color"
+      },
+      "placeholder": {
+        "value": "{Gray.600}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{Navy.700}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "mix",
+              "value": "50",
+              "space": "lch",
+              "color": "rgba(8, 24, 38, 0.5)"
+            }
+          }
+        }
+      },
+      "danger": {
+        "value": "{Red.200}",
+        "type": "color"
+      },
+      "link": {
+        "value": "{Blue.100}",
+        "type": "color"
+      },
+      "link-hover": {
+        "value": "#",
+        "type": "color"
+      }
+    },
+    "background": {
+      "default": {
+        "value": "{Gray.200}",
+        "type": "color"
+      },
+      "surface": {
+        "value": "{Gray.100}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{Gray.50}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{Navy.50}",
+        "type": "color"
+      },
+      "hover-alternative": {
+        "value": "{Gray.50}",
+        "type": "color"
+      },
+      "selected": {
+        "value": "{Cyan.100}",
+        "type": "color"
+      },
+      "danger": {
+        "value": "{Red.100}",
+        "type": "color"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "{Gray.200}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{Gray.300}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{Blue.200}",
+        "type": "color"
+      },
+      "focus": {
+        "value": "{Cyan.700}",
+        "type": "color"
+      },
+      "focus-alternate": {
+        "value": "{Cyan.700}",
+        "type": "color"
+      },
+      "selected": {
+        "value": "{Blue.100}",
+        "type": "color"
+      },
+      "selected-alternate": {
+        "value": "{Blue-gray.100}",
+        "type": "color"
+      },
+      "error": {
+        "value": "{Red.100}",
+        "type": "color"
+      }
+    },
+    "state": {
+      "success": {
+        "value": "{Green.100}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{Sunset.250}",
+        "type": "color"
+      },
+      "error": {
+        "value": "{Red.100}",
+        "type": "color"
+      },
+      "info": {
+        "value": "{Cyan.800}",
+        "type": "color"
+      }
+    },
+    "icon": {
+      "default": {
+        "value": "{Navy.500}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{Gray.300}",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "{Cyan.800}",
+        "type": "color"
+      }
+    }
+  },
+  "color-1": {
+    "text": {
+      "default": {
+        "text-primary": {
+          "value": "{Navy.700}",
+          "type": "color"
+        },
+        "value": "{Navy.700}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{Navy.600}",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "{Gray.25}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{Blue.100}",
+        "type": "color"
+      },
+      "selected": {
+        "value": "{Blue.100}",
+        "type": "color"
+      },
+      "placeholder": {
+        "value": "{Gray.600}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{Navy.700}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "mix",
+              "value": "50",
+              "space": "lch",
+              "color": "rgba(8, 24, 38, 0.5)"
+            }
+          }
+        }
+      },
+      "danger": {
+        "value": "{Red.200}",
+        "type": "color"
+      },
+      "link": {
+        "value": "{Blue.100}",
+        "type": "color"
+      },
+      "link-hover": {
+        "value": "#",
+        "type": "color"
+      }
+    },
+    "background": {
+      "default": {
+        "value": "{Gray.200}",
+        "type": "color"
+      },
+      "surface": {
+        "value": "{Gray.100}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{Gray.50}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{Navy.50}",
+        "type": "color"
+      },
+      "hover-alternative": {
+        "value": "{Gray.50}",
+        "type": "color"
+      },
+      "selected": {
+        "value": "{Cyan.100}",
+        "type": "color"
+      },
+      "danger": {
+        "value": "{Red.100}",
+        "type": "color"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "{Gray.200}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{Gray.300}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{Blue.200}",
+        "type": "color"
+      },
+      "focus": {
+        "value": "{Cyan.700}",
+        "type": "color"
+      },
+      "focus-alternate": {
+        "value": "{Cyan.700}",
+        "type": "color"
+      },
+      "selected": {
+        "value": "{Blue.100}",
+        "type": "color"
+      },
+      "selected-alternate": {
+        "value": "{Blue-gray.100}",
+        "type": "color"
+      },
+      "error": {
+        "value": "{Red.100}",
+        "type": "color"
+      }
+    },
+    "state": {
+      "success": {
+        "value": "{Green.100}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{Sunset.250}",
+        "type": "color"
+      },
+      "error": {
+        "value": "{Red.100}",
+        "type": "color"
+      },
+      "info": {
+        "value": "{Cyan.800}",
+        "type": "color"
+      }
+    },
+    "icon": {
+      "default": {
+        "value": "{Navy.500}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{Gray.300}",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "{Cyan.800}",
+        "type": "color"
+      }
     }
   }
 }
