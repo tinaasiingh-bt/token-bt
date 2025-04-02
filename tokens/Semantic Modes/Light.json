@@ -1,40 +1,4 @@
 {
-  "Background": {
-    "bg-tiles": {
-      "value": "{Gray.50}",
-      "type": "color",
-      "description": "Background Primary"
-    },
-    "header-bg": {
-      "value": "{Gray.800}",
-      "type": "color",
-      "description": "Background Primary"
-    },
-    "input-box-background": {
-      "value": "{Gray.25}",
-      "type": "color"
-    },
-    "sidenav-primary": {
-      "value": "{Navy.700}",
-      "type": "color"
-    },
-    "sidenav-secondary": {
-      "value": "{Navy.600}",
-      "type": "color"
-    },
-    "sidenav-tertiary": {
-      "value": "{Navy.500}",
-      "type": "color"
-    },
-    "bg-hightlight": {
-      "value": "{Navy.500}",
-      "type": "color"
-    },
-    "bg-bg-text field": {
-      "value": "{Gray.25}",
-      "type": "color"
-    }
-  },
   "Button": {
     "button-danger": {
       "value": "{Red.100}",

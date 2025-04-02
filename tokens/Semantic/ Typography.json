@@ -139,7 +139,7 @@
         "strong": {
           "value": {
             "fontFamily": "{fontFamily.inter}",
-            "fontWeight": "{font-weight.inter.bold}",
+            "fontWeight": "{font-weight.inter.strong}",
             "lineHeight": "{lineHeight.sm}",
             "fontSize": "{fontSize.sm}",
             "letterSpacing": "{letterSpacing.0}",
@@ -320,7 +320,7 @@
       "code": {
         "value": {
           "fontFamily": "{fontFamily.fira}",
-          "fontWeight": "{font-weight.fira-code.regular}",
+          "fontWeight": "{font-weight.fira.regular}",
           "lineHeight": "{lineHeight.sm}",
           "fontSize": "{fontSize.sm}",
           "letterSpacing": "{letterSpacing.0}",

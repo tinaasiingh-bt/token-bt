@@ -1,14 +1,16 @@
 {
   "tokenSetOrder": [
-    "Modes/Light Mode",
-    "Modes/Dark Mode",
     "Primitive/Spacing",
     "Primitive/Border",
     "Primitive/Color",
     "Primitive/Typography",
     "Semantic/ Color",
     "Semantic/ Typography",
+    "Semantic Modes/Light",
+    "Semantic Modes/Dark",
     "Components/Color",
-    "Components/ Typography"
+    "Components/ Typography",
+    "Component Mode/Light",
+    "Component Mode/Dark"
   ]
 }

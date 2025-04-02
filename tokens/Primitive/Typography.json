@@ -69,7 +69,7 @@
         "value": "Semi Bold",
         "type": "fontWeights"
       },
-      "bold": {
+      "strong": {
         "value": "Bold",
         "type": "fontWeights"
       }
@@ -87,12 +87,12 @@
         "value": "SemiBold",
         "type": "fontWeights"
       },
-      "bold": {
+      "strong": {
         "value": "Bold",
         "type": "fontWeights"
       }
     },
-    "fira-code": {
+    "fira": {
       "regular": {
         "value": "Regular",
         "type": "fontWeights"

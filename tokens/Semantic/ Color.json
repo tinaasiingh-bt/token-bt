@@ -35,42 +35,6 @@
       "type": "color"
     }
   },
-  "Background-dark": {
-    "bg-tiles": {
-      "value": "{Black.800}",
-      "type": "color",
-      "description": "Background Primary"
-    },
-    "header-bg": {
-      "value": "{Black.800}",
-      "type": "color",
-      "description": "Background Primary"
-    },
-    "input-box-background": {
-      "value": "{Black.950}",
-      "type": "color"
-    },
-    "sidenav-primary": {
-      "value": "{Black.800}",
-      "type": "color"
-    },
-    "sidenav-secondary": {
-      "value": "{Black.700}",
-      "type": "color"
-    },
-    "sidenav-tertiary": {
-      "value": "{Black.600}",
-      "type": "color"
-    },
-    "bg-hightlight": {
-      "value": "{Black.900}",
-      "type": "color"
-    },
-    "bg-bg-text field": {
-      "value": "{Black.900}",
-      "type": "color"
-    }
-  },
   "color": {
     "text": {
       "default-light": {
@@ -104,40 +68,6 @@
         },
         "text-primary-nav": {
           "value": "{Gray.25}",
-          "type": "color"
-        }
-      },
-      "default-dark": {
-        "text-primary": {
-          "value": "{Black.50}",
-          "type": "color"
-        },
-        "text-secondary": {
-          "value": "{Neutral.light-ash}",
-          "type": "color"
-        },
-        "text-link": {
-          "value": "{Cyan.800}",
-          "type": "color"
-        },
-        "text-hover": {
-          "value": "{Orange.400}",
-          "type": "color"
-        },
-        "text-active": {
-          "value": "{Cyan.500}",
-          "type": "color"
-        },
-        "text-tertiary": {
-          "value": "{Black.400}",
-          "type": "color"
-        },
-        "text-heading-primary": {
-          "value": "{Neutral.Slate}",
-          "type": "color"
-        },
-        "text-primary-nav": {
-          "value": "{Color.Neutral.light-ash}",
           "type": "color"
         }
       }
