@@ -5,42 +5,46 @@
       "type": "spacing"
     },
     "space-2xs": {
-      "value": "4",
+      "value": "2",
       "type": "spacing"
     },
     "space-xs": {
-      "value": "8",
+      "value": "4",
       "type": "spacing"
     },
     "space-sm": {
-      "value": "12",
+      "value": "6",
       "type": "spacing"
     },
     "space-md": {
-      "value": "16",
+      "value": "8",
       "type": "spacing"
     },
     "space-lg": {
-      "value": "20",
+      "value": "12",
       "type": "spacing"
     },
     "space-xl": {
-      "value": "24",
+      "value": "16",
       "type": "spacing"
     },
     "space-2xl": {
-      "value": "28",
+      "value": "20",
       "type": "spacing"
     },
     "space-3xl": {
-      "value": "32",
+      "value": "24",
       "type": "spacing"
     },
     "space-4xl": {
-      "value": "40",
+      "value": "32",
       "type": "spacing"
     },
     "space-5xl": {
+      "value": "40",
+      "type": "spacing"
+    },
+    "space-6xl": {
       "value": "48",
       "type": "spacing"
     }
