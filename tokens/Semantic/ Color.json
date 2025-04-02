@@ -2,11 +2,51 @@
   "color": {
     "text": {
       "default": {
-        "text-primary": {
-          "value": "{Navy.700}",
-          "type": "color"
+        "value": "{Navy.700}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{Navy.600}",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "{Gray.25}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{Blue.100}",
+        "type": "color"
+      },
+      "selected": {
+        "value": "{Blue.100}",
+        "type": "color"
+      },
+      "placeholder": {
+        "value": "{Gray.600}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{Navy.700}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "mix",
+              "value": "50",
+              "space": "lch",
+              "color": "rgba(8, 24, 38, 0.5)"
+            }
+          }
         }
+      },
+      "danger": {
+        "value": "{Red.200}",
+        "type": "color"
       }
+    },
+    "link": {
+      "value": "{Blue.100}",
+      "type": "color"
     }
   }
 }

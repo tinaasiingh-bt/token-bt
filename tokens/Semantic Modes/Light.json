@@ -3,7 +3,7 @@
     "text": {
       "default": {
         "text-primary": {
-          "value": "{Cyan.700}",
+          "value": "{Navy.700}",
           "type": "color"
         }
       }

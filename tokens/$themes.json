@@ -83,9 +83,9 @@
       "Semantic Modes/Light": "enabled"
     },
     "$figmaVariableReferences": {
-      "color.text.default.text-primary": "0ae1de633c6e1686844f86e28664414fbb132ffa",
       "paragraphSpacing.0": "8163f034d1447b6e5b77dba4320beb177e2072c0",
-      "paragraphIndent.0": "1d637e8ba5ce0d947d4b466c354109ec97b6f9b0"
+      "paragraphIndent.0": "1d637e8ba5ce0d947d4b466c354109ec97b6f9b0",
+      "color.text.default": "0ae1de633c6e1686844f86e28664414fbb132ffa"
     },
     "$figmaCollectionId": "VariableCollectionId:1:2",
     "$figmaModeId": "2:0",
@@ -239,9 +239,9 @@
     "$figmaCollectionId": "VariableCollectionId:1:2",
     "$figmaModeId": "2:1",
     "$figmaVariableReferences": {
-      "color.text.default.text-primary": "0ae1de633c6e1686844f86e28664414fbb132ffa",
       "paragraphSpacing.0": "8163f034d1447b6e5b77dba4320beb177e2072c0",
-      "paragraphIndent.0": "1d637e8ba5ce0d947d4b466c354109ec97b6f9b0"
+      "paragraphIndent.0": "1d637e8ba5ce0d947d4b466c354109ec97b6f9b0",
+      "color.text.default": "0ae1de633c6e1686844f86e28664414fbb132ffa"
     },
     "group": "Semantic Theme"
   }
