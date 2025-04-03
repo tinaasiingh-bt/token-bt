@@ -76,10 +76,10 @@
     }
   },
   "border-style": {
-    "none": {
+    "dashed": {
       "value": {
-        "style": "none",
-        "width": "{border-width.none}"
+        "style": "dashed",
+        "width": "{border-width.xs}"
       },
       "type": "border"
     },
