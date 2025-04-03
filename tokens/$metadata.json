@@ -1,8 +1,8 @@
 {
   "tokenSetOrder": [
+    "Primitive/Color",
     "Primitive/Spacing",
     "Primitive/Border",
-    "Primitive/Color",
     "Primitive/Typography",
     "Semantic/ Color",
     "Semantic/ Typography",
