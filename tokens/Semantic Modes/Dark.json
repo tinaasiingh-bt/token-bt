@@ -10,11 +10,11 @@
         "type": "color"
       },
       "secondary": {
-        "value": "{Black.400}",
+        "value": "{Neutral.light-ash}",
         "type": "color"
       },
       "tertiary": {
-        "value": "{Gray.25}",
+        "value": "{Orange.400}",
         "type": "color"
       },
       "hover": {
