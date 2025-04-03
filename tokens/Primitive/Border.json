@@ -77,11 +77,17 @@
   },
   "border-style": {
     "none": {
-      "value": "0",
+      "value": {
+        "style": "none",
+        "width": "{border-width.none}"
+      },
       "type": "border"
     },
     "solid": {
-      "value": "2",
+      "value": {
+        "style": "solid",
+        "width": "{border-width.xs}"
+      },
       "type": "border"
     }
   }
