@@ -1,5 +1,9 @@
 {
   "border-radius": {
+    "none": {
+      "value": "0",
+      "type": "borderRadius"
+    },
     "2xs": {
       "value": "2",
       "type": "borderRadius"
@@ -26,6 +30,14 @@
     },
     "2xl": {
       "value": "16",
+      "type": "borderRadius"
+    },
+    "3xl": {
+      "value": "20",
+      "type": "borderRadius"
+    },
+    "4xl": {
+      "value": "24",
       "type": "borderRadius"
     },
     "full": {
