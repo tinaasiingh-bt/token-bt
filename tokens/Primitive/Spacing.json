@@ -1,50 +1,50 @@
 {
   "spacing": {
-    "space-none": {
+    "none": {
       "value": "0",
       "type": "spacing"
     },
-    "space-2xs": {
+    "2xs": {
       "value": "2",
       "type": "spacing"
     },
-    "space-xs": {
+    "xs": {
       "value": "4",
       "type": "spacing"
     },
-    "space-sm": {
+    "sm": {
       "value": "6",
       "type": "spacing"
     },
-    "space-md": {
+    "md": {
       "value": "8",
       "type": "spacing"
     },
-    "space-lg": {
+    "lg": {
       "value": "12",
       "type": "spacing"
     },
-    "space-xl": {
+    "xl": {
       "value": "16",
       "type": "spacing"
     },
-    "space-2xl": {
+    "2xl": {
       "value": "20",
       "type": "spacing"
     },
-    "space-3xl": {
+    "3xl": {
       "value": "24",
       "type": "spacing"
     },
-    "space-4xl": {
+    "4xl": {
       "value": "32",
       "type": "spacing"
     },
-    "space-5xl": {
+    "5xl": {
       "value": "40",
       "type": "spacing"
     },
-    "space-6xl": {
+    "6xl": {
       "value": "48",
       "type": "spacing"
     }
