@@ -9,34 +9,38 @@
       "type": "borderRadius"
     },
     "xs": {
-      "value": "4",
+      "value": "3",
       "type": "borderRadius"
     },
     "sm": {
-      "value": "6",
+      "value": "4",
       "type": "borderRadius"
     },
     "md": {
-      "value": "8",
+      "value": "6",
       "type": "borderRadius"
     },
     "lg": {
-      "value": "10",
+      "value": "8",
       "type": "borderRadius"
     },
     "xl": {
-      "value": "12",
+      "value": "10",
       "type": "borderRadius"
     },
     "2xl": {
-      "value": "16",
+      "value": "12",
       "type": "borderRadius"
     },
     "3xl": {
-      "value": "20",
+      "value": "16",
       "type": "borderRadius"
     },
     "4xl": {
+      "value": "20",
+      "type": "borderRadius"
+    },
+    "5xl": {
       "value": "24",
       "type": "borderRadius"
     },
