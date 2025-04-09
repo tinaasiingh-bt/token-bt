@@ -444,5 +444,11 @@
       "value": "#a1a1a1",
       "type": "color"
     }
+  },
+  "Transparent": {
+    "transparent": {
+      "value": "#transparent",
+      "type": "color"
+    }
   }
 }

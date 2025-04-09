@@ -80,7 +80,7 @@
         "type": "color"
       },
       "secondary": {
-        "value": "{Gray.300}",
+        "value": "{Gray.400}",
         "type": "color"
       },
       "tertiary": {
