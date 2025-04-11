@@ -1,6 +1,14 @@
 {
-  "color-background-primary": {
-    "value": "{Button.button-primary}",
-    "type": "color"
+  "button": {
+    "primary": {
+      "default": {
+        "background": {
+          "color": {
+            "value": "{Blue.100}",
+            "type": "color"
+          }
+        }
+      }
+    }
   }
 }

@@ -139,6 +139,10 @@
         "value": "{Cyan.800}",
         "type": "color"
       }
+    },
+    "bacbh;j": {
+      "value": "#",
+      "type": "color"
     }
   }
 }
