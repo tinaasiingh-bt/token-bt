@@ -3,8 +3,26 @@
     "primary": {
       "default": {
         "background": {
-          "color": {
-            "value": "{Blue.100}",
+          "value": "{Blue.100}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "accordion": {
+    "stacked": {
+      "default": {
+        "border-box": {
+          "background": {
+            "value": "Transparent.transparent",
+            "type": "color"
+          },
+          "border": {
+            "value": "{color.border.secondary}",
+            "type": "color"
+          },
+          "icon": {
+            "value": "{color.icon.default}",
             "type": "color"
           }
         }
