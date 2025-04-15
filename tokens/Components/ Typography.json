@@ -1,1 +1,10 @@
-{}
+{
+  "button": {
+    "default-label": {
+      "typography": {
+        "value": "{typography.heading.H3}",
+        "type": "typography"
+      }
+    }
+  }
+}
