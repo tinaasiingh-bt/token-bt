@@ -290,7 +290,7 @@
   "spacing": {
     "icon": {
       "left": {
-        "value": "8px",
+        "value": "8",
         "type": "spacing"
       },
       "right": {
@@ -304,19 +304,19 @@
     },
     "button": {
       "left": {
-        "value": "16px",
+        "value": "{spacing.xl}",
         "type": "spacing"
       },
       "right": {
-        "value": "16px",
+        "value": "{spacing.xl}",
         "type": "spacing"
       },
       "top": {
-        "value": "16px",
+        "value": "{spacing.xl}",
         "type": "spacing"
       },
       "bottom": {
-        "value": "16px",
+        "value": "4",
         "type": "spacing"
       }
     }
