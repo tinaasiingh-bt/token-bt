@@ -294,29 +294,29 @@
         "type": "spacing"
       },
       "right": {
-        "value": "{spacing.md}",
+        "value": "8px",
         "type": "spacing"
       },
       "gap": {
-        "value": "{spacing.md}",
+        "value": "8px",
         "type": "spacing"
       }
     },
     "button": {
       "left": {
-        "value": "{spacing.xl}",
+        "value": "16px",
         "type": "spacing"
       },
       "right": {
-        "value": "{spacing.xl}",
+        "value": "16px",
         "type": "spacing"
       },
       "top": {
-        "value": "{spacing.xs}",
+        "value": "16px",
         "type": "spacing"
       },
       "bottom": {
-        "value": "{spacing.xs}",
+        "value": "16px",
         "type": "spacing"
       }
     }
