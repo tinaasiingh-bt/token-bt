@@ -153,85 +153,85 @@
     "text": {
       "on": {
         "primary": {
-          "value": "{gray.25}",
+          "value": "{Gray.25}",
           "type": "color"
         },
         "secondary": {
-          "value": "{gray.25}",
+          "value": "{Gray.25}",
           "type": "color"
         },
         "danger": {
-          "value": "{gray.25}",
+          "value": "{Gray.25}",
           "type": "color"
         }
       },
       "button": {
         "primary": {
           "default": {
-            "value": "{blue.100}",
+            "value": "{Blue.100}",
             "type": "color"
           },
           "hover": {
-            "value": "{blue.100}",
+            "value": "{Blue.100}",
             "type": "color"
           },
           "pressed": {
-            "value": "{blue.300}",
+            "value": "{Blue.300}",
             "type": "color"
           },
           "disabled": {
-            "value": "{gray.25}",
+            "value": "{Gray.25}",
             "type": "color"
           }
         },
         "secondary": {
           "default": {
-            "value": "{blue-gray.100}",
+            "value": "{Blue-gray.100}",
             "type": "color"
           },
           "hover": {
-            "value": "{blue-gray.200}",
+            "value": "{Blue-gray.200}",
             "type": "color"
           },
           "pressed": {
-            "value": "{blue-gray.300}",
+            "value": "{Blue-gray.300}",
             "type": "color"
           }
         },
         "ghost": {
           "default": {
-            "value": "{blue.100}",
+            "value": "{Blue.100}",
             "type": "color"
           },
           "hover": {
-            "value": "{blue.100}",
+            "value": "{Blue.100}",
             "type": "color"
           },
           "focus": {
-            "value": "{blue.100}",
+            "value": "{Blue.100}",
             "type": "color"
           },
           "pressed": {
-            "value": "{blue.300}",
+            "value": "{Blue.300}",
             "type": "color"
           },
           "disabled": {
-            "value": "{gray.25}",
+            "value": "{Gray.25}",
             "type": "color"
           }
         }
       },
       "breadcrumb": {
         "link": {
-          "value": "{gray.700}",
+          "value": "{Blue.100}",
           "type": "color"
         },
         "hover": {
-          "value": "{gray.900}",
+          "value": "{Blue.200}",
           "type": "color"
         },
         "focus-active": {
-          "value": "{blue.800}",
+          "value": "{Blue.200}",
           "type": "color"
         }
       },
