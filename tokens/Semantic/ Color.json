@@ -288,6 +288,10 @@
       "right": {
         "value": "8px",
         "type": "spacing"
+      },
+      "gap": {
+        "value": "{spacing.md}",
+        "type": "spacing"
       }
     }
   },
