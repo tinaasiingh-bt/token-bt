@@ -158,6 +158,10 @@
           "value": "{Gray.25}",
           "type": "color"
         },
+        "ghost": {
+          "value": "{Blue.100}",
+          "type": "color"
+        },
         "secondary": {
           "value": "{Gray.25}",
           "type": "color"

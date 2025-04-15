@@ -216,7 +216,6 @@
       "button.secondary.pressed.background": "54e433143bec6db7f6ac69204310a90dffe4fc93",
       "button.secondary.pressed.text": "d506691a5196497b3dbd7101b288c0fdd5beed48",
       "button.secondary.disabled.background": "ddb8002c380d5b9a10aa2954fbe0cd9d8703f5cf",
-      "button.ghost.default.border": "8350ec724b4c2999230370fe135049fd79c2a600",
       "button.ghost.default.text": "145af8f811450b90ec0d412a5f4bf838dbbd93d8",
       "button.ghost.hover.text": "1ae9a2bf2dc02e341b597e23c657dff7ca6c82d8",
       "button.ghost.focus.text": "79a1f39b0a88c55eead7df61b3b1819f99cc7046",
@@ -231,7 +230,8 @@
       "badge.new.text": "03c5613564e70a15c97b748b3508bf6ffd8cb5df",
       "badge.preview.background": "91e3490370a938ba6267d070eca06e11a3b520f2",
       "badge.preview.border": "a274158bf48b336463ee29795dba802b51876e75",
-      "badge.preview.text": "873dee231870f9ec66a2e3310eab75a52926ee42"
+      "badge.preview.text": "873dee231870f9ec66a2e3310eab75a52926ee42",
+      "button.ghost.default.background": "8350ec724b4c2999230370fe135049fd79c2a600"
     },
     "$figmaCollectionId": "VariableCollectionId:2:2",
     "$figmaModeId": "2:0",

@@ -7,7 +7,7 @@
           "type": "color"
         },
         "text": {
-          "value": "{color.text.button.primary.default}",
+          "value": "{color.text.on.primary}",
           "type": "color"
         }
       },
@@ -17,7 +17,7 @@
           "type": "color"
         },
         "text": {
-          "value": "{color.text.button.primary.hover}",
+          "value": "{color.text.on.primary}",
           "type": "color"
         }
       },
@@ -33,7 +33,7 @@
           "type": "color"
         },
         "text": {
-          "value": "{color.text.button.primary.pressed}",
+          "value": "{color.text.on.primary}",
           "type": "color"
         }
       },
@@ -55,7 +55,7 @@
           "type": "color"
         },
         "text": {
-          "value": "{color.text.button.secondary.default}",
+          "value": "{color.text.on.primary}",
           "type": "color"
         }
       },
@@ -65,7 +65,7 @@
           "type": "color"
         },
         "text": {
-          "value": "{color.text.button.secondary.hover}",
+          "value": "{color.text.on.primary}",
           "type": "color"
         }
       },
@@ -75,7 +75,7 @@
           "type": "color"
         },
         "text": {
-          "value": "{color.text.button.secondary.pressed}",
+          "value": "{color.text.on.primary}",
           "type": "color"
         }
       },
@@ -88,13 +88,21 @@
     },
     "ghost": {
       "default": {
-        "border": {
-          "value": "{color.border.ghost}",
+        "background": {
+          "value": "{color.background.button.ghost.default}",
           "type": "color"
         },
         "text": {
-          "value": "{color.text.button.ghost.default}",
+          "value": "{color.text.on.ghost}",
           "type": "color"
+        },
+        "border": {
+          "value": {
+            "color": "{color.border.ghost}",
+            "width": "{border-width.xs}",
+            "style": "solid"
+          },
+          "type": "border"
         }
       },
       "hover": {
