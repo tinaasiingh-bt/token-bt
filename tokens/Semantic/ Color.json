@@ -1,148 +1,342 @@
 {
   "color": {
-    "text": {
-      "default": {
-        "value": "{Navy.700}",
-        "type": "color"
-      },
-      "secondary": {
-        "value": "{Navy.600}",
-        "type": "color"
-      },
-      "tertiary": {
-        "value": "{Gray.25}",
-        "type": "color"
-      },
-      "hover": {
-        "value": "{Blue.200}",
-        "type": "color"
-      },
-      "focus": {
-        "value": "{Orange.400}",
-        "type": "color"
-      },
-      "disabled": {
-        "value": "{Navy.700}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "mix",
-              "value": "50",
-              "space": "lch",
-              "color": "rgba(8, 24, 38, 0.5)"
+    "background": {
+      "button": {
+        "primary": {
+          "default": {
+            "value": "{Blue.100}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{Blue.200}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{Blue.200}",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{Blue.300}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "rgba(28, 99, 165, 0.5)",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "0",
+                  "space": "lch"
+                }
+              }
             }
           }
+        },
+        "secondary": {
+          "default": {
+            "value": "{Blue-gray.100}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{Blue-gray.200}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{Blue-gray.200}",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{Blue-gray.300}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "rgba(62, 98, 135, 0.5)",
+            "type": "color"
+          }
+        },
+        "danger": {
+          "default": {
+            "value": "{Red.100}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{Orange.800}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{Orange.800}",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{Orange.900}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "rgba(193, 0, 27, 0.5)",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "0",
+                  "space": "lch"
+                }
+              }
+            }
+          }
+        },
+        "ghost": {
+          "hover": {
+            "value": "{light-blue.100}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{light-blue.100}",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{light-blue.200}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{transparent}",
+            "type": "color"
+          }
+        },
+        "focus": {
+          "value": "{Light blue.100}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{light-blue.100}",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "{light-blue.200}",
+          "type": "color"
         }
       },
-      "danger": {
-        "value": "{Red.100}",
-        "type": "color"
-      },
-      "link": {
-        "value": "{Blue.100}",
-        "type": "color"
-      },
-      "link-focus-active": {
-        "value": "{Blue.200}",
-        "type": "color"
-      }
-    },
-    "background": {
-      "default": {
-        "value": "{Gray.200}",
-        "type": "color"
-      },
-      "surface": {
-        "value": "{Gray.100}",
-        "type": "color"
-      },
-      "subtle": {
-        "value": "{Gray.50}",
-        "type": "color"
-      },
-      "hover": {
-        "value": "{Navy.50}",
-        "type": "color"
-      },
-      "selected": {
-        "value": "{Cyan.100}",
-        "type": "color"
-      },
-      "danger": {
-        "value": "{Red.100}",
-        "type": "color"
+      "badge": {
+        "new": {
+          "value": "{green.100}",
+          "type": "color"
+        },
+        "preview": {
+          "value": "{blue.100}",
+          "type": "color"
+        }
       }
     },
     "border": {
-      "default": {
-        "value": "{Gray.300}",
-        "type": "color"
-      },
-      "secondary": {
-        "value": "{Gray.400}",
-        "type": "color"
-      },
-      "tertiary": {
-        "value": "{Gray.800}",
-        "type": "color"
-      },
-      "hover": {
-        "value": "{Blue.200}",
-        "type": "color"
+      "button": {
+        "ghost": {
+          "value": "{blue.100}",
+          "type": "color"
+        }
       },
       "focus": {
-        "value": "{Cyan.700}",
+        "value": "{orange.400}",
         "type": "color"
       },
-      "selected": {
-        "value": "{Blue.100}",
-        "type": "color"
-      },
-      "selected-alternate": {
-        "value": "{Blue-gray.100}",
-        "type": "color"
-      },
-      "error": {
-        "value": "{Red.100}",
-        "type": "color"
+      "badge": {
+        "new": {
+          "value": "{green.700}",
+          "type": "color"
+        },
+        "preview": {
+          "value": "{blue.700}",
+          "type": "color"
+        }
       }
     },
-    "status": {
-      "success": {
-        "value": "{Green.100}",
-        "type": "color"
+    "text": {
+      "on": {
+        "primary": {
+          "value": "{gray.25}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{gray.25}",
+          "type": "color"
+        },
+        "danger": {
+          "value": "{gray.25}",
+          "type": "color"
+        }
       },
-      "warning": {
-        "value": "{Sunset.250}",
-        "type": "color"
+      "button": {
+        "primary": {
+          "default": {
+            "value": "{blue.100}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{blue.100}",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{blue.300}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{gray.25}",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "default": {
+            "value": "{blue-gray.100}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{blue-gray.200}",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{blue-gray.300}",
+            "type": "color"
+          }
+        },
+        "ghost": {
+          "default": {
+            "value": "{blue.100}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{blue.100}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{blue.100}",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "{blue.300}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{gray.25}",
+            "type": "color"
+          }
+        }
       },
-      "error": {
-        "value": "{Red.100}",
-        "type": "color"
+      "breadcrumb": {
+        "link": {
+          "value": "{gray.700}",
+          "type": "color"
+        },
+        "hover": {
+          "value": "{gray.900}",
+          "type": "color"
+        },
+        "focus-active": {
+          "value": "{blue.800}",
+          "type": "color"
+        }
       },
-      "info": {
-        "value": "{Cyan.800}",
-        "type": "color"
+      "badge": {
+        "new": {
+          "value": "{green.900}",
+          "type": "color"
+        },
+        "preview": {
+          "value": "{blue.900}",
+          "type": "color"
+        }
       }
     },
     "icon": {
-      "default": {
-        "value": "{Navy.500}",
-        "type": "color"
+      "breadcrumb": {
+        "arrow": {
+          "value": "{gray.500}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "border": {
+    "width": {
+      "focus": {
+        "value": {
+          "width": "{border-width.sm}",
+          "color": "{Orange.400}",
+          "style": "solid"
+        },
+        "type": "border"
       },
-      "secondary": {
-        "value": "{Gray.300}",
-        "type": "color"
-      },
-      "tertiary": {
-        "value": "{Cyan.800}",
-        "type": "color"
+      "badge": {
+        "value": "1px",
+        "type": "border"
       }
     },
-    "bacbh;j": {
-      "value": "#",
-      "type": "color"
+    "radius": {
+      "badge": {
+        "value": "{border-radius.5xl}",
+        "type": "borderRadius"
+      }
+    }
+  },
+  "spacing": {
+    "icon": {
+      "left": {
+        "value": "8px",
+        "type": "spacing"
+      },
+      "right": {
+        "value": "8px",
+        "type": "spacing"
+      }
+    }
+  },
+  "typography": {
+    "button": {
+      "label": {
+        "value": "16px",
+        "type": "typography"
+      }
+    },
+    "functional": {
+      "text-link": {
+        "value": {
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "20px"
+        },
+        "type": "typography"
+      }
+    },
+    "body": {
+      "sm": {
+        "value": {
+          "fontSize": "14px",
+          "fontWeight": "400",
+          "lineHeight": "20px"
+        },
+        "type": "typography"
+      }
+    },
+    "instructional": {
+      "strong": {
+        "value": {
+          "fontSize": "12px",
+          "fontWeight": "600",
+          "lineHeight": "16px"
+        },
+        "type": "typography"
+      }
+    }
+  },
+  "icon": {
+    "size": {
+      "sm": {
+        "value": "16px",
+        "type": "sizing"
+      },
+      "md": {
+        "value": "24px",
+        "type": "sizing"
+      }
     }
   }
 }
