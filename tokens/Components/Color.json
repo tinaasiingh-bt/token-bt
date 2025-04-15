@@ -89,7 +89,7 @@
     "ghost": {
       "default": {
         "border": {
-          "value": "{color.border.button.ghost}",
+          "value": "{color.border.ghost}",
           "type": "color"
         },
         "text": {
