@@ -88,19 +88,19 @@
         },
         "ghost": {
           "hover": {
-            "value": "{light-blue.100}",
+            "value": "{Light blue.100}",
             "type": "color"
           },
           "focus": {
-            "value": "{light-blue.100}",
+            "value": "{Light blue.100}",
             "type": "color"
           },
           "pressed": {
-            "value": "{light-blue.200}",
+            "value": "{Light blue.200}",
             "type": "color"
           },
           "disabled": {
-            "value": "{transparent}",
+            "value": "{Transparent.transparent}",
             "type": "color"
           }
         },
@@ -109,21 +109,21 @@
           "type": "color"
         },
         "hover": {
-          "value": "{light-blue.100}",
+          "value": "{Light blue.100}",
           "type": "color"
         },
         "pressed": {
-          "value": "{light-blue.200}",
+          "value": "{Light blue.200}",
           "type": "color"
         }
       },
       "badge": {
         "new": {
-          "value": "{green.100}",
+          "value": "{Forest green.100}",
           "type": "color"
         },
         "preview": {
-          "value": "{blue.100}",
+          "value": "{Raspberry.100}",
           "type": "color"
         }
       }
@@ -136,16 +136,16 @@
         }
       },
       "focus": {
-        "value": "{orange.400}",
+        "value": "{Orange.400}",
         "type": "color"
       },
       "badge": {
         "new": {
-          "value": "{green.700}",
+          "value": "{Forest green.200}",
           "type": "color"
         },
         "preview": {
-          "value": "{blue.700}",
+          "value": "{Raspberry.200}",
           "type": "color"
         }
       }
