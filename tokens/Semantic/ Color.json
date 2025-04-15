@@ -280,13 +280,17 @@
       "badge": {
         "value": "{border-radius.5xl}",
         "type": "borderRadius"
+      },
+      "button": {
+        "value": "{border-radius.md}",
+        "type": "borderRadius"
       }
     }
   },
   "spacing": {
     "icon": {
       "left": {
-        "value": "{spacing.md}",
+        "value": "8px",
         "type": "spacing"
       },
       "right": {
