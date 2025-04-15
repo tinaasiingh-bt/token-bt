@@ -1,7 +1,7 @@
 [
   {
     "id": "be460278f6463089ccf20662a3414febcdba1ed2",
-    "name": "all",
+    "name": "light",
     "$figmaStyleReferences": {
       "Background.bg-tiles": "S:946c663f52b5766914975ca9381374b7427129b6,",
       "Background.header-bg": "S:3be9cf313fc5f29657f81de08f78dd1939a2f974,",
@@ -111,12 +111,11 @@
       "Primitive/Border": "source",
       "Primitive/Color": "source",
       "Primitive/Typography": "source",
-      "Semantic/ Typography": "enabled",
-      "Semantic/ Color": "enabled",
+      "Semantic/ Typography": "source",
+      "Semantic/ Color": "source",
       "Semantic Modes/Light": "enabled",
       "Components/Color": "enabled",
-      "Components/ Typography": "enabled",
-      "Semantic Modes/Dark": "enabled"
+      "Components/ Typography": "enabled"
     },
     "$figmaVariableReferences": {
       "color.background.button.primary.default": "07697d05ee803926d45048a739e7bcc4b1cbeed7",
@@ -419,8 +418,8 @@
       "Primitive/Border": "source",
       "Primitive/Color": "source",
       "Primitive/Typography": "source",
-      "Semantic/ Typography": "enabled",
-      "Semantic/ Color": "enabled",
+      "Semantic/ Typography": "source",
+      "Semantic/ Color": "source",
       "Semantic Modes/Dark": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:21:370",
