@@ -294,11 +294,11 @@
   "spacing": {
     "icon": {
       "left": {
-        "value": "8",
+        "value": "{spacing.md}",
         "type": "spacing"
       },
       "right": {
-        "value": "8px",
+        "value": "{spacing.md}",
         "type": "spacing"
       },
       "gap": {
