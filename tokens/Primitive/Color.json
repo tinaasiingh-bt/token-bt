@@ -445,10 +445,19 @@
       "type": "color"
     }
   },
-  "Transparent": {
+  "transparent": {
     "transparent": {
-      "value": "#transparent",
-      "type": "color"
+      "value": "rgba(0,0,0,0)",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "lighten",
+            "value": "0",
+            "space": "lch"
+          }
+        }
+      }
     }
   }
 }

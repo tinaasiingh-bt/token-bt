@@ -671,7 +671,6 @@
       "Ocean.200": "ee04f05f4743e7954018d0c957521a9dd3ebd150",
       "Stone.100": "e2cc334ef49fa7064ef85b78a1326007b3a44856",
       "Stone.200": "fca552e40f21c5028facea299b0f98aed96082b4",
-      "Transparent.transparent": "f9fdccd127ec17b66d51bfee42e08049ee479a3c",
       "spacing.none": "355a51631ba2fe970d2339bb4d5d32c82dbffa51",
       "spacing.2xs": "57b1532ccf990fcc29634834e0c1b2ae7ea028bc",
       "spacing.xs": "9e6fa270c909f4ef56a1305f1c1ed5334b442dd1",
@@ -728,7 +727,8 @@
       "font.lineHeight.2xl": "6ff371453a69af25dec9f658c9c6fe101edfa071",
       "font.lineHeight.3xl": "6daf3e4486f826d8c9ae15a81557013633069450",
       "font.lineHeight.4xl": "20cc5b75159184ab16ad42b7ee4ef920e850553f",
-      "font.lineHeight.5xl": "fb07a3e9642a509711866c62ac835a4582af0ae8"
+      "font.lineHeight.5xl": "fb07a3e9642a509711866c62ac835a4582af0ae8",
+      "transparent.transparent": "f9fdccd127ec17b66d51bfee42e08049ee479a3c"
     },
     "group": "Primitive"
   }
