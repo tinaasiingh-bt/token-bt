@@ -372,6 +372,10 @@
       "md": {
         "value": "24px",
         "type": "sizing"
+      },
+      "lg": {
+        "value": "48px",
+        "type": "sizing"
       }
     }
   }
