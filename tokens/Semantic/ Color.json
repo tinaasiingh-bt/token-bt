@@ -130,6 +130,30 @@
           "value": "{Raspberry.100}",
           "type": "color"
         }
+      },
+      "datagrid": {
+        "header": {
+          "value": "{Navy.600}",
+          "type": "color"
+        },
+        "row": {
+          "default": {
+            "value": "{Neutral.White}",
+            "type": "color"
+          },
+          "alt": {
+            "value": "{Gray.50}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{Cyan.100}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{Navy.50}",
+            "type": "color"
+          }
+        }
       }
     },
     "border": {
@@ -375,6 +399,14 @@
       },
       "lg": {
         "value": "48px",
+        "type": "sizing"
+      }
+    }
+  },
+  "datagrid": {
+    "container": {
+      "width": {
+        "value": "100%",
         "type": "sizing"
       }
     }
