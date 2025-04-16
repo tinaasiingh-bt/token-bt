@@ -2,7 +2,7 @@
   "button": {
     "default-label": {
       "typography": {
-        "value": "{typography.heading.H3}",
+        "value": "{typography.heading.h3}",
         "type": "typography"
       }
     }

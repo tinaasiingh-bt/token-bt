@@ -15,10 +15,10 @@
     "display": {
       "lg": {
         "value": {
-          "fontFamily": "{fontFamily.inter}",
-          "fontWeight": "{font-weight.inter.semi-bold}",
-          "lineHeight": "{lineHeight.5xl}",
-          "fontSize": "{fontSize.6xl}",
+          "fontFamily": "{font.family.inter}",
+          "fontWeight": "{font.weight.semiBold}",
+          "lineHeight": "{font.lineHeight.5xl}",
+          "fontSize": "{font.size.6xl}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
@@ -29,10 +29,10 @@
       },
       "md": {
         "value": {
-          "fontFamily": "{fontFamily.inter}",
-          "fontWeight": "{font-weight.inter.medium}",
-          "lineHeight": "{lineHeight.4xl}",
-          "fontSize": "{fontSize.5xl}",
+          "fontFamily": "{font.family.inter}",
+          "fontWeight": "{font.weight.medium}",
+          "lineHeight": "{font.lineHeight.4xl}",
+          "fontSize": "{font.size.5xl}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
@@ -43,12 +43,12 @@
       }
     },
     "heading": {
-      "H1": {
+      "h1": {
         "value": {
-          "fontFamily": "{fontFamily.inter}",
-          "fontWeight": "{font-weight.inter.semi-bold}",
-          "lineHeight": "{lineHeight.lg}",
-          "fontSize": "{fontSize.xl}",
+          "fontFamily": "{font.family.inter}",
+          "fontWeight": "{font.weight.semiBold}",
+          "lineHeight": "{font.lineHeight.lg}",
+          "fontSize": "{font.size.xl}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
@@ -58,12 +58,12 @@
         "type": "typography",
         "description": "Primary page titles  or sections(e.g., \"user details, application access\")."
       },
-      "H2": {
+      "h2": {
         "value": {
-          "fontFamily": "{fontFamily.inter}",
-          "fontWeight": "{font-weight.inter.semi-bold}",
-          "lineHeight": "{lineHeight.md}",
-          "fontSize": "{fontSize.lg}",
+          "fontFamily": "{font.family.inter}",
+          "fontWeight": "{font.weight.semiBold}",
+          "lineHeight": "{font.lineHeight.md}",
+          "fontSize": "{font.size.lg}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
@@ -73,12 +73,12 @@
         "type": "typography",
         "description": "Section headings or significant sections in the UI."
       },
-      "H3": {
+      "h3": {
         "value": {
-          "fontFamily": "{fontFamily.inter}",
-          "fontWeight": "{font-weight.inter.semi-bold}",
-          "lineHeight": "{lineHeight.md}",
-          "fontSize": "{fontSize.md}",
+          "fontFamily": "{font.family.inter}",
+          "fontWeight": "{font.weight.semiBold}",
+          "lineHeight": "{font.lineHeight.md}",
+          "fontSize": "{font.size.md}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
@@ -88,12 +88,12 @@
         "type": "typography",
         "description": "Subsection titles within a section,Button, card headers, or table headers."
       },
-      "H4": {
+      "h4": {
         "value": {
-          "fontFamily": "{fontFamily.inter}",
-          "fontWeight": "{font-weight.inter.semi-bold}",
-          "lineHeight": "{lineHeight.sm}",
-          "fontSize": "{fontSize.sm}",
+          "fontFamily": "{font.family.inter}",
+          "fontWeight": "{font.weight.strong}",
+          "lineHeight": "{font.lineHeight.sm}",
+          "fontSize": "{font.size.sm}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
@@ -108,10 +108,10 @@
       "sm": {
         "default": {
           "value": {
-            "fontFamily": "{fontFamily.inter}",
-            "fontWeight": "{font-weight.inter.medium}",
-            "lineHeight": "{lineHeight.sm}",
-            "fontSize": "{fontSize.sm}",
+            "fontFamily": "{font.family.inter}",
+            "fontWeight": "{font.weight.medium}",
+            "lineHeight": "{font.lineHeight.sm}",
+            "fontSize": "{font.size.sm}",
             "letterSpacing": "{letterSpacing.0}",
             "paragraphSpacing": "{paragraphSpacing.0}",
             "paragraphIndent": "{paragraphIndent.0}",
@@ -123,10 +123,10 @@
         },
         "secondary": {
           "value": {
-            "fontFamily": "{fontFamily.inter}",
-            "fontWeight": "{font-weight.inter.regular}",
-            "lineHeight": "{lineHeight.sm}",
-            "fontSize": "{fontSize.sm}",
+            "fontFamily": "{font.family.inter}",
+            "fontWeight": "{font.weight.regular}",
+            "lineHeight": "{font.lineHeight.sm}",
+            "fontSize": "{font.size.sm}",
             "letterSpacing": "{letterSpacing.0}",
             "paragraphSpacing": "{paragraphSpacing.0}",
             "paragraphIndent": "{paragraphIndent.0}",
@@ -138,10 +138,10 @@
         },
         "strong": {
           "value": {
-            "fontFamily": "{fontFamily.inter}",
-            "fontWeight": "{font-weight.inter.strong}",
-            "lineHeight": "{lineHeight.sm}",
-            "fontSize": "{fontSize.sm}",
+            "fontFamily": "{font.family.inter}",
+            "fontWeight": "{font.weight.strong}",
+            "lineHeight": "{font.lineHeight.sm}",
+            "fontSize": "{font.size.sm}",
             "letterSpacing": "{letterSpacing.0}",
             "paragraphSpacing": "{paragraphSpacing.0}",
             "paragraphIndent": "{paragraphIndent.0}",
@@ -155,10 +155,10 @@
       "md": {
         "default": {
           "value": {
-            "fontFamily": "{fontFamily.inter}",
-            "fontWeight": "{font-weight.inter.medium}",
-            "lineHeight": "{lineHeight.md}",
-            "fontSize": "{fontSize.md}",
+            "fontFamily": "{font.family.fira}",
+            "fontWeight": "{font.weight.medium}",
+            "lineHeight": "{font.lineHeight.md}",
+            "fontSize": "{font.size.md}",
             "letterSpacing": "{letterSpacing.0}",
             "paragraphSpacing": "{paragraphSpacing.0}",
             "paragraphIndent": "{paragraphIndent.0}",
@@ -169,10 +169,10 @@
         },
         "secondary": {
           "value": {
-            "fontFamily": "{fontFamily.inter}",
-            "fontWeight": "{font-weight.inter.regular}",
-            "lineHeight": "{lineHeight.md}",
-            "fontSize": "{fontSize.md}",
+            "fontFamily": "{font.family.inter}",
+            "fontWeight": "{font.weight.regular}",
+            "lineHeight": "{font.lineHeight.md}",
+            "fontSize": "{font.size.md}",
             "letterSpacing": "{letterSpacing.0}",
             "paragraphSpacing": "{paragraphSpacing.0}",
             "paragraphIndent": "{paragraphIndent.0}",
@@ -183,10 +183,10 @@
         },
         "strong": {
           "value": {
-            "fontFamily": "{fontFamily.inter}",
-            "fontWeight": "{font-weight.inter.regular}",
-            "lineHeight": "{lineHeight.md}",
-            "fontSize": "{fontSize.md}",
+            "fontFamily": "{font.family.inter}",
+            "fontWeight": "{font.weight.strong}",
+            "lineHeight": "{font.lineHeight.md}",
+            "fontSize": "{font.size.md}",
             "letterSpacing": "{letterSpacing.0}",
             "paragraphSpacing": "{paragraphSpacing.0}",
             "paragraphIndent": "{paragraphIndent.0}",
@@ -199,10 +199,10 @@
       "lg": {
         "default": {
           "value": {
-            "fontFamily": "{fontFamily.inter}",
-            "fontWeight": "{font-weight.inter.medium}",
-            "lineHeight": "{lineHeight.lg}",
-            "fontSize": "{fontSize.lg}",
+            "fontFamily": "{font.family.inter}",
+            "fontWeight": "{font.weight.medium}",
+            "lineHeight": "{font.lineHeight.lg}",
+            "fontSize": "{font.size.lg}",
             "letterSpacing": "{letterSpacing.0}",
             "paragraphSpacing": "{paragraphSpacing.0}",
             "paragraphIndent": "{paragraphIndent.0}",
@@ -213,10 +213,10 @@
         },
         "secondary": {
           "value": {
-            "fontFamily": "{fontFamily.inter}",
-            "fontWeight": "{font-weight.inter.regular}",
-            "lineHeight": "{lineHeight.lg}",
-            "fontSize": "{fontSize.lg}",
+            "fontFamily": "{font.family.inter}",
+            "fontWeight": "{font.weight.regular}",
+            "lineHeight": "{font.lineHeight.lg}",
+            "fontSize": "{font.size.lg}",
             "letterSpacing": "{letterSpacing.0}",
             "paragraphSpacing": "{paragraphSpacing.0}",
             "paragraphIndent": "{paragraphIndent.0}",
@@ -227,10 +227,10 @@
         },
         "strong": {
           "value": {
-            "fontFamily": "{fontFamily.inter}",
-            "fontWeight": "{font-weight.inter.regular}",
-            "lineHeight": "{lineHeight.lg}",
-            "fontSize": "{fontSize.lg}",
+            "fontFamily": "{font.family.inter}",
+            "fontWeight": "{font.weight.strong}",
+            "lineHeight": "{font.lineHeight.lg}",
+            "fontSize": "{font.size.lg}",
             "letterSpacing": "{letterSpacing.0}",
             "paragraphSpacing": "{paragraphSpacing.0}",
             "paragraphIndent": "{paragraphIndent.0}",
@@ -244,10 +244,10 @@
     "body": {
       "sm": {
         "value": {
-          "fontFamily": "{fontFamily.notoSans}",
-          "fontWeight": "{font-weight.noto-sans.regular}",
-          "lineHeight": "{lineHeight.sm}",
-          "fontSize": "{fontSize.sm}",
+          "fontFamily": "{font.family.notoSans}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.lineHeight.sm}",
+          "fontSize": "{font.size.sm}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
@@ -259,10 +259,10 @@
       },
       "md": {
         "value": {
-          "fontFamily": "{fontFamily.notoSans}",
-          "fontWeight": "{font-weight.noto-sans.regular}",
-          "lineHeight": "{lineHeight.sm}",
-          "fontSize": "{fontSize.md}",
+          "fontFamily": "{font.family.notoSans}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.lineHeight.md}",
+          "fontSize": "{font.size.md}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
@@ -273,10 +273,10 @@
       },
       "lg": {
         "value": {
-          "fontFamily": "{fontFamily.notoSans}",
-          "fontWeight": "{font-weight.noto-sans.regular}",
-          "lineHeight": "{lineHeight.lg}",
-          "fontSize": "{fontSize.lg}",
+          "fontFamily": "{font.family.notoSans}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.lineHeight.lg}",
+          "fontSize": "{font.size.lg}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
@@ -289,10 +289,10 @@
     "functional": {
       "text link": {
         "value": {
-          "fontFamily": "{fontFamily.notoSans}",
-          "fontWeight": "{font-weight.noto-sans.regular}",
-          "lineHeight": "{lineHeight.sm}",
-          "fontSize": "{fontSize.sm}",
+          "fontFamily": "{font.family.notoSans}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.lineHeight.sm}",
+          "fontSize": "{font.size.sm}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
@@ -304,10 +304,10 @@
       },
       "error": {
         "value": {
-          "fontFamily": "{fontFamily.notoSans}",
-          "fontWeight": "{font-weight.noto-sans.regular}",
-          "lineHeight": "{lineHeight.sm}",
-          "fontSize": "{fontSize.sm}",
+          "fontFamily": "{font.family.notoSans}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.lineHeight.sm}",
+          "fontSize": "{font.size.sm}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
@@ -319,10 +319,10 @@
       },
       "code": {
         "value": {
-          "fontFamily": "{fontFamily.fira}",
-          "fontWeight": "{font-weight.fira.regular}",
-          "lineHeight": "{lineHeight.sm}",
-          "fontSize": "{fontSize.sm}",
+          "fontFamily": "{font.family.fira}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.lineHeight.sm}",
+          "fontSize": "{font.size.sm}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
@@ -336,10 +336,10 @@
     "instructional": {
       "default": {
         "value": {
-          "fontFamily": "{fontFamily.notoSans}",
-          "fontWeight": "{font-weight.noto-sans.regular}",
-          "lineHeight": "{lineHeight.sm}",
-          "fontSize": "{fontSize.sm}",
+          "fontFamily": "{font.family.notoSans}",
+          "fontWeight": "{font.weight.regular}",
+          "lineHeight": "{font.lineHeight.sm}",
+          "fontSize": "{font.size.sm}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
@@ -351,10 +351,10 @@
       },
       "strong": {
         "value": {
-          "fontFamily": "{fontFamily.notoSans}",
-          "fontWeight": "{font-weight.noto-sans.semi-bold}",
-          "lineHeight": "{lineHeight.sm}",
-          "fontSize": "{fontSize.sm}",
+          "fontFamily": "{font.family.notoSans}",
+          "fontWeight": "{font.weight.semiBold}",
+          "lineHeight": "{font.lineHeight.sm}",
+          "fontSize": "{font.size.sm}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
@@ -368,10 +368,10 @@
     "card": {
       "lg": {
         "value": {
-          "fontFamily": "{fontFamily.notoSans}",
-          "fontWeight": "{font-weight.noto-sans.semi-bold}",
-          "lineHeight": "{lineHeight.xl}",
-          "fontSize": "{fontSize.5xl}",
+          "fontFamily": "{font.family.notoSans}",
+          "fontWeight": "{font.weight.semiBold}",
+          "lineHeight": "{font.lineHeight.xl}",
+          "fontSize": "{font.size.5xl}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
@@ -382,10 +382,10 @@
       },
       "md": {
         "value": {
-          "fontFamily": "{fontFamily.notoSans}",
-          "fontWeight": "{font-weight.noto-sans.semi-bold}",
-          "lineHeight": "{lineHeight.3xl}",
-          "fontSize": "{fontSize.4xl}",
+          "fontFamily": "{font.family.notoSans}",
+          "fontWeight": "{font.weight.semiBold}",
+          "lineHeight": "{font.lineHeight.3xl}",
+          "fontSize": "{font.size.4xl}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
@@ -396,10 +396,10 @@
       },
       "sm": {
         "value": {
-          "fontFamily": "{fontFamily.notoSans}",
-          "fontWeight": "{font-weight.noto-sans.semi-bold}",
-          "lineHeight": "{lineHeight.2xl}",
-          "fontSize": "{fontSize.3xl}",
+          "fontFamily": "{font.family.notoSans}",
+          "fontWeight": "{font.weight.semiBold}",
+          "lineHeight": "{font.lineHeight.2xl}",
+          "fontSize": "{font.size.3xl}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
@@ -410,10 +410,10 @@
       },
       "xs": {
         "value": {
-          "fontFamily": "{fontFamily.notoSans}",
-          "fontWeight": "{font-weight.noto-sans.medium}",
-          "lineHeight": "{lineHeight.xl}",
-          "fontSize": "{fontSize.2xl}",
+          "fontFamily": "{font.family.notoSans}",
+          "fontWeight": "{font.weight.medium}",
+          "lineHeight": "{font.lineHeight.xl}",
+          "fontSize": "{font.size.2xl}",
           "letterSpacing": "{letterSpacing.0}",
           "paragraphSpacing": "{paragraphSpacing.0}",
           "paragraphIndent": "{paragraphIndent.0}",
