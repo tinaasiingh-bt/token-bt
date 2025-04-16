@@ -316,7 +316,7 @@
         "type": "spacing"
       },
       "top": {
-        "value": "{spacing.xl}",
+        "value": "{spacing.xs}",
         "type": "spacing"
       },
       "bottom": {
