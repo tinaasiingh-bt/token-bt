@@ -153,7 +153,15 @@
             "value": "{Navy.50}",
             "type": "color"
           }
+        },
+        "container": {
+          "value": "{Gray.100}",
+          "type": "color"
         }
+      },
+      "pagination": {
+        "value": "{Gray.50}",
+        "type": "color"
       }
     },
     "border": {
@@ -274,6 +282,26 @@
           "value": "{Raspberry.300}",
           "type": "color"
         }
+      },
+      "datagrid": {
+        "header": {
+          "value": "{Gray.25}",
+          "type": "color"
+        },
+        "cell": {
+          "default": {
+            "value": "{Navy.700}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{Navy.700}",
+            "type": "color"
+          }
+        }
+      },
+      "pagination": {
+        "value": "{Navy.500}",
+        "type": "color"
       }
     },
     "icon": {
@@ -285,6 +313,20 @@
       },
       "default": {
         "value": "{Gray.25}",
+        "type": "color"
+      }
+    },
+    "textbutton": {
+      "primary": {
+        "value": "{Sky blue.100}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{Sky blue.200}",
+        "type": "color"
+      },
+      "visited": {
+        "value": "{Sky blue.100}",
         "type": "color"
       }
     }
@@ -302,6 +344,118 @@
       "badge": {
         "value": "1px",
         "type": "border"
+      },
+      "datagrid": {
+        "cell": {
+          "focus": {
+            "value": {
+              "width": "{border-width.sm}"
+            },
+            "type": "border"
+          }
+        },
+        "header": {
+          "first": {
+            "left": {
+              "value": {
+                "width": "{border-width.none}"
+              },
+              "type": "border"
+            },
+            "right": {
+              "value": {
+                "width": "{border-width.xs}"
+              },
+              "type": "border"
+            }
+          },
+          "inner": {
+            "left": {
+              "value": {
+                "width": "{border-width.xs}"
+              },
+              "type": "border"
+            },
+            "right": {
+              "value": {
+                "width": "{border-width.xs}"
+              },
+              "type": "border"
+            }
+          },
+          "last": {
+            "left": {
+              "value": {
+                "width": "{border-width.xs}"
+              },
+              "type": "border"
+            },
+            "right": {
+              "value": {
+                "width": "{border-width.none}"
+              },
+              "type": "border"
+            }
+          }
+        },
+        "body": {
+          "left": {
+            "value": {
+              "width": "{border-width.xs}"
+            },
+            "type": "border"
+          },
+          "right": {
+            "value": {
+              "width": "{border-width.xs}"
+            },
+            "type": "border"
+          }
+        },
+        "data": {
+          "first": {
+            "left": {
+              "value": {
+                "width": "{border-width.none}"
+              },
+              "type": "border"
+            },
+            "right": {
+              "value": {
+                "width": "{border-width.none}"
+              },
+              "type": "border"
+            }
+          },
+          "inner": {
+            "left": {
+              "value": {
+                "width": "{border-width.xs}"
+              },
+              "type": "border"
+            },
+            "right": {
+              "value": {
+                "width": "{border-width.xs}"
+              },
+              "type": "border"
+            }
+          },
+          "last": {
+            "left": {
+              "value": {
+                "width": "{border-width.xs}"
+              },
+              "type": "border"
+            },
+            "right": {
+              "value": {
+                "width": "{border-width.none}"
+              },
+              "type": "border"
+            }
+          }
+        }
       }
     },
     "radius": {
@@ -312,6 +466,28 @@
       "button": {
         "value": "{border-radius.md}",
         "type": "borderRadius"
+      },
+      "datagrid": {
+        "pagination": {
+          "bottomleft": {
+            "value": "{border-radius.md}",
+            "type": "borderRadius"
+          },
+          "bottomright": {
+            "value": "{border-radius.md}",
+            "type": "borderRadius"
+          }
+        }
+      }
+    },
+    "offset": {
+      "datagrid": {
+        "cell": {
+          "focus": {
+            "value": "-2px",
+            "type": "dimension"
+          }
+        }
       }
     }
   },
@@ -383,6 +559,20 @@
           "fontWeight": "600",
           "lineHeight": "16px"
         },
+        "type": "typography"
+      }
+    },
+    "datagrid": {
+      "header": {
+        "value": "{typography.label.sm.default}",
+        "type": "typography"
+      },
+      "itemCount": {
+        "value": "{typography.label.sm.strong}",
+        "type": "typography"
+      },
+      "cell": {
+        "value": "{typography.label.sm.secondary}",
         "type": "typography"
       }
     }
