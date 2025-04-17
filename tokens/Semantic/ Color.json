@@ -523,6 +523,32 @@
         "value": "{spacing.xs}",
         "type": "spacing"
       }
+    },
+    "datagrid": {
+      "cell": {
+        "paddingleft": {
+          "value": "{spacing.md}",
+          "type": "spacing"
+        },
+        "paddingright": {
+          "value": "{spacing.md}",
+          "type": "spacing"
+        }
+      }
+    },
+    "chart": {
+      "tooltip": {
+        "padding": {
+          "top": {
+            "value": "{spacing.xs}",
+            "type": "spacing"
+          },
+          "left": {
+            "value": "{spacing.md}",
+            "type": "spacing"
+          }
+        }
+      }
     }
   },
   "typography": {
@@ -598,6 +624,16 @@
       "width": {
         "value": "100%",
         "type": "sizing"
+      }
+    }
+  },
+  "sizing": {
+    "datagrid": {
+      "cell": {
+        "height": {
+          "value": "42px",
+          "type": "sizing"
+        }
       }
     }
   }

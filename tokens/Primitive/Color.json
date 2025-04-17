@@ -459,5 +459,25 @@
         }
       }
     }
+  },
+  "Coral": {
+    "100": {
+      "value": "#f44336",
+      "type": "color"
+    },
+    "200": {
+      "value": "#ff8178",
+      "type": "color"
+    }
+  },
+  "Fuchsia": {
+    "100": {
+      "value": "#e91e9b",
+      "type": "color"
+    },
+    "200": {
+      "value": "#e91e9b",
+      "type": "color"
+    }
   }
 }
