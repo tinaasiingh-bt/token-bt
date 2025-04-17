@@ -3,7 +3,7 @@
     "primary": {
       "default": {
         "background": {
-          "value": "{color.background.button.primary.default}",
+          "value": "{color.background.container.primary.default}",
           "type": "color"
         },
         "text": {
@@ -13,7 +13,7 @@
       },
       "hover": {
         "background": {
-          "value": "{color.background.button.primary.hover}",
+          "value": "{color.background.container.primary.hover}",
           "type": "color"
         },
         "text": {
@@ -23,13 +23,13 @@
       },
       "focus": {
         "background": {
-          "value": "{color.background.button.primary.focus}",
+          "value": "{color.background.container.primary.focus}",
           "type": "color"
         }
       },
       "pressed": {
         "background": {
-          "value": "{color.background.button.primary.pressed}",
+          "value": "{color.background.container.primary.pressed}",
           "type": "color"
         },
         "text": {
@@ -39,7 +39,7 @@
       },
       "disabled": {
         "background": {
-          "value": "{color.background.button.primary.disabled}",
+          "value": "{color.background.container.primary.disabled}",
           "type": "color"
         },
         "text": {
@@ -51,7 +51,7 @@
     "secondary": {
       "default": {
         "background": {
-          "value": "{color.background.button.secondary.default}",
+          "value": "{color.background.container.secondary.default}",
           "type": "color"
         },
         "text": {
@@ -61,7 +61,7 @@
       },
       "hover": {
         "background": {
-          "value": "{color.background.button.secondary.hover}",
+          "value": "{color.background.container.secondary.hover}",
           "type": "color"
         },
         "text": {
@@ -71,7 +71,7 @@
       },
       "pressed": {
         "background": {
-          "value": "{color.background.button.secondary.pressed}",
+          "value": "{color.background.container.secondary.pressed}",
           "type": "color"
         },
         "text": {
@@ -81,7 +81,7 @@
       },
       "disabled": {
         "background": {
-          "value": "{color.background.button.secondary.disabled}",
+          "value": "{color.background.container.secondary.disabled}",
           "type": "color"
         }
       }
@@ -89,7 +89,7 @@
     "ghost": {
       "default": {
         "background": {
-          "value": "{color.background.button.ghost.default}",
+          "value": "{color.background.container.ghost.default}",
           "type": "color"
         },
         "text": {
@@ -184,6 +184,20 @@
       "text": {
         "value": "{color.text.badge.preview}",
         "type": "color"
+      }
+    }
+  },
+  "color": {
+    "background": {
+      "badge": {
+        "new": {
+          "value": "{Forest green.100}",
+          "type": "color"
+        },
+        "preview": {
+          "value": "{Raspberry.100}",
+          "type": "color"
+        }
       }
     }
   }
