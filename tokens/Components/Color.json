@@ -187,6 +187,142 @@
       }
     }
   },
+  "chart": {
+    "default": {
+      "data-01": {
+        "value": "{coral.100}",
+        "type": "color"
+      },
+      "data-02": {
+        "value": "{fusia.100}",
+        "type": "color"
+      },
+      "data-03": {
+        "value": "{orchid.100}",
+        "type": "color"
+      },
+      "data-04": {
+        "value": "{violet.100}",
+        "type": "color"
+      },
+      "data-05": {
+        "value": "{indigo.100}",
+        "type": "color"
+      },
+      "data-06": {
+        "value": "{azure.100}",
+        "type": "color"
+      },
+      "data-07": {
+        "value": "{cerulean.100}",
+        "type": "color"
+      },
+      "data-08": {
+        "value": "{turquoise.100}",
+        "type": "color"
+      },
+      "data-09": {
+        "value": "{golden.100}",
+        "type": "color"
+      },
+      "data-10": {
+        "value": "{amber.100}",
+        "type": "color"
+      },
+      "data-11": {
+        "value": "{tangerine.100}",
+        "type": "color"
+      },
+      "data-12": {
+        "value": "{ember.100}",
+        "type": "color"
+      },
+      "data-13": {
+        "value": "{ashen-gray.100}",
+        "type": "color"
+      },
+      "data-14": {
+        "value": "{aqua.100}",
+        "type": "color"
+      },
+      "data-15": {
+        "value": "{charcoal-blue.100}",
+        "type": "color"
+      },
+      "data-16": {
+        "value": "{emerald.100}",
+        "type": "color"
+      },
+      "data-17": {
+        "value": "{lime.100}",
+        "type": "color"
+      },
+      "data-18": {
+        "value": "{citrus-lime.100}",
+        "type": "color"
+      },
+      "data-19": {
+        "value": "{teal.100}",
+        "type": "color"
+      }
+    },
+    "severity": {
+      "low": {
+        "value": "{ocean.200}",
+        "type": "color"
+      },
+      "medium": {
+        "value": "{sunset.200}",
+        "type": "color"
+      },
+      "critical": {
+        "value": "{rose.200}",
+        "type": "color"
+      },
+      "high": {
+        "value": "{sunset.400}",
+        "type": "color"
+      }
+    },
+    "status": {
+      "success": {
+        "value": "{green.200}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{sunset.250}",
+        "type": "color"
+      },
+      "error": {
+        "value": "{red.100}",
+        "type": "color"
+      }
+    },
+    "focus-ring": {
+      "value": "{orange.400}",
+      "type": "color"
+    },
+    "grid-line": {
+      "value": "{gray.300}",
+      "type": "color"
+    },
+    "legend": {
+      "text": {
+        "value": "{navy.700}",
+        "type": "color"
+      }
+    },
+    "tooltip": {
+      "background": {
+        "value": "{navy.25}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{navy.700}",
+        "type": "color"
+      }
+    }
+  },
   "color": {
     "background": {
       "badge": {
