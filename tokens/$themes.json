@@ -115,10 +115,7 @@
       "Semantic/ Color": "source",
       "Semantic Modes/Light": "enabled",
       "Components/Color": "enabled",
-      "Components/ Typography": "enabled",
-      "Semantic/ Sizing": "disabled",
-      "Components/ Spacing": "disabled",
-      "Components/ border radius": "disabled"
+      "Components/ Typography": "enabled"
     },
     "$figmaVariableReferences": {
       "color.background-copy.button.primary.default": "5c8f1891213ae4d79a2b396e09adf51d23111507",
@@ -359,10 +356,7 @@
       "Primitive/Typography": "source",
       "Semantic/ Typography": "source",
       "Semantic/ Color": "source",
-      "Semantic Modes/Dark": "enabled",
-      "Semantic/ Sizing": "disabled",
-      "Components/ Spacing": "disabled",
-      "Components/ border radius": "disabled"
+      "Semantic Modes/Dark": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:21:370",
     "$figmaModeId": "21:4",
@@ -571,10 +565,7 @@
       "Primitive/Spacing": "enabled",
       "Primitive/Border": "enabled",
       "Primitive/Color": "enabled",
-      "Primitive/Typography": "enabled",
-      "Semantic/ Sizing": "disabled",
-      "Components/ Spacing": "disabled",
-      "Components/ border radius": "disabled"
+      "Primitive/Typography": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:21:371",
     "$figmaModeId": "21:5",
