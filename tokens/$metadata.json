@@ -5,11 +5,14 @@
     "Primitive/Border",
     "Primitive/Typography",
     "Semantic/ Color",
+    "Semantic/ Sizing",
     "Semantic/ Typography",
-    "Semantic Modes/Light",
-    "Semantic Modes/Dark",
+    "Components/ border radius",
+    "Components/ Spacing",
     "Components/Color",
     "Components/ Typography",
+    "Semantic Modes/Light",
+    "Semantic Modes/Dark",
     "Component Mode/Light",
     "Component Mode/Dark"
   ]

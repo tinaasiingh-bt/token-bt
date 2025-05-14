@@ -1,0 +1,26 @@
+{
+  "border": {
+    "radius": {
+      "badge": {
+        "value": "{border-radius.5xl}",
+        "type": "borderRadius"
+      },
+      "button": {
+        "value": "{border-radius.md}",
+        "type": "borderRadius"
+      },
+      "datagrid": {
+        "pagination": {
+          "bottomleft": {
+            "value": "{border-radius.md}",
+            "type": "borderRadius"
+          },
+          "bottomright": {
+            "value": "{border-radius.md}",
+            "type": "borderRadius"
+          }
+        }
+      }
+    }
+  }
+}

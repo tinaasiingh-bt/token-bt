@@ -1,0 +1,62 @@
+{
+  "spacing": {
+    "icon": {
+      "left": {
+        "value": "{spacing.md}",
+        "type": "spacing"
+      },
+      "right": {
+        "value": "{spacing.md}",
+        "type": "spacing"
+      },
+      "gap": {
+        "value": "{spacing.md}",
+        "type": "spacing"
+      }
+    },
+    "button": {
+      "left": {
+        "value": "{spacing.xl}",
+        "type": "spacing"
+      },
+      "right": {
+        "value": "{spacing.xl}",
+        "type": "spacing"
+      },
+      "top": {
+        "value": "{spacing.xs}",
+        "type": "spacing"
+      },
+      "bottom": {
+        "value": "{spacing.xs}",
+        "type": "spacing"
+      }
+    },
+    "datagrid": {
+      "cell": {
+        "paddingleft": {
+          "value": "{spacing.md}",
+          "type": "spacing"
+        },
+        "paddingright": {
+          "value": "{spacing.md}",
+          "type": "spacing"
+        }
+      }
+    },
+    "chart": {
+      "tooltip": {
+        "padding": {
+          "top": {
+            "value": "{spacing.xs}",
+            "type": "spacing"
+          },
+          "left": {
+            "value": "{spacing.md}",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  }
+}
