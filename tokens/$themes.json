@@ -731,19 +731,5 @@
       "transparent.transparent": "f9fdccd127ec17b66d51bfee42e08049ee479a3c"
     },
     "group": "Primitive"
-  },
-  {
-    "id": "80380694647769aefdfd358f6033d8f07f34cba2",
-    "name": "Test ",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "Primitive/Color": "source",
-      "Primitive/Spacing": "source",
-      "Primitive/Border": "source",
-      "Primitive/Typography": "source",
-      "Semantic/ Color": "enabled",
-      "Semantic/ Sizing": "enabled",
-      "Semantic/ Typography": "enabled"
-    }
   }
 ]
