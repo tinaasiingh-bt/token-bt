@@ -35,6 +35,10 @@
         "value": "{Gray.50}",
         "type": "color"
       },
+      "row-selected": {
+        "value": "{Cyan.100}",
+        "type": "color"
+      },
       "row-hover": {
         "value": "{Navy.50}",
         "type": "color"
@@ -109,6 +113,18 @@
         "value": "{Sunset.250}",
         "type": "color"
       }
+    }
+  },
+  "text": {
+    "primary": {
+      "value": "{Navy.700}",
+      "type": "color",
+      "description": "Checkbox, Radio Button, Switch,Slider, Text Field, Password Field, Number Field, Time Picker, Date Picker, Button Group, Button with Icon, Tooltip text, Accordion, Modal, Help Text, Tooltip, Severity, Tab, Data Grid, Data Table, Label / Value Pair, Pagination, Checkbox, Breadcrumb, Menu, Pagination, Tab, Chart, Toast, treeview, Tag: Default / Counter, System,"
+    },
+    "secondary": {
+      "value": "{Navy.600}",
+      "type": "color",
+      "description": "Text Field, Password Field, Number Field, Time Picker, Date Picker, Modal, Help Text,severity, Data Grid, Data Table, Dropdown, password field, radio button instructional text, Slider"
     }
   }
 }
