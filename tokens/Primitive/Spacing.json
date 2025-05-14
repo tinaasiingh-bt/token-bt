@@ -1,52 +1,59 @@
 {
   "spacing": {
     "none": {
-      "value": "0",
+      "value": "0px",
       "type": "spacing"
     },
     "2xs": {
-      "value": "2",
+      "value": "2px",
       "type": "spacing"
     },
     "xs": {
-      "value": "4",
+      "value": "4px",
       "type": "spacing"
     },
     "sm": {
-      "value": "6",
+      "value": "6px",
       "type": "spacing"
     },
     "md": {
-      "value": "8",
+      "value": "8px",
       "type": "spacing"
     },
     "lg": {
-      "value": "12",
+      "value": "12px",
       "type": "spacing"
     },
     "xl": {
-      "value": "16",
+      "value": "16px",
       "type": "spacing"
     },
     "2xl": {
-      "value": "20",
+      "value": "20px",
       "type": "spacing"
     },
     "3xl": {
-      "value": "24",
+      "value": "24px",
       "type": "spacing"
     },
     "4xl": {
-      "value": "32",
+      "value": "32px",
       "type": "spacing"
     },
     "5xl": {
-      "value": "40",
+      "value": "40px",
       "type": "spacing"
     },
     "6xl": {
-      "value": "48",
+      "value": "48px",
       "type": "spacing"
+    },
+    "negative": {
+      "2xs": {
+        "value": "-2px",
+        "type": "spacing",
+        "description": "Offset used in grids and menu"
+      }
     }
   }
 }
