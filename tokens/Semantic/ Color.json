@@ -21,11 +21,23 @@
         "value": "{Gray.800}",
         "type": "color"
       },
+      "overlay": {
+        "value": "{Navy.25}",
+        "type": "color"
+      },
       "selection": {
         "indicator": {
           "value": "{Neutral.White}",
           "type": "color"
         }
+      },
+      "row": {
+        "value": "{Gray.50}",
+        "type": "color"
+      },
+      "row-hover": {
+        "value": "{Navy.50}",
+        "type": "color"
       }
     },
     "interactive": {
@@ -58,6 +70,44 @@
           "value": "{Light blue.100}",
           "type": "color"
         }
+      }
+    },
+    "selection": {
+      "value": "{Gray.100}",
+      "type": "color"
+    },
+    "input": {
+      "value": "{Navy.25}",
+      "type": "color"
+    },
+    "input-listitem": {
+      "hover": {
+        "primary": {
+          "value": "{Gray.200}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{Navy.50}",
+          "type": "color"
+        }
+      }
+    },
+    " status": {
+      "success": {
+        "value": "{Green.200}",
+        "type": "color"
+      },
+      "error": {
+        "value": "{Red.100}",
+        "type": "color"
+      },
+      "informational": {
+        "value": "{Cyan.800}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{Sunset.250}",
+        "type": "color"
       }
     }
   }
