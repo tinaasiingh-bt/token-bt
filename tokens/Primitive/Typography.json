@@ -34,83 +34,83 @@
     },
     "size": {
       "xs": {
-        "value": "12px",
+        "value": "0.75rem",
         "type": "fontSizes"
       },
       "sm": {
-        "value": "14px",
+        "value": "0.875rem",
         "type": "fontSizes"
       },
       "md": {
-        "value": "16px",
+        "value": "1rem",
         "type": "fontSizes"
       },
       "lg": {
-        "value": "18px",
+        "value": "1.125rem",
         "type": "fontSizes"
       },
       "xl": {
-        "value": "20px",
+        "value": "1.25rem",
         "type": "fontSizes"
       },
       "2xl": {
-        "value": "24px",
+        "value": "1.5rem",
         "type": "fontSizes"
       },
       "3xl": {
-        "value": "28px",
+        "value": "1.75rem",
         "type": "fontSizes"
       },
       "4xl": {
-        "value": "32px",
+        "value": "2rem",
         "type": "fontSizes"
       },
       "5xl": {
-        "value": "36px",
+        "value": "2.25rem",
         "type": "fontSizes"
       },
       "6xl": {
-        "value": "40px",
+        "value": "2.5rem",
         "type": "fontSizes"
       }
+    }
+  },
+  "line-height": {
+    "xs": {
+      "value": "1.125rem",
+      "type": "lineHeights"
     },
-    "line-height": {
-      "xs": {
-        "value": "18px",
-        "type": "lineHeights"
-      },
-      "sm": {
-        "value": "20px",
-        "type": "lineHeights"
-      },
-      "md": {
-        "value": "24px",
-        "type": "lineHeights"
-      },
-      "lg": {
-        "value": "28px",
-        "type": "lineHeights"
-      },
-      "xl": {
-        "value": "32px",
-        "type": "lineHeights"
-      },
-      "2xl": {
-        "value": "36px",
-        "type": "lineHeights"
-      },
-      "3xl": {
-        "value": "40px",
-        "type": "lineHeights"
-      },
-      "4xl": {
-        "value": "44px",
-        "type": "lineHeights"
-      },
-      "5xl": {
-        "value": "48px",
-        "type": "lineHeights"
-      }
+    "sm": {
+      "value": "1.25rem",
+      "type": "lineHeights"
+    },
+    "md": {
+      "value": "1.5rem",
+      "type": "lineHeights"
+    },
+    "lg": {
+      "value": "1.75rem",
+      "type": "lineHeights"
+    },
+    "xl": {
+      "value": "2rem",
+      "type": "lineHeights"
+    },
+    "2xl": {
+      "value": "2.25rem",
+      "type": "lineHeights"
+    },
+    "3xl": {
+      "value": "2.5rem",
+      "type": "lineHeights"
+    },
+    "4xl": {
+      "value": "2.75rem",
+      "type": "lineHeights"
+    },
+    "5xl": {
+      "value": "3rem",
+      "type": "lineHeights"
     }
   },
   "textDecoration": {
