@@ -11,9 +11,6 @@
     "Components/ Spacing",
     "Components/Color",
     "Components/ Typography",
-    "Semantic Modes/Light",
-    "Semantic Modes/Dark",
-    "Component Mode/Light",
-    "Component Mode/Dark"
+    "Component Mode/Light"
   ]
 }
