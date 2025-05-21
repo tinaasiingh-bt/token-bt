@@ -21,7 +21,7 @@
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{font.lineHeight.5xl}",
+          "value": "{font.line-height.5xl}",
           "type": "lineHeights"
         },
         "size": {
@@ -35,7 +35,7 @@
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{font.lineHeight.4xl}",
+          "value": "{font.line-height.4xl}",
           "type": "lineHeights"
         },
         "size": {
@@ -51,7 +51,7 @@
       },
       "h1": {
         "line-height": {
-          "value": "{font.lineHeight.xl}",
+          "value": "{font.line-height.xl}",
           "type": "lineHeights"
         },
         "size": {
@@ -65,7 +65,7 @@
       },
       "h2": {
         "line-height": {
-          "value": "{font.lineHeight.lg}",
+          "value": "{font.line-height.lg}",
           "type": "lineHeights"
         },
         "size": {
@@ -83,7 +83,7 @@
           "type": "fontSizes"
         },
         "line-height": {
-          "value": "{font.lineHeight.md}",
+          "value": "{font.line-height.md}",
           "type": "lineHeights"
         },
         "weight": {
@@ -97,7 +97,7 @@
           "type": "fontSizes"
         },
         "line-height": {
-          "value": "{font.lineHeight.sm}",
+          "value": "{font.line-height.sm}",
           "type": "lineHeights"
         },
         "weight": {
@@ -123,7 +123,7 @@
           "type": "fontSizes"
         },
         "line-height": {
-          "value": "{font.lineHeight.lg}",
+          "value": "{font.line-height.lg}",
           "type": "lineHeights"
         }
       },
@@ -141,7 +141,7 @@
       },
       "md": {
         "line-height": {
-          "value": "{font.lineHeight.md}",
+          "value": "{font.line-height.md}",
           "type": "lineHeights"
         },
         "size": {
@@ -151,7 +151,7 @@
       },
       "sm": {
         "line-height": {
-          "value": "{font.lineHeight.sm}",
+          "value": "{font.line-height.sm}",
           "type": "lineHeights"
         },
         "size": {
@@ -171,7 +171,7 @@
       },
       "lg": {
         "line-height": {
-          "value": "{font.lineHeight.lg}",
+          "value": "{font.line-height.lg}",
           "type": "lineHeights"
         },
         "size": {
@@ -181,7 +181,7 @@
       },
       "md": {
         "line-height": {
-          "value": "{font.lineHeight.md}",
+          "value": "{font.line-height.md}",
           "type": "lineHeights"
         },
         "size": {
@@ -191,7 +191,7 @@
       },
       "sm": {
         "line-height": {
-          "value": "{font.lineHeight.sm}",
+          "value": "{font.line-height.sm}",
           "type": "lineHeights"
         },
         "size": {
@@ -210,7 +210,7 @@
         "type": "fontWeights"
       },
       "line-height": {
-        "value": "{font.lineHeight.sm}",
+        "value": "{font.line-height.sm}",
         "type": "lineHeights"
       },
       "size": {
@@ -228,7 +228,7 @@
         "type": "fontWeights"
       },
       "line-height": {
-        "value": "{font.lineHeight.sm}",
+        "value": "{font.line-height.sm}",
         "type": "lineHeights"
       },
       "size": {
@@ -254,7 +254,7 @@
         }
       },
       "line-height": {
-        "value": "{font.lineHeight.sm}",
+        "value": "{font.line-height.sm}",
         "type": "lineHeights"
       },
       "size": {
@@ -281,7 +281,7 @@
       },
       "lg": {
         "line-height": {
-          "value": "{font.lineHeight.xl}",
+          "value": "{font.line-height.xl}",
           "type": "lineHeights"
         },
         "size": {
@@ -291,7 +291,7 @@
       },
       "md": {
         "line-height": {
-          "value": "{font.lineHeight.md}",
+          "value": "{font.line-height.md}",
           "type": "lineHeights"
         },
         "size": {
@@ -301,7 +301,7 @@
       },
       "sm": {
         "line-height": {
-          "value": "{font.lineHeight.sm}",
+          "value": "{font.line-height.sm}",
           "type": "lineHeights"
         },
         "size": {
@@ -311,7 +311,7 @@
       },
       "xs": {
         "line-height": {
-          "value": "{font.lineHeight.xl}",
+          "value": "{font.line-height.xl}",
           "type": "lineHeights"
         },
         "size": {
