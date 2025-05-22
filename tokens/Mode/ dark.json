@@ -36,7 +36,7 @@
         "type": "color"
       },
       "row-selected": {
-        "value": "{Cyan.100}",
+        "value": "{Cyan.950}",
         "type": "color"
       },
       "row-hover": {

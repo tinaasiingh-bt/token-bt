@@ -135,6 +135,10 @@
     "900": {
       "value": "#066c84",
       "type": "color"
+    },
+    "950": {
+      "value": "#125667",
+      "type": "color"
     }
   },
   "Orange": {
