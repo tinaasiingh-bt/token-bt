@@ -18,7 +18,7 @@
         }
       },
       "header": {
-        "value": "{Gray.800}",
+        "value": "{Black.800}",
         "type": "color"
       },
       "overlay": {
@@ -27,12 +27,12 @@
       },
       "selection": {
         "indicator": {
-          "value": "{Neutral.White}",
+          "value": "{Navy.700}",
           "type": "color"
         }
       },
       "row": {
-        "value": "{Gray.50}",
+        "value": "{Black.900}",
         "type": "color"
       },
       "row-selected": {
