@@ -479,5 +479,175 @@
       "value": "#e91e9b",
       "type": "color"
     }
+  },
+  "Orchid": {
+    "100": {
+      "value": "#9C27B0",
+      "type": "color"
+    },
+    "200": {
+      "value": "#B83DFF",
+      "type": "color"
+    }
+  },
+  "Violet": {
+    "100": {
+      "value": "#673AB7",
+      "type": "color"
+    },
+    "200": {
+      "value": "#BE99FF",
+      "type": "color"
+    }
+  },
+  "Indigo": {
+    "100": {
+      "value": "#3F51B5",
+      "type": "color"
+    },
+    "200": {
+      "value": "#B1BBF2",
+      "type": "color"
+    }
+  },
+  "Azure": {
+    "100": {
+      "value": "#2196F3",
+      "type": "color"
+    },
+    "200": {
+      "value": "#69BCFF",
+      "type": "color"
+    }
+  },
+  "Tangerine": {
+    "100": {
+      "value": "#FF9800",
+      "type": "color"
+    },
+    "200": {
+      "value": "#FFBA54",
+      "type": "color"
+    }
+  },
+  "Turquoise": {
+    "100": {
+      "value": "#00BCD4",
+      "type": "color"
+    },
+    "200": {
+      "value": "#00E0FC",
+      "type": "color"
+    }
+  },
+  "Amber": {
+    "100": {
+      "value": "#FFC107",
+      "type": "color"
+    },
+    "200": {
+      "value": "#FFCE3B",
+      "type": "color"
+    }
+  },
+  "Emerald": {
+    "100": {
+      "value": "#4CAF50",
+      "type": "color"
+    },
+    "200": {
+      "value": "#67F06D",
+      "type": "color"
+    }
+  },
+  "Charcoal-blue": {
+    "100": {
+      "value": "#25ABEA",
+      "type": "color"
+    },
+    "200": {
+      "value": "#4184A3",
+      "type": "color"
+    }
+  },
+  "Cerulean": {
+    "100": {
+      "value": "#03A9F4",
+      "type": "color"
+    },
+    "200": {
+      "value": "#9EE1FF",
+      "type": "color"
+    }
+  },
+  "Golden": {
+    "100": {
+      "value": "#FFEB3B",
+      "type": "color"
+    },
+    "200": {
+      "value": "#FAEC71",
+      "type": "color"
+    }
+  },
+  "Ember": {
+    "100": {
+      "value": "#FF5722",
+      "type": "color"
+    },
+    "200": {
+      "value": "#FF7F57",
+      "type": "color"
+    }
+  },
+  "Ashen-gray": {
+    "100": {
+      "value": "#858383",
+      "type": "color"
+    },
+    "200": {
+      "value": "#9E9E9E",
+      "type": "color"
+    }
+  },
+  "Aqua": {
+    "100": {
+      "value": "#7FD3FA",
+      "type": "color"
+    },
+    "200": {
+      "value": "#C7EAF9",
+      "type": "color"
+    }
+  },
+  "Lime": {
+    "100": {
+      "value": "#8BC34A",
+      "type": "color"
+    },
+    "200": {
+      "value": "#ADF25C",
+      "type": "color"
+    }
+  },
+  "Citrus-lime": {
+    "100": {
+      "value": "#CDDC39",
+      "type": "color"
+    },
+    "200": {
+      "value": "#EEFF42",
+      "type": "color"
+    }
+  },
+  "Teal": {
+    "100": {
+      "value": "#",
+      "type": "color"
+    },
+    "200": {
+      "value": "#00EDD7",
+      "type": "color"
+    }
   }
 }
