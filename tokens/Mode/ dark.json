@@ -13,7 +13,7 @@
           "type": "color"
         },
         "two": {
-          "value": "{Gray.50}",
+          "value": "{Black.800}",
           "type": "color"
         }
       },
@@ -22,7 +22,7 @@
         "type": "color"
       },
       "overlay": {
-        "value": "{Navy.25}",
+        "value": "{Black.800}",
         "type": "color"
       },
       "selection": {
