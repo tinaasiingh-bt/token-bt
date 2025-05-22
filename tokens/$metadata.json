@@ -7,10 +7,11 @@
     "Semantic/ Color",
     "Semantic/ Sizing",
     "Semantic/ Typography",
-    "Components/ border radius",
-    "Components/ Spacing",
     "Components/Color",
     "Components/ Typography",
-    "Component Mode/Light"
+    "Components/ Spacing",
+    "Components/ border radius",
+    "Mode/ light",
+    "Mode/ dark"
   ]
 }
