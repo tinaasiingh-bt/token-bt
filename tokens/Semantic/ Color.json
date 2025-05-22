@@ -62,7 +62,7 @@
         "type": "color"
       },
       "active": {
-        "value": "{Light blue.200}",
+        "value": "{Light-blue.200}",
         "type": "color"
       },
       "hover": {
@@ -71,7 +71,7 @@
           "type": "color"
         },
         "secondary": {
-          "value": "{Light blue.100}",
+          "value": "{Light-blue.100}",
           "type": "color"
         }
       }

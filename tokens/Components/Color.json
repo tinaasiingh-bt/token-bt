@@ -327,7 +327,7 @@
     "background": {
       "badge": {
         "new": {
-          "value": "{Forest green.100}",
+          "value": "{Forest-green.100}",
           "type": "color"
         },
         "preview": {
