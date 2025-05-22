@@ -3,7 +3,7 @@
     "primary": {
       "default": {
         "background": {
-          "value": "{color.background.layer.one.container.primary.default}",
+          "value": "{background.interactive.transparent}",
           "type": "color"
         },
         "text": {

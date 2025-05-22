@@ -244,7 +244,7 @@
     },
     "$figmaCollectionId": "VariableCollectionId:328:5194",
     "$figmaModeId": "328:57",
-    "group": "Global "
+    "group": "Global-Semantic"
   },
   {
     "id": "9ad92b26719f488a85ea6362260839526f1d79a5",
@@ -551,6 +551,6 @@
     },
     "$figmaCollectionId": "VariableCollectionId:328:5194",
     "$figmaModeId": "328:58",
-    "group": "Global "
+    "group": "Global-Semantic"
   }
 ]
