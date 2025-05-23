@@ -1,0 +1,44 @@
+{
+  "accordion": {
+    "stacked": {
+      "default": {
+        "border": {
+          "box": {
+            "background": {
+              "value": "{background.interactive.transparent}",
+              "type": "color"
+            },
+            "borderColor": {
+              "value": "{border.secondary}",
+              "type": "color"
+            },
+            "borderWidth": {
+              "value": "{accordion-stacked-default-border-box-borderWidth}",
+              "type": "borderWidth"
+            },
+            "radius": {
+              "value": "{accordion-stacked-default-border-box-radius}",
+              "type": "radius"
+            }
+          }
+        },
+        "label": {
+          "color": {
+            "value": "{accordion-stacked-default-label-color}",
+            "type": "color"
+          },
+          "typography": {
+            "value": "{accordion-stacked-default-label-typography}",
+            "type": "typography"
+          }
+        },
+        "icon": {
+          "color": {
+            "value": "{accordion-stacked-default-icon-color}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

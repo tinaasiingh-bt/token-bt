@@ -162,5 +162,51 @@
         "type": "color"
       }
     }
+  },
+  "border": {
+    "primary": {
+      "value": "{Gray.300}",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "{Gray.400}",
+      "type": "color"
+    },
+    "tertiary": {
+      "value": "{Gray.800}",
+      "type": "color"
+    },
+    "hover": {
+      "value": "{Blue.200}",
+      "type": "color"
+    },
+    "active": {
+      "value": "{Cyan.800}",
+      "type": "color"
+    },
+    "surface": {
+      "primary": {
+        "value": "{Gray.300}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{Gray.300}",
+        "type": "color"
+      }
+    },
+    "interactive": {
+      "primary": {
+        "value": "{Blue.100}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{Navy.500}",
+        "type": "color"
+      }
+    },
+    "error": {
+      "value": "{Red.100}",
+      "type": "color"
+    }
   }
 }

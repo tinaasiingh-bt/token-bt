@@ -10,10 +10,7 @@
     "Semantic/ Border",
     "Semantic/ Spacing",
     "Semantic/ Typography",
-    "Components/Color",
-    "Components/ Typography",
-    "Components/ Spacing",
-    "Components/ border radius",
+    "Component/Accordion",
     "Mode/ light",
     "Mode/ dark"
   ]
