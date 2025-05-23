@@ -66,6 +66,10 @@
       "sm": {
         "value": "{border-width.sm}",
         "type": "borderWidth"
+      },
+      "solid": {
+        "value": "border-width.solid",
+        "type": "borderWidth"
       }
     }
   }
