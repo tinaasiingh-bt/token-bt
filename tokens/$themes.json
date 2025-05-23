@@ -11,7 +11,8 @@
       "Semantic/ Sizing": "enabled",
       "Semantic/ Typography": "enabled",
       "Mode/ light": "enabled",
-      "Semantic/ Border radius": "disabled"
+      "Semantic/ Border": "disabled",
+      "Primitive/ Size": "disabled"
     },
     "$figmaStyleReferences": {
       "Black.50": "S:b32e1a032c619d20a90715ba96ebc522fe572d5f,",
@@ -259,7 +260,8 @@
       "Semantic/ Color": "enabled",
       "Mode/ dark": "enabled",
       "Semantic/ Sizing": "enabled",
-      "Semantic/ Border radius": "disabled"
+      "Semantic/ Border": "disabled",
+      "Primitive/ Size": "disabled"
     },
     "$figmaStyleReferences": {
       "display.lg": "S:0b3710979fdbcd5a091782355d9a22f421cd8d48,",
