@@ -14,15 +14,15 @@
         "type": "color"
       },
       "border-width": {
-        "value": "1px",
+        "value": "{border-width.xs}",
         "type": "borderWidth"
       },
       "radius": {
-        "value": "8px",
+        "value": "{border-radius.full}",
         "type": "borderRadius"
       },
       "typography": {
-        "value": "{typography.label.sm}",
+        "value": "Instructional.strong",
         "type": "typography"
       }
     },
@@ -40,15 +40,15 @@
         "type": "color"
       },
       "border-width": {
-        "value": "1px",
+        "value": "{border-width.xs}",
         "type": "borderWidth"
       },
       "radius": {
-        "value": "8px",
+        "value": "{border-radius.full}",
         "type": "borderRadius"
       },
       "typography": {
-        "value": "{typography.label.sm}",
+        "value": "Instructional.strong",
         "type": "typography"
       }
     }
