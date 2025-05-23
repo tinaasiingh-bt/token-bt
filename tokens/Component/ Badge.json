@@ -1,0 +1,56 @@
+{
+  "badge": {
+    "new": {
+      "background": {
+        "value": "{Forest-green.100}",
+        "type": "color"
+      },
+      "border-color": {
+        "value": "{Forest-green.200}",
+        "type": "color"
+      },
+      "text-color": {
+        "value": "{Forest-green.300}",
+        "type": "color"
+      },
+      "border-width": {
+        "value": "1px",
+        "type": "borderWidth"
+      },
+      "radius": {
+        "value": "8px",
+        "type": "borderRadius"
+      },
+      "typography": {
+        "value": "{typography.label.sm}",
+        "type": "typography"
+      }
+    },
+    "preview": {
+      "background": {
+        "value": "{Raspberry.100}",
+        "type": "color"
+      },
+      "border-color": {
+        "value": "{Raspberry.200}",
+        "type": "color"
+      },
+      "text-color": {
+        "value": "{Raspberry.300}",
+        "type": "color"
+      },
+      "border-width": {
+        "value": "1px",
+        "type": "borderWidth"
+      },
+      "radius": {
+        "value": "8px",
+        "type": "borderRadius"
+      },
+      "typography": {
+        "value": "{typography.label.sm}",
+        "type": "typography"
+      }
+    }
+  }
+}
