@@ -208,5 +208,71 @@
       "value": "{Red.100}",
       "type": "color"
     }
+  },
+  "icon": {
+    "primary": {
+      "value": "{Navy.500}",
+      "type": "color"
+    },
+    "hover": {
+      "value": "{Blue.200}",
+      "type": "color"
+    },
+    "selection": {
+      "value": "{Blue.100}",
+      "type": "color"
+    },
+    "remove": {
+      "value": "{Navy.500}",
+      "type": "color"
+    }
+  },
+  "outline": {
+    "focus": {
+      "value": "{Orange.400}",
+      "type": "color"
+    }
+  },
+  "surface": {
+    "backdrop": {
+      "value": "{Neutral.Black}",
+      "type": "color"
+    }
+  },
+  "status": {
+    "success": {
+      "value": "{Green.200}",
+      "type": "color"
+    },
+    "warning": {
+      "value": "{Sunset.250}",
+      "type": "color"
+    },
+    "error": {
+      "value": "{Red.100}",
+      "type": "color"
+    },
+    "informational": {
+      "value": "{Cyan.800}",
+      "type": "color"
+    }
+  },
+  "severity": {
+    "critical": {
+      "value": "{Rose.200}",
+      "type": "color"
+    },
+    "high": {
+      "value": "{Sunset.200}",
+      "type": "color"
+    },
+    "moderate": {
+      "value": "{Sunset.400}",
+      "type": "color"
+    },
+    "low": {
+      "value": "{Ocean.200}",
+      "type": "color"
+    }
   }
 }
