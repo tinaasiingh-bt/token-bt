@@ -9,14 +9,10 @@
       "type": "sizing"
     },
     "md": {
-      "value": "30px",
-      "type": "sizing"
-    },
-    "lg": {
       "value": "48px",
       "type": "sizing"
     },
-    "xl": {
+    "lg": {
       "value": "64px",
       "type": "sizing"
     }

@@ -31,12 +31,6 @@
         "value": "{size.lg}",
         "type": "sizing"
       }
-    },
-    "text-input": {
-      "md": {
-        "value": "{size.md}",
-        "type": "sizing"
-      }
     }
   }
 }
