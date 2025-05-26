@@ -4,6 +4,7 @@
     "Primitive/Spacing",
     "Primitive/Border",
     "Primitive/ Size",
+    "Primitive/Opacity",
     "Primitive/Typography",
     "Semantic/ Color",
     "Semantic/ Sizing",

@@ -2,17 +2,17 @@
   "opacity": {
     "surface": {
       "hidden": {
-        "value": "0",
+        "value": "{opacity.0}",
         "type": "opacity",
         "description": "fully transparent (0%), making the color invisible"
       },
       "disabled": {
-        "value": "0.5",
+        "value": "{opacity.50}",
         "type": "opacity",
         "description": "50% opacity, making the color semi-transparent"
       },
       "visible": {
-        "value": "1",
+        "value": "{opacity.100}",
         "type": "opacity",
         "description": "fully opaque (100%)"
       }
