@@ -1,0 +1,39 @@
+{
+  "elevation": {
+    "container": {
+      "default": {
+        "value": "{shadow.0}",
+        "type": "boxShadow"
+      },
+      "elevated": {
+        "value": "{shadow.200}",
+        "type": "boxShadow"
+      }
+    },
+    "base": {
+      "value": "{shadow.300}",
+      "type": "boxShadow"
+    },
+    "overlay": {
+      "popover": {
+        "value": "{shadow.400}",
+        "type": "boxShadow"
+      }
+    },
+    "focus": {
+      "ring": {
+        "value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "#000000",
+            "type": "innerShadow"
+          }
+        ],
+        "type": "boxShadow"
+      }
+    }
+  }
+}
