@@ -33,7 +33,7 @@
       "type": "dimension"
     }
   },
-  "Display": {
+  "display": {
     "lg": {
       "value": {
         "fontFamily": "{text.display.family}",
@@ -61,7 +61,7 @@
       "type": "typography"
     }
   },
-  "Heading": {
+  "heading": {
     "h1": {
       "value": {
         "fontFamily": "{text.heading.family}",
@@ -115,7 +115,7 @@
       "description": "labels"
     }
   },
-  "Label": {
+  "label": {
     "sm": {
       "default": {
         "value": {
@@ -233,7 +233,7 @@
       }
     }
   },
-  "Body": {
+  "body": {
     "sm": {
       "value": {
         "fontFamily": "{text.body.family}",
@@ -272,7 +272,7 @@
       "type": "typography"
     }
   },
-  "Functional": {
+  "functional": {
     "text link": {
       "value": {
         "fontFamily": "{text.functional.family}",
@@ -309,7 +309,7 @@
       "description": "code"
     }
   },
-  "Instructional": {
+  "instructional": {
     "default": {
       "value": {
         "fontFamily": "{text.instructional.family}",
@@ -331,7 +331,7 @@
       "description": "checkbox ,charts tips,number filed,slider,text field,error"
     }
   },
-  "Card": {
+  "card": {
     "lg": {
       "value": {
         "fontFamily": "{text.card.family}",
