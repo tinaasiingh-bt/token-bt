@@ -1,35 +1,23 @@
 {
   "size": {
-    "2xs": {
-      "value": "24px",
-      "type": "sizing"
-    },
     "xs": {
-      "value": "32px",
+      "value": "16px",
       "type": "sizing"
     },
     "sm": {
-      "value": "40px",
+      "value": "24px",
       "type": "sizing"
     },
     "md": {
-      "value": "48px",
+      "value": "30px",
       "type": "sizing"
     },
     "lg": {
-      "value": "56px",
+      "value": "48px",
       "type": "sizing"
     },
     "xl": {
       "value": "64px",
-      "type": "sizing"
-    },
-    "2xl": {
-      "value": "72px",
-      "type": "sizing"
-    },
-    "3xl": {
-      "value": "80px",
       "type": "sizing"
     }
   }

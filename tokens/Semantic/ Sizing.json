@@ -16,19 +16,25 @@
     },
     "interactive": {
       "xs": {
-        "value": "32px",
+        "value": "{size.xs}",
         "type": "sizing"
       },
       "sm": {
-        "value": "40px",
+        "value": "{size.sm}",
         "type": "sizing"
       },
       "md": {
-        "value": "48px",
+        "value": "{size.md}",
         "type": "sizing"
       },
       "lg": {
-        "value": "56px",
+        "value": "{size.lg}",
+        "type": "sizing"
+      }
+    },
+    "text-input": {
+      "md": {
+        "value": "{size.md}",
         "type": "sizing"
       }
     }
