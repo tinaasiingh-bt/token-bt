@@ -9,7 +9,9 @@
     "Semantic/ Sizing",
     "Semantic/ Border",
     "Semantic/ Spacing",
+    "Semantic/  Opacity",
     "Semantic/ Typography",
+    "Component/ Accordion",
     "Component/ Badge",
     "Mode/ light",
     "Mode/ dark"
