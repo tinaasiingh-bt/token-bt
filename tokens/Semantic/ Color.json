@@ -117,6 +117,10 @@
         "value": "{Sunset.250}",
         "type": "color"
       }
+    },
+    "surface-hover": {
+      "value": "{Neutral.Ash}",
+      "type": "color"
     }
   },
   "text": {
