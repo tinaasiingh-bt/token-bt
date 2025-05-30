@@ -17,13 +17,17 @@
         },
         "type": "border"
       },
-      "icon-color": {
-        "value": "{icon.primary}",
-        "type": "color"
+      "icon": {
+        "color": {
+          "value": "{icon.primary}",
+          "type": "color"
+        }
       },
-      "label-color": {
-        "value": "{text.primary}",
-        "type": "color"
+      "label": {
+        "color": {
+          "value": "{text.primary}",
+          "type": "color"
+        }
       },
       "borderless": {
         "border-width": {
@@ -38,15 +42,17 @@
         "type": "borderRadius"
       }
     },
-    "focus-active": {
+    "focus": {
       "border": {
         "background": {
           "value": "{background.interactive.transparent}",
           "type": "color"
+        },
+        "color": {
+          "value": "{outline.focus}",
+          "type": "color"
         }
-      }
-    },
-    "focus": {
+      },
       "border-width": {
         "value": {
           "width": "{border-width.outline.sm}"
@@ -61,10 +67,6 @@
           "type": "border"
         }
       },
-      "border-color": {
-        "value": "{outline.focus}",
-        "type": "color"
-      },
       "border-radius": {
         "value": "{radius.layout.md}",
         "type": "borderRadius"
@@ -77,40 +79,18 @@
         },
         "type": "border"
       },
-      "icon": {
-        "color": {
-          "value": "{icon.primary}",
-          "type": "color"
-        }
-      },
       "background": {
         "value": "{background.surface.hover}",
         "type": "color"
       }
     },
-    "icon": {
-      "color": {
-        "value": "{icon.primary}",
-        "type": "color"
-      }
-    },
     "title": {
-      "value": {
-        "fontFamilies": "{text.family.heading}",
-        "fontSizes": "{text.size.heading.h3}",
-        "fontWeights": "{text.weight.heading}",
-        "lineHeights": "{text.line-height.heading.h3}"
-      },
-      "type": "composition"
-    },
-    "content": {
-      "value": {
-        "fontFamilies": "{text.family.label}",
-        "fontSizes": "{text.size.label.sm}",
-        "fontWeights": "{text.weight.label.secondary}",
-        "lineHeights": "{text.line-height.label.sm}"
-      },
-      "type": "composition"
+      "font": {
+        "family": {
+          "value": "{text.family.heading}",
+          "type": "fontFamilies"
+        }
+      }
     }
   }
 }
