@@ -95,44 +95,22 @@
       }
     },
     "title": {
-      "font": {
-        "family": {
-          "value": "text.family.heading",
-          "type": "fontFamily"
-        },
-        "size": {
-          "value": "text.size.heading.h3",
-          "type": "fontSize"
-        },
-        "weight": {
-          "value": "text.weight.heading",
-          "type": "fontWeight"
-        }
+      "value": {
+        "fontFamilies": "{text.family.heading}",
+        "fontSizes": "{text.size.heading.h3}",
+        "fontWeights": "{text.weight.heading}",
+        "lineHeights": "{text.line-height.heading.h3}"
       },
-      "line-height": {
-        "value": "text.line-height.heading.h3",
-        "type": "lineHeight"
-      }
+      "type": "composition"
     },
     "content": {
-      "font": {
-        "family": {
-          "value": "text.family.label",
-          "type": "fontFamily"
-        },
-        "weight": {
-          "value": "text.weight.label.secondary",
-          "type": "fontWeight"
-        }
+      "value": {
+        "fontFamilies": "{text.family.label}",
+        "fontSizes": "{text.size.label.sm}",
+        "fontWeights": "{text.weight.label.secondary}",
+        "lineHeights": "{text.line-height.label.sm}"
       },
-      "size": {
-        "value": "text.size.label.sm",
-        "type": "fontSize"
-      },
-      "line-height": {
-        "value": "text.line-height.label.sm",
-        "type": "lineHeight"
-      }
+      "type": "composition"
     }
   }
 }
