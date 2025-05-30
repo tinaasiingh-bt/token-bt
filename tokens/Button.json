@@ -1,0 +1,47 @@
+{
+  "button": {
+    "primary": {
+      "default": {
+        "background": {
+          "color": {
+            "value": "{background.interactive.primary}",
+            "type": "color"
+          }
+        },
+        "label": {
+          "color": {
+            "value": "{text.interactive.tertiary}",
+            "type": "color"
+          }
+        }
+      },
+      "disabled": {
+        "background": {
+          "color": {
+            "value": "{background.interactive.primary}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": ".5",
+                  "space": "lch"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "secondary": {
+      "default": {
+        "background": {
+          "color": {
+            "value": "{background.interactive.secondary}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

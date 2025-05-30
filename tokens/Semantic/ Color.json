@@ -121,15 +121,6 @@
     "surface-hover": {
       "value": "{Neutral.Ash}",
       "type": "color"
-    },
-    "danger": {
-      "default": {
-        "value": {
-          "opacity": "{opacity.50}",
-          "fill": "{Red.100}"
-        },
-        "type": "composition"
-      }
     }
   },
   "text": {

@@ -653,5 +653,25 @@
       "value": "#00EDD7",
       "type": "color"
     }
+  },
+  "color": {
+    "blue-rgba-50": {
+      "value": "rgb(28 99 165 / 50%)",
+      "type": "color"
+    },
+    "sky-blue-rgba-50": {
+      "value": "rgb(83 177 253 / 50%)",
+      "type": "color",
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0",
+            "space": "lch",
+            "color": "rgb(83 177 253 / 50%)"
+          }
+        }
+      }
+    }
   }
 }
