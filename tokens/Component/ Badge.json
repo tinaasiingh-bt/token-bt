@@ -2,54 +2,72 @@
   "badge": {
     "new": {
       "background": {
-        "value": "{Forest-green.100}",
+        "value": "{background.status.one}",
         "type": "color"
       },
-      "border-color": {
-        "value": "{Forest-green.200}",
-        "type": "color"
+      "border": {
+        "color": {
+          "value": "{border.status.one}",
+          "type": "color"
+        },
+        "width": {
+          "value": "{border-width.interactive.xs}",
+          "type": "border"
+        }
       },
-      "text-color": {
-        "value": "{Forest-green.300}",
-        "type": "color"
-      },
-      "border-width": {
-        "value": "{border-width.xs}",
-        "type": "borderWidth"
-      },
-      "radius": {
-        "value": "{border-radius.full}",
-        "type": "borderRadius"
-      },
-      "typography": {
-        "value": "Instructional.strong",
-        "type": "typography"
+      "text": {
+        "color": {
+          "value": "{text.status.one}",
+          "type": "color"
+        }
       }
     },
     "preview": {
       "background": {
-        "value": "{Raspberry.100}",
+        "value": "{background.status.two}",
         "type": "color"
       },
-      "border-color": {
-        "value": "{Raspberry.200}",
-        "type": "color"
+      "border": {
+        "color": {
+          "value": "{border.status.two}",
+          "type": "color"
+        }
       },
-      "text-color": {
-        "value": "{Raspberry.300}",
-        "type": "color"
+      "text": {
+        "color": {
+          "value": "{text.status.two}",
+          "type": "color"
+        }
+      }
+    },
+    "label": {
+      "font": {
+        "family": {
+          "value": "{text.family.instructional}",
+          "type": "fontFamilies"
+        },
+        "size": {
+          "value": "{text.size.instructional}",
+          "type": "fontSize"
+        },
+        "weight": {
+          "value": "{text.weight.instructional.secondary}",
+          "type": "fontWeight"
+        }
       },
-      "border-width": {
-        "value": "{border-width.xs}",
-        "type": "borderWidth"
-      },
-      "radius": {
-        "value": "{border-radius.full}",
-        "type": "borderRadius"
-      },
-      "typography": {
-        "value": "Instructional.strong",
-        "type": "typography"
+      "line-height": {
+        "value": "{text.line-height.instructional}",
+        "type": "lineHeight"
+      }
+    },
+    "radius": {
+      "value": "{radius.element.5xl}",
+      "type": "borderRadius"
+    },
+    "padding": {
+      "block": {
+        "value": "{space.element.padding.block.2xs}",
+        "type": "spacing"
       }
     }
   }

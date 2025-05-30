@@ -157,6 +157,16 @@
         "value": "{Light-blue.200}",
         "type": "color"
       }
+    },
+    "status": {
+      "one": {
+        "value": "{Forest-green.100}",
+        "type": "color"
+      },
+      "two": {
+        "value": "{Raspberry.100}",
+        "type": "color"
+      }
     }
   },
   "text": {
@@ -227,6 +237,16 @@
     "metadata": {
       "primary": {
         "value": "{Navy.700}",
+        "type": "color"
+      }
+    },
+    "status": {
+      "one": {
+        "value": "{Forest-green.300}",
+        "type": "color"
+      },
+      "two": {
+        "value": "{Raspberry.300}",
         "type": "color"
       }
     }
@@ -306,6 +326,16 @@
           "value": "{Blue.300}",
           "type": "color"
         }
+      }
+    },
+    "status": {
+      "one": {
+        "value": "{Forest-green.200}",
+        "type": "color"
+      },
+      "two": {
+        "value": "{Raspberry.200}",
+        "type": "color"
       }
     }
   },

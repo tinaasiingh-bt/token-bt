@@ -184,6 +184,10 @@
               "value": "{spacing.xl}",
               "type": "spacing"
             }
+          },
+          "2xs": {
+            "value": "{spacing.2xs}",
+            "type": "spacing"
           }
         },
         "inline": {

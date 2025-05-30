@@ -1,0 +1,78 @@
+{
+  "breadcrumb": {
+    "default": {
+      "label": {
+        "text": {
+          "font": {
+            "family": {
+              "value": "{text.family.functional}",
+              "type": "fontFamilies"
+            },
+            "size": {
+              "value": "{text.size.functional.sm}",
+              "type": "fontSize"
+            },
+            "weight": {
+              "value": "{text.weight.functional}",
+              "type": "fontWeight"
+            }
+          },
+          "line-height": {
+            "value": "{text.line-height.functional.sm}",
+            "type": "lineHeight"
+          }
+        }
+      }
+    },
+    "active": {
+      "label": {
+        "text-decoration": {
+          "value": "{textDecoration.underline}",
+          "type": "textDecoration"
+        }
+      }
+    },
+    "hover": {
+      "label": {
+        "text": {
+          "color": {
+            "value": "{text.interactive.hover}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "visited": {
+      "label": {
+        "text": {
+          "color": {
+            "value": "{text.interactive.primary}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "focus": {
+      "label": {
+        "text": {
+          "color": {
+            "value": "{text.primary}",
+            "type": "color"
+          },
+          "typography": {
+            "value": "{functional.text link}",
+            "type": "typography"
+          }
+        }
+      }
+    },
+    "icon": {
+      "arrow": {
+        "color": {
+          "value": "{icon.primary}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}
