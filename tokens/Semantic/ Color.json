@@ -77,6 +77,10 @@
         "secondary": {
           "value": "{Light-blue.100}",
           "type": "color"
+        },
+        "subtle": {
+          "value": "{Light-blue.100}",
+          "type": "color"
         }
       },
       "primary-pressed": {
@@ -85,6 +89,10 @@
       },
       "secondary-hover": {
         "value": "{Blue-gray.200}",
+        "type": "color"
+      },
+      "secondary-pressed": {
+        "value": "{Blue-gray.300}",
         "type": "color"
       }
     },
@@ -141,6 +149,12 @@
       },
       "active": {
         "value": "{Orange.900}",
+        "type": "color"
+      }
+    },
+    "secondary-text": {
+      "active": {
+        "value": "{Light-blue.200}",
         "type": "color"
       }
     }
