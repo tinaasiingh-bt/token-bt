@@ -126,6 +126,18 @@
             "type": "spacing"
           }
         }
+      },
+      "offset": {
+        "2xs": {
+          "value": "{spacing.2xs}",
+          "type": "spacing"
+        },
+        "negative": {
+          "2xs": {
+            "value": "{spacing.negative.2xs}",
+            "type": "spacing"
+          }
+        }
       }
     },
     "element": {

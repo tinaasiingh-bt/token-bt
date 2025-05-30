@@ -162,8 +162,6 @@
       "background.interactive.hover.secondary": "12653e3548687512063a034f1d1669252ccb5b79",
       "background.selection": "3bd6fbde165b40715f659c0d2ee6363d68d95808",
       "background.input": "3acd3e2ec9d468acd6312d4c70a61c9d3e4d6a9e",
-      "background.input-listitem.hover.primary": "4af29fe1b864ccb3f465d8a0712c2ca28bd5b5d5",
-      "background.input-listitem.hover.secondary": "f50d3665735d49ebaf1a35d56b5b832dee16f27f",
       "background. status.success": "fa317809aa8e40781ca92d5ffbe89f67eeea7130",
       "background. status.error": "e4d87aa01c4aae0ae909bae77267c425d91bd734",
       "background. status.informational": "fe7b934f14299fb7b296f9ff92777c4139c3bfc6",
@@ -279,7 +277,9 @@
       "badge.preview.border-color": "e148dbd9ae5a233d8938937aa453b96e482d00ac",
       "badge.preview.text-color": "aedc6e9aa0a5dd540d4ec1684020dd8d75a9a2eb",
       "badge.preview.border-width": "37b86450f97ce32bdd48febdc1d8ff6388b273c4",
-      "badge.preview.radius": "a5b03eed62bdc4ab3e69d9b0eddbc9a98ba921a8"
+      "badge.preview.radius": "a5b03eed62bdc4ab3e69d9b0eddbc9a98ba921a8",
+      "background.input-list-item.hover.primary": "4af29fe1b864ccb3f465d8a0712c2ca28bd5b5d5",
+      "background.input-list-item.hover.secondary": "f50d3665735d49ebaf1a35d56b5b832dee16f27f"
     },
     "$figmaCollectionId": "VariableCollectionId:328:5194",
     "$figmaModeId": "328:57",
@@ -508,8 +508,6 @@
       "background.interactive.hover.secondary": "12653e3548687512063a034f1d1669252ccb5b79",
       "background.selection": "3bd6fbde165b40715f659c0d2ee6363d68d95808",
       "background.input": "3acd3e2ec9d468acd6312d4c70a61c9d3e4d6a9e",
-      "background.input-listitem.hover.primary": "4af29fe1b864ccb3f465d8a0712c2ca28bd5b5d5",
-      "background.input-listitem.hover.secondary": "f50d3665735d49ebaf1a35d56b5b832dee16f27f",
       "background. status.success": "fa317809aa8e40781ca92d5ffbe89f67eeea7130",
       "background. status.error": "e4d87aa01c4aae0ae909bae77267c425d91bd734",
       "background. status.informational": "fe7b934f14299fb7b296f9ff92777c4139c3bfc6",
@@ -625,7 +623,9 @@
       "badge.preview.border-color": "e148dbd9ae5a233d8938937aa453b96e482d00ac",
       "badge.preview.text-color": "aedc6e9aa0a5dd540d4ec1684020dd8d75a9a2eb",
       "badge.preview.border-width": "37b86450f97ce32bdd48febdc1d8ff6388b273c4",
-      "badge.preview.radius": "a5b03eed62bdc4ab3e69d9b0eddbc9a98ba921a8"
+      "badge.preview.radius": "a5b03eed62bdc4ab3e69d9b0eddbc9a98ba921a8",
+      "background.input-list-item.hover.primary": "4af29fe1b864ccb3f465d8a0712c2ca28bd5b5d5",
+      "background.input-list-item.hover.secondary": "f50d3665735d49ebaf1a35d56b5b832dee16f27f"
     },
     "$figmaCollectionId": "VariableCollectionId:328:5194",
     "$figmaModeId": "328:58",
