@@ -17,10 +17,6 @@
         },
         "type": "border"
       },
-      "border-radius": {
-        "value": "radius.element.md",
-        "type": "radius"
-      },
       "icon-color": {
         "value": "{icon.primary}",
         "type": "color"
@@ -36,6 +32,10 @@
           },
           "type": "border"
         }
+      },
+      "border-radius": {
+        "value": "{radius.element.md}",
+        "type": "borderRadius"
       }
     },
     "focus-active": {
@@ -61,13 +61,13 @@
           "type": "border"
         }
       },
-      "border-radius": {
-        "value": "radius.layout.md",
-        "type": "radius"
-      },
       "border-color": {
         "value": "{outline.focus}",
         "type": "color"
+      },
+      "border-radius": {
+        "value": "{radius.layout.md}",
+        "type": "borderRadius"
       }
     },
     "hover": {
@@ -93,10 +93,6 @@
         "value": "{icon.primary}",
         "type": "color"
       }
-    },
-    "focus-border-radius": {
-      "value": "radius.layout.md",
-      "type": "radius"
     },
     "title": {
       "font": {
