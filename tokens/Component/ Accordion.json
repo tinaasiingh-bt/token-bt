@@ -12,9 +12,7 @@
         }
       },
       "border-width": {
-        "value": {
-          "width": "{border-width.interactive.xs}"
-        },
+        "value": "{border-width.interactive.xs}",
         "type": "border"
       },
       "icon": {
@@ -31,9 +29,7 @@
       },
       "borderless": {
         "border-width": {
-          "value": {
-            "width": "{border-width.interactive.none}"
-          },
+          "value": "{border-width.interactive.none}",
           "type": "border"
         }
       },
@@ -49,21 +45,17 @@
           "type": "color"
         },
         "color": {
-          "value": "{outline.focus}",
+          "value": "{border.outline.focus}",
           "type": "color"
         }
       },
       "border-width": {
-        "value": {
-          "width": "{border-width.outline.sm}"
-        },
+        "value": "{border-width.outline.sm}",
         "type": "border"
       },
       "borderless": {
         "border-width": {
-          "value": {
-            "width": "{border-width.interactive.none}"
-          },
+          "value": "{border-width.interactive.none}",
           "type": "border"
         }
       },
@@ -74,9 +66,7 @@
     },
     "hover": {
       "border-width": {
-        "value": {
-          "width": "{border-width.interactive.xs}"
-        },
+        "value": "{border-width.interactive.xs}",
         "type": "border"
       },
       "background": {
@@ -89,7 +79,39 @@
         "family": {
           "value": "{text.family.heading}",
           "type": "fontFamilies"
+        },
+        "weight": {
+          "value": "{text.weight.heading}",
+          "type": "fontWeights"
+        },
+        "size": {
+          "value": "{text.size.heading.h3}",
+          "type": "fontSizes"
         }
+      },
+      "line-height": {
+        "value": "{text.line-height.heading.h3}",
+        "type": "lineHeights"
+      }
+    },
+    "content": {
+      "font": {
+        "family": {
+          "value": "{text.family.label}",
+          "type": "fontFamilies"
+        },
+        "weight": {
+          "value": "{text.weight.label.secondary}",
+          "type": "fontWeights"
+        },
+        "size": {
+          "value": "{text.size.label.sm}",
+          "type": "fontSizes"
+        }
+      },
+      "line-height": {
+        "value": "{text.line-height.label.sm}",
+        "type": "lineHeights"
       }
     }
   }

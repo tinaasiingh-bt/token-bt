@@ -15,8 +15,8 @@
     "Semantic/ Elevation",
     "Semantic/ Typography",
     "Component/ Accordion",
+    "Component/ Button",
     "Component/ Badge",
-    "Button",
     "Mode/ light",
     "Mode/ dark"
   ]
