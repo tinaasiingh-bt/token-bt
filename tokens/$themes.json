@@ -21,8 +21,7 @@
       "Semantic/ Elevation": "enabled",
       "Component/ Accordion": "enabled",
       "Component/ Button": "enabled",
-      "Component/ Buttongroup": "disabled",
-      "Component/ Checkbox": "disabled"
+      "Component/ Data grid": "disabled"
     },
     "$figmaStyleReferences": {
       "Black.50": "S:b32e1a032c619d20a90715ba96ebc522fe572d5f,",
@@ -427,8 +426,7 @@
       "Semantic/  Opacity": "enabled",
       "Component/ Accordion": "enabled",
       "Component/ Button": "enabled",
-      "Component/ Buttongroup": "disabled",
-      "Component/ Checkbox": "disabled"
+      "Component/ Data grid": "disabled"
     },
     "$figmaStyleReferences": {
       "display.lg": "S:0081bf55b03c92bc8a21ba1268a876d1262c77e7,",
