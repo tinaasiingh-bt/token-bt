@@ -423,6 +423,46 @@
   },
   "data": {
     "series": {
+      "10": {
+        "value": "{Emerald.100}",
+        "type": "color"
+      },
+      "11": {
+        "value": "{Charcoal-blue.100}",
+        "type": "color"
+      },
+      "12": {
+        "value": "{Cerulean.100}",
+        "type": "color"
+      },
+      "13": {
+        "value": "{Golden.100}",
+        "type": "color"
+      },
+      "14": {
+        "value": "{Ember.100}",
+        "type": "color"
+      },
+      "15": {
+        "value": "{Ashen-gray.100}",
+        "type": "color"
+      },
+      "16": {
+        "value": "{Aqua.100}",
+        "type": "color"
+      },
+      "17": {
+        "value": "{Lime.100}",
+        "type": "color"
+      },
+      "18": {
+        "value": "{Citrus-lime.100}",
+        "type": "color"
+      },
+      "19": {
+        "value": "{Teal.100}",
+        "type": "color"
+      },
       "01": {
         "value": "{Coral.100}",
         "type": "color"
@@ -437,6 +477,26 @@
       },
       "04": {
         "value": "{Violet.100}",
+        "type": "color"
+      },
+      "05": {
+        "value": "{Indigo.100}",
+        "type": "color"
+      },
+      "06": {
+        "value": "{Azure.100}",
+        "type": "color"
+      },
+      "07": {
+        "value": "{Tangerine.100}",
+        "type": "color"
+      },
+      "08": {
+        "value": "{Turquoise.100}",
+        "type": "color"
+      },
+      "09": {
+        "value": "{Amber.100}",
         "type": "color"
       }
     }
