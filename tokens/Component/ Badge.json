@@ -11,7 +11,9 @@
           "type": "color"
         },
         "width": {
-          "value": "{border-width.interactive.xs}",
+          "value": {
+            "width": "border-width.interactive.xs"
+          },
           "type": "border"
         }
       },
