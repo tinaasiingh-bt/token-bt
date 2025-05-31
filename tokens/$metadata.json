@@ -18,6 +18,8 @@
     "Component/ Button",
     "Component/ Badge",
     "Component/ Charts",
+    "Component/ Buttongroup",
+    "Component/ Checkbox",
     "Component/ Breadcrumb",
     "Mode/ light",
     "Mode/ dark"

@@ -1,0 +1,104 @@
+{
+  "buttongroup": {
+    "default": {
+      "text": {
+        "value": "{text.primary}",
+        "type": "color"
+      },
+      "icon": {
+        "value": "{text.primary}",
+        "type": "color"
+      },
+      "border": {
+        "color": {
+          "value": "{border.secondary}",
+          "type": "color"
+        }
+      },
+      "background": {
+        "value": "{background.interactive.transparent}",
+        "type": "color"
+      }
+    },
+    "hover": {
+      "text": {
+        "value": "{text.interactive.hover}",
+        "type": "color"
+      },
+      "icon": {
+        "value": "{icon.hover}",
+        "type": "color"
+      },
+      "border": {
+        "color": {
+          "value": "{border.hover}",
+          "type": "color"
+        }
+      }
+    },
+    "selected": {
+      "text": {
+        "value": "{text.interactive.primary}",
+        "type": "color"
+      },
+      "icon": {
+        "value": "{icon.selection}",
+        "type": "color"
+      },
+      "border": {
+        "color": {
+          "value": "{border.interactive.primary}",
+          "type": "color"
+        },
+        "width": {
+          "value": {
+            "width": "{border-width.interactive.md}"
+          },
+          "type": "border"
+        }
+      }
+    },
+    "focus": {
+      "border": {
+        "color": {
+          "value": "{border.outline.focus}",
+          "type": "color"
+        }
+      },
+      "radius": {
+        "value": "{radius.layout.md}",
+        "type": "borderRadius"
+      }
+    },
+    "label": {
+      "font": {
+        "family": {
+          "value": "{text.family.heading}",
+          "type": "fontFamilies"
+        },
+        "size": {
+          "value": "{text.size.heading.h3}",
+          "type": "fontSizes"
+        },
+        "weight": {
+          "value": "{text.weight.heading}",
+          "type": "fontWeights"
+        }
+      },
+      "line-height": {
+        "value": "{text.line-height.heading.h3}",
+        "type": "lineHeights"
+      }
+    },
+    "border": {
+      "width": {
+        "value": "{border-width.interactive.xs}",
+        "type": "border"
+      }
+    },
+    "radius": {
+      "value": "{radius.layout.md}",
+      "type": "borderRadius"
+    }
+  }
+}
