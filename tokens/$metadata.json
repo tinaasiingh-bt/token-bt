@@ -21,8 +21,8 @@
     "Component/ Buttongroup",
     "Component/ Checkbox",
     "Component/ Breadcrumb",
+    "Component/ Data grid",
     "Mode/ light",
-    "Mode/ dark",
-    "Componenet/ Data grid"
+    "Mode/ dark"
   ]
 }
