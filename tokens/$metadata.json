@@ -21,6 +21,7 @@
     "Component/ Buttongroup",
     "Component/ Checkbox",
     "Component/ Breadcrumb",
+    "Component/ Date picker",
     "Component/ Data grid",
     "Mode/ light",
     "Mode/ dark"

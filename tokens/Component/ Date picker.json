@@ -1,0 +1,182 @@
+{
+  "date-picker": {
+    "primary": {
+      "default-month-button": {
+        "background-color": {
+          "value": "{background.interactive.transparent}",
+          "type": "color"
+        },
+        "text-color": {
+          "value": "{text.interactive.primary}",
+          "type": "color"
+        }
+      },
+      "hover-month-button": {
+        "background-color": {
+          "value": "{background.interactive.hover.secondary}",
+          "type": "color"
+        }
+      }
+    },
+    "text": {
+      "default-today-button": {
+        "text-color": {
+          "value": "{text.interactive.secondary}",
+          "type": "color"
+        }
+      },
+      "hover-today-button": {
+        "text-color": {
+          "value": "{text.interactive.secondary}",
+          "type": "color"
+        }
+      }
+    },
+    "default": {
+      "default-month-list": {
+        "text-color": {
+          "value": "{text.secondary}",
+          "type": "color"
+        },
+        "background-color": {
+          "value": "{background.input-list-item.hover.primary}",
+          "type": "color"
+        }
+      },
+      "hover-month-list": {
+        "text-color": {
+          "value": "{text.interactive.hover}",
+          "type": "color"
+        }
+      },
+      "selected-month-list": {
+        "background-color": {
+          "value": "{background.input}",
+          "type": "color"
+        }
+      },
+      "selected-day": {
+        "background-color": {
+          "value": "{background.interactive.primary}",
+          "type": "color"
+        },
+        "border-radius": {
+          "value": "radius.element.sm",
+          "type": "borderRadius"
+        },
+        "text-color": {
+          "value": "{text.interactive.primary}",
+          "type": "color"
+        }
+      },
+      "today-day": {
+        "text-color": {
+          "value": "{text.interactive.primary}",
+          "type": "color"
+        }
+      },
+      "day-name": {
+        "text-color": {
+          "value": "{text.secondary}",
+          "type": "color"
+        }
+      },
+      "label": {
+        "text-color": {
+          "value": "{text.primary}",
+          "type": "color"
+        }
+      },
+      "instructional-text": {
+        "text-color": {
+          "value": "{text.secondary}",
+          "type": "color"
+        }
+      },
+      "scrolling-month-name": {
+        "text-color": {
+          "value": "{text.secondary}",
+          "type": "color"
+        }
+      },
+      "container": {
+        "background-color": {
+          "value": "{background.input}",
+          "type": "color"
+        }
+      }
+    },
+    "month": {
+      "background-color": {
+        "value": "{background.input-list-item.hover.primary}",
+        "type": "color"
+      },
+      "selected": {
+        "background-color": {
+          "value": "{background.input}",
+          "type": "color"
+        }
+      },
+      "current": {
+        "text": {
+          "color": {
+            "value": "{text.interactive.primary}",
+            "type": "color"
+          }
+        }
+      },
+      "scrolling-name": {
+        "text-color": {
+          "value": "{text.secondary}",
+          "type": "color"
+        }
+      }
+    },
+    "day": {
+      "selected": {
+        "background-color": {
+          "value": "{background.interactive.primary}",
+          "type": "color"
+        },
+        "text": {
+          "color": {
+            "value": "{text.interactive.tertiary}",
+            "type": "color"
+          }
+        }
+      },
+      "today": {
+        "number": {
+          "color": {
+            "value": "{text.interactive.primary}",
+            "type": "color"
+          }
+        },
+        "label": {
+          "color": {
+            "value": "{text.interactive.secondary}",
+            "type": "color"
+          }
+        }
+      },
+      "hover": {
+        "background-color": {
+          "value": "{background.input-list-item.hover.primary}",
+          "type": "color"
+        }
+      },
+      "name": {
+        "text": {
+          "color": {
+            "value": "{text.secondary}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "calendar-day-name-text-color": {
+      "value": "{text.secondary}",
+      "type": "color"
+    }
+  }
+}
