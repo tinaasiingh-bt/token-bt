@@ -399,10 +399,12 @@
       }
     },
     "content": {
-      "icon-label": {
-        "gap": {
-          "value": "{space.content.gap.sm}",
-          "type": "spacing"
+      "icon": {
+        "label": {
+          "gap": {
+            "value": "{space.content.gap.sm}",
+            "type": "spacing"
+          }
         }
       }
     }
