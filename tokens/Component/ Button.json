@@ -331,6 +331,72 @@
           }
         }
       }
+    },
+    "icon": {
+      "default": {
+        "color": {
+          "value": "{icon.primary}",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "color": {
+          "value": "{icon.hover}",
+          "type": "color"
+        },
+        "background": {
+          "color": {
+            "value": "{background.interactive.hover.primary}",
+            "type": "color"
+          }
+        }
+      },
+      "focus": {
+        "color": {
+          "value": "{icon.hover}",
+          "type": "color"
+        },
+        "outline": {
+          "color": {
+            "value": "{border.outline.focus}",
+            "type": "color"
+          }
+        }
+      },
+      "pressed": {
+        "color": {
+          "value": "{background.interactive.hover.primary}",
+          "type": "color"
+        }
+      },
+      "size": {
+        "16": {
+          "value": "{size.interactive.xs}",
+          "type": "sizing"
+        },
+        "24": {
+          "value": "{size.interactive.sm}",
+          "type": "sizing"
+        },
+        "48": {
+          "value": "{size.interactive.md}",
+          "type": "sizing"
+        }
+      }
+    },
+    "container": {
+      "padding": {
+        "value": "{space.element.padding.inline.xl}",
+        "type": "spacing"
+      },
+      "padding-top": {
+        "value": "{space.element.padding.block.start.2xs}",
+        "type": "spacing"
+      },
+      "padding-bottom": {
+        "value": "{space.element.padding.block.end.xs}",
+        "type": "spacing"
+      }
     }
   }
 }
