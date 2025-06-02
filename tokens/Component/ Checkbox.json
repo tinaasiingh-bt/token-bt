@@ -12,7 +12,9 @@
             "type": "color"
           },
           "width": {
-            "value": "{border.interactive.sm}",
+            "value": {
+              "width": "border-width.interactive.sm"
+            },
             "type": "border"
           },
           "radius": {
@@ -37,11 +39,11 @@
           "type": "color"
         },
         "typography": {
-          "value": "{typography.instructional.default}",
+          "value": "{instructional.default}",
           "type": "typography"
         },
         "spacing-top": {
-          "value": "{space.element.margin.block.start.xs}",
+          "value": "{space.element.margin.block.start.2xs}",
           "type": "spacing"
         },
         "padding-left": {

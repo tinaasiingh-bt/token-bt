@@ -2,33 +2,37 @@
   "radius": {
     "layout": {
       "none": {
-        "value": "{border-radius.none}",
+        "value": "{border.radius.none}",
         "type": "borderRadius"
       },
       "md": {
-        "value": "{border-radius.md}",
+        "value": "{border.radius.md}",
         "type": "borderRadius"
       },
       "2xl": {
-        "value": "{border-radius.2xl}",
+        "value": "{border.radius.2xl}",
         "type": "borderRadius"
       }
     },
     "element": {
       "none": {
-        "value": "{border-radius.none}",
+        "value": "{border.radius.none}",
         "type": "borderRadius"
       },
       "sm": {
-        "value": "{border-radius.sm}",
+        "value": "{border.radius.sm}",
         "type": "borderRadius"
       },
       "md": {
-        "value": "{border-radius.md}",
+        "value": "{border.radius.md}",
         "type": "borderRadius"
       },
       "5xl": {
-        "value": "{border-radius.5xl}",
+        "value": "{border.radius.5xl}",
+        "type": "borderRadius"
+      },
+      "xs": {
+        "value": "{border.radius.xs}",
         "type": "borderRadius"
       }
     }
@@ -36,33 +40,33 @@
   "border-width": {
     "interactive": {
       "none": {
-        "value": "{border-width.none}",
+        "value": "{border.width.none}",
         "type": "borderWidth"
       },
       "xs": {
-        "value": "{border-width.xs}",
+        "value": "{border.width.xs}",
         "type": "borderWidth"
       },
       "sm": {
-        "value": "{border-width.sm}",
+        "value": "{border.width.sm}",
         "type": "borderWidth"
       },
       "md": {
-        "value": "{border-width.md}",
+        "value": "{border.width.md}",
         "type": "borderWidth"
       },
       "lg": {
-        "value": "{border-width.lg}",
+        "value": "{border.width.lg}",
         "type": "borderWidth"
       }
     },
     "outline": {
       "xs": {
-        "value": "{border-width.xs}",
+        "value": "{border.width.sm}",
         "type": "borderWidth"
       },
       "sm": {
-        "value": "{border-width.sm}",
+        "value": "{border.width.sm}",
         "type": "borderWidth"
       },
       "solid": {

@@ -91,12 +91,12 @@
                 "value": "{spacing.md}",
                 "type": "spacing"
               },
-              "xl": {
-                "value": "{spacing.xl}",
-                "type": "spacing"
-              },
               "3xl": {
                 "value": "{spacing.3xl}",
+                "type": "spacing"
+              },
+              "xl": {
+                "value": "{spacing.xl}",
                 "type": "spacing"
               }
             }
@@ -116,6 +116,10 @@
       "gap": {
         "none": {
           "value": "{spacing.none}",
+          "type": "spacing"
+        },
+        "sm": {
+          "value": "{spacing.sm}",
           "type": "spacing"
         }
       },
