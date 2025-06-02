@@ -396,6 +396,10 @@
       "padding-bottom": {
         "value": "{space.element.padding.block.end.xs}",
         "type": "spacing"
+      },
+      "border-radius": {
+        "value": "{radius.element.md}",
+        "type": "borderRadius"
       }
     },
     "content": {
