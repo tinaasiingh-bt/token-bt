@@ -119,7 +119,7 @@
           "type": "spacing"
         },
         "sm": {
-          "value": "{spacing.sm}",
+          "value": "{spacing.md}",
           "type": "spacing"
         }
       },
