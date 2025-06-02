@@ -74,5 +74,23 @@
         }
       }
     }
+  },
+  "breadcrumbs": {
+    "item": {
+      "margin": {
+        "right": {
+          "value": "{space.element.margin.inline.end.xs}",
+          "type": "spacing"
+        }
+      }
+    },
+    "label": {
+      "margin": {
+        "right": {
+          "value": "{space.element.margin.inline.end.lg}",
+          "type": "spacing"
+        }
+      }
+    }
   }
 }

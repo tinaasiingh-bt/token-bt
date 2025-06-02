@@ -1,24 +1,18 @@
 {
   "data-grid": {
     "default": {
-      "grid": {
-        "background-color": {
-          "value": "color.background.table",
-          "type": "color"
-        }
-      },
       "toolbar": {
         "selection": {
           "text": {
             "color": {
-              "value": "color.text.selection.label",
+              "value": "{text.selection.label}",
               "type": "color"
             }
           },
           "hover": {
             "text": {
               "color": {
-                "value": "color.text.selection.label.hover",
+                "value": "{text.selection.label-hover}",
                 "type": "color"
               }
             }
@@ -27,33 +21,33 @@
       },
       "item-count": {
         "text": {
-          "value": "color.text.caption",
+          "value": "{text.caption}",
           "type": "color"
         }
       },
       "header": {
         "border-color": {
-          "value": "color.border.primary",
+          "value": "{border.primary}",
           "type": "color"
         },
         "background-color": {
-          "value": "color.background.table-header",
+          "value": "{background.table-header}",
           "type": "color"
         },
         "text": {
           "color": {
-            "value": "color.text.table-header",
+            "value": "{text.table.header}",
             "type": "color"
           }
         },
         "focus-outline-color": {
-          "value": "color.border.outline.focus",
+          "value": "{border.outline.focus}",
           "type": "color"
         },
         "sorted": {
           "icon": {
             "color": {
-              "value": "color.icon.secondary",
+              "value": "{icon.secondary}",
               "type": "color"
             }
           }
@@ -61,14 +55,14 @@
       },
       "header-cell": {
         "border-color": {
-          "value": "color.border.surface.secondary",
+          "value": "{border.surface.secondary}",
           "type": "color"
         }
       },
       "grid-row": {
         "alternate": {
           "background-color": {
-            "value": "color.background.surface.row",
+            "value": "{background.surface.row}",
             "type": "color"
           }
         },
@@ -79,11 +73,11 @@
           }
         },
         "border-color": {
-          "value": "color.border-surface.secondary",
+          "value": "{border.surface.secondary}",
           "type": "color"
         },
         "background-color": {
-          "value": "color.background.row.default",
+          "value": "{background.row.default}",
           "type": "color"
         }
       },
@@ -93,29 +87,29 @@
       },
       "row": {
         "background-color": {
-          "value": "color.background.surface.row",
+          "value": "{background.surface.row}",
           "type": "color"
         },
         "hover": {
           "background-color": {
-            "value": "color.background.surface.row-hover",
+            "value": "{background.surface.row-hover}",
             "type": "color"
           }
         },
         "selected": {
           "background-color": {
-            "value": "color.background.surface.row-selected",
+            "value": "{background.surface.row-selected}",
             "type": "color"
           }
         },
         "icon": {
           "color": {
-            "value": "color.icon.primary",
+            "value": "{icon.primary}",
             "type": "color"
           },
           "hover": {
             "color": {
-              "value": "color.icon.hover",
+              "value": "{icon.hover}",
               "type": "color"
             }
           }
@@ -130,7 +124,7 @@
       "grid-cell": {
         "text": {
           "color": {
-            "value": "color.text.contrast.primary.inverse",
+            "value": "{text.contrast.primary-inverse}",
             "type": "color"
           }
         },
