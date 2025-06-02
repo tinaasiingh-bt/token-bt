@@ -20,8 +20,7 @@
       "Semantic/  Opacity": "enabled",
       "Semantic/ Elevation": "enabled",
       "Component/ Accordion": "enabled",
-      "Component/ Button": "enabled",
-      "Component/ Date picker": "disabled"
+      "Component/ Button": "enabled"
     },
     "$figmaStyleReferences": {
       "Black.50": "S:b32e1a032c619d20a90715ba96ebc522fe572d5f,",
@@ -408,7 +407,6 @@
       "background.danger.default": "ea60df10000b7ee881f211cfc4509cd87a176b25",
       "background.danger.hover": "4a58b1605750afa50e8d515ecd9706aaae39d93e",
       "background.danger.active": "4f9802f47c9a1fae5ebfee54e2f76e2c76991034",
-      "background.secondary-text.active": "192f557caefee950e267eb63299f98595396889b",
       "background.status.one": "cacd72b2878c924c7ca36bc0d91b96a467b51e3a",
       "background.status.two": "10313b6745ffc1d081dfa67b52e9e10913856445",
       "text.contrast.primary": "5eda93b06246bfd4077312fc49a65f7eed395127",
@@ -712,7 +710,8 @@
       "badge.preview.text.color": "9246482fd92c3afb4a32522ec1f24b075e288f5b",
       "badge.label.font.family": "ca04292e52df4dfad3ba8d3f99ed4f9391e4b283",
       "badge.radius": "83502c8b508f46c731eb8888d292f34980853a62",
-      "badge.padding.block": "29297a596a83bdd781f290157dc77863f845da4f"
+      "badge.padding.block": "29297a596a83bdd781f290157dc77863f845da4f",
+      "background.secondary-text.active": "192f557caefee950e267eb63299f98595396889b"
     },
     "$figmaCollectionId": "VariableCollectionId:416:4079",
     "$figmaModeId": "416:52",
@@ -739,8 +738,7 @@
       "Semantic/ Elevation": "enabled",
       "Semantic/  Opacity": "enabled",
       "Component/ Accordion": "enabled",
-      "Component/ Button": "enabled",
-      "Component/ Date picker": "disabled"
+      "Component/ Button": "enabled"
     },
     "$figmaStyleReferences": {
       "display.lg": "S:8b315cbd17014fee87dc5dae52da0b5d5231084b,",
@@ -990,7 +988,6 @@
       "background.danger.default": "ea60df10000b7ee881f211cfc4509cd87a176b25",
       "background.danger.hover": "4a58b1605750afa50e8d515ecd9706aaae39d93e",
       "background.danger.active": "4f9802f47c9a1fae5ebfee54e2f76e2c76991034",
-      "background.secondary-text.active": "192f557caefee950e267eb63299f98595396889b",
       "background.status.one": "cacd72b2878c924c7ca36bc0d91b96a467b51e3a",
       "background.status.two": "10313b6745ffc1d081dfa67b52e9e10913856445",
       "text.contrast.primary": "5eda93b06246bfd4077312fc49a65f7eed395127",
@@ -1294,7 +1291,8 @@
       "badge.preview.text.color": "9246482fd92c3afb4a32522ec1f24b075e288f5b",
       "badge.label.font.family": "ca04292e52df4dfad3ba8d3f99ed4f9391e4b283",
       "badge.radius": "83502c8b508f46c731eb8888d292f34980853a62",
-      "badge.padding.block": "29297a596a83bdd781f290157dc77863f845da4f"
+      "badge.padding.block": "29297a596a83bdd781f290157dc77863f845da4f",
+      "background.secondary-text.active": "192f557caefee950e267eb63299f98595396889b"
     },
     "$figmaCollectionId": "VariableCollectionId:416:4079",
     "$figmaModeId": "416:53",

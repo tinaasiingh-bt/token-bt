@@ -61,7 +61,7 @@
           "type": "color"
         },
         "border-radius": {
-          "value": "radius.element.sm",
+          "value": "{radius.element.sm}",
           "type": "borderRadius"
         },
         "text-color": {
@@ -104,6 +104,18 @@
           "value": "{background.input}",
           "type": "color"
         }
+      },
+      "default-day": {
+        "text-color": {
+          "value": "{text.contrast.tertiary}",
+          "type": "color"
+        }
+      },
+      "hover-day": {
+        "text-color": {
+          "value": "{text.contrast.tertiary}",
+          "type": "color"
+        }
       }
     },
     "month": {
@@ -118,17 +130,33 @@
         }
       },
       "current": {
-        "text": {
-          "color": {
-            "value": "{text.interactive.primary}",
-            "type": "color"
-          }
+        "text-color": {
+          "value": "{text.interactive.primary}",
+          "type": "color"
         }
       },
       "scrolling-name": {
         "text-color": {
           "value": "{text.secondary}",
           "type": "color"
+        }
+      },
+      "text": {
+        "font-weight": {
+          "value": "text.weight.label.secondary",
+          "type": "fontWeight"
+        },
+        "line-height": {
+          "value": "text.line-height.label.sm",
+          "type": "lineHeight"
+        },
+        "font-size": {
+          "value": "text.size.label.sm",
+          "type": "fontSize"
+        },
+        "font-family": {
+          "value": "{text.family.label}",
+          "type": "fontFamilies"
         }
       }
     },
@@ -138,11 +166,9 @@
           "value": "{background.interactive.primary}",
           "type": "color"
         },
-        "text": {
-          "color": {
-            "value": "{text.interactive.tertiary}",
-            "type": "color"
-          }
+        "text-color": {
+          "value": "{text.interactive.tertiary}",
+          "type": "color"
         }
       },
       "today": {
@@ -166,16 +192,36 @@
         }
       },
       "name": {
-        "text": {
-          "color": {
-            "value": "{text.secondary}",
-            "type": "color"
-          }
+        "text-color": {
+          "value": "{text.secondary}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "font-family": {
+          "value": "text.family.label",
+          "type": "fontFamily"
+        },
+        "font-size": {
+          "value": "text.size.label.sm",
+          "type": "fontSize"
+        },
+        "font-weight": {
+          "value": "text.weight.label.secondary",
+          "type": "fontWeight"
+        },
+        "line-height": {
+          "value": "text.line-height.label.sm",
+          "type": "lineHeight"
         }
       }
     },
     "calendar-day-name-text-color": {
       "value": "{text.secondary}",
+      "type": "color"
+    },
+    "calendar-day-number-hover-text-color": {
+      "value": "{text.contrast.tertiary}",
       "type": "color"
     }
   }
