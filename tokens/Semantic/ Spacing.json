@@ -163,6 +163,10 @@
             "md": {
               "value": "{spacing.md}",
               "type": "spacing"
+            },
+            "xs": {
+              "value": "{spacing.xs}",
+              "type": "spacing"
             }
           },
           "end": {

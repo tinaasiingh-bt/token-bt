@@ -390,12 +390,20 @@
         "type": "spacing"
       },
       "padding-top": {
-        "value": "{space.element.padding.block.start.2xs}",
+        "value": "{space.element.padding.block.start.xs}",
         "type": "spacing"
       },
       "padding-bottom": {
         "value": "{space.element.padding.block.end.xs}",
         "type": "spacing"
+      }
+    },
+    "content": {
+      "icon-label": {
+        "gap": {
+          "value": "{space.content.gap.sm}",
+          "type": "spacing"
+        }
       }
     }
   }
