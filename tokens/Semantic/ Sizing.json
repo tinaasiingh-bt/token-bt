@@ -2,15 +2,15 @@
   "size": {
     "icon": {
       "xs": {
-        "value": "16px",
+        "value": "{size.xs}",
         "type": "sizing"
       },
       "sm": {
-        "value": "24px",
+        "value": "{size.sm}",
         "type": "sizing"
       },
-      "lg": {
-        "value": "48px",
+      "md": {
+        "value": "{size.md}",
         "type": "sizing"
       }
     },
