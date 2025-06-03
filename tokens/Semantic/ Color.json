@@ -81,6 +81,10 @@
         "subtle": {
           "value": "{Light-blue.100}",
           "type": "color"
+        },
+        "tertiary": {
+          "value": "{Navy.100}",
+          "type": "color"
         }
       },
       "primary-pressed": {
@@ -149,6 +153,14 @@
       },
       "active": {
         "value": "{Orange.900}",
+        "type": "color"
+      },
+      "pressed": {
+        "value": "{Orange.900}",
+        "type": "color"
+      },
+      "focus": {
+        "value": "{Orange.800}",
         "type": "color"
       }
     },

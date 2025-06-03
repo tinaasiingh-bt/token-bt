@@ -150,13 +150,13 @@
           "value": "text.line-height.label.sm",
           "type": "lineHeight"
         },
-        "font-size": {
-          "value": "text.size.label.sm",
-          "type": "fontSize"
-        },
         "font-family": {
           "value": "{text.family.label}",
           "type": "fontFamilies"
+        },
+        "font-size": {
+          "value": "{text.size.body.sm}",
+          "type": "fontSizes"
         }
       }
     },
