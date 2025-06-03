@@ -181,6 +181,30 @@
         "value": "{Neutral.White}",
         "type": "color"
       }
+    },
+    "control": {
+      "inactive": {
+        "value": "{Gray.400}",
+        "type": "color"
+      }
+    },
+    "container": {
+      "primary": {
+        "value": "{Gray.400}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{Gray.500}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{Neutral.White}",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "{Stone.200}",
+        "type": "color"
+      }
     }
   },
   "text": {
@@ -251,6 +275,10 @@
     "metadata": {
       "primary": {
         "value": "{Navy.700}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{Black.950}",
         "type": "color"
       }
     },
@@ -457,6 +485,14 @@
     "low": {
       "value": "{Ocean.200}",
       "type": "color"
+    },
+    "none": {
+      "value": "{Neutral.Ash}",
+      "type": "color"
+    },
+    "undertermined": {
+      "value": "{Stone.200}",
+      "type": "color"
     }
   },
   "data": {
@@ -536,6 +572,16 @@
       "09": {
         "value": "{Amber.100}",
         "type": "color"
+      }
+    }
+  },
+  "color": {
+    "background": {
+      "thumb": {
+        "default": {
+          "value": "{Neutral.White}",
+          "type": "color"
+        }
       }
     }
   }
