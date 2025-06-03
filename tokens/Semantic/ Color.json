@@ -289,6 +289,10 @@
         "value": "{Gray.25}",
         "type": "color"
       }
+    },
+    "table-header": {
+      "value": "{Gray.25}",
+      "type": "color"
     }
   },
   "border": {
