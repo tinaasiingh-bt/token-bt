@@ -346,26 +346,6 @@
         }
       }
     },
-    "label": {
-      "font": {
-        "size": {
-          "value": "text.size.heading.h3",
-          "type": "sizing"
-        },
-        "family": {
-          "value": "{text.family.heading}",
-          "type": "fontFamilies"
-        },
-        "weight": {
-          "value": "{text.weight.heading}",
-          "type": "fontWeights"
-        }
-      },
-      "line-height": {
-        "value": "{text.line-height.heading.h3}",
-        "type": "lineHeights"
-      }
-    },
     "primary-text": {
       "hover": {
         "text": {
@@ -454,6 +434,26 @@
       "border-radius": {
         "value": "{radius.element.md}",
         "type": "borderRadius"
+      }
+    },
+    "label": {
+      "font": {
+        "family": {
+          "value": "{text.family.heading}",
+          "type": "fontFamilies"
+        },
+        "weight": {
+          "value": "{text.weight.heading}",
+          "type": "fontWeights"
+        },
+        "size": {
+          "value": "{text.size.heading.h3}",
+          "type": "fontSizes"
+        }
+      },
+      "line-height": {
+        "value": "{text.line-height.heading.h3}",
+        "type": "lineHeights"
       }
     }
   }
