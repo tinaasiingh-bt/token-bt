@@ -115,12 +115,6 @@
           }
         }
       },
-      "data-row": {
-        "padding-block": {
-          "value": "--space-element-padding-block-md",
-          "type": "spacing"
-        }
-      },
       "grid-cell": {
         "text": {
           "color": {
@@ -129,7 +123,7 @@
           }
         },
         "focus-weight": {
-          "value": "border-width.interactive.xs",
+          "value": "{border-width.interactive.xs}",
           "type": "borderWidth"
         },
         "icon": {
@@ -139,7 +133,13 @@
           }
         },
         "focus-offset": {
-          "value": "space.element.offset.negative.2xs",
+          "value": "{space.content.offset.negative.2xs}",
+          "type": "spacing"
+        }
+      },
+      "data-row": {
+        "padding-block": {
+          "value": "{space.element.padding.block.md}",
           "type": "spacing"
         }
       }
