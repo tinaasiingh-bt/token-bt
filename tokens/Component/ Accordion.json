@@ -1,1 +1,10 @@
-{}
+{
+  "accordion": {
+    "hover": {
+      "background": {
+        "value": "{background.surface.hover}",
+        "type": "color"
+      }
+    }
+  }
+}

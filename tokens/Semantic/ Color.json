@@ -268,6 +268,14 @@
       "hover": {
         "value": "{Blue.200}",
         "type": "color"
+      },
+      "secondary-hover": {
+        "value": "{Blue-gray.200}",
+        "type": "color"
+      },
+      "secondary-active": {
+        "value": "{Blue-gray.300}",
+        "type": "color"
       }
     },
     "contrast": {
@@ -596,6 +604,16 @@
       "thumb": {
         "default": {
           "value": "{Neutral.White}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "button": {
+    "secondary": {
+      "hover-label": {
+        "color": {
+          "value": "{text.interactive.secondary-hover}",
           "type": "color"
         }
       }

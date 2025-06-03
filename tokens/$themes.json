@@ -19,8 +19,7 @@
       "Semantic/ Spacing": "enabled",
       "Semantic/  Opacity": "enabled",
       "Semantic/ Elevation": "enabled",
-      "Component/ Accordion": "enabled",
-      "Component/ Button": "enabled"
+      "Component/ Accordion": "enabled"
     },
     "$figmaStyleReferences": {
       "Black.50": "S:b32e1a032c619d20a90715ba96ebc522fe572d5f,",
@@ -753,8 +752,7 @@
       "Semantic/ Spacing": "enabled",
       "Semantic/ Elevation": "enabled",
       "Semantic/  Opacity": "enabled",
-      "Component/ Accordion": "enabled",
-      "Component/ Button": "enabled"
+      "Component/ Accordion": "enabled"
     },
     "$figmaStyleReferences": {
       "display.lg": "S:8b315cbd17014fee87dc5dae52da0b5d5231084b,",
