@@ -66,12 +66,6 @@
             "type": "color"
           }
         },
-        "selected": {
-          "background-color": {
-            "value": "--color-background-surface-row-hover",
-            "type": "other"
-          }
-        },
         "border-color": {
           "value": "{border.surface.secondary}",
           "type": "color"
@@ -80,10 +74,6 @@
           "value": "{background.row.default}",
           "type": "color"
         }
-      },
-      "focus-outline-color": {
-        "value": "--color-outline",
-        "type": "other"
       },
       "row": {
         "background-color": {
