@@ -87,7 +87,7 @@
           "type": "color"
         }
       },
-      "primary-pressed": {
+      "primary-active": {
         "value": "{Blue.300}",
         "type": "color"
       },
@@ -95,7 +95,7 @@
         "value": "{Blue-gray.200}",
         "type": "color"
       },
-      "secondary-pressed": {
+      "secondary-active": {
         "value": "{Blue-gray.300}",
         "type": "color"
       }
@@ -153,14 +153,6 @@
       },
       "active": {
         "value": "{Orange.900}",
-        "type": "color"
-      },
-      "pressed": {
-        "value": "{Orange.900}",
-        "type": "color"
-      },
-      "focus": {
-        "value": "{Orange.800}",
         "type": "color"
       }
     },

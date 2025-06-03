@@ -39,7 +39,7 @@
       },
       "pressed-background": {
         "color": {
-          "value": "{background.interactive.primary-pressed}",
+          "value": "{background.interactive.primary-active}",
           "type": "color"
         }
       }
@@ -65,7 +65,7 @@
       },
       "pressed-background": {
         "color": {
-          "value": "{background.interactive.secondary-pressed}",
+          "value": "{background.interactive.secondary-active}",
           "type": "color"
         }
       },
@@ -228,7 +228,7 @@
         },
         "active-background": {
           "color": {
-            "value": "{background.interactive.secondary-pressed}",
+            "value": "{background.interactive.secondary-active}",
             "type": "color"
           }
         },
@@ -405,7 +405,7 @@
       },
       "hover": {
         "background": {
-          "value": "{background.interactive.secondary-pressed}",
+          "value": "{background.interactive.secondary-active}",
           "type": "color"
         }
       }
