@@ -46,6 +46,10 @@
       "hover": {
         "value": "{Neutral.Ash}",
         "type": "color"
+      },
+      "subtle": {
+        "value": "{Gray.200}",
+        "type": "color"
       }
     },
     "interactive": {
@@ -186,6 +190,18 @@
       "inactive": {
         "value": "{Gray.400}",
         "type": "color"
+      },
+      "hover": {
+        "secondary": {
+          "value": "{Navy.100}",
+          "type": "color"
+        }
+      },
+      "default": {
+        "secondary": {
+          "value": "{Gray.300}",
+          "type": "color"
+        }
       }
     },
     "container": {
