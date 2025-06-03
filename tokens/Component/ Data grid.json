@@ -159,8 +159,8 @@
           "type": "fontWeight"
         },
         "line-height": {
-          "value": "text.line-height.label.sm",
-          "type": "lineHeight"
+          "value": "{text.line-height.label.sm}",
+          "type": "lineHeights"
         }
       }
     },
@@ -179,8 +179,8 @@
           "type": "fontWeight"
         },
         "line-height": {
-          "value": "text.line-height.label.sm",
-          "type": "lineHeight"
+          "value": "{text.line-height.label.sm}",
+          "type": "lineHeights"
         }
       },
       "font-family": {
@@ -196,8 +196,8 @@
         "type": "fontWeight"
       },
       "line-height": {
-        "value": "text.line-height.label.sm",
-        "type": "lineHeight"
+        "value": "{text.line-height.label.sm}",
+        "type": "lineHeights"
       }
     },
     "grid-row": {
@@ -214,8 +214,8 @@
         "type": "fontWeight"
       },
       "line-height": {
-        "value": "text.line-height.label.sm",
-        "type": "lineHeight"
+        "value": "{text.line-height.label.sm}",
+        "type": "lineHeights"
       }
     }
   }
