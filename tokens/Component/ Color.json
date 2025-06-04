@@ -266,5 +266,69 @@
         }
       }
     }
+  },
+  "progress-indicator": {
+    "default": {
+      "fill-line": {
+        "color": {
+          "value": "{Orange.500}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "slider": {
+    "track": {
+      "unselected": {
+        "background": {
+          "color": {
+            "value": "{Gray.400}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "switch": {
+    "default": {
+      "container": {
+        "background": {
+          "color": {
+            "value": "{Gray.400}",
+            "type": "color"
+          }
+        }
+      },
+      "indicator": {
+        "background": {
+          "color": {
+            "value": "{Neutral.White}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "hover": {
+      "container": {
+        "background": {
+          "color": {
+            "value": "{Gray.500}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "tag": {
+    "user": {
+      "container": {
+        "border": {
+          "color": {
+            "value": "{Gray.400}",
+            "type": "color"
+          }
+        }
+      }
+    }
   }
 }

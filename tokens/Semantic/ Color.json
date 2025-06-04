@@ -101,10 +101,6 @@
       }
     },
     "control": {
-      "inactive": {
-        "value": "{Gray.400}",
-        "type": "color"
-      },
       "hover": {
         "secondary": {
           "value": "{Navy.100}",
@@ -119,14 +115,6 @@
       }
     },
     "container": {
-      "primary": {
-        "value": "{Gray.400}",
-        "type": "color"
-      },
-      "hover": {
-        "value": "{Gray.500}",
-        "type": "color"
-      },
       "secondary": {
         "value": "{Neutral.White}",
         "type": "color"
@@ -290,10 +278,6 @@
       "value": "{Red.100}",
       "type": "color"
     },
-    "container-primary": {
-      "value": "{Gray.400}",
-      "type": "color"
-    },
     "container-secondary": {
       "value": "{Gray.300}",
       "type": "color"
@@ -397,16 +381,6 @@
     "undertermined": {
       "value": "{Stone.200}",
       "type": "color"
-    }
-  },
-  "color": {
-    "background": {
-      "thumb": {
-        "default": {
-          "value": "{Neutral.White}",
-          "type": "color"
-        }
-      }
     }
   },
   "button": {
