@@ -25,6 +25,54 @@
             "value": "{Blue-gray.300}",
             "type": "color"
           }
+        },
+        "label": {
+          "color": {
+            "value": "{Blue-gray.200}",
+            "type": "color"
+          }
+        }
+      },
+      "default": {
+        "label": {
+          "color": {
+            "value": "{Gray.25}",
+            "type": "color"
+          }
+        }
+      },
+      "hover": {
+        "label": {
+          "color": {
+            "value": "{Blue-gray.200}",
+            "type": "color"
+          }
+        }
+      },
+      "active-label": {
+        "color": {
+          "value": "{Blue-gray.300}",
+          "type": "color"
+        }
+      }
+    },
+    "danger": {
+      "active": {
+        "background": {
+          "color": {
+            "value": "{Orange.900}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "filled": {
+      "secondary": {
+        "hover-background": {
+          "color": {
+            "value": "{Blue-gray.200}",
+            "type": "color"
+          }
         }
       }
     }

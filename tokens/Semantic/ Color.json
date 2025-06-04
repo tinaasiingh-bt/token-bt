@@ -138,10 +138,6 @@
       "hover": {
         "value": "{Orange.800}",
         "type": "color"
-      },
-      "active": {
-        "value": "{Orange.900}",
-        "type": "color"
       }
     },
     "secondary-text": {
@@ -256,10 +252,6 @@
       "secondary-hover": {
         "value": "{Blue-gray.200}",
         "type": "color"
-      },
-      "secondary-active": {
-        "value": "{Blue-gray.300}",
-        "type": "color"
       }
     },
     "contrast": {
@@ -269,10 +261,6 @@
       },
       "primary-inverse": {
         "value": "{Navy.700}",
-        "type": "color"
-      },
-      "secondary": {
-        "value": "{Gray.25}",
         "type": "color"
       },
       "tertiary": {
