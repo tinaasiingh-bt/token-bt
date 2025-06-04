@@ -40,6 +40,24 @@
           "value": "{background.danger.active}",
           "type": "color"
         }
+      },
+      "default-label": {
+        "color": {
+          "value": "{text.contrast.secondary}",
+          "type": "color"
+        }
+      },
+      "default-background": {
+        "color": {
+          "value": "{background.danger.default}",
+          "type": "color"
+        }
+      },
+      "hover-background": {
+        "color": {
+          "value": "{background.danger.hover}",
+          "type": "color"
+        }
       }
     },
     "filled": {
@@ -47,6 +65,18 @@
         "text": {
           "color": {
             "value": "{text.contrast.secondary}",
+            "type": "color"
+          }
+        },
+        "hover-background": {
+          "color": {
+            "value": "{background.interactive.secondary-hover}",
+            "type": "color"
+          }
+        },
+        "active-background": {
+          "color": {
+            "value": "{background.interactive.secondary-active}",
             "type": "color"
           }
         }
