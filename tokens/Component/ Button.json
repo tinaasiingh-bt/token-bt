@@ -105,6 +105,14 @@
           }
         }
       }
+    },
+    "primary-text": {
+      "hover": {
+        "background": {
+          "value": "{background.interactive.hover.subtle}",
+          "type": "color"
+        }
+      }
     }
   }
 }
