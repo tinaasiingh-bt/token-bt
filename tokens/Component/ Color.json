@@ -17,6 +17,16 @@
           }
         }
       }
+    },
+    "secondary": {
+      "active": {
+        "background": {
+          "color": {
+            "value": "{Blue-gray.300}",
+            "type": "color"
+          }
+        }
+      }
     }
   }
 }
