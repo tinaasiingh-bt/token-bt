@@ -206,5 +206,27 @@
         "type": "color"
       }
     }
+  },
+  "data-grid": {
+    "default": {
+      "toolbar": {
+        "selection": {
+          "text": {
+            "color": {
+              "value": "{Sky-blue.100}",
+              "type": "color"
+            }
+          },
+          "hover": {
+            "text": {
+              "color": {
+                "value": "{Sky-blue.200}",
+                "type": "color"
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }

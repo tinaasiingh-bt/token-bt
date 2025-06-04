@@ -242,16 +242,6 @@
         "type": "color"
       }
     },
-    "selection": {
-      "label": {
-        "value": "{Sky-blue.100}",
-        "type": "color"
-      },
-      "label-hover": {
-        "value": "{Sky-blue.200}",
-        "type": "color"
-      }
-    },
     "caption": {
       "value": "{Gray.25}",
       "type": "color"
