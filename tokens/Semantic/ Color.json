@@ -43,10 +43,6 @@
         "value": "{Navy.50}",
         "type": "color"
       },
-      "hover": {
-        "value": "{Neutral.Ash}",
-        "type": "color"
-      },
       "subtle": {
         "value": "{Gray.200}",
         "type": "color"

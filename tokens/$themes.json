@@ -17,7 +17,8 @@
       "Semantic/ Spacing": "enabled",
       "Semantic/  Opacity": "enabled",
       "Semantic/ Elevation": "enabled",
-      "Semantic Mode/ light": "enabled"
+      "Semantic Mode/ light": "enabled",
+      "Component/ Color": "disabled"
     },
     "$figmaStyleReferences": {
       "Black.50": "S:b32e1a032c619d20a90715ba96ebc522fe572d5f,",
@@ -393,7 +394,6 @@
       "line-height.3xl": "7de92ba7e070cc17c08d7fad5747abda8bfae4fc",
       "line-height.4xl": "78a2f403a1af3672527704950a4d2ed71b30078e",
       "line-height.5xl": "b59acfa441e4ffb47577f6d8a5eb9111fdc2d19b",
-      "background.surface.hover": "15d5777689322ce3f1ee5c9ac73d887a9e0f6d35",
       "background.interactive.hover.subtle": "5a8b67d98dc01db23540841ccf0b1e189c5d09f5",
       "background.interactive.secondary-hover": "40486e980842c2529e992ec77ae1397a5e6e1c72",
       "background.input-list-item.hover.primary": "320fdec7a959384a23edb1c437b6185f3f521288",
@@ -748,7 +748,8 @@
       "Semantic/ Spacing": "enabled",
       "Semantic/ Elevation": "enabled",
       "Semantic/  Opacity": "enabled",
-      "Semantic Mode/ dark": "enabled"
+      "Semantic Mode/ dark": "enabled",
+      "Component/ Color": "disabled"
     },
     "$figmaStyleReferences": {
       "display.lg": "S:8b315cbd17014fee87dc5dae52da0b5d5231084b,",
@@ -987,7 +988,6 @@
       "text.interactive.secondary": "91420d904d1b49676e72737b265c88ae130f992f",
       "text.interactive.tertiary": "813ba141f3979a224e00b0867d9aede048ac4b21",
       "text.interactive.hover": "7bc880f9b5be1e9f06fef98e310a5b9afab461e8",
-      "background.surface.hover": "15d5777689322ce3f1ee5c9ac73d887a9e0f6d35",
       "background.interactive.hover.subtle": "5a8b67d98dc01db23540841ccf0b1e189c5d09f5",
       "background.interactive.secondary-hover": "40486e980842c2529e992ec77ae1397a5e6e1c72",
       "background.input-list-item.hover.primary": "320fdec7a959384a23edb1c437b6185f3f521288",
