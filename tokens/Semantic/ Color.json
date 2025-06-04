@@ -100,16 +100,6 @@
         "type": "color"
       }
     },
-    "table-header": {
-      "value": "{Navy.600}",
-      "type": "color"
-    },
-    "row": {
-      "default": {
-        "value": "{Neutral.White}",
-        "type": "color"
-      }
-    },
     "control": {
       "inactive": {
         "value": "{Gray.400}",
@@ -203,10 +193,6 @@
         "value": "{Neutral.White}",
         "type": "color"
       },
-      "primary-inverse": {
-        "value": "{Navy.700}",
-        "type": "color"
-      },
       "tertiary": {
         "value": "{Navy.700}",
         "type": "color"
@@ -242,19 +228,11 @@
         "type": "color"
       }
     },
-    "caption": {
-      "value": "{Gray.25}",
-      "type": "color"
-    },
     "table": {
       "header": {
         "value": "{Gray.25}",
         "type": "color"
       }
-    },
-    "table-header": {
-      "value": "{Gray.25}",
-      "type": "color"
     }
   },
   "border": {

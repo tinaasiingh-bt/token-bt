@@ -192,11 +192,13 @@
         }
       }
     },
-    "disabled-legend": {
-      "item": {
-        "color": {
-          "value": "{Gray.400}",
-          "type": "color"
+    "disabled": {
+      "legend": {
+        "item": {
+          "color": {
+            "value": "{Gray.400}",
+            "type": "color"
+          }
         }
       }
     },
@@ -224,6 +226,42 @@
                 "type": "color"
               }
             }
+          }
+        }
+      },
+      "item-count": {
+        "text": {
+          "value": "{Gray.25}",
+          "type": "color"
+        }
+      },
+      "header": {
+        "background": {
+          "color": {
+            "value": "{Navy.600}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "color": {
+            "value": "{Gray.25}",
+            "type": "color"
+          }
+        }
+      },
+      "grid-cell": {
+        "text": {
+          "color": {
+            "value": "{Neutral.White}",
+            "type": "color"
+          }
+        }
+      },
+      "grid-row": {
+        "background": {
+          "color": {
+            "value": "{Neutral.White}",
+            "type": "color"
           }
         }
       }
