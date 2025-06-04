@@ -10,8 +10,6 @@
       "Semantic/ Color": "enabled",
       "Semantic/ Sizing": "enabled",
       "Semantic/ Typography": "enabled",
-      "Mode/ light": "enabled",
-      "Component/ Badge": "enabled",
       "Primitive/ Size": "enabled",
       "Primitive/Opacity": "enabled",
       "Primitive/ Shadow": "enabled",
@@ -19,7 +17,7 @@
       "Semantic/ Spacing": "enabled",
       "Semantic/  Opacity": "enabled",
       "Semantic/ Elevation": "enabled",
-      "Component/ Accordion": "enabled"
+      "Semantic Mode/ light": "enabled"
     },
     "$figmaStyleReferences": {
       "Black.50": "S:b32e1a032c619d20a90715ba96ebc522fe572d5f,",
@@ -742,9 +740,7 @@
       "Primitive/Typography": "source",
       "Semantic/ Typography": "enabled",
       "Semantic/ Color": "enabled",
-      "Mode/ dark": "enabled",
       "Semantic/ Sizing": "enabled",
-      "Component/ Badge": "enabled",
       "Primitive/ Size": "source",
       "Primitive/Opacity": "source",
       "Primitive/ Shadow": "source",
@@ -752,7 +748,7 @@
       "Semantic/ Spacing": "enabled",
       "Semantic/ Elevation": "enabled",
       "Semantic/  Opacity": "enabled",
-      "Component/ Accordion": "enabled"
+      "Semantic Mode/ dark": "enabled"
     },
     "$figmaStyleReferences": {
       "display.lg": "S:8b315cbd17014fee87dc5dae52da0b5d5231084b,",

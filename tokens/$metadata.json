@@ -7,6 +7,8 @@
     "Primitive/Opacity",
     "Primitive/ Shadow",
     "Primitive/Typography",
+    "Semantic Mode/ light",
+    "Semantic Mode/ dark",
     "Semantic/ Color",
     "Semantic/ Sizing",
     "Semantic/ Border",
@@ -14,16 +16,6 @@
     "Semantic/  Opacity",
     "Semantic/ Elevation",
     "Semantic/ Typography",
-    "Component/ Accordion",
-    "Component/ Button",
-    "Component/ Badge",
-    "Component/ Charts",
-    "Component/ Buttongroup",
-    "Component/ Checkbox",
-    "Component/ Breadcrumb",
-    "Component/ Date picker",
-    "Component/ Data grid",
-    "Mode/ light",
-    "Mode/ dark"
+    "Component"
   ]
 }
