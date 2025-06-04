@@ -48,46 +48,6 @@
         "type": "color"
       }
     },
-    "interactive": {
-      "transparent": {
-        "value": "{transparent.transparent}",
-        "type": "color"
-      },
-      "primary": {
-        "value": "{Blue.100}",
-        "type": "color"
-      },
-      "secondary": {
-        "value": "{Blue-gray.100}",
-        "type": "color"
-      },
-      "tertiary": {
-        "value": "{Navy.25}",
-        "type": "color"
-      },
-      "active": {
-        "value": "{Light-blue.200}",
-        "type": "color"
-      },
-      "hover": {
-        "primary": {
-          "value": "{Blue.200}",
-          "type": "color"
-        },
-        "secondary": {
-          "value": "{Light-blue.100}",
-          "type": "color"
-        },
-        "subtle": {
-          "value": "{Light-blue.100}",
-          "type": "color"
-        },
-        "tertiary": {
-          "value": "{Navy.100}",
-          "type": "color"
-        }
-      }
-    },
     "selection": {
       "value": "{Gray.100}",
       "type": "color"
@@ -129,22 +89,6 @@
     "surface-hover": {
       "value": "{Neutral.Ash}",
       "type": "color"
-    },
-    "danger": {
-      "default": {
-        "value": "{Red.100}",
-        "type": "color"
-      },
-      "hover": {
-        "value": "{Orange.800}",
-        "type": "color"
-      }
-    },
-    "secondary-text": {
-      "active": {
-        "value": "{Light-blue.200}",
-        "type": "color"
-      }
     },
     "status": {
       "one": {
@@ -266,6 +210,10 @@
       "tertiary": {
         "value": "{Navy.700}",
         "type": "color"
+      },
+      "secondary": {
+        "value": "{Gray.50}",
+        "type": "color"
       }
     },
     "metadata": {
@@ -386,14 +334,6 @@
       "focus": {
         "value": "{Orange.400}",
         "type": "color"
-      }
-    },
-    "transparent": {
-      "action": {
-        "active": {
-          "value": "{Blue.300}",
-          "type": "color"
-        }
       }
     },
     "status": {
