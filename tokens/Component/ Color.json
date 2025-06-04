@@ -191,6 +191,20 @@
           "type": "color"
         }
       }
+    },
+    "disabled-legend": {
+      "item": {
+        "color": {
+          "value": "{Gray.400}",
+          "type": "color"
+        }
+      }
+    },
+    "stroke": {
+      "color": {
+        "value": "{Gray.300}",
+        "type": "color"
+      }
     }
   }
 }
