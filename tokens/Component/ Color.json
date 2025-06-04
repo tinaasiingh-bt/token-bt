@@ -1,1 +1,22 @@
-{}
+{
+  "accordion": {
+    "hover": {
+      "background": {
+        "value": "{Neutral.Ash}",
+        "type": "color"
+      }
+    }
+  },
+  "button": {
+    "primary": {
+      "active": {
+        "background": {
+          "color": {
+            "value": "{Blue.300}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

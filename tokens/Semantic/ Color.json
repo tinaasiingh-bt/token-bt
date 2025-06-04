@@ -86,18 +86,6 @@
           "value": "{Navy.100}",
           "type": "color"
         }
-      },
-      "primary-active": {
-        "value": "{Blue.300}",
-        "type": "color"
-      },
-      "secondary-hover": {
-        "value": "{Blue-gray.200}",
-        "type": "color"
-      },
-      "secondary-active": {
-        "value": "{Blue-gray.300}",
-        "type": "color"
       }
     },
     "selection": {

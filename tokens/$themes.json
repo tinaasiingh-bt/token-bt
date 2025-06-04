@@ -17,8 +17,7 @@
       "Semantic/ Spacing": "enabled",
       "Semantic/  Opacity": "enabled",
       "Semantic/ Elevation": "enabled",
-      "Semantic Mode/ light": "enabled",
-      "Component/ Color": "disabled"
+      "Semantic Mode/ light": "enabled"
     },
     "$figmaStyleReferences": {
       "Black.50": "S:b32e1a032c619d20a90715ba96ebc522fe572d5f,",
@@ -395,7 +394,6 @@
       "line-height.4xl": "78a2f403a1af3672527704950a4d2ed71b30078e",
       "line-height.5xl": "b59acfa441e4ffb47577f6d8a5eb9111fdc2d19b",
       "background.interactive.hover.subtle": "5a8b67d98dc01db23540841ccf0b1e189c5d09f5",
-      "background.interactive.secondary-hover": "40486e980842c2529e992ec77ae1397a5e6e1c72",
       "background.input-list-item.hover.primary": "320fdec7a959384a23edb1c437b6185f3f521288",
       "background.input-list-item.hover.secondary": "3be89f36ef44f554b90a3858260c0559b1a487fa",
       "background.surface-hover": "29a3b9aa5852726842c8c73d57358ef3f53805cd",
@@ -722,9 +720,7 @@
       "badge.label.font.family": "ca04292e52df4dfad3ba8d3f99ed4f9391e4b283",
       "badge.radius": "83502c8b508f46c731eb8888d292f34980853a62",
       "badge.padding.block": "29297a596a83bdd781f290157dc77863f845da4f",
-      "size.icon.md": "16b571b918de2558d3c0ab8b575456a4fcf15d37",
-      "background.interactive.primary-active": "d24669b192322d98082ad766e7c0917163484f54",
-      "background.interactive.secondary-active": "4e13abdc11f02ee916d9e7cad0c33029f18b7aeb"
+      "size.icon.md": "16b571b918de2558d3c0ab8b575456a4fcf15d37"
     },
     "$figmaCollectionId": "VariableCollectionId:416:4079",
     "$figmaModeId": "416:52",
@@ -748,8 +744,7 @@
       "Semantic/ Spacing": "enabled",
       "Semantic/ Elevation": "enabled",
       "Semantic/  Opacity": "enabled",
-      "Semantic Mode/ dark": "enabled",
-      "Component/ Color": "disabled"
+      "Semantic Mode/ dark": "enabled"
     },
     "$figmaStyleReferences": {
       "display.lg": "S:8b315cbd17014fee87dc5dae52da0b5d5231084b,",
@@ -989,7 +984,6 @@
       "text.interactive.tertiary": "813ba141f3979a224e00b0867d9aede048ac4b21",
       "text.interactive.hover": "7bc880f9b5be1e9f06fef98e310a5b9afab461e8",
       "background.interactive.hover.subtle": "5a8b67d98dc01db23540841ccf0b1e189c5d09f5",
-      "background.interactive.secondary-hover": "40486e980842c2529e992ec77ae1397a5e6e1c72",
       "background.input-list-item.hover.primary": "320fdec7a959384a23edb1c437b6185f3f521288",
       "background.input-list-item.hover.secondary": "3be89f36ef44f554b90a3858260c0559b1a487fa",
       "background.surface-hover": "29a3b9aa5852726842c8c73d57358ef3f53805cd",
@@ -1316,9 +1310,7 @@
       "badge.label.font.family": "ca04292e52df4dfad3ba8d3f99ed4f9391e4b283",
       "badge.radius": "83502c8b508f46c731eb8888d292f34980853a62",
       "badge.padding.block": "29297a596a83bdd781f290157dc77863f845da4f",
-      "size.icon.md": "16b571b918de2558d3c0ab8b575456a4fcf15d37",
-      "background.interactive.primary-active": "d24669b192322d98082ad766e7c0917163484f54",
-      "background.interactive.secondary-active": "4e13abdc11f02ee916d9e7cad0c33029f18b7aeb"
+      "size.icon.md": "16b571b918de2558d3c0ab8b575456a4fcf15d37"
     },
     "$figmaCollectionId": "VariableCollectionId:416:4079",
     "$figmaModeId": "416:53",
