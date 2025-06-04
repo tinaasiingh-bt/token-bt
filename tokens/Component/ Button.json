@@ -81,6 +81,30 @@
           }
         }
       }
+    },
+    "ghost": {
+      "focus-border": {
+        "color": {
+          "value": "{border.outline.focus}",
+          "type": "color"
+        }
+      },
+      "active-border": {
+        "color": {
+          "value": "{border.transparent.action.active}",
+          "type": "color"
+        }
+      }
+    },
+    "text": {
+      "secondary": {
+        "active-background": {
+          "color": {
+            "value": "{background.secondary-text.active}",
+            "type": "color"
+          }
+        }
+      }
     }
   }
 }
