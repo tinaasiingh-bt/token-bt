@@ -6,48 +6,6 @@
         "type": "color"
       }
     },
-    "surface": {
-      "layer": {
-        "one": {
-          "value": "{Gray.100}",
-          "type": "color"
-        },
-        "two": {
-          "value": "{Gray.50}",
-          "type": "color"
-        }
-      },
-      "header": {
-        "value": "{Gray.800}",
-        "type": "color"
-      },
-      "overlay": {
-        "value": "{Navy.25}",
-        "type": "color"
-      },
-      "selection": {
-        "indicator": {
-          "value": "{Neutral.White}",
-          "type": "color"
-        }
-      },
-      "row": {
-        "value": "{Gray.50}",
-        "type": "color"
-      },
-      "row-selected": {
-        "value": "{Cyan.100}",
-        "type": "color"
-      },
-      "row-hover": {
-        "value": "{Navy.50}",
-        "type": "color"
-      },
-      "subtle": {
-        "value": "{Gray.200}",
-        "type": "color"
-      }
-    },
     "selection": {
       "value": "{Gray.100}",
       "type": "color"
@@ -98,20 +56,6 @@
       "two": {
         "value": "{Raspberry.100}",
         "type": "color"
-      }
-    },
-    "control": {
-      "hover": {
-        "secondary": {
-          "value": "{Navy.100}",
-          "type": "color"
-        }
-      },
-      "default": {
-        "secondary": {
-          "value": "{Gray.300}",
-          "type": "color"
-        }
       }
     },
     "container": {
@@ -190,16 +134,6 @@
         "type": "color"
       }
     },
-    "metadata": {
-      "primary": {
-        "value": "{Navy.700}",
-        "type": "color"
-      },
-      "secondary": {
-        "value": "{Black.950}",
-        "type": "color"
-      }
-    },
     "status": {
       "one": {
         "value": "{Forest-green.300}",
@@ -262,16 +196,6 @@
       "secondary": {
         "value": "{Navy.500}",
         "type": "color"
-      },
-      "selected": {
-        "primary": {
-          "value": "{Gray.200}",
-          "type": "color"
-        },
-        "secondary": {
-          "value": "{Neutral.light-ash}",
-          "type": "color"
-        }
       }
     },
     "error": {
@@ -321,10 +245,6 @@
       "type": "color"
     },
     "contrast": {
-      "value": "{Black.50}",
-      "type": "color"
-    },
-    "secondary": {
       "value": "{Black.50}",
       "type": "color"
     },
@@ -389,6 +309,18 @@
         "color": {
           "value": "{text.interactive.secondary-hover}",
           "type": "color"
+        }
+      }
+    }
+  },
+  "treeview": {
+    "arrow": {
+      "right": {
+        "background": {
+          "color": {
+            "value": "{Gray.300}",
+            "type": "color"
+          }
         }
       }
     }

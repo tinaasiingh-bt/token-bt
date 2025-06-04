@@ -329,6 +329,70 @@
           }
         }
       }
+    },
+    "severity": {
+      "text": {
+        "color": {
+          "value": "{Navy.700}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "time-picker": {
+    "selected": {
+      "list": {
+        "border-color": {
+          "value": "{Gray.200}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "time": {
+    "picker": {
+      "border": {
+        "selected": {
+          "time": {
+            "color": {
+              "value": "{Neutral.light-ash}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  },
+  "toast": {
+    "default": {
+      "container": {
+        "border-color": {
+          "value": "{Gray.300}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "treeview": {
+    "leaf": {
+      "default": {
+        "background": {
+          "color": {
+            "value": "{Gray.200}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "arrow": {
+      "right": {
+        "background": {
+          "hover": {
+            "value": "{Navy.100}",
+            "type": "color"
+          }
+        }
+      }
     }
   }
 }
