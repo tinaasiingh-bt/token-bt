@@ -201,20 +201,20 @@
       "type": "color"
     },
     "tertiary": {
-      "value": "{Gray.800}",
+      "value": "{Black.400}",
       "type": "color"
     },
     "hover": {
-      "value": "{Blue.200}",
+      "value": "{Sky-blue.200}",
       "type": "color"
     },
     "active": {
-      "value": "{Cyan.800}",
+      "value": "{Cyan.500}",
       "type": "color"
     },
     "surface": {
       "primary": {
-        "value": "{Gray.300}",
+        "value": "{Black.500}",
         "type": "color"
       },
       "secondary": {
@@ -224,16 +224,16 @@
     },
     "interactive": {
       "primary": {
-        "value": "{Blue.100}",
+        "value": "{Sky-blue.100}",
         "type": "color"
       },
       "secondary": {
-        "value": "{Navy.500}",
+        "value": "{Neutral.Ash}",
         "type": "color"
       }
     },
     "error": {
-      "value": "{Red.100}",
+      "value": "{Red.50}",
       "type": "color"
     },
     "container-secondary": {
