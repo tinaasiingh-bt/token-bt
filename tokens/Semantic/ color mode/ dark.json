@@ -130,7 +130,7 @@
       "description": "Tab, menu item, Slider"
     },
     "active": {
-      "value": "{Blue.300}",
+      "value": "{Sky-blue.300}",
       "type": "color"
     },
     "hover": {
@@ -139,12 +139,12 @@
       "description": "Checkbox, Radio Button, Switch,Slider, Time Picker, Date Picker, buttonGroup, Tab, Toast, Text Link, Menu Trigger, Icon Button"
     },
     "error": {
-      "value": "{Red.100}",
+      "value": "{Red.50}",
       "type": "color"
     },
     "interactive": {
       "primary": {
-        "value": "{Blue.100}",
+        "value": "{Sky-blue.100}",
         "type": "color"
       },
       "secondary": {
@@ -152,11 +152,11 @@
         "type": "color"
       },
       "tertiary": {
-        "value": "{Gray.25}",
+        "value": "{Black.950}",
         "type": "color"
       },
       "hover": {
-        "value": "{Blue.200}",
+        "value": "{Sky-blue.200}",
         "type": "color"
       },
       "secondary-hover": {
@@ -166,25 +166,15 @@
     },
     "contrast": {
       "primary": {
-        "value": "{Neutral.White}",
-        "type": "color"
-      },
-      "tertiary": {
         "value": "{Navy.700}",
         "type": "color"
       },
-      "secondary": {
-        "value": "{Gray.50}",
-        "type": "color"
-      }
-    },
-    "status": {
-      "one": {
-        "value": "{Forest-green.300}",
+      "tertiary": {
+        "value": "{Neutral.light-ash}",
         "type": "color"
       },
-      "two": {
-        "value": "{Raspberry.300}",
+      "secondary": {
+        "value": "{Black.50}",
         "type": "color"
       }
     },
@@ -203,11 +193,11 @@
   },
   "border": {
     "primary": {
-      "value": "{Gray.300}",
+      "value": "{Black.400}",
       "type": "color"
     },
     "secondary": {
-      "value": "{Gray.400}",
+      "value": "{Black.400}",
       "type": "color"
     },
     "tertiary": {
