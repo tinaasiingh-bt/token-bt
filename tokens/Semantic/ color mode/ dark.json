@@ -125,7 +125,7 @@
       "description": "Text Field, Password Field, Number Field, Time Picker, Date Picker, Modal, Help Text,severity, Data Grid, Data Table, Dropdown, password field, radio button instructional text, Slider"
     },
     "tertiary": {
-      "value": "{Navy.700}",
+      "value": "{Neutral.Ash}",
       "type": "color",
       "description": "Tab, menu item, Slider"
     },
