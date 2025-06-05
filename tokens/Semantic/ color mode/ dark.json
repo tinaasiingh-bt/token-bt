@@ -303,15 +303,15 @@
       "type": "color"
     },
     "moderate": {
-      "value": "{Sunset.400}",
+      "value": "{Sunset.300}",
       "type": "color"
     },
     "low": {
-      "value": "{Ocean.200}",
+      "value": "{Ocean.100}",
       "type": "color"
     },
     "none": {
-      "value": "{Neutral.Ash}",
+      "value": "{Black.400}",
       "type": "color"
     },
     "undertermined": {
