@@ -40,7 +40,7 @@
         "type": "color"
       },
       "warning": {
-        "value": "{Sunset.250}",
+        "value": "{Orange.275}",
         "type": "color"
       }
     },
@@ -51,16 +51,6 @@
       },
       "two": {
         "value": "{Raspberry.100}",
-        "type": "color"
-      }
-    },
-    "container": {
-      "secondary": {
-        "value": "{Neutral.White}",
-        "type": "color"
-      },
-      "tertiary": {
-        "value": "{Stone.200}",
         "type": "color"
       }
     }

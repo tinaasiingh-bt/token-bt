@@ -53,16 +53,6 @@
         "value": "{Raspberry.100}",
         "type": "color"
       }
-    },
-    "container": {
-      "secondary": {
-        "value": "{Neutral.White}",
-        "type": "color"
-      },
-      "tertiary": {
-        "value": "{Stone.200}",
-        "type": "color"
-      }
     }
   },
   "text": {
