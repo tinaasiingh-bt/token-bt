@@ -2,7 +2,15 @@
   "background": {
     "layer": {
       "one": {
-        "value": "{Gray.200}",
+        "value": "{Black.950}",
+        "type": "color"
+      },
+      "two": {
+        "value": "{Black.900}",
+        "type": "color"
+      },
+      "three": {
+        "value": "{Black.800}",
         "type": "color"
       }
     },

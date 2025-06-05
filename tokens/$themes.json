@@ -153,7 +153,6 @@
     "$figmaVariableReferences": {
       "background.layer.one": "27f0e0eaa706e5d783a1615779d69e1ee6026139",
       "background.surface.layer.one": "74086d3e7a6c21e86d20500b441b79c2537d047f",
-      "background.surface.layer.two": "486eee5e40c6f1371741796251cf1d2c5670ce98",
       "background.surface.header": "7750414d550a5e9d2659b6fa54de5cf76ba2edce",
       "background.surface.overlay": "ab511aef2da6c35059cb349bb73fc7b4831e87e5",
       "background.surface.selection.indicator": "b23ee4e3789b101118d7afa1509f4c8bba33ce95",
@@ -706,7 +705,8 @@
       "button.danger.default.background.color": "d58c11aa610831464575c136f38828316198be8f",
       "button.danger.hover.background.color": "03ad814c4fab3deca55e7382da185876a04c4a07",
       "button.ghost.active.border.color": "d317f81567090ca4bea82a40891043571692b76c",
-      "button.text.secondary.active.background.color": "cf8e4cc5a39d4c4754589312a6f381dbf0fc42c3"
+      "button.text.secondary.active.background.color": "cf8e4cc5a39d4c4754589312a6f381dbf0fc42c3",
+      "background.layer.two": "486eee5e40c6f1371741796251cf1d2c5670ce98"
     },
     "$figmaCollectionId": "VariableCollectionId:416:4079",
     "$figmaModeId": "416:52",
@@ -938,7 +938,6 @@
     "$figmaVariableReferences": {
       "background.layer.one": "27f0e0eaa706e5d783a1615779d69e1ee6026139",
       "background.surface.layer.one": "74086d3e7a6c21e86d20500b441b79c2537d047f",
-      "background.surface.layer.two": "486eee5e40c6f1371741796251cf1d2c5670ce98",
       "background.surface.header": "7750414d550a5e9d2659b6fa54de5cf76ba2edce",
       "background.surface.overlay": "ab511aef2da6c35059cb349bb73fc7b4831e87e5",
       "background.surface.selection.indicator": "b23ee4e3789b101118d7afa1509f4c8bba33ce95",
@@ -1282,7 +1281,8 @@
       "button.danger.default.background.color": "d58c11aa610831464575c136f38828316198be8f",
       "button.danger.hover.background.color": "03ad814c4fab3deca55e7382da185876a04c4a07",
       "button.ghost.active.border.color": "d317f81567090ca4bea82a40891043571692b76c",
-      "button.text.secondary.active.background.color": "cf8e4cc5a39d4c4754589312a6f381dbf0fc42c3"
+      "button.text.secondary.active.background.color": "cf8e4cc5a39d4c4754589312a6f381dbf0fc42c3",
+      "background.layer.two": "486eee5e40c6f1371741796251cf1d2c5670ce98"
     },
     "$figmaCollectionId": "VariableCollectionId:416:4079",
     "$figmaModeId": "416:53",

@@ -4,6 +4,14 @@
       "one": {
         "value": "{Gray.200}",
         "type": "color"
+      },
+      "two": {
+        "value": "{Gray.50}",
+        "type": "color"
+      },
+      "three": {
+        "value": "{Gray.50}",
+        "type": "color"
       }
     },
     "selection": {
