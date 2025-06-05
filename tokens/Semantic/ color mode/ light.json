@@ -285,29 +285,15 @@
     "tertiary": {
       "value": "{Black.950}",
       "type": "color"
+    },
+    "secondary": {
+      "value": "{Black.50}",
+      "type": "color"
     }
   },
   "surface": {
     "backdrop": {
       "value": "{Neutral.Black}",
-      "type": "color"
-    }
-  },
-  "status": {
-    "success": {
-      "value": "{Green.200}",
-      "type": "color"
-    },
-    "warning": {
-      "value": "{Sunset.250}",
-      "type": "color"
-    },
-    "error": {
-      "value": "{Red.100}",
-      "type": "color"
-    },
-    "informational": {
-      "value": "{Cyan.800}",
       "type": "color"
     }
   },
