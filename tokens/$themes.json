@@ -286,7 +286,6 @@
       "Ocean.200": "f91c0652b1e42bb35407e8c4e7da4777ff381dea",
       "Stone.100": "a5aade7cdd30ac77c4e2c85361c66a2e9bb082c5",
       "Stone.200": "2347c41eceab59275207e840e7cafa170d17cd11",
-      "transparent.transparent": "ad31abdc652498e021dd3c5557bdd74772ad0842",
       "Coral.100": "21315e392de7144f75e6f7b35e30c5949b9d9d7d",
       "Coral.200": "09b8840b0f9f44245631c09ddd7a2b6c16da4631",
       "Fuchsia.100": "ab09819a05ca1feff5f262b43729ac75248aeee3",
@@ -706,7 +705,8 @@
       "button.danger.hover.background.color": "03ad814c4fab3deca55e7382da185876a04c4a07",
       "button.ghost.active.border.color": "d317f81567090ca4bea82a40891043571692b76c",
       "button.text.secondary.active.background.color": "cf8e4cc5a39d4c4754589312a6f381dbf0fc42c3",
-      "background.layer.two": "486eee5e40c6f1371741796251cf1d2c5670ce98"
+      "background.layer.two": "486eee5e40c6f1371741796251cf1d2c5670ce98",
+      "transparent": "ad31abdc652498e021dd3c5557bdd74772ad0842"
     },
     "$figmaCollectionId": "VariableCollectionId:416:4079",
     "$figmaModeId": "416:52",

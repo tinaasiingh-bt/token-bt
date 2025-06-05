@@ -450,16 +450,14 @@
     }
   },
   "transparent": {
-    "transparent": {
-      "value": "rgba(0,0,0,0)",
-      "type": "color",
-      "$extensions": {
-        "studio.tokens": {
-          "modify": {
-            "type": "lighten",
-            "value": "0",
-            "space": "lch"
-          }
+    "value": "rgba(0,0,0,0)",
+    "type": "color",
+    "$extensions": {
+      "studio.tokens": {
+        "modify": {
+          "type": "alpha",
+          "value": "0",
+          "space": "lch"
         }
       }
     }

@@ -51,6 +51,28 @@
         "value": "{Sunset.250}",
         "type": "color"
       }
+    },
+    "header": {
+      "value": "{Gray.800}",
+      "type": "color"
+    },
+    "interactive": {
+      "transparent": {
+        "value": "{transparent}",
+        "type": "color"
+      },
+      "primary": {
+        "value": "{Blue.100}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{Blue-gray.100}",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "{Navy.25}",
+        "type": "color"
+      }
     }
   },
   "text": {

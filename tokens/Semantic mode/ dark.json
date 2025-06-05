@@ -51,6 +51,28 @@
         "value": "{Orange.275}",
         "type": "color"
       }
+    },
+    "header": {
+      "value": "{Black.800}",
+      "type": "color"
+    },
+    "interactive": {
+      "transparent": {
+        "value": "{transparent}",
+        "type": "color"
+      },
+      "primary": {
+        "value": "{Sky-blue.100}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{Steel-blue.100}",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "{Black.900}",
+        "type": "color"
+      }
     }
   },
   "text": {
