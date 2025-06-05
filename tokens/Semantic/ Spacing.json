@@ -3,11 +3,11 @@
     "layout": {
       "margin": {
         "block-3xl": {
-          "value": "{spacing.3xl}",
+          "value": "{spacing.4xl1}",
           "type": "spacing"
         },
         "inline-3xl": {
-          "value": "{spacing.3xl}",
+          "value": "{spacing.4xl1}",
           "type": "spacing"
         }
       }
@@ -16,17 +16,17 @@
       "margin": {
         "block": {
           "md": {
-            "value": "{spacing.md}",
+            "value": "{spacing.lg1}",
             "type": "spacing"
           }
         },
         "inline": {
           "md": {
-            "value": "{spacing.md}",
+            "value": "{spacing.lg1}",
             "type": "spacing"
           },
           "xl": {
-            "value": "{spacing.xl}",
+            "value": "{spacing.2xl1}",
             "type": "spacing"
           }
         }
@@ -37,13 +37,13 @@
         "block": {
           "start": {
             "2xl": {
-              "value": "{spacing.2xl}",
+              "value": "{spacing.3xl1}",
               "type": "spacing"
             }
           },
           "end": {
             "xl": {
-              "value": "{spacing.xl}",
+              "value": "{spacing.2xl1}",
               "type": "spacing"
             }
           }
@@ -55,13 +55,13 @@
         "block": {
           "start": {
             "3xl": {
-              "value": "{spacing.3xl}",
+              "value": "{spacing.4xl1}",
               "type": "spacing"
             }
           },
           "end": {
             "md": {
-              "value": "{spacing.md}",
+              "value": "{spacing.lg1}",
               "type": "spacing"
             }
           }
@@ -74,13 +74,13 @@
           "inline": {
             "start": {
               "md": {
-                "value": "{spacing.md}",
+                "value": "{spacing.lg1}",
                 "type": "spacing"
               }
             },
             "end": {
               "md": {
-                "value": "{spacing.md}",
+                "value": "{spacing.lg1}",
                 "type": "spacing"
               }
             }
@@ -88,15 +88,15 @@
           "block": {
             "start": {
               "md": {
-                "value": "{spacing.md}",
+                "value": "{spacing.lg1}",
                 "type": "spacing"
               },
               "3xl": {
-                "value": "{spacing.3xl}",
+                "value": "{spacing.4xl1}",
                 "type": "spacing"
               },
               "xl": {
-                "value": "{spacing.xl}",
+                "value": "{spacing.2xl1}",
                 "type": "spacing"
               }
             }
@@ -107,7 +107,7 @@
         "block": {
           "end": {
             "md": {
-              "value": "{spacing.md}",
+              "value": "{spacing.lg1}",
               "type": "spacing"
             }
           }
@@ -119,14 +119,14 @@
           "type": "spacing"
         },
         "sm": {
-          "value": "{spacing.md}",
+          "value": "{spacing.lg1}",
           "type": "spacing"
         }
       },
       "block": {
         "start": {
           "md": {
-            "value": "{spacing.md}",
+            "value": "{spacing.lg1}",
             "type": "spacing"
           }
         }
@@ -161,7 +161,7 @@
               "type": "spacing"
             },
             "md": {
-              "value": "{spacing.md}",
+              "value": "{spacing.lg1}",
               "type": "spacing"
             },
             "xs": {
@@ -180,16 +180,16 @@
             "type": "spacing"
           },
           "md": {
-            "value": "{spacing.md}",
+            "value": "{spacing.lg1}",
             "type": "spacing"
           },
           "lg": {
-            "value": "{spacing.lg}",
+            "value": "{spacing.xl1}",
             "type": "spacing"
           },
           "bottom": {
             "xl": {
-              "value": "{spacing.xl}",
+              "value": "{spacing.2xl1}",
               "type": "spacing"
             }
           },
@@ -209,13 +209,13 @@
               "type": "spacing"
             },
             "md": {
-              "value": "{spacing.md}",
+              "value": "{spacing.lg1}",
               "type": "spacing"
             }
           },
           "start": {
             "md": {
-              "value": "{spacing.md}",
+              "value": "{spacing.lg1}",
               "type": "spacing"
             }
           },
@@ -224,15 +224,15 @@
             "type": "spacing"
           },
           "sm": {
-            "value": "{spacing.sm}",
+            "value": "{spacing.md1}",
             "type": "spacing"
           },
           "md": {
-            "value": "{spacing.md}",
+            "value": "{spacing.lg1}",
             "type": "spacing"
           },
           "xl": {
-            "value": "{spacing.xl}",
+            "value": "{spacing.2xl1}",
             "type": "spacing"
           }
         }
@@ -267,19 +267,19 @@
               "type": "spacing"
             },
             "sm": {
-              "value": "{spacing.sm}",
+              "value": "{spacing.md1}",
               "type": "spacing"
             },
             "md": {
-              "value": "{spacing.md}",
+              "value": "{spacing.lg1}",
               "type": "spacing"
             },
             "lg": {
-              "value": "{spacing.lg}",
+              "value": "{spacing.xl1}",
               "type": "spacing"
             },
             "xl": {
-              "value": "{spacing.xl}",
+              "value": "{spacing.2xl1}",
               "type": "spacing"
             }
           }
@@ -295,7 +295,7 @@
               "type": "spacing"
             },
             "md": {
-              "value": "{spacing.md}",
+              "value": "{spacing.lg1}",
               "type": "spacing"
             }
           },
@@ -309,11 +309,11 @@
               "type": "spacing"
             },
             "md": {
-              "value": "{spacing.md}",
+              "value": "{spacing.lg1}",
               "type": "spacing"
             },
             "lg": {
-              "value": "{spacing.lg}",
+              "value": "{spacing.xl1}",
               "type": "spacing"
             }
           },
@@ -322,11 +322,11 @@
             "type": "spacing"
           },
           "sm": {
-            "value": "{spacing.sm}",
+            "value": "{spacing.md1}",
             "type": "spacing"
           },
           "md": {
-            "value": "{spacing.md}",
+            "value": "{spacing.lg1}",
             "type": "spacing"
           }
         }
@@ -336,17 +336,17 @@
       "padding": {
         "block": {
           "md": {
-            "value": "{spacing.md}",
+            "value": "{spacing.lg1}",
             "type": "spacing"
           }
         }
       },
       "inline-start": {
-        "value": "{spacing.xl}",
+        "value": "{spacing.2xl1}",
         "type": "spacing"
       },
       "inline-end": {
-        "value": "{spacing.xl}",
+        "value": "{spacing.2xl1}",
         "type": "spacing"
       }
     }
