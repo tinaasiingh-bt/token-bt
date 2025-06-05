@@ -72,6 +72,24 @@
       "tertiary": {
         "value": "{Black.900}",
         "type": "color"
+      },
+      "hover": {
+        "primary": {
+          "value": "{Sky-blue.200}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{Deep-teal.100}",
+          "type": "color"
+        },
+        "tertiary": {
+          "value": "{Neutral.Slate}",
+          "type": "color"
+        }
+      },
+      "active": {
+        "value": "{Deep-teal.200}",
+        "type": "color"
       }
     }
   },
