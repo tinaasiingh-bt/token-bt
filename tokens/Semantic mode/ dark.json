@@ -15,7 +15,7 @@
       }
     },
     "selection": {
-      "value": "{Black.900}",
+      "value": "{Black.950}",
       "type": "color"
     },
     "input": {
@@ -25,7 +25,7 @@
     "input-list-item": {
       "hover": {
         "primary": {
-          "value": "{Gray.800}",
+          "value": "{Black.800}",
           "type": "color"
         },
         "secondary": {
@@ -91,11 +91,31 @@
         "value": "{Deep-teal.200}",
         "type": "color"
       }
+    },
+    "surface": {
+      "overlay": {
+        "value": "{Black.800}",
+        "type": "color"
+      },
+      "row": {
+        "value": "{Black.900}",
+        "type": "color"
+      },
+      "row-hover": {
+        "value": "{Black.600}",
+        "type": "color"
+      }
+    },
+    " surface": {
+      "row-selected": {
+        "value": "{Cyan.950}",
+        "type": "color"
+      }
     }
   },
   "text": {
     "primary": {
-      "value": "{Navy.700}",
+      "value": "{Black.50}",
       "type": "color",
       "description": "Checkbox, Radio Button, Switch,Slider, Text Field, Password Field, Number Field, Time Picker, Date Picker, Button Group, Button with Icon, Tooltip text, Accordion, Modal, Help Text, Tooltip, Severity, Tab, Data Grid, Data Table, Label / Value Pair, Pagination, Checkbox, Breadcrumb, Menu, Pagination, Tab, Chart, Toast, treeview, Tag: Default / Counter, System,"
     },

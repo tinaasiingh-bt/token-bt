@@ -91,6 +91,26 @@
         "value": "{Light-blue.200}",
         "type": "color"
       }
+    },
+    "surface": {
+      "overlay": {
+        "value": "{Navy.25}",
+        "type": "color"
+      },
+      "row": {
+        "value": "{Gray.50}",
+        "type": "color"
+      },
+      "row-hover": {
+        "value": "{Navy.50}",
+        "type": "color"
+      }
+    },
+    " surface": {
+      "row-selected": {
+        "value": "{Cyan.100}",
+        "type": "color"
+      }
     }
   },
   "text": {
