@@ -3,21 +3,22 @@
     "id": "6564e3eea7c74be2003bb10ce5d4e0f75543d3c1",
     "name": "light",
     "selectedTokenSets": {
-      "Primitive/Spacing": "enabled",
-      "Primitive/Border": "enabled",
-      "Primitive/Color": "enabled",
-      "Primitive/Typography": "enabled",
+      "Primitive/Spacing": "source",
+      "Primitive/Border": "source",
+      "Primitive/Color": "source",
+      "Primitive/Typography": "source",
       "Semantic/ Color": "enabled",
       "Semantic/ Sizing": "enabled",
       "Semantic/ Typography": "enabled",
-      "Primitive/ Size": "enabled",
-      "Primitive/Opacity": "enabled",
-      "Primitive/ Shadow": "enabled",
+      "Primitive/ Size": "source",
+      "Primitive/Opacity": "source",
+      "Primitive/ Shadow": "source",
       "Semantic/ Border": "enabled",
       "Semantic/ Spacing": "enabled",
       "Semantic/  Opacity": "enabled",
       "Semantic/ Elevation": "enabled",
-      "Semantic Mode/ light": "enabled"
+      "Semantic mode/ light": "enabled",
+      "Component/ Color": "enabled"
     },
     "$figmaStyleReferences": {
       "Black.50": "S:b32e1a032c619d20a90715ba96ebc522fe572d5f,",
@@ -396,7 +397,6 @@
       "background.interactive.hover.subtle": "5a8b67d98dc01db23540841ccf0b1e189c5d09f5",
       "background.input-list-item.hover.primary": "320fdec7a959384a23edb1c437b6185f3f521288",
       "background.input-list-item.hover.secondary": "3be89f36ef44f554b90a3858260c0559b1a487fa",
-      "background.surface-hover": "29a3b9aa5852726842c8c73d57358ef3f53805cd",
       "background.danger.default": "ea60df10000b7ee881f211cfc4509cd87a176b25",
       "background.danger.hover": "4a58b1605750afa50e8d515ecd9706aaae39d93e",
       "background.secondary-text.active": "192f557caefee950e267eb63299f98595396889b",
@@ -730,7 +730,8 @@
       "Semantic/ Spacing": "enabled",
       "Semantic/ Elevation": "enabled",
       "Semantic/  Opacity": "enabled",
-      "Semantic Mode/ dark": "enabled"
+      "Semantic mode/ dark": "enabled",
+      "Component/ Color": "enabled"
     },
     "$figmaStyleReferences": {
       "display.lg": "S:8b315cbd17014fee87dc5dae52da0b5d5231084b,",
@@ -972,7 +973,6 @@
       "background.interactive.hover.subtle": "5a8b67d98dc01db23540841ccf0b1e189c5d09f5",
       "background.input-list-item.hover.primary": "320fdec7a959384a23edb1c437b6185f3f521288",
       "background.input-list-item.hover.secondary": "3be89f36ef44f554b90a3858260c0559b1a487fa",
-      "background.surface-hover": "29a3b9aa5852726842c8c73d57358ef3f53805cd",
       "background.danger.default": "ea60df10000b7ee881f211cfc4509cd87a176b25",
       "background.danger.hover": "4a58b1605750afa50e8d515ecd9706aaae39d93e",
       "background.secondary-text.active": "192f557caefee950e267eb63299f98595396889b",

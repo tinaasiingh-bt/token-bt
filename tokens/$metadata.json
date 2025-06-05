@@ -7,8 +7,6 @@
     "Primitive/Opacity",
     "Primitive/ Shadow",
     "Primitive/Typography",
-    "Semantic Mode/ light",
-    "Semantic Mode/ dark",
     "Semantic/ Color",
     "Semantic/ Sizing",
     "Semantic/ Border",
@@ -16,6 +14,8 @@
     "Semantic/  Opacity",
     "Semantic/ Elevation",
     "Semantic/ Typography",
+    "Semantic mode/ light",
+    "Semantic mode/ dark",
     "Component/ Color"
   ]
 }

@@ -1,0 +1,324 @@
+{
+  "background": {
+    "layer": {
+      "one": {
+        "value": "{Gray.200}",
+        "type": "color"
+      }
+    },
+    "selection": {
+      "value": "{Gray.100}",
+      "type": "color"
+    },
+    "input": {
+      "value": "{Navy.25}",
+      "type": "color"
+    },
+    "input-list-item": {
+      "hover": {
+        "primary": {
+          "value": "{Gray.200}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{Navy.50}",
+          "type": "color"
+        }
+      }
+    },
+    " status": {
+      "success": {
+        "value": "{Green.200}",
+        "type": "color"
+      },
+      "error": {
+        "value": "{Red.100}",
+        "type": "color"
+      },
+      "informational": {
+        "value": "{Cyan.800}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{Sunset.250}",
+        "type": "color"
+      }
+    },
+    "status": {
+      "one": {
+        "value": "{Forest-green.100}",
+        "type": "color"
+      },
+      "two": {
+        "value": "{Raspberry.100}",
+        "type": "color"
+      }
+    },
+    "container": {
+      "secondary": {
+        "value": "{Neutral.White}",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "{Stone.200}",
+        "type": "color"
+      }
+    }
+  },
+  "text": {
+    "primary": {
+      "value": "{Navy.700}",
+      "type": "color",
+      "description": "Checkbox, Radio Button, Switch,Slider, Text Field, Password Field, Number Field, Time Picker, Date Picker, Button Group, Button with Icon, Tooltip text, Accordion, Modal, Help Text, Tooltip, Severity, Tab, Data Grid, Data Table, Label / Value Pair, Pagination, Checkbox, Breadcrumb, Menu, Pagination, Tab, Chart, Toast, treeview, Tag: Default / Counter, System,"
+    },
+    "secondary": {
+      "value": "{Navy.600}",
+      "type": "color",
+      "description": "Text Field, Password Field, Number Field, Time Picker, Date Picker, Modal, Help Text,severity, Data Grid, Data Table, Dropdown, password field, radio button instructional text, Slider"
+    },
+    "tertiary": {
+      "value": "{Navy.700}",
+      "type": "color",
+      "description": "Tab, menu item, Slider"
+    },
+    "active": {
+      "value": "{Blue.300}",
+      "type": "color"
+    },
+    "hover": {
+      "value": "{Blue.200}",
+      "type": "color",
+      "description": "Checkbox, Radio Button, Switch,Slider, Time Picker, Date Picker, buttonGroup, Tab, Toast, Text Link, Menu Trigger, Icon Button"
+    },
+    "error": {
+      "value": "{Red.100}",
+      "type": "color"
+    },
+    "interactive": {
+      "primary": {
+        "value": "{Blue.100}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{Blue-gray.100}",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "{Gray.25}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{Blue.200}",
+        "type": "color"
+      },
+      "secondary-hover": {
+        "value": "{Blue-gray.200}",
+        "type": "color"
+      }
+    },
+    "contrast": {
+      "primary": {
+        "value": "{Neutral.White}",
+        "type": "color"
+      },
+      "tertiary": {
+        "value": "{Navy.700}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{Gray.50}",
+        "type": "color"
+      }
+    },
+    "status": {
+      "one": {
+        "value": "{Forest-green.300}",
+        "type": "color"
+      },
+      "two": {
+        "value": "{Raspberry.300}",
+        "type": "color"
+      }
+    },
+    "legend": {
+      "disabled": {
+        "value": "{Gray.400}",
+        "type": "color"
+      }
+    },
+    "table": {
+      "header": {
+        "value": "{Gray.25}",
+        "type": "color"
+      }
+    }
+  },
+  "border": {
+    "primary": {
+      "value": "{Gray.300}",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "{Gray.400}",
+      "type": "color"
+    },
+    "tertiary": {
+      "value": "{Gray.800}",
+      "type": "color"
+    },
+    "hover": {
+      "value": "{Blue.200}",
+      "type": "color"
+    },
+    "active": {
+      "value": "{Cyan.800}",
+      "type": "color"
+    },
+    "surface": {
+      "primary": {
+        "value": "{Gray.300}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{Gray.300}",
+        "type": "color"
+      }
+    },
+    "interactive": {
+      "primary": {
+        "value": "{Blue.100}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{Navy.500}",
+        "type": "color"
+      }
+    },
+    "error": {
+      "value": "{Red.100}",
+      "type": "color"
+    },
+    "container-secondary": {
+      "value": "{Gray.300}",
+      "type": "color"
+    },
+    "outline": {
+      "focus": {
+        "value": "{Orange.400}",
+        "type": "color"
+      }
+    },
+    "status": {
+      "one": {
+        "value": "{Forest-green.200}",
+        "type": "color"
+      },
+      "two": {
+        "value": "{Raspberry.200}",
+        "type": "color"
+      }
+    },
+    "data": {
+      "value": "{Gray.300}",
+      "type": "color"
+    }
+  },
+  "icon": {
+    "primary": {
+      "value": "{Navy.500}",
+      "type": "color"
+    },
+    "hover": {
+      "value": "{Blue.200}",
+      "type": "color"
+    },
+    "selection": {
+      "value": "{Blue.100}",
+      "type": "color"
+    },
+    "remove": {
+      "value": "{Navy.500}",
+      "type": "color"
+    },
+    "contrast": {
+      "value": "{Black.50}",
+      "type": "color"
+    },
+    "tertiary": {
+      "value": "{Black.950}",
+      "type": "color"
+    }
+  },
+  "surface": {
+    "backdrop": {
+      "value": "{Neutral.Black}",
+      "type": "color"
+    }
+  },
+  "status": {
+    "success": {
+      "value": "{Green.200}",
+      "type": "color"
+    },
+    "warning": {
+      "value": "{Sunset.250}",
+      "type": "color"
+    },
+    "error": {
+      "value": "{Red.100}",
+      "type": "color"
+    },
+    "informational": {
+      "value": "{Cyan.800}",
+      "type": "color"
+    }
+  },
+  "severity": {
+    "critical": {
+      "value": "{Rose.200}",
+      "type": "color"
+    },
+    "high": {
+      "value": "{Sunset.200}",
+      "type": "color"
+    },
+    "moderate": {
+      "value": "{Sunset.400}",
+      "type": "color"
+    },
+    "low": {
+      "value": "{Ocean.200}",
+      "type": "color"
+    },
+    "none": {
+      "value": "{Neutral.Ash}",
+      "type": "color"
+    },
+    "undertermined": {
+      "value": "{Stone.200}",
+      "type": "color"
+    }
+  },
+  "button": {
+    "secondary": {
+      "hover-label": {
+        "color": {
+          "value": "{text.interactive.secondary-hover}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "treeview": {
+    "arrow": {
+      "right": {
+        "background": {
+          "color": {
+            "value": "{Gray.300}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}
