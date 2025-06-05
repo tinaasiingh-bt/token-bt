@@ -255,12 +255,6 @@
             "value": "{Black.950}",
             "type": "color"
           }
-        },
-        "text": {
-          "color": {
-            "value": "{Gray.25}",
-            "type": "color"
-          }
         }
       },
       "grid-cell": {
@@ -277,6 +271,14 @@
             "value": "{Neutral.White}",
             "type": "color"
           }
+        }
+      }
+    },
+    "text": {
+      "color": {
+        "color": {
+          "value": "{Neutral.light-ash}",
+          "type": "color"
         }
       }
     }

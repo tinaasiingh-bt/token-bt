@@ -247,12 +247,6 @@
             "value": "{Navy.600}",
             "type": "color"
           }
-        },
-        "text": {
-          "color": {
-            "value": "{Gray.25}",
-            "type": "color"
-          }
         }
       },
       "grid-cell": {
@@ -270,6 +264,12 @@
             "type": "color"
           }
         }
+      }
+    },
+    "text": {
+      "color": {
+        "value": "{Gray.25}",
+        "type": "color"
       }
     }
   },
