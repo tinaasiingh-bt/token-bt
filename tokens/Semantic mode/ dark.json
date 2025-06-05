@@ -43,16 +43,6 @@
         "value": "{Orange.275}",
         "type": "color"
       }
-    },
-    "status": {
-      "one": {
-        "value": "{Forest-green.100}",
-        "type": "color"
-      },
-      "two": {
-        "value": "{Raspberry.100}",
-        "type": "color"
-      }
     }
   },
   "text": {

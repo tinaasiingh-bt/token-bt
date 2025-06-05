@@ -394,5 +394,43 @@
         }
       }
     }
+  },
+  "badge": {
+    "new": {
+      "background": {
+        "value": "{Forest-green.100}",
+        "type": "color"
+      },
+      "border": {
+        "color": {
+          "value": "{Forest-green.200}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "color": {
+          "value": "{Forest-green.300}",
+          "type": "color"
+        }
+      }
+    },
+    "preview": {
+      "background": {
+        "value": "{Raspberry.100}",
+        "type": "color"
+      },
+      "border": {
+        "color": {
+          "value": "{Raspberry.200}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "color": {
+          "value": "{Raspberry.300}",
+          "type": "color"
+        }
+      }
+    }
   }
 }
