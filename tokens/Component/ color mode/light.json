@@ -353,17 +353,13 @@
           "type": "color"
         }
       }
-    }
-  },
-  "time": {
-    "picker": {
-      "border": {
-        "selected": {
-          "time": {
-            "color": {
-              "value": "{Neutral.light-ash}",
-              "type": "color"
-            }
+    },
+    "border": {
+      "selected": {
+        "time": {
+          "color": {
+            "value": "{Neutral.light-ash}",
+            "type": "color"
           }
         }
       }
@@ -372,9 +368,11 @@
   "toast": {
     "default": {
       "container": {
-        "border-color": {
-          "value": "{Gray.300}",
-          "type": "color"
+        "border": {
+          "color": {
+            "value": "{Gray.300}",
+            "type": "color"
+          }
         }
       }
     }
@@ -395,6 +393,10 @@
         "background": {
           "hover": {
             "value": "{Navy.100}",
+            "type": "color"
+          },
+          "color": {
+            "value": "{Gray.300}",
             "type": "color"
           }
         }
