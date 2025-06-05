@@ -298,7 +298,7 @@
       "unselected": {
         "background": {
           "color": {
-            "value": "{Gray.400}",
+            "value": "{Black.300}",
             "type": "color"
           }
         }
@@ -310,7 +310,7 @@
       "container": {
         "background": {
           "color": {
-            "value": "{Gray.400}",
+            "value": "{Black.400}",
             "type": "color"
           }
         }
