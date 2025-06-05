@@ -242,16 +242,6 @@
         "type": "color"
       }
     },
-    "status": {
-      "one": {
-        "value": "{Forest-green.200}",
-        "type": "color"
-      },
-      "two": {
-        "value": "{Raspberry.200}",
-        "type": "color"
-      }
-    },
     "data": {
       "value": "{Gray.300}",
       "type": "color"
@@ -287,12 +277,6 @@
       "type": "color"
     }
   },
-  "surface": {
-    "backdrop": {
-      "value": "{Neutral.Black}",
-      "type": "color"
-    }
-  },
   "severity": {
     "critical": {
       "value": "{Rose.100}",
@@ -325,18 +309,6 @@
         "color": {
           "value": "{text.interactive.secondary-hover}",
           "type": "color"
-        }
-      }
-    }
-  },
-  "treeview": {
-    "arrow": {
-      "right": {
-        "background": {
-          "color": {
-            "value": "{Gray.300}",
-            "type": "color"
-          }
         }
       }
     }
