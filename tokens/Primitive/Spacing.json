@@ -13,38 +13,42 @@
       "type": "spacing"
     },
     "sm": {
-      "value": "6px",
+      "value": "5px",
       "type": "spacing"
     },
     "md": {
-      "value": "8px",
+      "value": "6px",
       "type": "spacing"
     },
     "lg": {
-      "value": "12px",
+      "value": "8px",
       "type": "spacing"
     },
     "xl": {
-      "value": "16px",
+      "value": "12px",
       "type": "spacing"
     },
     "2xl": {
-      "value": "20px",
+      "value": "16px",
       "type": "spacing"
     },
     "3xl": {
-      "value": "24px",
+      "value": "20px",
       "type": "spacing"
     },
     "4xl": {
-      "value": "32px",
+      "value": "24px",
       "type": "spacing"
     },
     "5xl": {
-      "value": "40px",
+      "value": "32px",
       "type": "spacing"
     },
     "6xl": {
+      "value": "40px",
+      "type": "spacing"
+    },
+    "7xl": {
       "value": "48px",
       "type": "spacing"
     },
