@@ -17,7 +17,7 @@
       "Semantic/  Opacity": "enabled",
       "Semantic/ Elevation": "enabled",
       "Semantic/ color mode/ light": "enabled",
-      "Component/ light": "enabled"
+      "Component/ color mode/light": "enabled"
     },
     "$figmaStyleReferences": {
       "Black.50": "S:b32e1a032c619d20a90715ba96ebc522fe572d5f,",
@@ -632,7 +632,6 @@
       "button.secondary.hover-background.color": "ba669cfd464d8cc1a15d6309cb87be332e6df586",
       "button.secondary.focus-background.color": "5b4c6df5fc83358e722c9b95f68cef6a76e20e80",
       "button.secondary.pressed-background.color": "0a1a6e539d80bc055eac59335fe2b5430a1ef5a4",
-      "button.secondary.hover-label.color": "49a2a51f9acc024ed54bcb31e2c60cfe549f7740",
       "button.secondary.pressed-label.color": "f0ff98ab68e45183a8184929132e2f1ea959ec86",
       "button.ghost.default-label.color": "94bd89f15afbfc79a31d2fb8665bd6accbcecb42",
       "button.ghost.focus-label.color": "e4d596ef675bf93d900acca25b68682c80fa9191",
@@ -729,7 +728,7 @@
       "Semantic/ Elevation": "enabled",
       "Semantic/  Opacity": "enabled",
       "Semantic/ color mode/ dark": "enabled",
-      "Component/ light": "enabled"
+      "Component/ color mode/light": "enabled"
     },
     "$figmaStyleReferences": {
       "display.lg": "S:8b315cbd17014fee87dc5dae52da0b5d5231084b,",
@@ -1207,7 +1206,6 @@
       "button.secondary.hover-background.color": "ba669cfd464d8cc1a15d6309cb87be332e6df586",
       "button.secondary.focus-background.color": "5b4c6df5fc83358e722c9b95f68cef6a76e20e80",
       "button.secondary.pressed-background.color": "0a1a6e539d80bc055eac59335fe2b5430a1ef5a4",
-      "button.secondary.hover-label.color": "49a2a51f9acc024ed54bcb31e2c60cfe549f7740",
       "button.secondary.pressed-label.color": "f0ff98ab68e45183a8184929132e2f1ea959ec86",
       "button.ghost.default-label.color": "94bd89f15afbfc79a31d2fb8665bd6accbcecb42",
       "button.ghost.focus-label.color": "e4d596ef675bf93d900acca25b68682c80fa9191",

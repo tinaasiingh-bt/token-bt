@@ -306,15 +306,5 @@
       "value": "{Stone.200}",
       "type": "color"
     }
-  },
-  "button": {
-    "secondary": {
-      "hover-label": {
-        "color": {
-          "value": "{text.interactive.secondary-hover}",
-          "type": "color"
-        }
-      }
-    }
   }
 }
