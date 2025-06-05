@@ -652,13 +652,33 @@
       "type": "color"
     }
   },
-  "color": {
-    "blue-rgba-50": {
+  "blue-rgba": {
+    "50": {
       "value": "rgb(28 99 165 / 50%)",
       "type": "color"
-    },
-    "sky-blue-rgba-50": {
-      "value": "rgb(83 177 253 / 50%)",
+    }
+  },
+  "sky-blue": {
+    "rgba": {
+      "50": {
+        "value": "rgb(83 177 253 / 50%)",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "mix",
+              "value": "0",
+              "space": "lch",
+              "color": "rgb(83 177 253 / 50%)"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Slate": {
+    "rgba": {
+      "value": "#rgb(66 85 99 / 25%)",
       "type": "color",
       "$extensions": {
         "studio.tokens": {
@@ -666,7 +686,25 @@
             "type": "mix",
             "value": "0",
             "space": "lch",
-            "color": "rgb(83 177 253 / 50%)"
+            "color": "rgb(66 85 99 / 25%)"
+          }
+        }
+      }
+    }
+  },
+  "slate": {
+    "rgba": {
+      "08": {
+        "value": "#",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "mix",
+              "value": "0",
+              "space": "lch",
+              "color": "rgb(66 85 99 / 8%)"
+            }
           }
         }
       }

@@ -323,8 +323,6 @@
       "Citrus-lime.200": "17796eca3bc1aeac95ddc61c5ad4b125c1136736",
       "Teal.100": "49407b8d1450ab6cebc251bed1d1e4503d9bb3f6",
       "Teal.200": "a00d587ff9107b3bee018cc8f8baeda40799915a",
-      "color.blue-rgba-50": "f3a97d5ee44e2471f3317af9ab0159479d04696b",
-      "color.sky-blue-rgba-50": "9f364c5c04ff8698c5ad710c434a00b83cb75cc4",
       "spacing.none": "e676fa203953829038b798c87a32f721e5120327",
       "spacing.2xs": "225462d595dd138fcf7e7d594f19224d85b5e0ed",
       "spacing.xs": "ecbc41affe2f26008db538ff2c49f7451a80fd22",
@@ -704,7 +702,9 @@
       "button.ghost.active.border.color": "d317f81567090ca4bea82a40891043571692b76c",
       "button.text.secondary.active.background.color": "cf8e4cc5a39d4c4754589312a6f381dbf0fc42c3",
       "background.layer.two": "486eee5e40c6f1371741796251cf1d2c5670ce98",
-      "transparent": "ad31abdc652498e021dd3c5557bdd74772ad0842"
+      "transparent": "ad31abdc652498e021dd3c5557bdd74772ad0842",
+      "sky-blue.rgba.50": "9f364c5c04ff8698c5ad710c434a00b83cb75cc4",
+      "blue-rgba.50": "f3a97d5ee44e2471f3317af9ab0159479d04696b"
     },
     "$figmaCollectionId": "VariableCollectionId:416:4079",
     "$figmaModeId": "416:52",
