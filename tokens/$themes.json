@@ -17,8 +17,7 @@
       "Semantic/  Opacity": "enabled",
       "Semantic/ Elevation": "enabled",
       "Semantic/ color mode/ light": "enabled",
-      "Component/ color mode/light": "enabled",
-      "Component/ Size": "disabled"
+      "Component/ color mode/light": "enabled"
     },
     "$figmaStyleReferences": {
       "Black.50": "S:b32e1a032c619d20a90715ba96ebc522fe572d5f,",
@@ -729,8 +728,7 @@
       "Semantic/ Elevation": "enabled",
       "Semantic/  Opacity": "enabled",
       "Semantic/ color mode/ dark": "enabled",
-      "Component/ color mode/light": "enabled",
-      "Component/ Size": "disabled"
+      "Component/ color mode/light": "enabled"
     },
     "$figmaStyleReferences": {
       "display.lg": "S:8b315cbd17014fee87dc5dae52da0b5d5231084b,",

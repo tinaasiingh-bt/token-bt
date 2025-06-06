@@ -68,6 +68,42 @@
             }
           }
         }
+      },
+      "menu": {
+        "tem": {
+          "list": {
+            "padding": {
+              "block": {
+                "value": "{spacing.sm}",
+                "type": "spacing"
+              }
+            }
+          }
+        }
+      }
+    },
+    "norecords": {
+      "row": {
+        "height": {
+          "value": "{size.height.2xl}",
+          "type": "sizing"
+        }
+      },
+      "padding": {
+        "block": {
+          "value": "{spacing.5xl}",
+          "type": "spacing"
+        }
+      }
+    },
+    "header": {
+      "row": {
+        "cell": {
+          "height": {
+            "value": "{size.width.xs}",
+            "type": "sizing"
+          }
+        }
       }
     }
   }
