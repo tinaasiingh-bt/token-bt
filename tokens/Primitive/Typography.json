@@ -121,6 +121,10 @@
     "none": {
       "value": "none",
       "type": "textDecoration"
+    },
+    "line-through": {
+      "value": "line-through",
+      "type": "textDecoration"
     }
   }
 }

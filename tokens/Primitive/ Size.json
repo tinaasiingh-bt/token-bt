@@ -1,20 +1,166 @@
 {
   "size": {
+    "2xs": {
+      "value": "8px",
+      "type": "sizing"
+    },
     "xs": {
       "value": "16px",
       "type": "sizing"
     },
     "sm": {
-      "value": "24px",
+      "value": "18px",
       "type": "sizing"
     },
     "md": {
-      "value": "48px",
+      "value": "20px",
       "type": "sizing"
     },
     "lg": {
+      "value": "24px",
+      "type": "sizing"
+    },
+    "xl": {
+      "value": "26px",
+      "type": "sizing"
+    },
+    "2xl": {
+      "value": "32px",
+      "type": "sizing"
+    },
+    "3xl": {
+      "value": "36px",
+      "type": "sizing"
+    },
+    "4xl": {
+      "value": "48px",
+      "type": "sizing"
+    },
+    "5xl": {
       "value": "64px",
       "type": "sizing"
+    },
+    "width": {
+      "xs": {
+        "value": "26px",
+        "type": "sizing"
+      },
+      "sm": {
+        "value": "44px",
+        "type": "sizing"
+      },
+      "md": {
+        "value": "140px",
+        "type": "sizing"
+      },
+      "lg": {
+        "value": "384px",
+        "type": "sizing"
+      },
+      "xl": {
+        "value": "450px",
+        "type": "sizing"
+      },
+      "full": {
+        "value": "100%",
+        "type": "sizing"
+      }
+    },
+    "min-width": {
+      "sm": {
+        "value": "90px",
+        "type": "sizing"
+      },
+      "md": {
+        "value": "200px",
+        "type": "sizing"
+      },
+      "lg": {
+        "value": "240px",
+        "type": "sizing"
+      },
+      "xl": {
+        "value": "288px",
+        "type": "sizing"
+      }
+    },
+    "max-width": {
+      "sm": {
+        "value": "210px",
+        "type": "sizing"
+      },
+      "md": {
+        "value": "400px",
+        "type": "sizing"
+      },
+      "lg": {
+        "value": "500px",
+        "type": "sizing"
+      },
+      "xl": {
+        "value": "600px",
+        "type": "sizing"
+      }
+    },
+    "height": {
+      "2xs": {
+        "value": "4px",
+        "type": "sizing"
+      },
+      "xs": {
+        "value": "22px",
+        "type": "sizing"
+      },
+      "sm": {
+        "value": "28px",
+        "type": "sizing"
+      },
+      "md": {
+        "value": "30px",
+        "type": "sizing"
+      },
+      "lg": {
+        "value": "42px",
+        "type": "sizing"
+      },
+      "xl": {
+        "value": "48px",
+        "type": "sizing"
+      },
+      "2xl": {
+        "value": "100px",
+        "type": "sizing"
+      },
+      "full": {
+        "value": "100%",
+        "type": "sizing"
+      }
+    },
+    "min-height": {
+      "sm": {
+        "value": "22px",
+        "type": "sizing"
+      },
+      "md": {
+        "value": "34px",
+        "type": "sizing"
+      },
+      "lg": {
+        "value": "51px",
+        "type": "sizing"
+      },
+      "xl": {
+        "value": "52px",
+        "type": "sizing"
+      },
+      "2xl": {
+        "value": "150px",
+        "type": "sizing"
+      },
+      "3xl": {
+        "value": "200px",
+        "type": "sizing"
+      }
     }
   }
 }

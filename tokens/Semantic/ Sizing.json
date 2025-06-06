@@ -30,6 +30,18 @@
       "lg": {
         "value": "{size.lg}",
         "type": "sizing"
+      },
+      "selector": {
+        "value": "{size.sm}",
+        "type": "sizing"
+      }
+    },
+    "control": {
+      "min": {
+        "default": {
+          "value": "{size.min-width.sm}",
+          "type": "sizing"
+        }
       }
     }
   }

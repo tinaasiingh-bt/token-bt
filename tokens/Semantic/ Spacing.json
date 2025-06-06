@@ -1,32 +1,36 @@
 {
-  "space": {
+  "spacing": {
     "layout": {
       "margin": {
-        "block-3xl": {
-          "value": "{spacing.4xl1}",
-          "type": "spacing"
-        },
-        "inline-3xl": {
-          "value": "{spacing.4xl1}",
-          "type": "spacing"
+        "all": {
+          "3xl": {
+            "value": "{spacing.6xl}",
+            "type": "spacing"
+          }
         }
       }
     },
     "section": {
       "margin": {
+        "all": {
+          "md": {
+            "value": "{spacing.md}",
+            "type": "spacing"
+          }
+        },
         "block": {
           "md": {
-            "value": "{spacing.lg1}",
+            "value": "{spacing.md}",
             "type": "spacing"
           }
         },
         "inline": {
           "md": {
-            "value": "{spacing.lg1}",
+            "value": "{spacing.md}",
             "type": "spacing"
           },
           "xl": {
-            "value": "{spacing.2xl1}",
+            "value": "{spacing.4xl}",
             "type": "spacing"
           }
         }
@@ -37,13 +41,13 @@
         "block": {
           "start": {
             "2xl": {
-              "value": "{spacing.3xl1}",
+              "value": "{spacing.5xl}",
               "type": "spacing"
             }
           },
           "end": {
             "xl": {
-              "value": "{spacing.2xl1}",
+              "value": "{spacing.4xl}",
               "type": "spacing"
             }
           }
@@ -55,13 +59,13 @@
         "block": {
           "start": {
             "3xl": {
-              "value": "{spacing.4xl1}",
+              "value": "{spacing.6xl}",
               "type": "spacing"
             }
           },
           "end": {
             "md": {
-              "value": "{spacing.lg1}",
+              "value": "{spacing.md}",
               "type": "spacing"
             }
           }
@@ -74,13 +78,13 @@
           "inline": {
             "start": {
               "md": {
-                "value": "{spacing.lg1}",
+                "value": "{spacing.md}",
                 "type": "spacing"
               }
             },
             "end": {
               "md": {
-                "value": "{spacing.lg1}",
+                "value": "{spacing.md}",
                 "type": "spacing"
               }
             }
@@ -88,15 +92,15 @@
           "block": {
             "start": {
               "md": {
-                "value": "{spacing.lg1}",
-                "type": "spacing"
-              },
-              "3xl": {
-                "value": "{spacing.4xl1}",
+                "value": "{spacing.md}",
                 "type": "spacing"
               },
               "xl": {
-                "value": "{spacing.2xl1}",
+                "value": "{spacing.4xl}",
+                "type": "spacing"
+              },
+              "3xl": {
+                "value": "{spacing.6xl}",
                 "type": "spacing"
               }
             }
@@ -107,7 +111,7 @@
         "block": {
           "end": {
             "md": {
-              "value": "{spacing.lg1}",
+              "value": "{spacing.md}",
               "type": "spacing"
             }
           }
@@ -118,22 +122,18 @@
           "value": "{spacing.none}",
           "type": "spacing"
         },
-        "sm": {
-          "value": "{spacing.lg1}",
+        "xs": {
+          "value": "{spacing.2xs}",
           "type": "spacing"
-        }
-      },
-      "block": {
-        "start": {
-          "md": {
-            "value": "{spacing.lg1}",
-            "type": "spacing"
-          }
+        },
+        "sm": {
+          "value": "{spacing.md}",
+          "type": "spacing"
         }
       },
       "offset": {
         "2xs": {
-          "value": "{spacing.2xs}",
+          "value": "{spacing.4xs}",
           "type": "spacing"
         },
         "negative": {
@@ -142,59 +142,83 @@
             "type": "spacing"
           }
         }
+      },
+      "block": {
+        "start": {
+          "md": {
+            "value": "{spacing.md}",
+            "type": "spacing"
+          }
+        }
       }
     },
     "element": {
       "padding": {
-        "block": {
+        "all": {
           "none": {
             "value": "{spacing.none}",
             "type": "spacing"
           },
+          "xs": {
+            "value": "{spacing.2xs}",
+            "type": "spacing"
+          }
+        },
+        "block": {
           "start": {
             "none": {
               "value": "{spacing.none}",
               "type": "spacing"
             },
             "2xs": {
+              "value": "{spacing.4xs}",
+              "type": "spacing"
+            },
+            "xs": {
               "value": "{spacing.2xs}",
               "type": "spacing"
             },
             "md": {
-              "value": "{spacing.lg1}",
+              "value": "{spacing.md}",
               "type": "spacing"
             },
-            "xs": {
-              "value": "{spacing.xs}",
+            "lg": {
+              "value": "{spacing.4xl}",
               "type": "spacing"
             }
           },
           "end": {
+            "none": {
+              "value": "{spacing.none}",
+              "type": "spacing"
+            },
             "xs": {
-              "value": "{spacing.xs}",
+              "value": "{spacing.2xs}",
+              "type": "spacing"
+            },
+            "xl": {
+              "value": "{spacing.4xl}",
               "type": "spacing"
             }
           },
+          "none": {
+            "value": "{spacing.none}",
+            "type": "spacing"
+          },
+          "2xs": {
+            "value": "{spacing.4xs}",
+            "type": "spacing"
+          },
           "xs": {
-            "value": "{spacing.xs}",
+            "value": "{spacing.2xs}",
             "type": "spacing"
           },
           "md": {
-            "value": "{spacing.lg1}",
+            "value": "{spacing.md}",
             "type": "spacing"
           },
           "lg": {
-            "value": "{spacing.xl1}",
-            "type": "spacing"
-          },
-          "bottom": {
-            "xl": {
-              "value": "{spacing.2xl1}",
-              "type": "spacing"
-            }
-          },
-          "2xs": {
-            "value": "{spacing.2xs}",
+            "value": "{spacing.xl}",
             "type": "spacing"
           }
         },
@@ -203,38 +227,42 @@
             "value": "{spacing.none}",
             "type": "spacing"
           },
+          "sm": {
+            "value": "{spacing.sm}",
+            "type": "spacing"
+          },
+          "md": {
+            "value": "{spacing.md}",
+            "type": "spacing"
+          },
+          "lg": {
+            "value": "{spacing.xl}",
+            "type": "spacing"
+          },
+          "xl": {
+            "value": "{spacing.4xl}",
+            "type": "spacing"
+          },
+          "start": {
+            "md": {
+              "value": "{spacing.md}",
+              "type": "spacing"
+            }
+          },
           "end": {
             "none": {
               "value": "{spacing.none}",
               "type": "spacing"
             },
             "md": {
-              "value": "{spacing.lg1}",
+              "value": "{spacing.md}",
               "type": "spacing"
             }
-          },
-          "start": {
-            "md": {
-              "value": "{spacing.lg1}",
-              "type": "spacing"
-            }
-          },
-          "xs": {
-            "value": "{spacing.xs}",
-            "type": "spacing"
-          },
-          "sm": {
-            "value": "{spacing.md1}",
-            "type": "spacing"
-          },
-          "md": {
-            "value": "{spacing.lg1}",
-            "type": "spacing"
-          },
-          "xl": {
-            "value": "{spacing.2xl1}",
-            "type": "spacing"
           }
+        },
+        "md": {
+          "value": "{spacing.md}",
+          "type": "spacing"
         }
       },
       "margin": {
@@ -242,60 +270,24 @@
           "value": "auto",
           "type": "spacing"
         },
-        "block": {
+        "all": {
           "none": {
             "value": "{spacing.none}",
             "type": "spacing"
-          },
+          }
+        },
+        "block": {
           "start": {
             "none": {
               "value": "{spacing.none}",
               "type": "spacing"
             },
             "2xs": {
-              "value": "{spacing.2xs}",
-              "type": "spacing"
-            }
-          },
-          "bottom": {
-            "none": {
-              "value": "{spacing.none}",
+              "value": "{spacing.4xs}",
               "type": "spacing"
             },
             "xs": {
-              "value": "{spacing.xs}",
-              "type": "spacing"
-            },
-            "sm": {
-              "value": "{spacing.md1}",
-              "type": "spacing"
-            },
-            "md": {
-              "value": "{spacing.lg1}",
-              "type": "spacing"
-            },
-            "lg": {
-              "value": "{spacing.xl1}",
-              "type": "spacing"
-            },
-            "xl": {
-              "value": "{spacing.2xl1}",
-              "type": "spacing"
-            }
-          }
-        },
-        "inline": {
-          "none": {
-            "value": "{spacing.none}",
-            "type": "spacing"
-          },
-          "start": {
-            "none": {
-              "value": "{spacing.none}",
-              "type": "spacing"
-            },
-            "md": {
-              "value": "{spacing.lg1}",
+              "value": "{spacing.2xs}",
               "type": "spacing"
             }
           },
@@ -305,49 +297,89 @@
               "type": "spacing"
             },
             "xs": {
-              "value": "{spacing.xs}",
+              "value": "{spacing.2xs}",
+              "type": "spacing"
+            },
+            "sm": {
+              "value": "{spacing.sm}",
               "type": "spacing"
             },
             "md": {
-              "value": "{spacing.lg1}",
+              "value": "{spacing.md}",
               "type": "spacing"
             },
             "lg": {
-              "value": "{spacing.xl1}",
+              "value": "{spacing.xl}",
+              "type": "spacing"
+            },
+            "xl": {
+              "value": "{spacing.4xl}",
               "type": "spacing"
             }
           },
+          "none": {
+            "value": "{spacing.none}",
+            "type": "spacing"
+          }
+        },
+        "inline": {
+          "start": {
+            "none": {
+              "value": "{spacing.none}",
+              "type": "spacing"
+            },
+            "sm": {
+              "value": "{spacing.sm}",
+              "type": "spacing"
+            },
+            "md": {
+              "value": "{spacing.md}",
+              "type": "spacing"
+            },
+            "5xl": {
+              "value": "{spacing.7xl}",
+              "type": "spacing"
+            }
+          },
+          "end": {
+            "none": {
+              "value": "{spacing.none}",
+              "type": "spacing"
+            },
+            "xs": {
+              "value": "{spacing.2xs}",
+              "type": "spacing"
+            },
+            "md": {
+              "value": "{spacing.md}",
+              "type": "spacing"
+            },
+            "lg": {
+              "value": "{spacing.xl}",
+              "type": "spacing"
+            }
+          },
+          "none": {
+            "value": "{spacing.none}",
+            "type": "spacing"
+          },
           "xs": {
-            "value": "{spacing.xs}",
+            "value": "{spacing.2xs}",
             "type": "spacing"
           },
           "sm": {
-            "value": "{spacing.md1}",
+            "value": "{spacing.sm}",
             "type": "spacing"
           },
           "md": {
-            "value": "{spacing.lg1}",
+            "value": "{spacing.md}",
+            "type": "spacing"
+          },
+          "lg": {
+            "value": "{spacing.3xl}",
             "type": "spacing"
           }
         }
-      }
-    },
-    "container": {
-      "padding": {
-        "block": {
-          "md": {
-            "value": "{spacing.lg1}",
-            "type": "spacing"
-          }
-        }
-      },
-      "inline-start": {
-        "value": "{spacing.2xl1}",
-        "type": "spacing"
-      },
-      "inline-end": {
-        "value": "{spacing.2xl1}",
-        "type": "spacing"
       }
     }
   }

@@ -4,24 +4,36 @@
       "value": "0px",
       "type": "spacing"
     },
-    "2xs": {
+    "5xs": {
+      "value": "1px",
+      "type": "spacing"
+    },
+    "4xs": {
       "value": "2px",
       "type": "spacing"
     },
-    "xs": {
+    "3xs": {
+      "value": "3px",
+      "type": "spacing"
+    },
+    "2xs": {
       "value": "4px",
       "type": "spacing"
     },
-    "sm": {
+    "xs": {
       "value": "5px",
       "type": "spacing"
     },
-    "md": {
+    "sm": {
       "value": "6px",
       "type": "spacing"
     },
-    "lg": {
+    "md": {
       "value": "8px",
+      "type": "spacing"
+    },
+    "lg": {
+      "value": "10px",
       "type": "spacing"
     },
     "xl": {
@@ -29,34 +41,65 @@
       "type": "spacing"
     },
     "2xl": {
-      "value": "16px",
+      "value": "14px",
       "type": "spacing"
     },
     "3xl": {
-      "value": "20px",
+      "value": "15px",
       "type": "spacing"
     },
     "4xl": {
-      "value": "24px",
+      "value": "16px",
       "type": "spacing"
     },
     "5xl": {
-      "value": "32px",
+      "value": "20px",
       "type": "spacing"
     },
     "6xl": {
-      "value": "40px",
+      "value": "24px",
       "type": "spacing"
     },
     "7xl": {
+      "value": "26px",
+      "type": "spacing"
+    },
+    "8xl": {
+      "value": "32px",
+      "type": "spacing"
+    },
+    "9xl": {
+      "value": "34px",
+      "type": "spacing"
+    },
+    "10xl": {
+      "value": "40px",
+      "type": "spacing"
+    },
+    "11xl": {
       "value": "48px",
       "type": "spacing"
     },
     "negative": {
       "2xs": {
         "value": "-2px",
-        "type": "spacing",
-        "description": "Offset used in grids and menu"
+        "type": "spacing"
+      },
+      "3xs": {
+        "value": "-3px",
+        "type": "spacing"
+      },
+      "4xs": {
+        "value": "-4px",
+        "type": "spacing"
+      },
+      "8xs": {
+        "value": "-8px",
+        "type": "spacing"
+      },
+      "9xs": {
+        "value": "-40px",
+        "type": "spacing"
       }
     }
   }
