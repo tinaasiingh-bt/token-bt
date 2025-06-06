@@ -16,6 +16,7 @@
     "Semantic/ Elevation",
     "Semantic/ Typography",
     "Component/ color mode/light",
-    "Component/ color mode/ dark"
+    "Component/ color mode/ dark",
+    "Component/ Spacing"
   ]
 }
