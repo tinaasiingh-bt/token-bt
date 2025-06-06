@@ -18,7 +18,7 @@
       "Semantic/ Elevation": "enabled",
       "Semantic/ color mode/ light": "enabled",
       "Component/ color mode/light": "enabled",
-      "Component/ Spacing": "disabled"
+      "Component/ Size": "disabled"
     },
     "$figmaStyleReferences": {
       "Black.50": "S:b32e1a032c619d20a90715ba96ebc522fe572d5f,",
@@ -730,7 +730,7 @@
       "Semantic/  Opacity": "enabled",
       "Semantic/ color mode/ dark": "enabled",
       "Component/ color mode/light": "enabled",
-      "Component/ Spacing": "disabled"
+      "Component/ Size": "disabled"
     },
     "$figmaStyleReferences": {
       "display.lg": "S:8b315cbd17014fee87dc5dae52da0b5d5231084b,",

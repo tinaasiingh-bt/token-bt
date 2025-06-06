@@ -1,12 +1,28 @@
 {
   "accordion": {
-    "icon-margin-top": {
-      "value": "{spacing.xs}",
-      "type": "other"
+    "icon": {
+      "margin": {
+        "top": {
+          "value": "{spacing.xs}",
+          "type": "spacing"
+        }
+      }
     },
-    "content-margin-left": {
-      "value": "{spacing.6xl}",
-      "type": "other"
+    "content": {
+      "margin": {
+        "left": {
+          "value": "{spacing.6xl}",
+          "type": "spacing"
+        }
+      }
+    }
+  },
+  "badge": {
+    "border": {
+      "radius": {
+        "value": "{border.radius.4xl}",
+        "type": "borderRadius"
+      }
     }
   },
   "button": {
@@ -14,341 +30,45 @@
       "height": {
         "36": {
           "value": "{size.3xl}",
-          "type": "other"
+          "type": "sizing"
         }
       },
       "width": {
         "36": {
           "value": "{size.3xl}",
-          "type": "other"
+          "type": "sizing"
         }
       }
     }
   },
-  "buttonGroup": {
-    "default-min-width": {
-      "value": "{size.min-width.md}",
-      "type": "other"
-    }
-  },
-  "charts": {
-    "tooltip-container-width": {
-      "value": "{size.max-width.xl}",
-      "type": "other"
-    }
-  },
-  "checkbox": {
-    "unselected-box-radius": {
-      "value": "{border-radius.xs}",
-      "type": "other"
-    }
-  },
-  "dataGrid": {
-    "default-row-height": {
-      "value": "{size.height-lg}",
-      "type": "other"
-    },
-    "list-checkbox-instructional-margin-left": {
-      "value": "{spacing.7xl}",
-      "type": "other"
-    },
-    "list-menu-item-list-padding-block": {
-      "value": "{spacing.sm}",
-      "type": "other"
-    },
-    "norecords-row-height": {
-      "value": "{size.height-2xl}",
-      "type": "other"
-    },
-    "norecords-padding-block": {
-      "value": "{spacing.4xl}",
-      "type": "other"
-    },
-    "header-row-cell-height": {
-      "value": "{size.width-xs}",
-      "type": "other"
-    }
-  },
-  "helpText": {
-    "default-body-margin-bottom": {
-      "value": "{spacing.negative.8xs}",
-      "type": "other"
-    },
-    "default-body-padding-bottom": {
-      "value": "{spacing.none}",
-      "type": "other"
-    }
-  },
-  "menu": {
-    "container": {
+  "buttongroup": {
+    "default": {
       "min-width": {
-        "value": "{size.min-width.lg}",
-        "type": "other"
-      },
-      "max-width": {
-        "value": "{size.max-width.md}",
-        "type": "other"
-      },
-      "margin-top": {
-        "value": "{spacing.3xs}",
-        "type": "other"
+        "value": "{size.control.min.default}",
+        "type": "sizing"
       }
     }
   },
-  "modal": {
-    "container-min-height": {
-      "value": "{size.min-height-xl}",
-      "type": "other"
+  "data-grid": {
+    "default": {
+      "row": {
+        "height": {
+          "value": "{size.height.lg}",
+          "type": "sizing"
+        }
+      }
     },
-    "container-width": {
-      "value": "{size.width-xl}",
-      "type": "other"
-    },
-    "container-padding-top": {
-      "value": "{spacing.4xl}",
-      "type": "other"
-    },
-    "title-container-min-height": {
-      "value": "{size.min-height-sm}",
-      "type": "other"
-    }
-  },
-  "numberField": {
-    "default-input-box": {
-      "value": "{size.width-md}",
-      "type": "other"
-    }
-  },
-  "pagination": {
-    "default-container": {
-      "value": "{size.min-height-xl}",
-      "type": "other"
-    },
-    "default-button-height": {
-      "value": "{size.2xl}",
-      "type": "other"
-    },
-    "default-button-width": {
-      "value": "{size.2xl}",
-      "type": "other"
-    }
-  },
-  "progressIndicator": {
-    "default-fill-line-height": {
-      "value": "{size.height-2xs}",
-      "type": "other"
-    },
-    "within-button-container-spacing": {
-      "value": "{spacing.lg}",
-      "type": "other"
-    }
-  },
-  "radioButton": {
-    "default-circle-margin-top": {
-      "value": "{spacing.md}",
-      "type": "other"
-    },
-    "default-label-margin-top": {
-      "value": "{spacing.md}",
-      "type": "other"
-    },
-    "default-container-list-item": {
-      "value": "{size.min-height-md}",
-      "type": "other"
-    },
-    "default-instructional-margin-top": {
-      "value": "{spacing.negative.4xs}",
-      "type": "other"
-    }
-  },
-  "severity": {
-    "default-dot-width": {
-      "value": "{size.2xs}",
-      "type": "other"
-    },
-    "default-dot-height": {
-      "value": "{size.2xs}",
-      "type": "other"
-    },
-    "default-dot-margin-left": {
-      "value": "{spacing.4xs}",
-      "type": "other"
-    },
-    "default-dot-margin-right": {
-      "value": "{spacing.4xs}",
-      "type": "other"
-    }
-  },
-  "slider": {
-    "vertical-container-height": {
-      "value": "{size.height.full}",
-      "type": "other"
-    },
-    "horizontal-container-width": {
-      "value": "{size.width.full}",
-      "type": "other"
-    },
-    "vertical-container-min-height": {
-      "value": "{size.min-height-2xl}",
-      "type": "other"
-    },
-    "horizontal-container-min-width": {
-      "value": "{size.min-width.md}",
-      "type": "other"
-    },
-    "container-spacing": {
-      "value": "{spacing.xl}",
-      "type": "other"
-    },
-    "horizontal-margin-bottom": {
-      "value": "{spacing.2xl}",
-      "type": "other"
-    },
-    "vertical-margin-top": {
-      "value": "{spacing.xl}",
-      "type": "other"
-    },
-    "vertical-margin-left": {
-      "value": "{spacing.sm}",
-      "type": "other"
-    },
-    "default-tick-line-width": {
-      "value": "{size.width-xs}",
-      "type": "other"
-    }
-  },
-  "switch": {
-    "container-width": {
-      "value": "{size.width-sm}",
-      "type": "other"
-    },
-    "container-height": {
-      "value": "{size.height-xs}",
-      "type": "other"
-    }
-  },
-  "tabs": {
-    "icon-height": {
-      "value": "{size.md}",
-      "type": "other"
-    },
-    "icon-width": {
-      "value": "{size.md}",
-      "type": "other"
-    },
-    "icon-padding-right": {
-      "value": "{spacing.xs}",
-      "type": "other"
-    },
-    "horizontal-active-item-margin-top": {
-      "value": "{spacing.negative.3xs}",
-      "type": "other"
-    },
-    "vertical-active-item-margin-bottom": {
-      "value": "{spacing.negative.3xs}",
-      "type": "other"
-    }
-  },
-  "tag": {
-    "container-padding-inline": {
-      "value": "{spacing.2xs}",
-      "type": "other"
-    },
-    "action-container-margin-left": {
-      "value": "{spacing.2xs}",
-      "type": "other"
-    },
-    "container-margin-inline": {
-      "value": "{spacing.3xs}",
-      "type": "other"
-    },
-    "block-popup-margin": {
-      "value": "{spacing.negative.8xs}",
-      "type": "other"
-    }
-  },
-  "textField": {
-    "inputbox-padding-block": {
-      "value": "{spacing.xs}",
-      "type": "other"
-    },
-    "inputbox-height": {
-      "value": "{size.height-md}",
-      "type": "other"
-    }
-  },
-  "timePicker": {
-    "selected-list-height": {
-      "value": "{size.height-sm}",
-      "type": "other"
-    }
-  },
-  "toast": {
-    "container-min-width": {
-      "value": "{size.min-width.xl}",
-      "type": "other"
-    },
-    "container-max-width": {
-      "value": "{size.max-width.xl}",
-      "type": "other"
-    },
-    "progress-width": {
-      "value": "{size.width-lg}",
-      "type": "other"
-    },
-    "button-margin-top": {
-      "value": "{spacing.5xs}",
-      "type": "other"
-    },
-    "button-margin-left": {
-      "value": "{spacing.xl}",
-      "type": "other"
-    }
-  },
-  "tooltip": {
-    "container-max-width": {
-      "value": "{size.max-width.xl}",
-      "type": "other"
-    }
-  },
-  "treeview": {
-    "leaf-item-min-height": {
-      "value": "{size.min-height-lg}",
-      "type": "other"
-    },
-    "leaf-height": {
-      "value": "{size.height-xl}",
-      "type": "other"
-    },
-    "leaf-width": {
-      "value": "{size.width.full}",
-      "type": "other"
-    },
-    "toggle-margin-left": {
-      "value": "{spacing.negative.9xs}",
-      "type": "other"
-    },
-    "left-text-margin-left": {
-      "value": "{spacing.lg}",
-      "type": "other"
-    },
-    "leaf-container-margin-left": {
-      "value": "{spacing.3xl}",
-      "type": "other"
-    },
-    "split-separator-width": {
-      "value": "{size.width-xs}",
-      "type": "other"
-    }
-  },
-  "dropdown": {
-    "input-max-width": {
-      "value": "{size.max-width.sm}",
-      "type": "other"
-    },
-    "item-min-width": {
-      "value": "{size.min-width.md}",
-      "type": "other"
+    "list": {
+      "checkbox": {
+        "instructional": {
+          "margin": {
+            "left": {
+              "value": "{spacing.9xl}",
+              "type": "spacing"
+            }
+          }
+        }
+      }
     }
   }
 }
