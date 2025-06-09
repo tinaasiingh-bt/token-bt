@@ -197,6 +197,64 @@
         "height": {
           "value": "{size.2xl}",
           "type": "sizing"
+        },
+        "width": {
+          "value": "{size.2xl}",
+          "type": "sizing"
+        }
+      }
+    }
+  },
+  "progress-indicator": {
+    "default": {
+      "fill": {
+        "line": {
+          "height": {
+            "value": "{size.height.2xs}",
+            "type": "sizing"
+          }
+        }
+      }
+    },
+    "within": {
+      "button": {
+        "container": {
+          "value": "{spacing.lg}",
+          "type": "spacing"
+        }
+      }
+    }
+  },
+  "radio-button": {
+    "default": {
+      "circle": {
+        "margin": {
+          "top": {
+            "value": "{spacing.md}",
+            "type": "spacing"
+          }
+        }
+      },
+      "label": {
+        "margin-top": {
+          "value": "{spacing.md}",
+          "type": "spacing"
+        }
+      },
+      "container": {
+        "list": {
+          "item": {
+            "value": "{size.min-height.md}",
+            "type": "sizing"
+          }
+        }
+      },
+      "instructional": {
+        "margin": {
+          "top": {
+            "value": "{spacing.negative.4xs}",
+            "type": "spacing"
+          }
         }
       }
     }
