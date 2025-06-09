@@ -106,5 +106,99 @@
         }
       }
     }
+  },
+  "help-text": {
+    "default": {
+      "body": {
+        "margin": {
+          "bottom": {
+            "value": "{spacing.negative.8xs}",
+            "type": "spacing"
+          }
+        },
+        "padding": {
+          "bottom": {
+            "value": "{spacing.none}",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  },
+  "menu": {
+    "default": {
+      "menu": {
+        "container": {
+          "min-width": {
+            "value": "{size.min-width.lg}",
+            "type": "sizing"
+          },
+          "max-width": {
+            "value": "{size.max-width.md}",
+            "type": "sizing"
+          }
+        }
+      },
+      "menu-container": {
+        "margin": {
+          "top": {
+            "value": "{spacing.3xs}",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  },
+  "modal": {
+    "default": {
+      "container": {
+        "min-height": {
+          "value": "{size.min-height.xl}",
+          "type": "sizing"
+        },
+        "width": {
+          "value": "{size.width.xl}",
+          "type": "sizing"
+        },
+        "padding": {
+          "top": {
+            "value": "{spacing.4xl}",
+            "type": "spacing"
+          }
+        }
+      },
+      "title": {
+        "container": {
+          "min-height": {
+            "value": "{size.min-height.sm}",
+            "type": "sizing"
+          }
+        }
+      }
+    }
+  },
+  "number-field": {
+    "default": {
+      "input": {
+        "box": {
+          "value": "{size.width.md}",
+          "type": "sizing"
+        }
+      }
+    }
+  },
+  "pagination": {
+    "default": {
+      "container": {
+        "value": "{size.min-height.xl}",
+        "type": "sizing"
+      },
+      "button": {
+        "height": {
+          "value": "{size.2xl}",
+          "type": "sizing"
+        }
+      }
+    }
   }
 }

@@ -9,7 +9,7 @@
     "Primitive/Typography",
     "Semantic/ color mode/ light",
     "Semantic/ color mode/ dark",
-    "Semantic/ Sizing",
+    "Semantic/ Size",
     "Semantic/ Border",
     "Semantic/ Spacing",
     "Semantic/  Opacity",
@@ -17,7 +17,6 @@
     "Semantic/ Typography",
     "Component/ color mode/light",
     "Component/ color mode/ dark",
-    "Component/ Size",
-    "Component/ Spacing"
+    "Component/ Values"
   ]
 }
