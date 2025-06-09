@@ -1,0 +1,10 @@
+{
+  "badge": {
+    "border": {
+      "radius": {
+        "value": "{border.radius.4xl}",
+        "type": "borderRadius"
+      }
+    }
+  }
+}

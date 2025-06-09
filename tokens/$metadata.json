@@ -17,6 +17,8 @@
     "Semantic/ Typography",
     "Component/ color mode/light",
     "Component/ color mode/ dark",
-    "Component/ Values"
+    "Component/ Border radius",
+    "Component/ Size",
+    "Component/ Spacing"
   ]
 }
