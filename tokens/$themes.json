@@ -7,17 +7,11 @@
       "Primitive/Border": "source",
       "Primitive/Color": "source",
       "Primitive/Typography": "source",
-      "Semantic/ Typography": "enabled",
       "Primitive/ Size": "source",
       "Primitive/Opacity": "source",
       "Primitive/ Shadow": "source",
-      "Semantic/ Border": "enabled",
-      "Semantic/ Spacing": "enabled",
-      "Semantic/  Opacity": "enabled",
-      "Semantic/ Elevation": "enabled",
       "Semantic/ color mode/ light": "enabled",
-      "Component/ color mode/light": "enabled",
-      "Semantic/ Size": "enabled"
+      "Component/ color mode/light": "enabled"
     },
     "$figmaStyleReferences": {
       "Black.50": "S:b32e1a032c619d20a90715ba96ebc522fe572d5f,",
@@ -708,7 +702,7 @@
     },
     "$figmaCollectionId": "VariableCollectionId:416:4079",
     "$figmaModeId": "416:52",
-    "group": "Global-Semantic"
+    "group": "Semantic"
   },
   {
     "id": "9ad92b26719f488a85ea6362260839526f1d79a5",
@@ -718,17 +712,11 @@
       "Primitive/Border": "source",
       "Primitive/Color": "source",
       "Primitive/Typography": "source",
-      "Semantic/ Typography": "enabled",
       "Primitive/ Size": "source",
       "Primitive/Opacity": "source",
       "Primitive/ Shadow": "source",
-      "Semantic/ Border": "enabled",
-      "Semantic/ Spacing": "enabled",
-      "Semantic/ Elevation": "enabled",
-      "Semantic/  Opacity": "enabled",
       "Semantic/ color mode/ dark": "enabled",
-      "Component/ color mode/light": "enabled",
-      "Semantic/ Size": "enabled"
+      "Component/ color mode/ dark": "enabled"
     },
     "$figmaStyleReferences": {
       "display.lg": "S:8b315cbd17014fee87dc5dae52da0b5d5231084b,",
@@ -1281,6 +1269,63 @@
     },
     "$figmaCollectionId": "VariableCollectionId:416:4079",
     "$figmaModeId": "416:53",
-    "group": "Global-Semantic"
+    "group": "Semantic"
+  },
+  {
+    "id": "0d10a28679e0e9e7b8d28b97c2ea10fa178e2bad",
+    "name": "light",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Primitive/Color": "source",
+      "Primitive/Spacing": "source",
+      "Primitive/Border": "source",
+      "Primitive/ Size": "source",
+      "Primitive/Opacity": "source",
+      "Primitive/ Shadow": "source",
+      "Primitive/Typography": "source",
+      "Semantic/ color mode/ light": "enabled",
+      "Component/ color mode/light": "enabled"
+    },
+    "group": "Component"
+  },
+  {
+    "id": "a17c22c83474c044348bc82a4cb381e4526d927d",
+    "name": "dark",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Primitive/Color": "source",
+      "Primitive/Spacing": "source",
+      "Primitive/Border": "source",
+      "Primitive/ Size": "source",
+      "Primitive/Opacity": "source",
+      "Primitive/ Shadow": "source",
+      "Primitive/Typography": "source",
+      "Semantic/ color mode/ dark": "enabled",
+      "Component/ color mode/ dark": "enabled"
+    },
+    "group": "Component"
+  },
+  {
+    "id": "86a29d4bd4ec8713f9a9fdfa861636f2d139a192",
+    "name": "Values",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Primitive/Color": "source",
+      "Primitive/Spacing": "source",
+      "Primitive/Border": "source",
+      "Primitive/ Size": "source",
+      "Primitive/Opacity": "source",
+      "Primitive/ Shadow": "source",
+      "Primitive/Typography": "source",
+      "Semantic/ Size": "enabled",
+      "Semantic/ Border": "enabled",
+      "Semantic/ Spacing": "enabled",
+      "Semantic/  Opacity": "enabled",
+      "Semantic/ Elevation": "enabled",
+      "Semantic/ Typography": "enabled",
+      "Component/ Border radius": "enabled",
+      "Component/ Size": "enabled",
+      "Component/ Spacing": "enabled"
+    }
   }
 ]
