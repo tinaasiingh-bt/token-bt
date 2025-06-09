@@ -494,6 +494,48 @@
       "width": {
         "value": "{size.width.full}",
         "type": "sizing"
+      },
+      "container": {
+        "margin-left": {
+          "value": "{spacing.3xl}",
+          "type": "spacing"
+        }
+      }
+    },
+    "toogle": {
+      "margin-left": {
+        "value": "{spacing.negative.12xs}",
+        "type": "spacing"
+      }
+    },
+    "left": {
+      "text": {
+        "margin-left": {
+          "value": "{spacing.lg}",
+          "type": "spacing"
+        }
+      }
+    },
+    "split": {
+      "separator": {
+        "width": {
+          "value": "{size.width.xs}",
+          "type": "sizing"
+        }
+      }
+    }
+  },
+  "dropdown": {
+    "input": {
+      "max-width": {
+        "value": "{size.max-width.sm}",
+        "type": "sizing"
+      }
+    },
+    "item": {
+      "min-width": {
+        "value": "{size.min-width.md}",
+        "type": "sizing"
       }
     }
   }
