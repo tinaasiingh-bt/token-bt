@@ -258,5 +258,109 @@
         }
       }
     }
+  },
+  "severity": {
+    "default": {
+      "dot": {
+        "width": {
+          "value": "{size.2xs}",
+          "type": "sizing"
+        },
+        "height": {
+          "value": "{size.2xs}",
+          "type": "sizing"
+        },
+        "margin-left": {
+          "value": "{spacing.4xs}",
+          "type": "spacing"
+        },
+        "margin-right": {
+          "value": "{spacing.4xs}",
+          "type": "spacing"
+        }
+      }
+    }
+  },
+  "slider": {
+    "vertical": {
+      "container": {
+        "height": {
+          "value": "{size.height.full}",
+          "type": "sizing"
+        },
+        "min-height": {
+          "value": "{size.min-height.2xl}",
+          "type": "sizing"
+        }
+      },
+      "margin": {
+        "top": {
+          "value": "{spacing.xl}",
+          "type": "spacing"
+        },
+        "left": {
+          "value": "{spacing.sm}",
+          "type": "spacing"
+        }
+      }
+    },
+    "horizontal": {
+      "container": {
+        "width": {
+          "value": "{size.width.full}",
+          "type": "sizing"
+        },
+        "min-width": {
+          "value": "{size.min-width.md}",
+          "type": "sizing"
+        }
+      },
+      "margin": {
+        "bottom": {
+          "value": "{spacing.2xl}",
+          "type": "spacing"
+        }
+      }
+    },
+    "container": {
+      "value": "{spacing.xl}",
+      "type": "spacing"
+    },
+    "default": {
+      "tick": {
+        "line": {
+          "width": {
+            "value": "{size.width.xs}",
+            "type": "sizing"
+          }
+        }
+      }
+    }
+  },
+  "switch": {
+    "default": {
+      "container": {
+        "width": {
+          "value": "{size.width.sm}",
+          "type": "sizing"
+        },
+        "height": {
+          "value": "{size.height.xs}",
+          "type": "sizing"
+        }
+      }
+    }
+  },
+  "tabs": {
+    "icon": {
+      "height": {
+        "value": "{size.md}",
+        "type": "sizing"
+      },
+      "width": {
+        "value": "{size.md}",
+        "type": "sizing"
+      }
+    }
   }
 }
