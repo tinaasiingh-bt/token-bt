@@ -360,6 +360,90 @@
       "width": {
         "value": "{size.md}",
         "type": "sizing"
+      },
+      "padding": {
+        "right": {
+          "value": "{spacing.xs}",
+          "type": "spacing"
+        }
+      }
+    },
+    "horizontal": {
+      "active": {
+        "item": {
+          "margin": {
+            "top": {
+              "value": "{spacing.negative.3xs}",
+              "type": "spacing"
+            }
+          }
+        }
+      }
+    },
+    "vertical": {
+      "active": {
+        "item": {
+          "margin": {
+            "bottom": {
+              "value": "{spacing.negative.3xs}",
+              "type": "spacing"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tag": {
+    "container": {
+      "padding": {
+        "inline": {
+          "value": "{spacing.2xs}",
+          "type": "spacing"
+        }
+      },
+      "container": {
+        "margin": {
+          "inline": {
+            "value": "{spacing.3xs}",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "block": {
+      "container": {
+        "popup": {
+          "margin": {
+            "value": "{spacing.negative.8xs}",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  },
+  "text-field": {
+    "default": {
+      "inputbox": {
+        "padding": {
+          "block": {
+            "value": "{spacing.xs}",
+            "type": "spacing"
+          }
+        },
+        "height": {
+          "value": "{size.height.md}",
+          "type": "sizing"
+        }
+      }
+    }
+  },
+  "time-picker": {
+    "selected": {
+      "list": {
+        "height": {
+          "value": "{size.height.sm}",
+          "type": "sizing"
+        }
       }
     }
   }

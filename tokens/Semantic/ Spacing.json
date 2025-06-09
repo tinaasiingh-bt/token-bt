@@ -339,6 +339,10 @@
             "5xl": {
               "value": "{spacing.7xl}",
               "type": "spacing"
+            },
+            "6xl": {
+              "value": "{spacing.7xl}",
+              "type": "spacing"
             }
           },
           "end": {
