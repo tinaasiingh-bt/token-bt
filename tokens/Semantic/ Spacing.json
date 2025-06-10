@@ -289,6 +289,10 @@
             "xs": {
               "value": "{spacing.2xs}",
               "type": "spacing"
+            },
+            "4xl": {
+              "value": "{spacing.4xl}",
+              "type": "spacing"
             }
           },
           "end": {
@@ -313,6 +317,10 @@
               "type": "spacing"
             },
             "xl": {
+              "value": "{spacing.4xl}",
+              "type": "spacing"
+            },
+            "4xl": {
               "value": "{spacing.4xl}",
               "type": "spacing"
             }
