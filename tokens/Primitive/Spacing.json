@@ -101,6 +101,10 @@
         "value": "-40px",
         "type": "spacing"
       }
+    },
+    "auto": {
+      "value": "auto",
+      "type": "spacing"
     }
   }
 }

@@ -267,7 +267,7 @@
       },
       "margin": {
         "center": {
-          "value": "auto",
+          "value": "{spacing.auto}",
           "type": "spacing"
         },
         "all": {
