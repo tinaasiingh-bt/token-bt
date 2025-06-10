@@ -182,7 +182,7 @@
               "value": "{spacing.md}",
               "type": "spacing"
             },
-            "lg": {
+            "xl": {
               "value": "{spacing.4xl}",
               "type": "spacing"
             }
@@ -290,7 +290,7 @@
               "value": "{spacing.2xs}",
               "type": "spacing"
             },
-            "4xl": {
+            "xl": {
               "value": "{spacing.4xl}",
               "type": "spacing"
             }
@@ -317,10 +317,6 @@
               "type": "spacing"
             },
             "xl": {
-              "value": "{spacing.4xl}",
-              "type": "spacing"
-            },
-            "4xl": {
               "value": "{spacing.4xl}",
               "type": "spacing"
             }

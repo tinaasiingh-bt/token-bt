@@ -627,7 +627,6 @@
       "spacing.element.padding.block.start.2xs": "2055bc88f15f7740bb9ade3a6fe895aec737adb2",
       "spacing.element.padding.block.start.xs": "68aa5ce05d05114861947cd51d0411a94017d045",
       "spacing.element.padding.block.start.md": "3cb58b8306d5a40d99d41492bcb6cb38c5b8ff18",
-      "spacing.element.padding.block.start.lg": "1eb5a9108399af3f243688415178cbcc5568d65f",
       "spacing.element.padding.block.end.none": "f92a75998b76f295d27de4c37bd12db876c269d9",
       "spacing.element.padding.block.end.xs": "69cec962d4a0e7fcb8ad05637e759474d4e1223c",
       "spacing.element.padding.block.end.xl": "873feea8e84bcc324f3050a345d4183510667f8d",
@@ -737,7 +736,8 @@
       "text.line-height.card.md": "4bbef5ed1fe0828b256bacf0a3d3a9238108b2c4",
       "text.line-height.card.sm": "8947b9ab8d2c7a1f36ba2cb698cc0bafff69fe05",
       "text.line-height.card.xs": "47aecbf67b6295befe7928433d027ffed950f745",
-      "data-grid.text.color": "f8955156a39c49423e0b01c067bab43eb613df14"
+      "data-grid.text.color": "f8955156a39c49423e0b01c067bab43eb613df14",
+      "spacing.element.padding.block.start.xl": "1eb5a9108399af3f243688415178cbcc5568d65f"
     },
     "$figmaCollectionId": "VariableCollectionId:519:2894",
     "$figmaModeId": "519:5",
@@ -1168,7 +1168,6 @@
       "spacing.element.padding.block.start.2xs": "2055bc88f15f7740bb9ade3a6fe895aec737adb2",
       "spacing.element.padding.block.start.xs": "68aa5ce05d05114861947cd51d0411a94017d045",
       "spacing.element.padding.block.start.md": "3cb58b8306d5a40d99d41492bcb6cb38c5b8ff18",
-      "spacing.element.padding.block.start.lg": "1eb5a9108399af3f243688415178cbcc5568d65f",
       "spacing.element.padding.block.end.none": "f92a75998b76f295d27de4c37bd12db876c269d9",
       "spacing.element.padding.block.end.xs": "69cec962d4a0e7fcb8ad05637e759474d4e1223c",
       "spacing.element.padding.block.end.xl": "873feea8e84bcc324f3050a345d4183510667f8d",
@@ -1279,7 +1278,8 @@
       "text.line-height.card.sm": "8947b9ab8d2c7a1f36ba2cb698cc0bafff69fe05",
       "text.line-height.card.xs": "47aecbf67b6295befe7928433d027ffed950f745",
       "button.danger.focus.background.color": "b52285aeaa75d7144bf760a30c8ae531ea837fa8",
-      "data-grid.text.color.color": "5defde523f2a0702eeeb5bc23282fafd38dff9a4"
+      "data-grid.text.color.color": "5defde523f2a0702eeeb5bc23282fafd38dff9a4",
+      "spacing.element.padding.block.start.xl": "1eb5a9108399af3f243688415178cbcc5568d65f"
     },
     "$figmaCollectionId": "VariableCollectionId:519:2894",
     "$figmaModeId": "519:6",
