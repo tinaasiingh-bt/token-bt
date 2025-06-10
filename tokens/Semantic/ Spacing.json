@@ -390,5 +390,17 @@
         }
       }
     }
+  },
+  "space": {
+    "content": {
+      "start": {
+        "gap": {
+          "sm": {
+            "value": "{spacing.md}",
+            "type": "spacing"
+          }
+        }
+      }
+    }
   }
 }
