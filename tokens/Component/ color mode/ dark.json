@@ -72,14 +72,6 @@
             "type": "color"
           }
         }
-      },
-      "focus": {
-        "background": {
-          "color": {
-            "value": "{Orange.800}",
-            "type": "color"
-          }
-        }
       }
     },
     "ghost": {
