@@ -1460,7 +1460,6 @@
       "Component/ Spacing": "enabled",
       "Component/ Size": "enabled",
       "Component/ Border radius": "enabled",
-      "Component/ color mode/ dark": "enabled",
       "Semantic/ color mode/ light": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:7188:9473",
