@@ -327,7 +327,7 @@
     "severity": {
       "text": {
         "color": {
-          "value": "{Navy.700}",
+          "value": "{Black.950}",
           "type": "color"
         }
       }
