@@ -1467,7 +1467,6 @@
     "$figmaModeId": "7115:3",
     "$figmaVariableReferences": {
       "accordion.hover.background": "bd50556465ecf0b7934b178121b422d1b58bd883",
-      "button.primary.active.background.color": "6b2263fb507fd44e4242c8bd0a5167734a75f6ee",
       "button.secondary.active.background.color": "2ad1ba0063158fb73faa1c380f13e4bb949c3eb8",
       "button.secondary.active.label.color": "3d5b951fb2b60fba31100772dd6dbf7d4e1fb779",
       "button.secondary.hover.label.color": "d83c9d80e97fe84fd476c5df1853c1d2bbec0118",
@@ -1681,7 +1680,6 @@
     "$figmaModeId": "7115:4",
     "$figmaVariableReferences": {
       "accordion.hover.background": "bd50556465ecf0b7934b178121b422d1b58bd883",
-      "button.primary.active.background.color": "6b2263fb507fd44e4242c8bd0a5167734a75f6ee",
       "button.secondary.active.background.color": "2ad1ba0063158fb73faa1c380f13e4bb949c3eb8",
       "button.secondary.active.label.color": "3d5b951fb2b60fba31100772dd6dbf7d4e1fb779",
       "button.secondary.hover.label.color": "d83c9d80e97fe84fd476c5df1853c1d2bbec0118",
@@ -1807,7 +1805,8 @@
       "toast.default.button.margin.left": "3da0457dde7615c7fd8945ffb334c2ffcd65ca2b",
       "treeview.toogle.margin-left": "2bc7212e133d51819e6c586b90bfdfc726b0c144",
       "treeview.left.text.margin-left": "a677387eca616ebcb33f7304fb7dad8701f1e82d",
-      "treeview.leaf.container.margin-left": "01d60ceb65fd93de2b5dd022e8cd9659eae6d76a"
+      "treeview.leaf.container.margin-left": "01d60ceb65fd93de2b5dd022e8cd9659eae6d76a",
+      "button.primary.active.background": "6b2263fb507fd44e4242c8bd0a5167734a75f6ee"
     },
     "group": "Component"
   }

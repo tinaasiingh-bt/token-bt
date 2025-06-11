@@ -8,16 +8,6 @@
     }
   },
   "button": {
-    "primary": {
-      "active": {
-        "background": {
-          "color": {
-            "value": "{Blue.300}",
-            "type": "color"
-          }
-        }
-      }
-    },
     "secondary": {
       "active": {
         "background": {
@@ -111,6 +101,14 @@
             "value": "{Blue-gray.100}",
             "type": "color"
           }
+        }
+      }
+    },
+    "primary": {
+      "active": {
+        "background": {
+          "value": "{Blue.300}",
+          "type": "color"
         }
       }
     }
