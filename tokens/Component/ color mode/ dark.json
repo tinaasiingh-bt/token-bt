@@ -11,76 +11,58 @@
     "primary": {
       "active": {
         "background": {
-          "color": {
-            "value": "{Sky-blue.300}",
-            "type": "color"
-          }
+          "value": "{Sky-blue.300}",
+          "type": "color"
         }
       }
     },
     "secondary": {
       "active": {
         "background": {
-          "color": {
-            "value": "{Steel-blue.300}",
-            "type": "color"
-          }
+          "value": "{Steel-blue.300}",
+          "type": "color"
         },
-        "label": {
-          "color": {
-            "value": "{Light-blue.200}",
-            "type": "color"
-          }
+        "text": {
+          "value": "{Light-blue.200}",
+          "type": "color"
         }
       },
       "hover": {
-        "label": {
-          "color": {
-            "value": "{Light-blue.100}",
-            "type": "color"
-          }
+        "text": {
+          "value": "{Light-blue.100}",
+          "type": "color"
         },
         "background": {
-          "color": {
-            "value": "{Steel-blue.200}",
-            "type": "color"
-          }
+          "value": "{Steel-blue.200}",
+          "type": "color"
         }
       }
     },
     "danger": {
       "active": {
         "background": {
-          "color": {
-            "value": "{Orange.900}",
-            "type": "color"
-          }
+          "value": "{Orange.900}",
+          "type": "color"
         }
       },
       "default": {
         "background": {
-          "color": {
-            "value": "{Red.100}",
-            "type": "color"
-          }
+          "value": "{Red.100}",
+          "type": "color"
         }
       },
       "hover": {
         "background": {
-          "color": {
-            "value": "{Orange.800}",
-            "type": "color"
-          }
+          "value": "{Orange.800}",
+          "type": "color"
         }
       }
     },
     "ghost": {
       "active": {
         "border": {
-          "color": {
-            "value": "{Sky-blue.300}",
-            "type": "color"
-          }
+          "value": "{Sky-blue.300}",
+          "type": "color"
         }
       }
     },
@@ -88,10 +70,8 @@
       "secondary": {
         "active": {
           "background": {
-            "color": {
-              "value": "{Deep-teal.200}",
-              "type": "color"
-            }
+            "value": "{Deep-teal.200}",
+            "type": "color"
           }
         }
       }
@@ -106,11 +86,9 @@
     },
     "secondarytext": {
       "default": {
-        "label": {
-          "color": {
-            "value": "{Light-blue.100}",
-            "type": "color"
-          }
+        "text": {
+          "value": "{Light-blue.100}",
+          "type": "color"
         }
       }
     }
