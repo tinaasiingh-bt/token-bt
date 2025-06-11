@@ -236,10 +236,6 @@
       "value": "{Red.100}",
       "type": "color"
     },
-    "container-secondary": {
-      "value": "{Gray.300}",
-      "type": "color"
-    },
     "outline": {
       "focus": {
         "value": "{Orange.400}",
