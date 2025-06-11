@@ -74,18 +74,6 @@
         }
       }
     },
-    "filled": {
-      "secondary": {
-        "hover": {
-          "background": {
-            "color": {
-              "value": "{Blue-gray.200}",
-              "type": "color"
-            }
-          }
-        }
-      }
-    },
     "ghost": {
       "active": {
         "border": {
