@@ -11,8 +11,10 @@
     "primary": {
       "active": {
         "background": {
-          "value": "{Sky-blue.300}",
-          "type": "color"
+          "color": {
+            "value": "{Sky-blue.300}",
+            "type": "color"
+          }
         }
       }
     },

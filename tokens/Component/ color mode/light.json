@@ -107,8 +107,10 @@
     "primary": {
       "active": {
         "background": {
-          "value": "{Blue.300}",
-          "type": "color"
+          "color": {
+            "value": "{Blue.300}",
+            "type": "color"
+          }
         }
       }
     }
