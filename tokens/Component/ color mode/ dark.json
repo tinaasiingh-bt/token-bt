@@ -103,6 +103,16 @@
           "type": "color"
         }
       }
+    },
+    "secondary-text": {
+      "default": {
+        "label": {
+          "color": {
+            "value": "{Light-blue.100}",
+            "type": "color"
+          }
+        }
+      }
     }
   },
   "chart": {
