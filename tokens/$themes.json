@@ -1476,7 +1476,6 @@
       "button.danger.hover.background.color": "825c592814b77981c7fc727d9ac1902dd85e7b02",
       "button.ghost.active.border.color": "f0e3855ed069d6aed0011d0bd2c88de6d99a8862",
       "button.text.secondary.active.background.color": "7efd9469dcfcceedca97853567825d710a8b3018",
-      "button.primary-text.hover.background": "0e5c054b9fa0f585f87d671f33388c13521142d2",
       "chart.default.color.data-01": "203a4e51e59faa8ec6c0c1daea479ed977315fef",
       "chart.default.color.data-02": "968dbec8771d63186cbaa0eb7db49cc6c2b4f88c",
       "chart.default.color.data-03": "fdc6619c65de75e538ddf32dafc71ec1e4f68982",
@@ -1524,8 +1523,7 @@
       "badge.preview.background": "bbee0d38fb8a85a834d5b787ecae1dd0466744e4",
       "badge.preview.border.color": "5667e10d9ac317a99022ba64b9843c4ec7933de1",
       "badge.preview.text.color": "6f79a7caac506bcd9758c575200ee43336afcf82",
-      "button.secondary-text.default.label.color": "b8ac8f964912b72d389d95823cfc357182baaf0d",
-      "button.danger.focus.background.color": "a56a4b5be9dee1717872bc74764b09df22d53849",
+      "button.danger.focus.background.color": "92da8b6a2c7db3c043992e8c261a9f606f968c7d",
       "badge.border.radius": "65ea239bf767d890e5f6a082203a2f6f8f814cc0",
       "button.size.height.36": "4661dab39b4889e525af60859149edc9ec45692c",
       "button.size.width.36": "744e5ac8ff67da3fa05dd3b9705cba104d09de3c",
@@ -1593,7 +1591,9 @@
       "toast.default.button.margin.left": "3dc064d9ee62d0a2ec1db2da596b6879fbb275a0",
       "treeview.toogle.margin-left": "56128cae4a53b0ac9da5d6b4c2cbcb2d2961582f",
       "treeview.left.text.margin-left": "48308a3333d72e42ceaae858e9583e0eb71fda73",
-      "treeview.leaf.container.margin-left": "38330d1d0baca2ca3bf85a19dbbed213aba1d8af"
+      "treeview.leaf.container.margin-left": "38330d1d0baca2ca3bf85a19dbbed213aba1d8af",
+      "button.secondary.text.default.label.color": "b8ac8f964912b72d389d95823cfc357182baaf0d",
+      "button.primary.text.hover.background": "0e5c054b9fa0f585f87d671f33388c13521142d2"
     },
     "group": "Component"
   },
@@ -1690,7 +1690,6 @@
       "button.danger.hover.background.color": "825c592814b77981c7fc727d9ac1902dd85e7b02",
       "button.ghost.active.border.color": "f0e3855ed069d6aed0011d0bd2c88de6d99a8862",
       "button.text.secondary.active.background.color": "7efd9469dcfcceedca97853567825d710a8b3018",
-      "button.primary-text.hover.background": "0e5c054b9fa0f585f87d671f33388c13521142d2",
       "chart.default.color.data-01": "203a4e51e59faa8ec6c0c1daea479ed977315fef",
       "chart.default.color.data-02": "968dbec8771d63186cbaa0eb7db49cc6c2b4f88c",
       "chart.default.color.data-03": "fdc6619c65de75e538ddf32dafc71ec1e4f68982",
@@ -1738,7 +1737,6 @@
       "badge.preview.background": "bbee0d38fb8a85a834d5b787ecae1dd0466744e4",
       "badge.preview.border.color": "5667e10d9ac317a99022ba64b9843c4ec7933de1",
       "badge.preview.text.color": "6f79a7caac506bcd9758c575200ee43336afcf82",
-      "button.secondary-text.default.label.color": "b8ac8f964912b72d389d95823cfc357182baaf0d",
       "badge.border.radius": "65ea239bf767d890e5f6a082203a2f6f8f814cc0",
       "button.size.height.36": "4661dab39b4889e525af60859149edc9ec45692c",
       "button.size.width.36": "744e5ac8ff67da3fa05dd3b9705cba104d09de3c",
@@ -1806,7 +1804,9 @@
       "toast.default.button.margin.left": "3dc064d9ee62d0a2ec1db2da596b6879fbb275a0",
       "treeview.toogle.margin-left": "56128cae4a53b0ac9da5d6b4c2cbcb2d2961582f",
       "treeview.left.text.margin-left": "48308a3333d72e42ceaae858e9583e0eb71fda73",
-      "treeview.leaf.container.margin-left": "38330d1d0baca2ca3bf85a19dbbed213aba1d8af"
+      "treeview.leaf.container.margin-left": "38330d1d0baca2ca3bf85a19dbbed213aba1d8af",
+      "button.secondary.text.default.label.color": "b8ac8f964912b72d389d95823cfc357182baaf0d",
+      "button.primary.text.hover.background": "0e5c054b9fa0f585f87d671f33388c13521142d2"
     },
     "group": "Component"
   }

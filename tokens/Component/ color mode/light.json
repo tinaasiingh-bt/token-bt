@@ -16,6 +16,14 @@
             "type": "color"
           }
         }
+      },
+      "text": {
+        "hover": {
+          "background": {
+            "value": "{Deep-teal.100}",
+            "type": "color"
+          }
+        }
       }
     },
     "secondary": {
@@ -44,6 +52,16 @@
           "color": {
             "value": "{Steel-blue.200}",
             "type": "color"
+          }
+        }
+      },
+      "text": {
+        "default": {
+          "label": {
+            "color": {
+              "value": "{Blue-gray.100}",
+              "type": "color"
+            }
           }
         }
       }
@@ -100,24 +118,6 @@
               "value": "{Deep-teal.200}",
               "type": "color"
             }
-          }
-        }
-      }
-    },
-    "primary-text": {
-      "hover": {
-        "background": {
-          "value": "{Deep-teal.100}",
-          "type": "color"
-        }
-      }
-    },
-    "secondary-text": {
-      "default": {
-        "label": {
-          "color": {
-            "value": "{Blue-gray.100}",
-            "type": "color"
           }
         }
       }
