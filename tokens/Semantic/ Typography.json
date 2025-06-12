@@ -538,7 +538,7 @@
         "type": "fontSizes"
       },
       "instructional": {
-        "value": "{font.size.sm}",
+        "value": "{font.size.xs}",
         "type": "fontSizes"
       },
       "card": {
