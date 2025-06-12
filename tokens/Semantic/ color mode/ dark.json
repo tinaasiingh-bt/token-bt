@@ -134,7 +134,7 @@
       "type": "color"
     },
     "hover": {
-      "value": "{Blue.200}",
+      "value": "{Sky-blue.200}",
       "type": "color",
       "description": "Checkbox, Radio Button, Switch,Slider, Time Picker, Date Picker, buttonGroup, Tab, Toast, Text Link, Menu Trigger, Icon Button"
     },
