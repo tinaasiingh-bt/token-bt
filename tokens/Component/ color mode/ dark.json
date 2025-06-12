@@ -82,6 +82,14 @@
             "type": "color"
           }
         }
+      },
+      "hover": {
+        "label": {
+          "color": {
+            "value": "{Sky-blue.200}",
+            "type": "color"
+          }
+        }
       }
     },
     "text": {

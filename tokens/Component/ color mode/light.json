@@ -82,6 +82,14 @@
             "type": "color"
           }
         }
+      },
+      "hover": {
+        "label": {
+          "color": {
+            "value": "{Blue.100}",
+            "type": "color"
+          }
+        }
       }
     },
     "text": {
