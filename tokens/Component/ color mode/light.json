@@ -121,6 +121,14 @@
           }
         }
       }
+    },
+    "icon": {
+      "pressed": {
+        "color": {
+          "value": "{Blue.300}",
+          "type": "color"
+        }
+      }
     }
   },
   "chart": {

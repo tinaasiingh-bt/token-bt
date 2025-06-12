@@ -121,6 +121,14 @@
           }
         }
       }
+    },
+    "icon": {
+      "pressed": {
+        "color": {
+          "value": "{Sky-blue.300}",
+          "type": "color"
+        }
+      }
     }
   },
   "chart": {
