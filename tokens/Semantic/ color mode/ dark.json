@@ -162,6 +162,10 @@
       "secondary-hover": {
         "value": "{Blue-gray.200}",
         "type": "color"
+      },
+      "hover-primary": {
+        "value": "{Sky-blue.200}",
+        "type": "color"
       }
     },
     "contrast": {
