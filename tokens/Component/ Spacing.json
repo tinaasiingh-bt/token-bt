@@ -282,5 +282,15 @@
         }
       }
     }
+  },
+  "breadcrumb": {
+    "label": {
+      "icon": {
+        "spacing": {
+          "value": "{spacing.xl}",
+          "type": "spacing"
+        }
+      }
+    }
   }
 }
