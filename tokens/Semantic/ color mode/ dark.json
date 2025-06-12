@@ -156,15 +156,17 @@
         "type": "color"
       },
       "hover": {
-        "value": "{Sky-blue.200}",
-        "type": "color"
+        "primary": {
+          "value": "{Sky-blue.200}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{Sky-blue.200}",
+          "type": "color"
+        }
       },
       "secondary-hover": {
         "value": "{Blue-gray.200}",
-        "type": "color"
-      },
-      "hover-primary": {
-        "value": "{Sky-blue.200}",
         "type": "color"
       }
     },

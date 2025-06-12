@@ -668,7 +668,6 @@
       "text.interactive.primary": "a1b524e1c46b7d84ca37fc756d450a7d5e3e31c7",
       "text.interactive.secondary": "4819d65c3546dac932878ea525a63b454d8281b0",
       "text.interactive.tertiary": "092bc52de4293b30917a56a0ba7d3ccf54f722fb",
-      "text.interactive.hover": "df3d4734c6fef57a6912fa1607cc9073bee22113",
       "text.interactive.secondary-hover": "92339397827da4a69248138f21e84a4fa774a16b",
       "text.contrast.primary": "8934ea6a1d27226a7865e6d277824feec815db2e",
       "text.contrast.tertiary": "1ee3d6e4847727e1010dd16df80afee01c04bd52",
@@ -889,7 +888,8 @@
       "text.line-height.card.lg": "67c1dd97da84ae354af04f64ee75d7f0580d7b9a",
       "text.line-height.card.md": "3e257b832dfe7c5ac09d22956a501bf2657d1b16",
       "text.line-height.card.sm": "6fe423ab68d944310fa7ba4e17e7b9c6514ed8ea",
-      "text.line-height.card.xs": "142bc435fe3d3291a0f43effadc65b7d23eb4a32"
+      "text.line-height.card.xs": "142bc435fe3d3291a0f43effadc65b7d23eb4a32",
+      "text.interactive.hover.primary": "df3d4734c6fef57a6912fa1607cc9073bee22113"
     },
     "$figmaCollectionId": "VariableCollectionId:7188:9472",
     "$figmaModeId": "7188:1",
@@ -1215,7 +1215,6 @@
       "text.interactive.primary": "a1b524e1c46b7d84ca37fc756d450a7d5e3e31c7",
       "text.interactive.secondary": "4819d65c3546dac932878ea525a63b454d8281b0",
       "text.interactive.tertiary": "092bc52de4293b30917a56a0ba7d3ccf54f722fb",
-      "text.interactive.hover": "df3d4734c6fef57a6912fa1607cc9073bee22113",
       "text.interactive.secondary-hover": "92339397827da4a69248138f21e84a4fa774a16b",
       "text.contrast.primary": "8934ea6a1d27226a7865e6d277824feec815db2e",
       "text.contrast.tertiary": "1ee3d6e4847727e1010dd16df80afee01c04bd52",
@@ -1436,7 +1435,8 @@
       "text.line-height.card.lg": "67c1dd97da84ae354af04f64ee75d7f0580d7b9a",
       "text.line-height.card.md": "3e257b832dfe7c5ac09d22956a501bf2657d1b16",
       "text.line-height.card.sm": "6fe423ab68d944310fa7ba4e17e7b9c6514ed8ea",
-      "text.line-height.card.xs": "142bc435fe3d3291a0f43effadc65b7d23eb4a32"
+      "text.line-height.card.xs": "142bc435fe3d3291a0f43effadc65b7d23eb4a32",
+      "text.interactive.hover.primary": "df3d4734c6fef57a6912fa1607cc9073bee22113"
     },
     "$figmaCollectionId": "VariableCollectionId:7188:9472",
     "$figmaModeId": "7188:2",
