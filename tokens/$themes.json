@@ -822,7 +822,6 @@
       "spacing.element.margin.inline.sm": "86b7b236c0a731ecb1fff1fb2696a641a4a541cf",
       "spacing.element.margin.inline.md": "a1f496dc4b92b5331e496db6180cc4c6a0e151c2",
       "spacing.element.margin.inline.lg": "7c824324a501ef35e974f2c86c4cc439d7953faf",
-      "space.content.start.gap.sm": "bade2f2dd62d8df06d3dd40cb0de94a9db1f101b",
       "opacity.surface.hidden": "279527f46072b847e80624b5a19d60d09f649401",
       "opacity.surface.disabled": "931e3f69681d1fbfbb897d29001a798edc0ef996",
       "opacity.surface.visible": "f776e93fc655daaf02a528c2131e10946353d431",
@@ -889,7 +888,8 @@
       "text.line-height.card.md": "3e257b832dfe7c5ac09d22956a501bf2657d1b16",
       "text.line-height.card.sm": "6fe423ab68d944310fa7ba4e17e7b9c6514ed8ea",
       "text.line-height.card.xs": "142bc435fe3d3291a0f43effadc65b7d23eb4a32",
-      "text.interactive.hover.primary": "df3d4734c6fef57a6912fa1607cc9073bee22113"
+      "text.interactive.hover.primary": "df3d4734c6fef57a6912fa1607cc9073bee22113",
+      "spacing.content.start.gap.sm": "bade2f2dd62d8df06d3dd40cb0de94a9db1f101b"
     },
     "$figmaCollectionId": "VariableCollectionId:7188:9472",
     "$figmaModeId": "7188:1",
@@ -1369,7 +1369,6 @@
       "spacing.element.margin.inline.sm": "86b7b236c0a731ecb1fff1fb2696a641a4a541cf",
       "spacing.element.margin.inline.md": "a1f496dc4b92b5331e496db6180cc4c6a0e151c2",
       "spacing.element.margin.inline.lg": "7c824324a501ef35e974f2c86c4cc439d7953faf",
-      "space.content.start.gap.sm": "bade2f2dd62d8df06d3dd40cb0de94a9db1f101b",
       "opacity.surface.hidden": "279527f46072b847e80624b5a19d60d09f649401",
       "opacity.surface.disabled": "931e3f69681d1fbfbb897d29001a798edc0ef996",
       "opacity.surface.visible": "f776e93fc655daaf02a528c2131e10946353d431",
@@ -1436,7 +1435,8 @@
       "text.line-height.card.md": "3e257b832dfe7c5ac09d22956a501bf2657d1b16",
       "text.line-height.card.sm": "6fe423ab68d944310fa7ba4e17e7b9c6514ed8ea",
       "text.line-height.card.xs": "142bc435fe3d3291a0f43effadc65b7d23eb4a32",
-      "text.interactive.hover.primary": "df3d4734c6fef57a6912fa1607cc9073bee22113"
+      "text.interactive.hover.primary": "df3d4734c6fef57a6912fa1607cc9073bee22113",
+      "spacing.content.start.gap.sm": "bade2f2dd62d8df06d3dd40cb0de94a9db1f101b"
     },
     "$figmaCollectionId": "VariableCollectionId:7188:9472",
     "$figmaModeId": "7188:2",
