@@ -34,6 +34,10 @@
       "xs": {
         "value": "{border.radius.xs}",
         "type": "borderRadius"
+      },
+      "2xs": {
+        "value": "{border.radius.2xs}",
+        "type": "borderRadius"
       }
     }
   },
