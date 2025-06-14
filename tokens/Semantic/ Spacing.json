@@ -220,6 +220,10 @@
           "lg": {
             "value": "{spacing.xl}",
             "type": "spacing"
+          },
+          "sm": {
+            "value": "{spacing.sm}",
+            "type": "spacing"
           }
         },
         "inline": {
