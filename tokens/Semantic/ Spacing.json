@@ -150,6 +150,14 @@
             "type": "spacing"
           }
         }
+      },
+      "start": {
+        "gap": {
+          "2xs": {
+            "value": "{spacing.2xs}",
+            "type": "spacing"
+          }
+        }
       }
     },
     "element": {
