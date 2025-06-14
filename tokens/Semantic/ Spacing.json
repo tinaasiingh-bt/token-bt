@@ -274,6 +274,10 @@
               "value": "{spacing.md}",
               "type": "spacing"
             }
+          },
+          "2xs": {
+            "value": "{spacing.4xs}",
+            "type": "spacing"
           }
         },
         "md": {
