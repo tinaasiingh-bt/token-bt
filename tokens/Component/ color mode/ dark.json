@@ -456,5 +456,17 @@
         }
       }
     }
+  },
+  "checkbox": {
+    "default": {
+      "checkmark": {
+        "icon": {
+          "color": {
+            "value": "{Navy.700}",
+            "type": "color"
+          }
+        }
+      }
+    }
   }
 }

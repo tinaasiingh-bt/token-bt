@@ -454,5 +454,17 @@
         }
       }
     }
+  },
+  "checkbox": {
+    "default": {
+      "checkmark": {
+        "icon": {
+          "color": {
+            "value": "{Neutral.White}",
+            "type": "color"
+          }
+        }
+      }
+    }
   }
 }
