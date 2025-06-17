@@ -468,5 +468,17 @@
         }
       }
     }
+  },
+  "menu": {
+    "default": {
+      "separator": {
+        "border": {
+          "color": {
+            "value": "{Neutral.Ash}",
+            "type": "color"
+          }
+        }
+      }
+    }
   }
 }
