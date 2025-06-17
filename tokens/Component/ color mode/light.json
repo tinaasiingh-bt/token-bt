@@ -227,6 +227,14 @@
         "value": "{Gray.300}",
         "type": "color"
       }
+    },
+    "tooltip": {
+      "line": {
+        "color": {
+          "value": "{Navy.700}",
+          "type": "color"
+        }
+      }
     }
   },
   "data-grid": {
