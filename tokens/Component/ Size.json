@@ -71,7 +71,7 @@
     "default": {
       "container": {
         "min-height": {
-          "value": "{size.min-height.xl}",
+          "value": "{size.min-height.2xl}",
           "type": "sizing"
         },
         "width": {
