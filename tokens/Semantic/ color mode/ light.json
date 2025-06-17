@@ -221,11 +221,13 @@
     "surface": {
       "primary": {
         "value": "{Gray.300}",
-        "type": "color"
+        "type": "color",
+        "description": "Modal, Help Text, Tooltip, Grid & Axis lines, Chart gridlines"
       },
       "secondary": {
         "value": "{Gray.300}",
-        "type": "color"
+        "type": "color",
+        "description": "Pagination, Data Grid, Data Table"
       }
     },
     "interactive": {
