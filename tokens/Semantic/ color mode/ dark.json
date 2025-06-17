@@ -220,7 +220,7 @@
     },
     "surface": {
       "primary": {
-        "value": "{Black.500}",
+        "value": "{Black.600}",
         "type": "color"
       },
       "secondary": {
