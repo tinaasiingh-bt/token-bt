@@ -1610,7 +1610,8 @@
       "treeview.toogle.margin-left": "19ef366b946abdf7eaf82c78542cd52e79f90605",
       "treeview.left.text.margin-left": "9051ea0450c144bd944942b169b6466ad850d421",
       "treeview.leaf.container.margin-left": "11d812088b401ce6c67c7201281477678e3864ac",
-      "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6"
+      "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6",
+      "slider.vertical.tick.gap": "6a8146dcd8eafd3d22c3b30cf52e47c1aca5dd1a"
     },
     "group": "Component"
   },
@@ -1831,7 +1832,8 @@
       "treeview.toogle.margin-left": "19ef366b946abdf7eaf82c78542cd52e79f90605",
       "treeview.left.text.margin-left": "9051ea0450c144bd944942b169b6466ad850d421",
       "treeview.leaf.container.margin-left": "11d812088b401ce6c67c7201281477678e3864ac",
-      "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6"
+      "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6",
+      "slider.vertical.tick.gap": "6a8146dcd8eafd3d22c3b30cf52e47c1aca5dd1a"
     },
     "group": "Component"
   }
