@@ -486,5 +486,15 @@
         }
       }
     }
+  },
+  "tab": {
+    "item": {
+      "background": {
+        "color": {
+          "value": "{Neutral.White}",
+          "type": "color"
+        }
+      }
+    }
   }
 }

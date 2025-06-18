@@ -488,5 +488,15 @@
         }
       }
     }
+  },
+  "tab": {
+    "item": {
+      "background": {
+        "color": {
+          "value": "{Black.900}",
+          "type": "color"
+        }
+      }
+    }
   }
 }
