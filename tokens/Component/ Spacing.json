@@ -169,7 +169,7 @@
       "type": "spacing"
     }
   },
-  "tabs": {
+  "tab": {
     "icon": {
       "padding": {
         "right": {
@@ -189,7 +189,9 @@
           }
         }
       }
-    },
+    }
+  },
+  "tabs": {
     "vertical": {
       "active": {
         "item": {

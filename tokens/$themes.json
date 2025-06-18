@@ -1594,8 +1594,6 @@
       "slider.vertical.margin.left": "4f3941689eb7feb9b4a303615d8ef7bdbe011f3b",
       "slider.horizontal.margin.bottom": "09d6b78ad541d5f5c86b2344d14cb91b11d2d775",
       "slider.container": "aeb64e42b5cc4cc86122670854a3cb3a682fa34e",
-      "tabs.icon.padding.right": "f167312b0df42bfacc0985ec112ca7dcd4211395",
-      "tabs.horizontal.active.item.margin.top": "3a40db0220ca88ab7346c6a70b069dd9a5d3a30e",
       "tabs.vertical.active.item.margin.bottom": "8ef244765b5ca7f7dd625fa927b62e56e165db9a",
       "tag.container.padding.inline": "17eaa827c7b0360c36d5f0b7d1ed251d497e19fb",
       "tag.container.container.margin.inline": "f9c1cffa0f5e205a7a6018cfcafdcae333067e8d",
@@ -1608,7 +1606,9 @@
       "treeview.leaf.container.margin-left": "11d812088b401ce6c67c7201281477678e3864ac",
       "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6",
       "breadcrumb.focus.border-radius": "ec513bcd52164499a4d24df2093148f45584f536",
-      "badge.border-radius": "182f98a91b15b1e50530917fd627c8ea82086dc5"
+      "badge.border-radius": "182f98a91b15b1e50530917fd627c8ea82086dc5",
+      "tab.icon.padding.right": "f167312b0df42bfacc0985ec112ca7dcd4211395",
+      "tab.horizontal.active.item.margin.top": "3a40db0220ca88ab7346c6a70b069dd9a5d3a30e"
     },
     "group": "Component"
   },
@@ -1813,8 +1813,6 @@
       "slider.vertical.margin.left": "4f3941689eb7feb9b4a303615d8ef7bdbe011f3b",
       "slider.horizontal.margin.bottom": "09d6b78ad541d5f5c86b2344d14cb91b11d2d775",
       "slider.container": "aeb64e42b5cc4cc86122670854a3cb3a682fa34e",
-      "tabs.icon.padding.right": "f167312b0df42bfacc0985ec112ca7dcd4211395",
-      "tabs.horizontal.active.item.margin.top": "3a40db0220ca88ab7346c6a70b069dd9a5d3a30e",
       "tabs.vertical.active.item.margin.bottom": "8ef244765b5ca7f7dd625fa927b62e56e165db9a",
       "tag.container.padding.inline": "17eaa827c7b0360c36d5f0b7d1ed251d497e19fb",
       "tag.container.container.margin.inline": "f9c1cffa0f5e205a7a6018cfcafdcae333067e8d",
@@ -1827,7 +1825,9 @@
       "treeview.leaf.container.margin-left": "11d812088b401ce6c67c7201281477678e3864ac",
       "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6",
       "breadcrumb.focus.border-radius": "ec513bcd52164499a4d24df2093148f45584f536",
-      "badge.border-radius": "182f98a91b15b1e50530917fd627c8ea82086dc5"
+      "badge.border-radius": "182f98a91b15b1e50530917fd627c8ea82086dc5",
+      "tab.icon.padding.right": "f167312b0df42bfacc0985ec112ca7dcd4211395",
+      "tab.horizontal.active.item.margin.top": "3a40db0220ca88ab7346c6a70b069dd9a5d3a30e"
     },
     "group": "Component"
   }
