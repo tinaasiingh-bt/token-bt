@@ -314,5 +314,13 @@
         "type": "spacing"
       }
     }
+  },
+  "tooltip": {
+    "content": {
+      "gap": {
+        "value": "{spacing.lg}",
+        "type": "spacing"
+      }
+    }
   }
 }
