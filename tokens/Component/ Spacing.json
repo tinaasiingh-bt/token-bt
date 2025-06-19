@@ -300,5 +300,13 @@
         }
       }
     }
+  },
+  "time-picker": {
+    "text-button": {
+      "gap": {
+        "value": "{spacing.8xl}",
+        "type": "spacing"
+      }
+    }
   }
 }

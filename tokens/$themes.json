@@ -695,6 +695,7 @@
       "icon.contrast": "71c07b1dfe79d6b641c101735f5402bb26099b44",
       "icon.tertiary": "a7c29c7181e027773dc3dbd7d7e39fd712c1ed99",
       "icon.secondary": "8cc7d8b767b9e196533bedce187d3904393fefdb",
+      "icon.error": "92d202ff20c845b0bfb8013d3c02afb33734122d",
       "severity.critical": "e5548f93cf233b4714d66dd45d2503db5b4a56af",
       "severity.high": "088a8cf10f76ae12cd31a75661a3ecb6d51cfaeb",
       "severity.moderate": "99d8df6b0272c638da001162d15d8e909c53563d",
@@ -1246,6 +1247,7 @@
       "icon.contrast": "71c07b1dfe79d6b641c101735f5402bb26099b44",
       "icon.tertiary": "a7c29c7181e027773dc3dbd7d7e39fd712c1ed99",
       "icon.secondary": "8cc7d8b767b9e196533bedce187d3904393fefdb",
+      "icon.error": "92d202ff20c845b0bfb8013d3c02afb33734122d",
       "severity.critical": "e5548f93cf233b4714d66dd45d2503db5b4a56af",
       "severity.high": "088a8cf10f76ae12cd31a75661a3ecb6d51cfaeb",
       "severity.moderate": "99d8df6b0272c638da001162d15d8e909c53563d",
@@ -1610,7 +1612,8 @@
       "treeview.toogle.margin-left": "19ef366b946abdf7eaf82c78542cd52e79f90605",
       "treeview.left.text.margin-left": "9051ea0450c144bd944942b169b6466ad850d421",
       "treeview.leaf.container.margin-left": "11d812088b401ce6c67c7201281477678e3864ac",
-      "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6"
+      "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6",
+      "time-picker.text-button.gap": "b57dc1b0b41323f03336fb535bc594256f0eee65"
     },
     "group": "Component"
   },
@@ -1833,7 +1836,8 @@
       "treeview.toogle.margin-left": "19ef366b946abdf7eaf82c78542cd52e79f90605",
       "treeview.left.text.margin-left": "9051ea0450c144bd944942b169b6466ad850d421",
       "treeview.leaf.container.margin-left": "11d812088b401ce6c67c7201281477678e3864ac",
-      "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6"
+      "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6",
+      "time-picker.text-button.gap": "b57dc1b0b41323f03336fb535bc594256f0eee65"
     },
     "group": "Component"
   }
