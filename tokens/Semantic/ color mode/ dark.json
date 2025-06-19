@@ -283,6 +283,10 @@
     "secondary": {
       "value": "{Black.950}",
       "type": "color"
+    },
+    "error": {
+      "value": "{Red.50}",
+      "type": "color"
     }
   },
   "severity": {
