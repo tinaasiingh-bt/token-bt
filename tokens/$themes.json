@@ -819,7 +819,6 @@
       "spacing.element.margin.inline.start.sm": "56af8b7a937b3dd0e6f95a2e7c6d1f4c5c128717",
       "spacing.element.margin.inline.start.md": "4d25eab41b4efb999bffc8fe15e4ea078a91049c",
       "spacing.element.margin.inline.start.5xl": "8cca0ba9890818cfcd5979fbf1aa788c9a595ece",
-      "spacing.element.margin.inline.start.6xl": "d4f565ee9617d2c86e5c9f9f16e8bb5e6c5ad387",
       "spacing.element.margin.inline.end.none": "359e7592649c749aad522592c2d51065ec984a1f",
       "spacing.element.margin.inline.end.xs": "3eeb1a978498f4567db10be14a9ac2b90b78c559",
       "spacing.element.margin.inline.end.md": "d6395aac05f6e6c74656c81e19c0b9c506f85682",
@@ -1371,7 +1370,6 @@
       "spacing.element.margin.inline.start.sm": "56af8b7a937b3dd0e6f95a2e7c6d1f4c5c128717",
       "spacing.element.margin.inline.start.md": "4d25eab41b4efb999bffc8fe15e4ea078a91049c",
       "spacing.element.margin.inline.start.5xl": "8cca0ba9890818cfcd5979fbf1aa788c9a595ece",
-      "spacing.element.margin.inline.start.6xl": "d4f565ee9617d2c86e5c9f9f16e8bb5e6c5ad387",
       "spacing.element.margin.inline.end.none": "359e7592649c749aad522592c2d51065ec984a1f",
       "spacing.element.margin.inline.end.xs": "3eeb1a978498f4567db10be14a9ac2b90b78c559",
       "spacing.element.margin.inline.end.md": "d6395aac05f6e6c74656c81e19c0b9c506f85682",
@@ -1539,6 +1537,7 @@
       "badge.preview.text.color": "33997447191a46922101c6b7e3848da63475feb6",
       "checkbox.default.checkmark.icon.color": "10bd2d83648d17b73ec9ce47629c6806efc25869",
       "menu.default.separator.border.color": "7a024b25755c66996d7f9ac7a41b1bcde4a34d2e",
+      "tab.item.background.color": "356b7c16120e11a0701bc3b156be0439afc21f37",
       "data-grid.text.color": "cb5833cd0f2296febf88d1edd575189d2f82a403",
       "badge.border-radius": "182f98a91b15b1e50530917fd627c8ea82086dc5",
       "breadcrumb.focus.border-radius": "ec513bcd52164499a4d24df2093148f45584f536",
@@ -1596,6 +1595,7 @@
       "severity.default.dot.margin-right": "b836f878bcd4f0be0a5a2f1b5b68202cfb9cfe32",
       "slider.vertical.margin.top": "1dec3eaf53a20888f684290455352eebaad9cf05",
       "slider.vertical.margin.left": "4f3941689eb7feb9b4a303615d8ef7bdbe011f3b",
+      "slider.vertical.tick.gap": "6a8146dcd8eafd3d22c3b30cf52e47c1aca5dd1a",
       "slider.horizontal.margin.bottom": "09d6b78ad541d5f5c86b2344d14cb91b11d2d775",
       "slider.container": "aeb64e42b5cc4cc86122670854a3cb3a682fa34e",
       "tab.icon.padding.right": "f167312b0df42bfacc0985ec112ca7dcd4211395",
@@ -1610,8 +1610,7 @@
       "treeview.toogle.margin-left": "19ef366b946abdf7eaf82c78542cd52e79f90605",
       "treeview.left.text.margin-left": "9051ea0450c144bd944942b169b6466ad850d421",
       "treeview.leaf.container.margin-left": "11d812088b401ce6c67c7201281477678e3864ac",
-      "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6",
-      "slider.vertical.tick.gap": "6a8146dcd8eafd3d22c3b30cf52e47c1aca5dd1a"
+      "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6"
     },
     "group": "Component"
   },
@@ -1761,6 +1760,7 @@
       "badge.preview.text.color": "33997447191a46922101c6b7e3848da63475feb6",
       "checkbox.default.checkmark.icon.color": "10bd2d83648d17b73ec9ce47629c6806efc25869",
       "menu.default.separator.border.color": "7a024b25755c66996d7f9ac7a41b1bcde4a34d2e",
+      "tab.item.background.color": "356b7c16120e11a0701bc3b156be0439afc21f37",
       "data-grid.text.color.color": "11742d5d10833a3cc24a1ae1b223b16839d0fdab",
       "badge.border-radius": "182f98a91b15b1e50530917fd627c8ea82086dc5",
       "breadcrumb.focus.border-radius": "ec513bcd52164499a4d24df2093148f45584f536",
@@ -1818,6 +1818,7 @@
       "severity.default.dot.margin-right": "b836f878bcd4f0be0a5a2f1b5b68202cfb9cfe32",
       "slider.vertical.margin.top": "1dec3eaf53a20888f684290455352eebaad9cf05",
       "slider.vertical.margin.left": "4f3941689eb7feb9b4a303615d8ef7bdbe011f3b",
+      "slider.vertical.tick.gap": "6a8146dcd8eafd3d22c3b30cf52e47c1aca5dd1a",
       "slider.horizontal.margin.bottom": "09d6b78ad541d5f5c86b2344d14cb91b11d2d775",
       "slider.container": "aeb64e42b5cc4cc86122670854a3cb3a682fa34e",
       "tab.icon.padding.right": "f167312b0df42bfacc0985ec112ca7dcd4211395",
@@ -1832,8 +1833,7 @@
       "treeview.toogle.margin-left": "19ef366b946abdf7eaf82c78542cd52e79f90605",
       "treeview.left.text.margin-left": "9051ea0450c144bd944942b169b6466ad850d421",
       "treeview.leaf.container.margin-left": "11d812088b401ce6c67c7201281477678e3864ac",
-      "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6",
-      "slider.vertical.tick.gap": "6a8146dcd8eafd3d22c3b30cf52e47c1aca5dd1a"
+      "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6"
     },
     "group": "Component"
   }
