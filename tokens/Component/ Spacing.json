@@ -265,6 +265,12 @@
           }
         }
       }
+    },
+    "content": {
+      "gap": {
+        "value": "{spacing.xl}",
+        "type": "spacing"
+      }
     }
   },
   "treeview": {
