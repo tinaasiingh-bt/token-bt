@@ -1514,7 +1514,6 @@
       "chart.tooltip.line.color": "3c7c1eb9e7d5780db2f015b655b24de0e3a506c8",
       "data-grid.default.toolbar.selection.text.color": "4daeb3efc2601d1a644a1c119025b4a1c66aa7f8",
       "data-grid.default.toolbar.selection.hover.text.color": "086feaedf96f956eb4f47de45f7603e9628ca4c1",
-      "data-grid.default.item-count.text": "e570e2cf5580dc021cf3da39a05497709ba79678",
       "data-grid.default.header.background.color": "0fe3e8cf9614530d62303c75e6ffeea6725f301f",
       "data-grid.default.grid-cell.text.color": "8038450549e6cb8f1f83a9b2063f455751b70a70",
       "data-grid.default.grid-row.background.color": "7b18f855d54f2cdbbc38c7e034a3ee5ea8506ec2",
@@ -1540,7 +1539,6 @@
       "checkbox.default.checkmark.icon.color": "10bd2d83648d17b73ec9ce47629c6806efc25869",
       "menu.default.separator.border.color": "7a024b25755c66996d7f9ac7a41b1bcde4a34d2e",
       "tab.item.background.color": "356b7c16120e11a0701bc3b156be0439afc21f37",
-      "data-grid.text.color": "cb5833cd0f2296febf88d1edd575189d2f82a403",
       "badge.border-radius": "182f98a91b15b1e50530917fd627c8ea82086dc5",
       "breadcrumb.focus.border-radius": "ec513bcd52164499a4d24df2093148f45584f536",
       "checkbox.unselected.box-radius": "8eeca826351f60492fb436d5dca22a7de3fbaa8a",
@@ -1613,7 +1611,8 @@
       "treeview.left.text.margin-left": "9051ea0450c144bd944942b169b6466ad850d421",
       "treeview.leaf.container.margin-left": "11d812088b401ce6c67c7201281477678e3864ac",
       "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6",
-      "time-picker.text-button.gap": "b57dc1b0b41323f03336fb535bc594256f0eee65"
+      "time-picker.text-button.gap": "b57dc1b0b41323f03336fb535bc594256f0eee65",
+      "data-grid.header.text.color": "cb5833cd0f2296febf88d1edd575189d2f82a403"
     },
     "group": "Component"
   },
@@ -1738,7 +1737,6 @@
       "chart.tooltip.line.color": "3c7c1eb9e7d5780db2f015b655b24de0e3a506c8",
       "data-grid.default.toolbar.selection.text.color": "4daeb3efc2601d1a644a1c119025b4a1c66aa7f8",
       "data-grid.default.toolbar.selection.hover.text.color": "086feaedf96f956eb4f47de45f7603e9628ca4c1",
-      "data-grid.default.item-count.text": "e570e2cf5580dc021cf3da39a05497709ba79678",
       "data-grid.default.header.background.color": "0fe3e8cf9614530d62303c75e6ffeea6725f301f",
       "data-grid.default.grid-cell.text.color": "8038450549e6cb8f1f83a9b2063f455751b70a70",
       "data-grid.default.grid-row.background.color": "7b18f855d54f2cdbbc38c7e034a3ee5ea8506ec2",

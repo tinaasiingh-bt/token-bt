@@ -257,12 +257,6 @@
           }
         }
       },
-      "item-count": {
-        "text": {
-          "value": "{Neutral.light-ash}",
-          "type": "color"
-        }
-      },
       "header": {
         "background": {
           "color": {

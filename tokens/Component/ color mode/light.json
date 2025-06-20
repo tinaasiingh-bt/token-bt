@@ -257,12 +257,6 @@
           }
         }
       },
-      "item-count": {
-        "text": {
-          "value": "{Gray.25}",
-          "type": "color"
-        }
-      },
       "header": {
         "background": {
           "color": {
@@ -288,10 +282,12 @@
         }
       }
     },
-    "text": {
-      "color": {
-        "value": "{Gray.25}",
-        "type": "color"
+    "header": {
+      "text": {
+        "color": {
+          "value": "{Gray.25}",
+          "type": "color"
+        }
       }
     }
   },
