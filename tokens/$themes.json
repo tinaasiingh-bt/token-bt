@@ -1539,6 +1539,8 @@
       "checkbox.default.checkmark.icon.color": "10bd2d83648d17b73ec9ce47629c6806efc25869",
       "menu.default.separator.border.color": "7a024b25755c66996d7f9ac7a41b1bcde4a34d2e",
       "tab.item.background.color": "356b7c16120e11a0701bc3b156be0439afc21f37",
+      "data-grid.norecords.background.color": "e2467adcc6ae5ef8e420f4279a64a49f472cfb18",
+      "data-grid.header.text.color": "cb5833cd0f2296febf88d1edd575189d2f82a403",
       "badge.border-radius": "182f98a91b15b1e50530917fd627c8ea82086dc5",
       "breadcrumb.focus.border-radius": "ec513bcd52164499a4d24df2093148f45584f536",
       "checkbox.unselected.box-radius": "8eeca826351f60492fb436d5dca22a7de3fbaa8a",
@@ -1607,12 +1609,13 @@
       "text-field.default.inputbox.padding.block": "668e7ed92de9479c2d7bc708840247d1182b8bcc",
       "toast.default.button.margin-top": "31ca3b287dc026bfd9b3aea3736df1de4d4a9302",
       "toast.default.button.margin.left": "5c0ed034ade75c0095c1648d20e7ab6c01e93ee9",
+      "toast.content.gap": "bcbb321590ebc4bce159ad64e87a7bf8188f5179",
       "treeview.toogle.margin-left": "19ef366b946abdf7eaf82c78542cd52e79f90605",
       "treeview.left.text.margin-left": "9051ea0450c144bd944942b169b6466ad850d421",
       "treeview.leaf.container.margin-left": "11d812088b401ce6c67c7201281477678e3864ac",
       "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6",
       "time-picker.text-button.gap": "b57dc1b0b41323f03336fb535bc594256f0eee65",
-      "data-grid.header.text.color": "cb5833cd0f2296febf88d1edd575189d2f82a403"
+      "tooltip.content.gap": "08fbbe65962632df0e585ef9f33779e08361e73e"
     },
     "group": "Component"
   },
@@ -1762,6 +1765,7 @@
       "checkbox.default.checkmark.icon.color": "10bd2d83648d17b73ec9ce47629c6806efc25869",
       "menu.default.separator.border.color": "7a024b25755c66996d7f9ac7a41b1bcde4a34d2e",
       "tab.item.background.color": "356b7c16120e11a0701bc3b156be0439afc21f37",
+      "data-grid.norecords.background.color": "e2467adcc6ae5ef8e420f4279a64a49f472cfb18",
       "data-grid.text.color.color": "11742d5d10833a3cc24a1ae1b223b16839d0fdab",
       "badge.border-radius": "182f98a91b15b1e50530917fd627c8ea82086dc5",
       "breadcrumb.focus.border-radius": "ec513bcd52164499a4d24df2093148f45584f536",
@@ -1831,11 +1835,13 @@
       "text-field.default.inputbox.padding.block": "668e7ed92de9479c2d7bc708840247d1182b8bcc",
       "toast.default.button.margin-top": "31ca3b287dc026bfd9b3aea3736df1de4d4a9302",
       "toast.default.button.margin.left": "5c0ed034ade75c0095c1648d20e7ab6c01e93ee9",
+      "toast.content.gap": "bcbb321590ebc4bce159ad64e87a7bf8188f5179",
       "treeview.toogle.margin-left": "19ef366b946abdf7eaf82c78542cd52e79f90605",
       "treeview.left.text.margin-left": "9051ea0450c144bd944942b169b6466ad850d421",
       "treeview.leaf.container.margin-left": "11d812088b401ce6c67c7201281477678e3864ac",
       "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6",
-      "time-picker.text-button.gap": "b57dc1b0b41323f03336fb535bc594256f0eee65"
+      "time-picker.text-button.gap": "b57dc1b0b41323f03336fb535bc594256f0eee65",
+      "tooltip.content.gap": "08fbbe65962632df0e585ef9f33779e08361e73e"
     },
     "group": "Component"
   }

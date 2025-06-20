@@ -289,6 +289,14 @@
           "type": "color"
         }
       }
+    },
+    "norecords": {
+      "background": {
+        "color": {
+          "value": "{Black.950}",
+          "type": "color"
+        }
+      }
     }
   },
   "progress-indicator": {
