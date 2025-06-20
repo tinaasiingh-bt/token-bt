@@ -276,7 +276,7 @@
       "grid-row": {
         "background": {
           "color": {
-            "value": "{Neutral.White}",
+            "value": "{Black.800}",
             "type": "color"
           }
         }
