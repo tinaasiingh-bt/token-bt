@@ -20,5 +20,15 @@
         "type": "borderRadius"
       }
     }
+  },
+  "tag": {
+    "default": {
+      "container": {
+        "radius": {
+          "value": "{border.radius.lg}",
+          "type": "borderRadius"
+        }
+      }
+    }
   }
 }
