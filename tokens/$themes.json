@@ -1489,7 +1489,6 @@
       "button.text.secondary.active.background.color": "04a96de04bc95df25b1952ece90efe52593e7231",
       "button.primary-text.hover.background": "3525a43b5d7965ec5dbf8117803b9875f1f5b8ab",
       "button.secondarytext.default.label.color": "d7b86f26db9c6cdcbeb9ef88b91529e0fa2352f6",
-      "button.icon.pressed.color": "71e243c2c9085cc71a018647a181436e5cb8522d",
       "chart.default.color.data-01": "3a5901097a4042f81221882004a876f2aff21e61",
       "chart.default.color.data-02": "25c9790d7395c628223f467393f4346605ba22a4",
       "chart.default.color.data-03": "2c79225d253c31a34ae0b94c2093397d50dfaf6f",
@@ -1616,7 +1615,8 @@
       "treeview.leaf.container.margin-left": "11d812088b401ce6c67c7201281477678e3864ac",
       "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6",
       "time-picker.text-button.gap": "b57dc1b0b41323f03336fb535bc594256f0eee65",
-      "tooltip.content.gap": "08fbbe65962632df0e585ef9f33779e08361e73e"
+      "tooltip.content.gap": "08fbbe65962632df0e585ef9f33779e08361e73e",
+      "button.icon.active.background.color": "71e243c2c9085cc71a018647a181436e5cb8522d"
     },
     "group": "Component"
   },
@@ -1716,7 +1716,6 @@
       "button.text.secondary.active.background.color": "04a96de04bc95df25b1952ece90efe52593e7231",
       "button.primary-text.hover.background": "3525a43b5d7965ec5dbf8117803b9875f1f5b8ab",
       "button.secondarytext.default.label.color": "d7b86f26db9c6cdcbeb9ef88b91529e0fa2352f6",
-      "button.icon.pressed.color": "71e243c2c9085cc71a018647a181436e5cb8522d",
       "chart.default.color.data-01": "3a5901097a4042f81221882004a876f2aff21e61",
       "chart.default.color.data-02": "25c9790d7395c628223f467393f4346605ba22a4",
       "chart.default.color.data-03": "2c79225d253c31a34ae0b94c2093397d50dfaf6f",
@@ -1843,7 +1842,8 @@
       "treeview.leaf.container.margin-left": "11d812088b401ce6c67c7201281477678e3864ac",
       "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6",
       "time-picker.text-button.gap": "b57dc1b0b41323f03336fb535bc594256f0eee65",
-      "tooltip.content.gap": "08fbbe65962632df0e585ef9f33779e08361e73e"
+      "tooltip.content.gap": "08fbbe65962632df0e585ef9f33779e08361e73e",
+      "button.icon.active.background.color": "71e243c2c9085cc71a018647a181436e5cb8522d"
     },
     "group": "Component"
   }

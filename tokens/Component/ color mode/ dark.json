@@ -123,10 +123,12 @@
       }
     },
     "icon": {
-      "pressed": {
-        "color": {
-          "value": "{Sky-blue.300}",
-          "type": "color"
+      "active": {
+        "background": {
+          "color": {
+            "value": "{Sky-blue.300}",
+            "type": "color"
+          }
         }
       }
     }
