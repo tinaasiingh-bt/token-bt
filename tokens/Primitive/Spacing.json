@@ -103,7 +103,7 @@
       }
     },
     "auto": {
-      "value": "auto",
+      "value": "AUTO",
       "type": "spacing"
     }
   }
