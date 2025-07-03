@@ -147,7 +147,12 @@
       "blue-rgba.50": "S:99669b4f600a4f55c2a6e14ebfaf506661f354f8,",
       "sky-blue.rgba.50": "S:bc127ae7ea7c87bb2cde1d2356d73eefaaebbc03,",
       "Slate.rgba": "S:f753986cecb43d09b73786874c0c47c2d503ec23,",
-      "slate.rgba.08": "S:129152e855aa603b2586ea4608363a4bcd6d9b9f,"
+      "slate.rgba.08": "S:129152e855aa603b2586ea4608363a4bcd6d9b9f,",
+      "shadow.0": "S:e207abd121634c53412a109cbfb0201ade2880fa,",
+      "shadow.100": "S:dd71171e1614450e37a8cc69985092be2136c51b,",
+      "shadow.200": "S:1ef86568b97b6eedfd867f2d4296ad5cf73744e0,",
+      "shadow.300": "S:c0ffbd2b9ac4657acbc675193fc849ad9c940af9,",
+      "shadow.400": "S:01957c830635b510a46dfc5fb90a263594cb50f5,"
     },
     "selectedTokenSets": {
       "Primitive/Color": "enabled",
@@ -1184,7 +1189,12 @@
       "severity.moderate": "S:ed6412fb0d40e0f3be33739d9491c8b32c13addf,",
       "severity.low": "S:3950d925b7c4f521f3f1c7a658b0e4caed4b860d,",
       "severity.none": "S:f1b11ca16e848d81e45a49a885dff06bff25773b,",
-      "severity.undertermined": "S:6d412c458214565b1d3cfe9b263aff377fa3b315,"
+      "severity.undertermined": "S:6d412c458214565b1d3cfe9b263aff377fa3b315,",
+      "elevation.none": "S:507bf279c444ccacdfd6f67ce97c235fa5e3497a,",
+      "elevation.container.default": "S:46493f46d7d78b060b571a7d4d2a51981c544e7b,",
+      "elevation.container.elevated": "S:cb06880815166d6694f43313a655e990815ded35,",
+      "elevation.base": "S:dc01805a1fa67100e6dff7edc8a13b2e2b142dbc,",
+      "elevation.overlay.popover": "S:eddf1b68c5e30a48c3865afdffa5762d46841c23,"
     },
     "$figmaVariableReferences": {
       "background.layer.one": "ba16bc7d8cc3ac84362e73377f5bcb08f784787e",
@@ -1489,6 +1499,7 @@
       "button.text.secondary.active.background.color": "04a96de04bc95df25b1952ece90efe52593e7231",
       "button.primary-text.hover.background": "3525a43b5d7965ec5dbf8117803b9875f1f5b8ab",
       "button.secondarytext.default.label.color": "d7b86f26db9c6cdcbeb9ef88b91529e0fa2352f6",
+      "button.icon.active.background.color": "71e243c2c9085cc71a018647a181436e5cb8522d",
       "chart.default.color.data-01": "3a5901097a4042f81221882004a876f2aff21e61",
       "chart.default.color.data-02": "25c9790d7395c628223f467393f4346605ba22a4",
       "chart.default.color.data-03": "2c79225d253c31a34ae0b94c2093397d50dfaf6f",
@@ -1517,6 +1528,7 @@
       "data-grid.default.grid-cell.text.color": "8038450549e6cb8f1f83a9b2063f455751b70a70",
       "data-grid.default.grid-row.background.color": "7b18f855d54f2cdbbc38c7e034a3ee5ea8506ec2",
       "data-grid.norecords.background.color": "e2467adcc6ae5ef8e420f4279a64a49f472cfb18",
+      "data-grid.header.text.color": "2aaf16f5bf8803f206d3fb676869cc237fe31630",
       "progress-indicator.default.fill-line.color": "374dcca044bc9afeea21aadae9a5aee135958443",
       "slider.track.unselected.background.color": "5ce86bb0ac112a3a0ba3e4089e0f42d87dc6fbf9",
       "switch.default.container.background.color": "9610af04a196d517d1bea42881dc47ed19f8cf7d",
@@ -1539,7 +1551,6 @@
       "checkbox.default.checkmark.icon.color": "10bd2d83648d17b73ec9ce47629c6806efc25869",
       "menu.default.separator.border.color": "7a024b25755c66996d7f9ac7a41b1bcde4a34d2e",
       "tab.item.background.color": "356b7c16120e11a0701bc3b156be0439afc21f37",
-      "data-grid.header.text.color": "cb5833cd0f2296febf88d1edd575189d2f82a403",
       "badge.border-radius": "182f98a91b15b1e50530917fd627c8ea82086dc5",
       "breadcrumb.focus.border-radius": "ec513bcd52164499a4d24df2093148f45584f536",
       "checkbox.unselected.box-radius": "8eeca826351f60492fb436d5dca22a7de3fbaa8a",
@@ -1615,8 +1626,7 @@
       "treeview.leaf.container.margin-left": "11d812088b401ce6c67c7201281477678e3864ac",
       "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6",
       "time-picker.text-button.gap": "b57dc1b0b41323f03336fb535bc594256f0eee65",
-      "tooltip.content.gap": "08fbbe65962632df0e585ef9f33779e08361e73e",
-      "button.icon.active.background.color": "71e243c2c9085cc71a018647a181436e5cb8522d"
+      "tooltip.content.gap": "08fbbe65962632df0e585ef9f33779e08361e73e"
     },
     "group": "Component"
   },
@@ -1716,6 +1726,7 @@
       "button.text.secondary.active.background.color": "04a96de04bc95df25b1952ece90efe52593e7231",
       "button.primary-text.hover.background": "3525a43b5d7965ec5dbf8117803b9875f1f5b8ab",
       "button.secondarytext.default.label.color": "d7b86f26db9c6cdcbeb9ef88b91529e0fa2352f6",
+      "button.icon.active.background.color": "71e243c2c9085cc71a018647a181436e5cb8522d",
       "chart.default.color.data-01": "3a5901097a4042f81221882004a876f2aff21e61",
       "chart.default.color.data-02": "25c9790d7395c628223f467393f4346605ba22a4",
       "chart.default.color.data-03": "2c79225d253c31a34ae0b94c2093397d50dfaf6f",
@@ -1743,6 +1754,7 @@
       "data-grid.default.header.background.color": "0fe3e8cf9614530d62303c75e6ffeea6725f301f",
       "data-grid.default.grid-cell.text.color": "8038450549e6cb8f1f83a9b2063f455751b70a70",
       "data-grid.default.grid-row.background.color": "7b18f855d54f2cdbbc38c7e034a3ee5ea8506ec2",
+      "data-grid.header.text.color": "2aaf16f5bf8803f206d3fb676869cc237fe31630",
       "data-grid.norecords.background.color": "e2467adcc6ae5ef8e420f4279a64a49f472cfb18",
       "progress-indicator.default.fill-line.color": "374dcca044bc9afeea21aadae9a5aee135958443",
       "slider.track.unselected.background.color": "5ce86bb0ac112a3a0ba3e4089e0f42d87dc6fbf9",
@@ -1766,7 +1778,7 @@
       "checkbox.default.checkmark.icon.color": "10bd2d83648d17b73ec9ce47629c6806efc25869",
       "menu.default.separator.border.color": "7a024b25755c66996d7f9ac7a41b1bcde4a34d2e",
       "tab.item.background.color": "356b7c16120e11a0701bc3b156be0439afc21f37",
-      "data-grid.text.color.color": "11742d5d10833a3cc24a1ae1b223b16839d0fdab",
+      "data-grid.text.color.color": "3138ba9ae862efbabdfd703056dff2fd0767f4c1",
       "badge.border-radius": "182f98a91b15b1e50530917fd627c8ea82086dc5",
       "breadcrumb.focus.border-radius": "ec513bcd52164499a4d24df2093148f45584f536",
       "checkbox.unselected.box-radius": "8eeca826351f60492fb436d5dca22a7de3fbaa8a",
@@ -1842,8 +1854,7 @@
       "treeview.leaf.container.margin-left": "11d812088b401ce6c67c7201281477678e3864ac",
       "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6",
       "time-picker.text-button.gap": "b57dc1b0b41323f03336fb535bc594256f0eee65",
-      "tooltip.content.gap": "08fbbe65962632df0e585ef9f33779e08361e73e",
-      "button.icon.active.background.color": "71e243c2c9085cc71a018647a181436e5cb8522d"
+      "tooltip.content.gap": "08fbbe65962632df0e585ef9f33779e08361e73e"
     },
     "group": "Component"
   }
