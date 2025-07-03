@@ -129,6 +129,10 @@
         "sm": {
           "value": "{spacing.md}",
           "type": "spacing"
+        },
+        "auto": {
+          "value": "{spacing.auto}",
+          "type": "spacing"
         }
       },
       "offset": {
