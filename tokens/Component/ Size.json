@@ -248,12 +248,6 @@
           "value": "{size.max-width.xl}",
           "type": "sizing"
         }
-      },
-      "progress": {
-        "width": {
-          "value": "{size.width.lg}",
-          "type": "sizing"
-        }
       }
     }
   },
