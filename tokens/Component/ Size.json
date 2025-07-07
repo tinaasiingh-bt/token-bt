@@ -225,12 +225,6 @@
           "type": "sizing"
         }
       }
-    },
-    "container": {
-      "min-height": {
-        "value": "{size.max-width.sm}",
-        "type": "sizing"
-      }
     }
   },
   "time-picker": {
