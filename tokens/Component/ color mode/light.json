@@ -374,14 +374,6 @@
     }
   },
   "time-picker": {
-    "selected": {
-      "list": {
-        "border-color": {
-          "value": "{Gray.200}",
-          "type": "color"
-        }
-      }
-    },
     "border": {
       "selected": {
         "time": {
