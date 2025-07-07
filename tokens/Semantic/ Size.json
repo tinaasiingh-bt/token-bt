@@ -44,5 +44,13 @@
         }
       }
     }
+  },
+  "input": {
+    "container": {
+      "max-width": {
+        "value": "{size.max-width.sm}",
+        "type": "sizing"
+      }
+    }
   }
 }
