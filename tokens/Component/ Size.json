@@ -227,6 +227,10 @@
         "min-width": {
           "value": "{size.min-width.2xl}",
           "type": "sizing"
+        },
+        "max-width": {
+          "value": "{size.max-width.2xl}",
+          "type": "sizing"
         }
       }
     }

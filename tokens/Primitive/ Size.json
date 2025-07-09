@@ -104,6 +104,10 @@
       "xl": {
         "value": "600px",
         "type": "sizing"
+      },
+      "2xl": {
+        "value": "620px",
+        "type": "sizing"
       }
     },
     "height": {
