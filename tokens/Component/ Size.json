@@ -223,6 +223,10 @@
         "height": {
           "value": "{size.height.md}",
           "type": "sizing"
+        },
+        "min-width": {
+          "value": "{size.min-width.2xl}",
+          "type": "sizing"
         }
       }
     }

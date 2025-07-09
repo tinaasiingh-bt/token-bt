@@ -82,6 +82,10 @@
       "xl": {
         "value": "288px",
         "type": "sizing"
+      },
+      "2xl": {
+        "value": "393xl",
+        "type": "sizing"
       }
     },
     "max-width": {
