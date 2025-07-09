@@ -74,10 +74,6 @@
         "type": "color"
       },
       "hover": {
-        "primary": {
-          "value": "{Blue.200}",
-          "type": "color"
-        },
         "secondary": {
           "value": "{Light-blue.100}",
           "type": "color"
