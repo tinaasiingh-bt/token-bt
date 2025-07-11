@@ -93,16 +93,6 @@
       }
     }
   },
-  "progress-indicator": {
-    "within": {
-      "button": {
-        "container": {
-          "value": "{spacing.lg}",
-          "type": "spacing"
-        }
-      }
-    }
-  },
   "radio-button": {
     "default": {
       "circle": {
