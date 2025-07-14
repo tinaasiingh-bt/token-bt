@@ -81,6 +81,10 @@
         "tertiary": {
           "value": "{Navy.100}",
           "type": "color"
+        },
+        "primary": {
+          "value": "{Blue.200}",
+          "type": "color"
         }
       },
       "active": {
