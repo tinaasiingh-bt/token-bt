@@ -24,7 +24,7 @@
         "type": "sizing"
       },
       "md": {
-        "value": "{size.md}",
+        "value": "{size.4xl}",
         "type": "sizing"
       },
       "lg": {
