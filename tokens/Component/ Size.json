@@ -15,14 +15,6 @@
       }
     }
   },
-  "buttongroup": {
-    "default": {
-      "min-width": {
-        "value": "{size.control.min.default}",
-        "type": "sizing"
-      }
-    }
-  },
   "data-grid": {
     "default": {
       "row": {
