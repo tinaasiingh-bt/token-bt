@@ -81,6 +81,20 @@
         "tertiary": {
           "value": "{Neutral.Slate}",
           "type": "color"
+        },
+        "primary": {
+          "secondary": {
+            "value": "{Light-blue.100}",
+            "type": "color"
+          },
+          "tertiary": {
+            "value": "{Navy.100}",
+            "type": "color"
+          },
+          "primary": {
+            "value": "{Sky-blue.200}",
+            "type": "color"
+          }
         }
       },
       "active": {
