@@ -104,7 +104,9 @@
       "row-hover": {
         "value": "{Black.600}",
         "type": "color"
-      },
+      }
+    },
+    " surface": {
       "row-selected": {
         "value": "{Cyan.950}",
         "type": "color"
