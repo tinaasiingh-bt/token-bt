@@ -668,7 +668,6 @@
       "background.surface.overlay": "e65b3c473a14e5e30d98c18ddcecb7965c8787da",
       "background.surface.row": "f99e177ba318de0c2973734862db62ef721570eb",
       "background.surface.row-hover": "c951220f6eff8eda047b85301125752bc4a53ca7",
-      "background. surface.row-selected": "51f5e9ca65a99ef878cb8be11c068b83570e9557",
       "text.primary": "5b232dc33463e32e2cfe2dfaab3c38de77196e2a",
       "text.secondary": "38fde605f52acd04332fe06f55fec4804bddb2c6",
       "text.tertiary": "a4cb4721d46a4f172e98876cc9387b47453127aa",
@@ -905,7 +904,8 @@
       "text.line-height.card.lg": "67c1dd97da84ae354af04f64ee75d7f0580d7b9a",
       "text.line-height.card.md": "3e257b832dfe7c5ac09d22956a501bf2657d1b16",
       "text.line-height.card.sm": "6fe423ab68d944310fa7ba4e17e7b9c6514ed8ea",
-      "text.line-height.card.xs": "142bc435fe3d3291a0f43effadc65b7d23eb4a32"
+      "text.line-height.card.xs": "142bc435fe3d3291a0f43effadc65b7d23eb4a32",
+      "background.surface.row-selected": "51f5e9ca65a99ef878cb8be11c068b83570e9557"
     },
     "$figmaCollectionId": "VariableCollectionId:7188:9472",
     "$figmaModeId": "7188:1"
@@ -1226,7 +1226,6 @@
       "background.surface.overlay": "e65b3c473a14e5e30d98c18ddcecb7965c8787da",
       "background.surface.row": "f99e177ba318de0c2973734862db62ef721570eb",
       "background.surface.row-hover": "c951220f6eff8eda047b85301125752bc4a53ca7",
-      "background. surface.row-selected": "51f5e9ca65a99ef878cb8be11c068b83570e9557",
       "text.primary": "5b232dc33463e32e2cfe2dfaab3c38de77196e2a",
       "text.secondary": "38fde605f52acd04332fe06f55fec4804bddb2c6",
       "text.tertiary": "a4cb4721d46a4f172e98876cc9387b47453127aa",
@@ -1463,7 +1462,8 @@
       "text.line-height.card.lg": "67c1dd97da84ae354af04f64ee75d7f0580d7b9a",
       "text.line-height.card.md": "3e257b832dfe7c5ac09d22956a501bf2657d1b16",
       "text.line-height.card.sm": "6fe423ab68d944310fa7ba4e17e7b9c6514ed8ea",
-      "text.line-height.card.xs": "142bc435fe3d3291a0f43effadc65b7d23eb4a32"
+      "text.line-height.card.xs": "142bc435fe3d3291a0f43effadc65b7d23eb4a32",
+      "background.surface.row-selected": "51f5e9ca65a99ef878cb8be11c068b83570e9557"
     },
     "$figmaCollectionId": "VariableCollectionId:7188:9472",
     "$figmaModeId": "7188:2"
