@@ -31,8 +31,8 @@
         "value": "{size.lg}",
         "type": "sizing"
       },
-      "selector": {
-        "value": "{size.sm}",
+      "xl": {
+        "value": "{size.4xl}",
         "type": "sizing"
       }
     },

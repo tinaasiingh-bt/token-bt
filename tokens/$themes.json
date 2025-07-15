@@ -744,7 +744,6 @@
       "size.interactive.sm": "052d157e880921f41809c4c19e3ab50233d24dad",
       "size.interactive.md": "38772d56b654988884ec6486d298e24e816024bf",
       "size.interactive.lg": "6229e4c1390b75142da518f542f6c8235a76f4b2",
-      "size.interactive.selector": "769a891f7443f35b0375d0f6e553cbd795df5409",
       "size.control.min.default": "42c825180d437101549701132193d56c55b53e6c",
       "input.container.max-width": "477d5fc658f925d5c0f5a12bf9c042af191e4efb",
       "radius.layout.none": "46dc8e101eae96ef7eb33ef0beb657417fccb45a",
@@ -905,7 +904,8 @@
       "text.line-height.card.md": "3e257b832dfe7c5ac09d22956a501bf2657d1b16",
       "text.line-height.card.sm": "6fe423ab68d944310fa7ba4e17e7b9c6514ed8ea",
       "text.line-height.card.xs": "142bc435fe3d3291a0f43effadc65b7d23eb4a32",
-      "background.surface.row-selected": "51f5e9ca65a99ef878cb8be11c068b83570e9557"
+      "background.surface.row-selected": "51f5e9ca65a99ef878cb8be11c068b83570e9557",
+      "size.interactive.xl": "769a891f7443f35b0375d0f6e553cbd795df5409"
     },
     "$figmaCollectionId": "VariableCollectionId:7188:9472",
     "$figmaModeId": "7188:1"
@@ -1302,7 +1302,6 @@
       "size.interactive.sm": "052d157e880921f41809c4c19e3ab50233d24dad",
       "size.interactive.md": "38772d56b654988884ec6486d298e24e816024bf",
       "size.interactive.lg": "6229e4c1390b75142da518f542f6c8235a76f4b2",
-      "size.interactive.selector": "769a891f7443f35b0375d0f6e553cbd795df5409",
       "size.control.min.default": "42c825180d437101549701132193d56c55b53e6c",
       "input.container.max-width": "477d5fc658f925d5c0f5a12bf9c042af191e4efb",
       "radius.layout.none": "46dc8e101eae96ef7eb33ef0beb657417fccb45a",
@@ -1463,7 +1462,8 @@
       "text.line-height.card.md": "3e257b832dfe7c5ac09d22956a501bf2657d1b16",
       "text.line-height.card.sm": "6fe423ab68d944310fa7ba4e17e7b9c6514ed8ea",
       "text.line-height.card.xs": "142bc435fe3d3291a0f43effadc65b7d23eb4a32",
-      "background.surface.row-selected": "51f5e9ca65a99ef878cb8be11c068b83570e9557"
+      "background.surface.row-selected": "51f5e9ca65a99ef878cb8be11c068b83570e9557",
+      "size.interactive.xl": "769a891f7443f35b0375d0f6e553cbd795df5409"
     },
     "$figmaCollectionId": "VariableCollectionId:7188:9472",
     "$figmaModeId": "7188:2"
