@@ -296,5 +296,13 @@
         "type": "sizing"
       }
     }
+  },
+  "tab": {
+    "container": {
+      "height": {
+        "value": "{size.height.xl}",
+        "type": "sizing"
+      }
+    }
   }
 }
