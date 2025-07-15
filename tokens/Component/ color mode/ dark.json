@@ -502,5 +502,15 @@
         }
       }
     }
+  },
+  "buttongroup": {
+    "icon": {
+      "default": {
+        "color": {
+          "value": "{Black.50}",
+          "type": "color"
+        }
+      }
+    }
   }
 }
