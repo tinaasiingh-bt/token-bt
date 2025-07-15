@@ -27,16 +27,12 @@
         "value": "{size.md}",
         "type": "sizing"
       },
-      "lg": {
-        "value": "{size.lg}",
-        "type": "sizing"
-      },
       "xl": {
         "value": "{size.4xl}",
         "type": "sizing"
       },
-      "selector": {
-        "value": "{size.sm}",
+      "lg": {
+        "value": "{size.lg}",
         "type": "sizing"
       }
     },
