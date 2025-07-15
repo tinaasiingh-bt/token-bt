@@ -82,10 +82,6 @@
       "xl": {
         "value": "288px",
         "type": "sizing"
-      },
-      "2xl": {
-        "value": "393xl",
-        "type": "sizing"
       }
     },
     "max-width": {
@@ -103,10 +99,6 @@
       },
       "xl": {
         "value": "600px",
-        "type": "sizing"
-      },
-      "2xl": {
-        "value": "620px",
         "type": "sizing"
       }
     },

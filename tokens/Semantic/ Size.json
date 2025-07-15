@@ -24,11 +24,15 @@
         "type": "sizing"
       },
       "md": {
-        "value": "{size.lg}",
+        "value": "{size.md}",
         "type": "sizing"
       },
       "lg": {
-        "value": "{size.4xl}",
+        "value": "{size.lg}",
+        "type": "sizing"
+      },
+      "selector": {
+        "value": "{size.sm}",
         "type": "sizing"
       }
     },

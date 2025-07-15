@@ -494,15 +494,5 @@
         }
       }
     }
-  },
-  "buttongroup": {
-    "icon": {
-      "default": {
-        "color": {
-          "value": "{Navy.700}",
-          "type": "color"
-        }
-      }
-    }
   }
 }

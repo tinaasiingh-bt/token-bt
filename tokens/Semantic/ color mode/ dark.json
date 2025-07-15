@@ -74,16 +74,16 @@
         "type": "color"
       },
       "hover": {
+        "primary": {
+          "value": "{Sky-blue.200}",
+          "type": "color"
+        },
         "secondary": {
           "value": "{Deep-teal.100}",
           "type": "color"
         },
         "tertiary": {
           "value": "{Neutral.Slate}",
-          "type": "color"
-        },
-        "primary": {
-          "value": "{Sky-blue.200}",
           "type": "color"
         }
       },

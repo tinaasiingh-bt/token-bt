@@ -15,6 +15,14 @@
       }
     }
   },
+  "buttongroup": {
+    "default": {
+      "min-width": {
+        "value": "{size.control.min.default}",
+        "type": "sizing"
+      }
+    }
+  },
   "data-grid": {
     "default": {
       "row": {
@@ -214,14 +222,6 @@
       "inputbox": {
         "height": {
           "value": "{size.height.md}",
-          "type": "sizing"
-        },
-        "min-width": {
-          "value": "{size.min-width.2xl}",
-          "type": "sizing"
-        },
-        "max-width": {
-          "value": "{size.max-width.2xl}",
           "type": "sizing"
         }
       }
