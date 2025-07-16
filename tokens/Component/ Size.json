@@ -65,6 +65,12 @@
           }
         }
       }
+    },
+    "item": {
+      "height": {
+        "value": "{size.height.lg}",
+        "type": "sizing"
+      }
     }
   },
   "modal": {
