@@ -108,8 +108,10 @@
   "pagination": {
     "default": {
       "container": {
-        "value": "{size.min-height.xl}",
-        "type": "sizing"
+        "min-height": {
+          "value": "{size.min-height.xl}",
+          "type": "sizing"
+        }
       },
       "button": {
         "height": {

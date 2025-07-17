@@ -1662,7 +1662,6 @@
       "modal.default.container.width": "4e1c0ae8117b1c55e1f4d6a74f2688aedbdd8d97",
       "modal.default.title.container.min-height": "31f5e9115500040d2844c7e34bab7f27e8805d29",
       "number-field.default.input.box": "c3bdafed1601dd1d872390a10fda6893f3b4273e",
-      "pagination.default.container": "be840a24b864b6afec09674cf27db250c75f5c9b",
       "pagination.default.button.height": "37cd1290ee2f8dbd4b1b329fa654035d04427e20",
       "pagination.default.button.width": "b67f196ae2a3132cd0278c3e7a9776050a987d9e",
       "progress-indicator.default.fill.line.height": "683d0abfbcd0c5a09bf1de2aaf203a086cb0cdff",
@@ -1721,7 +1720,8 @@
       "treeview.leaf.container.margin-left": "11d812088b401ce6c67c7201281477678e3864ac",
       "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6",
       "time-picker.text-button.gap": "b57dc1b0b41323f03336fb535bc594256f0eee65",
-      "tooltip.content.gap": "08fbbe65962632df0e585ef9f33779e08361e73e"
+      "tooltip.content.gap": "08fbbe65962632df0e585ef9f33779e08361e73e",
+      "pagination.default.container.min-height": "be840a24b864b6afec09674cf27db250c75f5c9b"
     },
     "$figmaCollectionId": "VariableCollectionId:7189:1025",
     "$figmaModeId": "7189:10"
@@ -1889,7 +1889,6 @@
       "modal.default.container.width": "4e1c0ae8117b1c55e1f4d6a74f2688aedbdd8d97",
       "modal.default.title.container.min-height": "31f5e9115500040d2844c7e34bab7f27e8805d29",
       "number-field.default.input.box": "c3bdafed1601dd1d872390a10fda6893f3b4273e",
-      "pagination.default.container": "be840a24b864b6afec09674cf27db250c75f5c9b",
       "pagination.default.button.height": "37cd1290ee2f8dbd4b1b329fa654035d04427e20",
       "pagination.default.button.width": "b67f196ae2a3132cd0278c3e7a9776050a987d9e",
       "progress-indicator.default.fill.line.height": "683d0abfbcd0c5a09bf1de2aaf203a086cb0cdff",
@@ -1948,7 +1947,8 @@
       "treeview.leaf.container.margin-left": "11d812088b401ce6c67c7201281477678e3864ac",
       "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6",
       "time-picker.text-button.gap": "b57dc1b0b41323f03336fb535bc594256f0eee65",
-      "tooltip.content.gap": "08fbbe65962632df0e585ef9f33779e08361e73e"
+      "tooltip.content.gap": "08fbbe65962632df0e585ef9f33779e08361e73e",
+      "pagination.default.container.min-height": "be840a24b864b6afec09674cf27db250c75f5c9b"
     },
     "$figmaCollectionId": "VariableCollectionId:7189:1025",
     "$figmaModeId": "7189:11"
