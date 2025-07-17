@@ -405,6 +405,18 @@
           }
         }
       }
+    },
+    "trigger": {
+      "popup": {
+        "top": {
+          "value": "{spacing.4xs}",
+          "type": "spacing"
+        },
+        "bottom": {
+          "value": "{spacing.4xs}",
+          "type": "spacing"
+        }
+      }
     }
   }
 }
