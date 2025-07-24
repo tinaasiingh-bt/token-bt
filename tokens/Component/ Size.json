@@ -3,13 +3,13 @@
     "size": {
       "height": {
         "36": {
-          "value": "{size.3xl}",
+          "value": "{size.8}",
           "type": "sizing"
         }
       },
       "width": {
         "36": {
-          "value": "{size.3xl}",
+          "value": "{size.8}",
           "type": "sizing"
         }
       }
@@ -115,11 +115,11 @@
       },
       "button": {
         "height": {
-          "value": "{size.2xl}",
+          "value": "{size.6}",
           "type": "sizing"
         },
         "width": {
-          "value": "{size.2xl}",
+          "value": "{size.6}",
           "type": "sizing"
         }
       }
@@ -153,11 +153,11 @@
     "default": {
       "dot": {
         "width": {
-          "value": "{size.2xs}",
+          "value": "{size.0}",
           "type": "sizing"
         },
         "height": {
-          "value": "{size.2xs}",
+          "value": "{size.0}",
           "type": "sizing"
         }
       }
@@ -216,11 +216,11 @@
   "tabs": {
     "icon": {
       "height": {
-        "value": "{size.md}",
+        "value": "{size.3}",
         "type": "sizing"
       },
       "width": {
-        "value": "{size.md}",
+        "value": "{size.3}",
         "type": "sizing"
       }
     }
