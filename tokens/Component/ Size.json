@@ -1,33 +1,9 @@
 {
-  "button": {
-    "size": {
-      "height": {
-        "36": {
-          "value": "{size.8}",
-          "type": "sizing"
-        }
-      },
-      "width": {
-        "36": {
-          "value": "{size.8}",
-          "type": "sizing"
-        }
-      }
-    }
-  },
-  "buttongroup": {
-    "default": {
-      "min-width": {
-        "value": "{size.control.min.default}",
-        "type": "sizing"
-      }
-    }
-  },
   "data-grid": {
     "default": {
       "row": {
         "height": {
-          "value": "{size.height.lg}",
+          "value": "{size.42}",
           "type": "sizing"
         }
       }
@@ -35,18 +11,8 @@
     "norecords": {
       "row": {
         "height": {
-          "value": "{size.height.2xl}",
+          "value": "{size.100}",
           "type": "sizing"
-        }
-      }
-    },
-    "header": {
-      "row": {
-        "cell": {
-          "height": {
-            "value": "{size.width.xs}",
-            "type": "sizing"
-          }
         }
       }
     }
@@ -55,12 +21,8 @@
     "default": {
       "menu": {
         "container": {
-          "min-width": {
-            "value": "{size.min-width.lg}",
-            "type": "sizing"
-          },
           "max-width": {
-            "value": "{size.max-width.md}",
+            "value": "{size.500}",
             "type": "sizing"
           }
         }
@@ -68,7 +30,7 @@
     },
     "item": {
       "height": {
-        "value": "{size.height.lg}",
+        "value": "{size.28}",
         "type": "sizing"
       }
     }
@@ -77,30 +39,20 @@
     "default": {
       "container": {
         "min-height": {
-          "value": "{size.min-height.2xl}",
+          "value": "{size.150}",
           "type": "sizing"
         },
         "width": {
-          "value": "{size.width.xl}",
+          "value": "{size.384}",
           "type": "sizing"
         }
       },
       "title": {
         "container": {
           "min-height": {
-            "value": "{size.min-height.sm}",
+            "value": "{size.22}",
             "type": "sizing"
           }
-        }
-      }
-    }
-  },
-  "number-field": {
-    "default": {
-      "input": {
-        "box": {
-          "value": "{size.width.md}",
-          "type": "sizing"
         }
       }
     }
@@ -109,7 +61,7 @@
     "default": {
       "container": {
         "min-height": {
-          "value": "{size.min-height.xl}",
+          "value": "{size.52}",
           "type": "sizing"
         }
       },
@@ -311,6 +263,12 @@
         "value": "{size.height.xl}",
         "type": "sizing"
       }
+    }
+  },
+  "button": {
+    "min-height": {
+      "value": "{size.36}",
+      "type": "sizing"
     }
   }
 }
