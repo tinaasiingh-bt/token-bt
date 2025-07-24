@@ -185,6 +185,14 @@
           "type": "sizing"
         }
       }
+    },
+    "multiline": {
+      "inputbox": {
+        "height": {
+          "value": "{size.72}",
+          "type": "sizing"
+        }
+      }
     }
   },
   "time-picker": {
