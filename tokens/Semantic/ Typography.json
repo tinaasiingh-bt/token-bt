@@ -66,8 +66,8 @@
       "value": {
         "fontFamily": "{text.family.heading}",
         "fontWeight": "{text.weight.heading}",
-        "lineHeight": "{text.line-height.heading.h1}",
-        "fontSize": "{text.size.heading.h1}",
+        "lineHeight": "{text.line-height.heading.primary}",
+        "fontSize": "{text.size.heading.primary}",
         "letterSpacing": "{letterSpacing.0}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}"
@@ -79,8 +79,8 @@
       "value": {
         "fontFamily": "{text.family.heading}",
         "fontWeight": "{text.weight.heading}",
-        "lineHeight": "{text.line-height.heading.h2}",
-        "fontSize": "{text.size.heading.h2}",
+        "lineHeight": "{text.line-height.heading.secondary}",
+        "fontSize": "{text.size.heading.secondary}",
         "letterSpacing": "{letterSpacing.0}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}"
@@ -92,8 +92,8 @@
       "value": {
         "fontFamily": "{text.family.heading}",
         "fontWeight": "{text.weight.heading}",
-        "lineHeight": "{text.line-height.heading.h3}",
-        "fontSize": "{text.size.heading.h3}",
+        "lineHeight": "{text.line-height.heading.tertiary}",
+        "fontSize": "{text.size.heading.tertiary}",
         "letterSpacing": "{letterSpacing.0}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}"
@@ -105,8 +105,8 @@
       "value": {
         "fontFamily": "{text.family.heading}",
         "fontWeight": "{text.weight.heading}",
-        "lineHeight": "{text.line-height.heading.h4}",
-        "fontSize": "{text.size.heading.h4}",
+        "lineHeight": "{text.line-height.heading.quarternary}",
+        "fontSize": "{text.size.heading.quarternary}",
         "letterSpacing": "{letterSpacing.0}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}"
@@ -478,19 +478,19 @@
         }
       },
       "heading": {
-        "h1": {
+        "primary": {
           "value": "{font.size.xl}",
           "type": "fontSizes"
         },
-        "h2": {
+        "secondary": {
           "value": "{font.size.lg}",
           "type": "fontSizes"
         },
-        "h3": {
+        "tertiary": {
           "value": "{font.size.md}",
           "type": "fontSizes"
         },
-        "h4": {
+        "quarternary": {
           "value": "{font.size.sm}",
           "type": "fontSizes"
         }
@@ -572,19 +572,19 @@
         }
       },
       "heading": {
-        "h1": {
+        "primary": {
           "value": "{line-height.lg}",
           "type": "lineHeights"
         },
-        "h2": {
+        "secondary": {
           "value": "{line-height.md}",
           "type": "lineHeights"
         },
-        "h3": {
+        "tertiary": {
           "value": "{line-height.md}",
           "type": "lineHeights"
         },
-        "h4": {
+        "quarternary": {
           "value": "{line-height.sm}",
           "type": "lineHeights"
         }
