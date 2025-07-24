@@ -268,7 +268,8 @@
       "Semantic/ Border": "enabled",
       "Semantic/ Spacing": "enabled",
       "Semantic/  Opacity": "enabled",
-      "Semantic/ Elevation": "enabled"
+      "Semantic/ Elevation": "enabled",
+      "Semantic/ Typography": "source"
     },
     "$figmaStyleReferences": {
       "Black.50": "S:b32e1a032c619d20a90715ba96ebc522fe572d5f,",
@@ -593,7 +594,8 @@
       "Semantic/  Opacity": "enabled",
       "Semantic/ Spacing": "enabled",
       "Semantic/ Border": "enabled",
-      "Semantic/ Size": "enabled"
+      "Semantic/ Size": "enabled",
+      "Semantic/ Typography": "source"
     },
     "$figmaStyleReferences": {
       "display.lg": "S:51b53e6b5549c50bafc06d7a189d0a158bf77117,",
