@@ -573,11 +573,11 @@
       },
       "heading": {
         "primary": {
-          "value": "{line-height.lg}",
+          "value": "{line-height.xl}",
           "type": "lineHeights"
         },
         "secondary": {
-          "value": "{line-height.md}",
+          "value": "{line-height.lg}",
           "type": "lineHeights"
         },
         "tertiary": {
