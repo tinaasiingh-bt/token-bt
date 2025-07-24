@@ -168,11 +168,11 @@
   "tabs": {
     "icon": {
       "height": {
-        "value": "{size.3}",
+        "value": "{size.20}",
         "type": "sizing"
       },
       "width": {
-        "value": "{size.3}",
+        "value": "{size.20}",
         "type": "sizing"
       }
     }
@@ -181,7 +181,7 @@
     "default": {
       "inputbox": {
         "height": {
-          "value": "{size.height.md}",
+          "value": "{size.32}",
           "type": "sizing"
         }
       }
@@ -191,7 +191,7 @@
     "selected": {
       "list": {
         "height": {
-          "value": "{size.height.sm}",
+          "value": "{size.28}",
           "type": "sizing"
         }
       }
@@ -201,17 +201,17 @@
     "default": {
       "container": {
         "min-width": {
-          "value": "{size.min-width.xl}",
+          "value": "{size.288}",
           "type": "sizing"
         },
         "max-width": {
-          "value": "{size.max-width.xl}",
+          "value": "{size.600}",
           "type": "sizing"
         }
       },
       "progress": {
         "width": {
-          "value": "{size.width.lg}",
+          "value": "{size.384}",
           "type": "sizing"
         }
       }
@@ -221,23 +221,23 @@
     "leaf": {
       "item": {
         "min-height": {
-          "value": "{size.min-height.lg}",
+          "value": "{size.51}",
           "type": "sizing"
         }
       },
       "height": {
-        "value": "{size.height.xl}",
+        "value": "{size.48}",
         "type": "sizing"
       },
       "width": {
-        "value": "{size.width.full}",
+        "value": "{size.full}",
         "type": "sizing"
       }
     },
     "split": {
       "separator": {
         "width": {
-          "value": "{size.width.xs}",
+          "value": "{size.26}",
           "type": "sizing"
         }
       }
@@ -246,13 +246,13 @@
   "dropdown": {
     "input": {
       "max-width": {
-        "value": "{size.max-width.sm}",
+        "value": "{size.210}",
         "type": "sizing"
       }
     },
     "item": {
       "min-width": {
-        "value": "{size.min-width.md}",
+        "value": "{size.200}",
         "type": "sizing"
       }
     }
@@ -260,7 +260,7 @@
   "tab": {
     "container": {
       "height": {
-        "value": "{size.height.xl}",
+        "value": "{size.48}",
         "type": "sizing"
       }
     }
