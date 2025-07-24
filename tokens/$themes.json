@@ -1,14 +1,16 @@
 [
   {
     "id": "0de9b16ee1676e97552cbbc943fae6fc1fa85fc7",
-    "name": "Primitive",
+    "name": "Typography",
     "selectedTokenSets": {
       "Primitive/Color": "enabled",
       "Primitive/Spacing": "enabled",
       "Primitive/Border": "enabled",
       "Primitive/ Size": "enabled",
       "Primitive/Opacity": "enabled",
-      "Primitive/ Shadow": "enabled"
+      "Primitive/ Shadow": "enabled",
+      "Primitive/Typography": "enabled",
+      "Semantic/ Typography": "enabled"
     },
     "$figmaStyleReferences": {
       "Black.50": "S:7d153c872b0e1ecd8b5c7a2515f0483d6d42342d,",
@@ -187,7 +189,34 @@
       "Typography.card.lg": "S:879e5e1d1d5f4a029649343186afb3de5cb80ee7,",
       "Typography.card.md": "S:25acd77db43cb8509eb9519236c139c1fee25602,",
       "Typography.card.sm": "S:7564880dcad1590529f867717bbe08742f90543a,",
-      "Typography.card.xs": "S:4001457d3374fe4ae16222953eb83947c44cd504,"
+      "Typography.card.xs": "S:4001457d3374fe4ae16222953eb83947c44cd504,",
+      "display.lg": "S:52f5d7cb724dce56cd5448364ca441db30da915e,",
+      "display.md": "S:1a7cb30d8402d85fc5e6ac5baeb3ad19ff0b5587,",
+      "heading.primary": "S:986b71801c08303265081640e1fd3195ba6f37e2,",
+      "heading.secondary": "S:d471159d6738bce37202354e1732014ba3c98463,",
+      "heading.tertiary": "S:61bd55fd4e1bb112d579b40153d636238d32a580,",
+      "heading.quarternary": "S:697225944886e584341bb33c40c14fabd83387a6,",
+      "label.sm.default": "S:b2ec1367e5121818ac517b9d5f034dbf9968e98f,",
+      "label.sm.secondary": "S:889e22cbd28e6dbdf1050bb97c0f2a5c9b1e54f1,",
+      "label.sm.strong": "S:395514047b4755253881f683cf1d1a22532ee70f,",
+      "label.md.default": "S:3a108cddee6d0f3404656bda11b76abf3a6310ac,",
+      "label.md.secondary": "S:9fcdb7769ad2b8f1ebd2f9e480bc6cf60eb6393b,",
+      "label.md.strong": "S:c338ae3aacc95170a050dd1f85f76f2d924d6185,",
+      "label.lg.default": "S:0d56abc874537390e138ea5193e70323724c9519,",
+      "label.lg.secondary": "S:c47d4a2e38d3a04a3488f9d7f1baf58b51433246,",
+      "label.lg.strong": "S:9f1bc7f7ff664ada2945f612ee2a93e7ca94ba4f,",
+      "body.sm": "S:a16aeea297aab73c3c87400234e33326c6784245,",
+      "body.md": "S:f36ec2c9bf38d8e57c3234df88914a2cc03d4a60,",
+      "body.lg": "S:cc12c5a08e0a6ea508fd55a4ad8ff789c2154960,",
+      "functional.text link": "S:5afa75a6cdca88d2dd3265d582c9a48ecd9aa719,",
+      "functional.error": "S:1d12f2ada1011049be269ec50be78f05a168fcd5,",
+      "functional.code": "S:778b9628d7edc546f09beaa1eb4a292bb7e09d83,",
+      "instructional.default": "S:1b0b705da9b00023c96a26aec2746650487ee25f,",
+      "instructional.strong": "S:4d3de4a31c12ab7bc3b7f54a68f33caffaa83fb7,",
+      "card.lg": "S:4d073e8eb0a1f714df307db9f1e16f04c8746016,",
+      "card.md": "S:5fb7ba24a061f36145dc6a45351ea541291e3925,",
+      "card.sm": "S:e8a17b8e6103641fb4ad8fe85876ee699354a8e8,",
+      "card.xs": "S:ec9df39cd54f6cf6ec90956e4263522cb18efa55,"
     },
     "$figmaVariableReferences": {
       "Black.50": "ce85cea6b5346890bef853178d5d079d23f7e11b",
