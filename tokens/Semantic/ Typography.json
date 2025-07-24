@@ -62,7 +62,7 @@
     }
   },
   "heading": {
-    "h1": {
+    "primary": {
       "value": {
         "fontFamily": "{text.family.heading}",
         "fontWeight": "{text.weight.heading}",
@@ -75,7 +75,7 @@
       "type": "typography",
       "description": "Primary page titles  or sections(e.g., \"user details, application access\")."
     },
-    "h2": {
+    "secondary": {
       "value": {
         "fontFamily": "{text.family.heading}",
         "fontWeight": "{text.weight.heading}",
@@ -88,7 +88,7 @@
       "type": "typography",
       "description": "Section headings or significant sections in the UI."
     },
-    "h3": {
+    "tertiary": {
       "value": {
         "fontFamily": "{text.family.heading}",
         "fontWeight": "{text.weight.heading}",
@@ -101,7 +101,7 @@
       "type": "typography",
       "description": "Subsection titles within a section,Button, card headers, or table headers."
     },
-    "h4": {
+    "quarternary": {
       "value": {
         "fontFamily": "{text.family.heading}",
         "fontWeight": "{text.weight.heading}",
