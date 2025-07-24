@@ -67,11 +67,11 @@
       },
       "button": {
         "height": {
-          "value": "{size.6}",
+          "value": "{size.32}",
           "type": "sizing"
         },
         "width": {
-          "value": "{size.6}",
+          "value": "{size.32}",
           "type": "sizing"
         }
       }
@@ -82,7 +82,7 @@
       "fill": {
         "line": {
           "height": {
-            "value": "{size.height.2xs}",
+            "value": "{size.4}",
             "type": "sizing"
           }
         }
@@ -94,7 +94,7 @@
       "container": {
         "list": {
           "item": {
-            "value": "{size.min-height.md}",
+            "value": "{size.34}",
             "type": "sizing"
           }
         }
@@ -105,11 +105,11 @@
     "default": {
       "dot": {
         "width": {
-          "value": "{size.0}",
+          "value": "{size.8}",
           "type": "sizing"
         },
         "height": {
-          "value": "{size.0}",
+          "value": "{size.8}",
           "type": "sizing"
         }
       }
