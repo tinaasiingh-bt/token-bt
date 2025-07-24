@@ -157,12 +157,6 @@
         "value": "{size.64}",
         "type": "sizing"
       }
-    },
-    "control-min": {
-      "default": {
-        "value": "{size.90}",
-        "type": "sizing"
-      }
     }
   }
 }
