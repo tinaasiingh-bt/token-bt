@@ -123,7 +123,7 @@
           "type": "sizing"
         },
         "min-height": {
-          "value": "{size.min-height.2xl}",
+          "value": "{size.150}",
           "type": "sizing"
         }
       }
@@ -131,11 +131,11 @@
     "horizontal": {
       "container": {
         "width": {
-          "value": "{size.width.full}",
+          "value": "{size.max-width.full}",
           "type": "sizing"
         },
         "min-width": {
-          "value": "{size.min-width.md}",
+          "value": "{size.200}",
           "type": "sizing"
         }
       }
@@ -144,7 +144,7 @@
       "tick": {
         "line": {
           "width": {
-            "value": "{size.width.xs}",
+            "value": "{size.26}",
             "type": "sizing"
           }
         }
@@ -155,11 +155,11 @@
     "default": {
       "container": {
         "width": {
-          "value": "{size.width.sm}",
+          "value": "{size.44}",
           "type": "sizing"
         },
         "height": {
-          "value": "{size.height.xs}",
+          "value": "{size.22}",
           "type": "sizing"
         }
       }
