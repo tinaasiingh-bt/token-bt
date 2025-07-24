@@ -1,16 +1,14 @@
 [
   {
     "id": "0de9b16ee1676e97552cbbc943fae6fc1fa85fc7",
-    "name": "Typography",
+    "name": "Primitive",
     "selectedTokenSets": {
       "Primitive/Color": "enabled",
       "Primitive/Spacing": "enabled",
       "Primitive/Border": "enabled",
       "Primitive/ Size": "enabled",
       "Primitive/Opacity": "enabled",
-      "Primitive/ Shadow": "enabled",
-      "Primitive/Typography": "enabled",
-      "Semantic/ Typography": "enabled"
+      "Primitive/ Shadow": "enabled"
     },
     "$figmaStyleReferences": {
       "Black.50": "S:7d153c872b0e1ecd8b5c7a2515f0483d6d42342d,",
@@ -523,12 +521,10 @@
   {
     "id": "6564e3eea7c74be2003bb10ce5d4e0f75543d3c1",
     "name": "light",
-    "group": "Semantic",
     "selectedTokenSets": {
       "Primitive/Spacing": "source",
       "Primitive/Border": "source",
       "Primitive/Color": "source",
-      "Primitive/Typography": "enabled",
       "Primitive/ Size": "source",
       "Primitive/Opacity": "source",
       "Primitive/ Shadow": "source",
@@ -537,8 +533,7 @@
       "Semantic/ Border": "enabled",
       "Semantic/ Spacing": "enabled",
       "Semantic/  Opacity": "enabled",
-      "Semantic/ Elevation": "enabled",
-      "Semantic/ Typography": "enabled"
+      "Semantic/ Elevation": "enabled"
     },
     "$figmaStyleReferences": {
       "Black.50": "S:b32e1a032c619d20a90715ba96ebc522fe572d5f,",
@@ -999,22 +994,20 @@
       "size.interactive.xl": "769a891f7443f35b0375d0f6e553cbd795df5409"
     },
     "$figmaCollectionId": "VariableCollectionId:7188:9472",
-    "$figmaModeId": "7188:1"
+    "$figmaModeId": "7188:1",
+    "group": "Semantic"
   },
   {
     "id": "9ad92b26719f488a85ea6362260839526f1d79a5",
     "name": "dark",
-    "group": "Semantic",
     "selectedTokenSets": {
       "Primitive/Spacing": "source",
       "Primitive/Border": "source",
       "Primitive/Color": "source",
-      "Primitive/Typography": "enabled",
       "Primitive/ Size": "source",
       "Primitive/Opacity": "source",
       "Primitive/ Shadow": "source",
       "Semantic/ color mode/ dark": "enabled",
-      "Semantic/ Typography": "enabled",
       "Semantic/ Elevation": "enabled",
       "Semantic/  Opacity": "enabled",
       "Semantic/ Spacing": "enabled",
@@ -1557,12 +1550,12 @@
       "size.interactive.xl": "769a891f7443f35b0375d0f6e553cbd795df5409"
     },
     "$figmaCollectionId": "VariableCollectionId:7188:9472",
-    "$figmaModeId": "7188:2"
+    "$figmaModeId": "7188:2",
+    "group": "Semantic"
   },
   {
     "id": "5157d128c8145246c94cb28a5c95fcb6c46c6267",
     "name": "light",
-    "group": "Component",
     "selectedTokenSets": {
       "Primitive/Color": "source",
       "Primitive/Spacing": "source",
@@ -1570,7 +1563,6 @@
       "Primitive/ Size": "source",
       "Primitive/Opacity": "source",
       "Primitive/ Shadow": "source",
-      "Primitive/Typography": "source",
       "Component/ color mode/light": "enabled",
       "Component/ Spacing": "enabled",
       "Component/ Size": "enabled",
@@ -1724,7 +1716,8 @@
       "pagination.default.container.min-height": "be840a24b864b6afec09674cf27db250c75f5c9b"
     },
     "$figmaCollectionId": "VariableCollectionId:7189:1025",
-    "$figmaModeId": "7189:10"
+    "$figmaModeId": "7189:10",
+    "group": "Component"
   },
   {
     "id": "2e81a4bb7dc75e2a3ad66f7304d96292ab9c8648",
@@ -1952,5 +1945,14 @@
     },
     "$figmaCollectionId": "VariableCollectionId:7189:1025",
     "$figmaModeId": "7189:11"
+  },
+  {
+    "id": "4dc08dd42f4be786cd6b8b0c6d1583eb840d4a3c",
+    "name": "Typography",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "Primitive/Typography": "enabled",
+      "Semantic/ Typography": "enabled"
+    }
   }
 ]
