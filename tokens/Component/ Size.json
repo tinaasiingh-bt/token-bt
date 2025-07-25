@@ -134,14 +134,6 @@
     }
   },
   "text-field": {
-    "default": {
-      "inputbox": {
-        "height": {
-          "value": "{size.32}",
-          "type": "sizing"
-        }
-      }
-    },
     "multiline": {
       "inputbox": {
         "height": {
@@ -164,10 +156,6 @@
   "toast": {
     "default": {
       "container": {
-        "min-width": {
-          "value": "{size.288}",
-          "type": "sizing"
-        },
         "max-width": {
           "value": "{size.600}",
           "type": "sizing"
@@ -192,10 +180,6 @@
       "height": {
         "value": "{size.48}",
         "type": "sizing"
-      },
-      "width": {
-        "value": "{size.full}",
-        "type": "sizing"
       }
     }
   },
@@ -209,14 +193,6 @@
     "item": {
       "min-width": {
         "value": "{size.200}",
-        "type": "sizing"
-      }
-    }
-  },
-  "tab": {
-    "container": {
-      "height": {
-        "value": "{size.48}",
         "type": "sizing"
       }
     }
