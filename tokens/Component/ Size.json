@@ -96,10 +96,6 @@
     },
     "horizontal": {
       "container": {
-        "width": {
-          "value": "{size.max-width.full}",
-          "type": "sizing"
-        },
         "min-width": {
           "value": "{size.200}",
           "type": "sizing"
