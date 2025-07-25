@@ -27,14 +27,6 @@
       }
     }
   },
-  "menu": {
-    "item": {
-      "height": {
-        "value": "{size.28}",
-        "type": "sizing"
-      }
-    }
-  },
   "pagination": {
     "default": {
       "container": {
