@@ -179,12 +179,6 @@
         "value": "{size.210}",
         "type": "sizing"
       }
-    },
-    "item": {
-      "min-width": {
-        "value": "{size.200}",
-        "type": "sizing"
-      }
     }
   },
   "button": {
