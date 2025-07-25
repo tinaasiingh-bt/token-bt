@@ -284,14 +284,6 @@
         }
       }
     },
-    "text": {
-      "color": {
-        "color": {
-          "value": "{Neutral.light-ash}",
-          "type": "color"
-        }
-      }
-    },
     "norecords": {
       "background": {
         "color": {
