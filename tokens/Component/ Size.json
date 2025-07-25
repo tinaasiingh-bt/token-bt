@@ -202,5 +202,15 @@
       "value": "{size.36}",
       "type": "sizing"
     }
+  },
+  "number-field": {
+    "input": {
+      "box": {
+        "width": {
+          "value": "{size.120}",
+          "type": "sizing"
+        }
+      }
+    }
   }
 }
