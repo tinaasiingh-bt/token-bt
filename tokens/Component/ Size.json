@@ -96,10 +96,6 @@
   "slider": {
     "vertical": {
       "container": {
-        "height": {
-          "value": "{size.height.full}",
-          "type": "sizing"
-        },
         "min-height": {
           "value": "{size.150}",
           "type": "sizing"
