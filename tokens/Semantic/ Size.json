@@ -58,10 +58,6 @@
         "type": "sizing"
       },
       "md": {
-        "value": "{size.500}",
-        "type": "sizing"
-      },
-      "lg": {
         "value": "{size.600}",
         "type": "sizing"
       },

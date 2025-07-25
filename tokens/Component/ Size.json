@@ -17,17 +17,17 @@
       }
     }
   },
-  "menu": {
-    "default": {
-      "menu": {
-        "container": {
-          "max-width": {
-            "value": "{size.500}",
-            "type": "sizing"
-          }
+  "chart": {
+    "tooltip": {
+      "container": {
+        "width": {
+          "value": "{size.500}",
+          "type": "sizing"
         }
       }
-    },
+    }
+  },
+  "menu": {
     "item": {
       "height": {
         "value": "{size.28}",

@@ -98,8 +98,7 @@
       "size.min-width.lg": "becb406955728a444ee2ef65147b1d8a43d5e13e",
       "size.min-width.xl": "b821c116be9d3981dc876603894356a3d809874c",
       "size.max-width.sm": "0d79018111c4f2006cb3e2217dccef800171bf2d",
-      "size.max-width.md": "70b65ec0031ff85713053fc52314d760a46deb6e",
-      "size.max-width.lg": "5bbe9435ea134ec1984ddf0bb0874f474cf23d8f",
+      "size.max-width.md": "5bbe9435ea134ec1984ddf0bb0874f474cf23d8f",
       "size.max-width.xl": "717679435a2b186a82782d75ec1d4d2f5105c48d",
       "size.height.2xs": "0a1b349e6dac173791893f9aee679615b3cc8e41",
       "size.height.xs": "d060100c4e6b2d839357eba005ce461f815254b9",
@@ -980,7 +979,6 @@
       "tag.default.container.radius": "2b8c6021af8fcdff2c7153bf2d359cb91d468a9d",
       "data-grid.default.row.height": "1a2db0b5e246ea4b67800364d0b370299b65a9ca",
       "data-grid.norecords.row.height": "dba7b01a13ce6fab88b34a5efcc2ff83a2bfc90a",
-      "menu.default.menu.container.max-width": "63f7304b29c0774131d1ef3e7d2c242da7be434f",
       "menu.item.height": "b4275aeac495263124c57f5238a27d98e70edc9a",
       "modal.default.container.min-height": "440aa3a906509bf5d216707fbf75bcb72b3d9cd3",
       "modal.default.container.width": "4e1c0ae8117b1c55e1f4d6a74f2688aedbdd8d97",
@@ -1044,7 +1042,8 @@
       "treeview.leaf.container.margin-left": "11d812088b401ce6c67c7201281477678e3864ac",
       "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6",
       "time-picker.text-button.gap": "b57dc1b0b41323f03336fb535bc594256f0eee65",
-      "tooltip.content.gap": "08fbbe65962632df0e585ef9f33779e08361e73e"
+      "tooltip.content.gap": "08fbbe65962632df0e585ef9f33779e08361e73e",
+      "chart.tooltip.container.width": "63f7304b29c0774131d1ef3e7d2c242da7be434f"
     },
     "$figmaCollectionId": "VariableCollectionId:7189:1025",
     "$figmaModeId": "7189:10",
@@ -1136,7 +1135,6 @@
       "tag.default.container.radius": "2b8c6021af8fcdff2c7153bf2d359cb91d468a9d",
       "data-grid.default.row.height": "1a2db0b5e246ea4b67800364d0b370299b65a9ca",
       "data-grid.norecords.row.height": "dba7b01a13ce6fab88b34a5efcc2ff83a2bfc90a",
-      "menu.default.menu.container.max-width": "63f7304b29c0774131d1ef3e7d2c242da7be434f",
       "menu.item.height": "b4275aeac495263124c57f5238a27d98e70edc9a",
       "modal.default.container.min-height": "440aa3a906509bf5d216707fbf75bcb72b3d9cd3",
       "modal.default.container.width": "4e1c0ae8117b1c55e1f4d6a74f2688aedbdd8d97",
@@ -1200,7 +1198,8 @@
       "treeview.leaf.container.margin-left": "11d812088b401ce6c67c7201281477678e3864ac",
       "breadcrumb.label.icon.spacing": "dec4dbe3e2cdc27622613098905c3e4f4a5ee4a6",
       "time-picker.text-button.gap": "b57dc1b0b41323f03336fb535bc594256f0eee65",
-      "tooltip.content.gap": "08fbbe65962632df0e585ef9f33779e08361e73e"
+      "tooltip.content.gap": "08fbbe65962632df0e585ef9f33779e08361e73e",
+      "chart.tooltip.container.width": "63f7304b29c0774131d1ef3e7d2c242da7be434f"
     },
     "$figmaCollectionId": "VariableCollectionId:7189:1025",
     "$figmaModeId": "7189:11",
