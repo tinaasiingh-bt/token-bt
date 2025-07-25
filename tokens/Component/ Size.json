@@ -35,28 +35,6 @@
       }
     }
   },
-  "modal": {
-    "default": {
-      "container": {
-        "min-height": {
-          "value": "{size.150}",
-          "type": "sizing"
-        },
-        "width": {
-          "value": "{size.384}",
-          "type": "sizing"
-        }
-      },
-      "title": {
-        "container": {
-          "min-height": {
-            "value": "{size.22}",
-            "type": "sizing"
-          }
-        }
-      }
-    }
-  },
   "pagination": {
     "default": {
       "container": {
