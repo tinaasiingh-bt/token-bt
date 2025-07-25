@@ -117,16 +117,6 @@
           "type": "sizing"
         }
       }
-    },
-    "default": {
-      "tick": {
-        "line": {
-          "width": {
-            "value": "{size.26}",
-            "type": "sizing"
-          }
-        }
-      }
     }
   },
   "switch": {
@@ -218,14 +208,6 @@
       "width": {
         "value": "{size.full}",
         "type": "sizing"
-      }
-    },
-    "split": {
-      "separator": {
-        "width": {
-          "value": "{size.26}",
-          "type": "sizing"
-        }
       }
     }
   },

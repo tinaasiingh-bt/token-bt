@@ -24,6 +24,10 @@
       "2xl": {
         "value": "{size.450}",
         "type": "sizing"
+      },
+      "full": {
+        "value": "{size.full}",
+        "type": "sizing"
       }
     },
     "min-width": {
