@@ -155,12 +155,6 @@
   },
   "toast": {
     "default": {
-      "container": {
-        "max-width": {
-          "value": "{size.600}",
-          "type": "sizing"
-        }
-      },
       "progress": {
         "width": {
           "value": "{size.384}",
