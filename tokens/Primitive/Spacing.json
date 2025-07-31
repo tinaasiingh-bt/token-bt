@@ -101,12 +101,12 @@
         "value": "-8px",
         "type": "spacing"
       },
-      "10xs": {
-        "value": "-24px",
-        "type": "spacing"
-      },
       "12xs": {
         "value": "-40px",
+        "type": "spacing"
+      },
+      "10xs": {
+        "value": "-24px",
         "type": "spacing"
       }
     },

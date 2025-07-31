@@ -173,14 +173,6 @@
       }
     }
   },
-  "dropdown": {
-    "input": {
-      "max-width": {
-        "value": "{size.210}",
-        "type": "sizing"
-      }
-    }
-  },
   "button": {
     "min-height": {
       "value": "{size.36}",
