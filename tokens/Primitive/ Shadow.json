@@ -20,5 +20,39 @@
       "value": "0px",
       "type": "dimension"
     }
+  },
+  "X": {
+    "0": {
+      "value": "0px",
+      "type": "dimension"
+    }
+  },
+  "Y": {
+    "0": {
+      "value": "0px",
+      "type": "dimension"
+    },
+    "1": {
+      "value": "1px",
+      "type": "dimension"
+    },
+    "2": {
+      "value": "2px",
+      "type": "dimension"
+    },
+    "4": {
+      "value": "4px",
+      "type": "dimension"
+    },
+    "8": {
+      "value": "8px",
+      "type": "dimension"
+    }
+  },
+  "spread": {
+    "0": {
+      "value": "0px",
+      "type": "dimension"
+    }
   }
 }
