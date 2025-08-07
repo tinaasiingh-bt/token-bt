@@ -263,6 +263,10 @@
             "md": {
               "value": "{spacing.md}",
               "type": "spacing"
+            },
+            "xs": {
+              "value": "{spacing.2xs}",
+              "type": "spacing"
             }
           },
           "end": {
@@ -362,6 +366,10 @@
             },
             "5xl": {
               "value": "{spacing.7xl}",
+              "type": "spacing"
+            },
+            "xl": {
+              "value": "{spacing.4xl}",
               "type": "spacing"
             }
           },
