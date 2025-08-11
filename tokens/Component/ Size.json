@@ -188,5 +188,15 @@
         }
       }
     }
+  },
+  "tag": {
+    "sm": {
+      "container": {
+        "height": {
+          "value": "{size.24}",
+          "type": "sizing"
+        }
+      }
+    }
   }
 }
