@@ -6,7 +6,7 @@
         "y": "{Y.0}",
         "blur": "{blur.none}",
         "spread": "{spread.0}",
-        "color": "{background.interactive.transparent}",
+        "color": "{transparent}",
         "type": "dropShadow"
       },
       "type": "boxShadow"
