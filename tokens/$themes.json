@@ -833,7 +833,8 @@
       "Semantic/ Border": "enabled",
       "Semantic/ Size": "enabled",
       "Semantic/ Typography": "source",
-      "Primitive/Typography": "source"
+      "Primitive/Typography": "source",
+      "Semantic/ Elevation": "source"
     },
     "$figmaStyleReferences": {
       "display.lg": "S:51b53e6b5549c50bafc06d7a189d0a158bf77117,",
