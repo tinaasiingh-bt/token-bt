@@ -381,6 +381,7 @@
       "text.line-height.label.lg": "6becf521a0fb5a77b9064d1c5418da8113a6a422",
       "text.line-height.label.sm": "a3374dd7edddf7cf9be2fb918ef0035b5973341c",
       "text.line-height.label.md": "3d9db6699df0b9e913fab171f8dce17c08decaca",
+      "text.line-height.label.xs": "0e18525be6837cf5cdb2aa3de6dbd6a8e58b5926",
       "text.line-height.body.lg": "6b5f9a2c0d515f2e5e4e00cd0d56c0200c43af9f",
       "text.line-height.body.md": "8d5fd0bc55ec6bdbb241d2eb3a86ec8a795fb2ee",
       "text.line-height.body.sm": "d4d4ab61c288177fe3f920e1f56c29a16b0a212e",
@@ -391,8 +392,7 @@
       "text.line-height.card.lg": "8ddac9a0acfb7b3f6c88adbe01b247acdbb34f56",
       "text.line-height.card.md": "8b6d2b793cd0b7e3704f9a6ba72383b87372f481",
       "text.line-height.card.sm": "3255ea99ba24cc4f99daa25aeddada8c016ee178",
-      "text.line-height.card.xs": "ee224415eee606f54746e236bbddb39fca394de5",
-      "text.line-height.label.xs": "0e18525be6837cf5cdb2aa3de6dbd6a8e58b5926"
+      "text.line-height.card.xs": "ee224415eee606f54746e236bbddb39fca394de5"
     },
     "group": "Primitive"
   },
@@ -412,7 +412,8 @@
       "Semantic/ Spacing": "enabled",
       "Semantic/  Opacity": "enabled",
       "Semantic/ Typography": "source",
-      "Semantic/ Elevation": "source"
+      "Semantic/ Elevation": "source",
+      "Primitive/Typography": "source"
     },
     "$figmaStyleReferences": {
       "Black.50": "S:b32e1a032c619d20a90715ba96ebc522fe572d5f,",
@@ -831,7 +832,8 @@
       "Semantic/ Spacing": "enabled",
       "Semantic/ Border": "enabled",
       "Semantic/ Size": "enabled",
-      "Semantic/ Typography": "source"
+      "Semantic/ Typography": "source",
+      "Primitive/Typography": "source"
     },
     "$figmaStyleReferences": {
       "display.lg": "S:51b53e6b5549c50bafc06d7a189d0a158bf77117,",
