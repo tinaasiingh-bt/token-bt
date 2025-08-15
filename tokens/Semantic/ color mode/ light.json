@@ -111,9 +111,8 @@
       }
     },
     "attention": {
-      "value": "{Black.950}",
-      "type": "color",
-      "description": "background color for banner, toast and inline alert"
+      "value": "{Neutral.White}",
+      "type": "color"
     }
   },
   "text": {
