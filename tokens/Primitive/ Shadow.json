@@ -25,6 +25,10 @@
     "0": {
       "value": "0px",
       "type": "dimension"
+    },
+    "4": {
+      "value": "4px",
+      "type": "dimension"
     }
   },
   "Y": {
