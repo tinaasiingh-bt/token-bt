@@ -408,7 +408,7 @@
             "type": "spacing"
           },
           "lg": {
-            "value": "{spacing.3xl}",
+            "value": "{spacing.xl}",
             "type": "spacing"
           }
         }
