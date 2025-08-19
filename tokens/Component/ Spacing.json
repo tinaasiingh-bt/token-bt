@@ -1,5 +1,13 @@
 {
   "accordion": {
+    "icon": {
+      "margin": {
+        "top": {
+          "value": "{spacing.xs}",
+          "type": "spacing"
+        }
+      }
+    },
     "content": {
       "margin": {
         "left": {
@@ -22,7 +30,7 @@
         }
       },
       "menu": {
-        "item": {
+        "tem": {
           "list": {
             "padding": {
               "block": {

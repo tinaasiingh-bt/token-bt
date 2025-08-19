@@ -129,10 +129,6 @@
         "sm": {
           "value": "{spacing.md}",
           "type": "spacing"
-        },
-        "xl": {
-          "value": "{spacing.xl}",
-          "type": "spacing"
         }
       },
       "offset": {
@@ -163,10 +159,6 @@
           },
           "sm": {
             "value": "{spacing.md}",
-            "type": "spacing"
-          },
-          "xl": {
-            "value": "{spacing.xl}",
             "type": "spacing"
           }
         }
@@ -267,13 +259,13 @@
             "value": "{spacing.4xl}",
             "type": "spacing"
           },
+          "8xl": {
+            "value": "{spacing.8xl}",
+            "type": "spacing"
+          },
           "start": {
             "md": {
               "value": "{spacing.md}",
-              "type": "spacing"
-            },
-            "xs": {
-              "value": "{spacing.2xs}",
               "type": "spacing"
             }
           },
@@ -375,10 +367,6 @@
             "5xl": {
               "value": "{spacing.7xl}",
               "type": "spacing"
-            },
-            "xl": {
-              "value": "{spacing.4xl}",
-              "type": "spacing"
             }
           },
           "end": {
@@ -416,7 +404,7 @@
             "type": "spacing"
           },
           "lg": {
-            "value": "{spacing.xl}",
+            "value": "{spacing.3xl}",
             "type": "spacing"
           }
         }

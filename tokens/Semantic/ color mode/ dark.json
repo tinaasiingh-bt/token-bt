@@ -109,11 +109,6 @@
         "value": "{Cyan.950}",
         "type": "color"
       }
-    },
-    "attention": {
-      "value": "{Black.950}",
-      "type": "color",
-      "description": "background color for banner, toast and inline alert"
     }
   },
   "text": {

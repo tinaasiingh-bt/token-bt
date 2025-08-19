@@ -6,7 +6,7 @@
         "type": "color"
       },
       "two": {
-        "value": "{Gray.100}",
+        "value": "{Gray.50}",
         "type": "color"
       },
       "three": {
@@ -109,10 +109,6 @@
         "value": "{Cyan.100}",
         "type": "color"
       }
-    },
-    "attention": {
-      "value": "{Neutral.White}",
-      "type": "color"
     }
   },
   "text": {
