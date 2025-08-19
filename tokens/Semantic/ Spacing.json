@@ -259,11 +259,11 @@
             "value": "{spacing.4xl}",
             "type": "spacing"
           },
-          "8xl": {
-            "value": "{spacing.8xl}",
-            "type": "spacing"
-          },
           "start": {
+            "8xl": {
+              "value": "{spacing.8xl}",
+              "type": "spacing"
+            },
             "md": {
               "value": "{spacing.md}",
               "type": "spacing"
