@@ -109,6 +109,10 @@
         "value": "{Cyan.100}",
         "type": "color"
       }
+    },
+    "attention": {
+      "value": "{Neutral.White}",
+      "type": "color"
     }
   },
   "text": {

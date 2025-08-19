@@ -109,6 +109,10 @@
         "value": "{Cyan.950}",
         "type": "color"
       }
+    },
+    "attention": {
+      "value": "{Black.950}",
+      "type": "color"
     }
   },
   "text": {
