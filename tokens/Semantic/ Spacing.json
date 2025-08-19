@@ -160,6 +160,10 @@
           "sm": {
             "value": "{spacing.md}",
             "type": "spacing"
+          },
+          "xl": {
+            "value": "{spacing.xl}",
+            "type": "spacing"
           }
         }
       }
