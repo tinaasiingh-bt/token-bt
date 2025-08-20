@@ -123,7 +123,7 @@
             "value": "{spacing.none}",
             "type": "spacing"
           },
-          "xs": {
+          "2xs": {
             "value": "{spacing.2xs}",
             "type": "spacing"
           },
@@ -157,6 +157,10 @@
           }
         },
         "gap": {
+          "none": {
+            "value": "{spacing.none}",
+            "type": "spacing"
+          },
           "2xs": {
             "value": "{spacing.2xs}",
             "type": "spacing"

@@ -905,10 +905,10 @@
       "opacity.surface.disabled": "931e3f69681d1fbfbb897d29001a798edc0ef996",
       "opacity.surface.visible": "f776e93fc655daaf02a528c2131e10946353d431",
       "spacing.content.inline.gap.none": "8beaa9366968c167f9f959f22e3b3784807dce6c",
-      "spacing.content.inline.gap.xs": "c62fb837939098c3d41f84bdd69d4e8eec24b50e",
       "spacing.content.inline.gap.sm": "3f7567006ae330b6a0c6f0463710a9b916acaa6c",
       "spacing.content.block.gap.2xs": "40fd2cb037f5b7d9ceeb05dc2852cb7b916c40ec",
-      "spacing.content.block.gap.sm": "bade2f2dd62d8df06d3dd40cb0de94a9db1f101b"
+      "spacing.content.block.gap.sm": "bade2f2dd62d8df06d3dd40cb0de94a9db1f101b",
+      "spacing.content.inline.gap.2xs": "c62fb837939098c3d41f84bdd69d4e8eec24b50e"
     },
     "$figmaCollectionId": "VariableCollectionId:7188:9472",
     "$figmaModeId": "7188:1",
@@ -1375,10 +1375,10 @@
       "opacity.surface.disabled": "931e3f69681d1fbfbb897d29001a798edc0ef996",
       "opacity.surface.visible": "f776e93fc655daaf02a528c2131e10946353d431",
       "spacing.content.inline.gap.none": "8beaa9366968c167f9f959f22e3b3784807dce6c",
-      "spacing.content.inline.gap.xs": "c62fb837939098c3d41f84bdd69d4e8eec24b50e",
       "spacing.content.inline.gap.sm": "3f7567006ae330b6a0c6f0463710a9b916acaa6c",
       "spacing.content.block.gap.2xs": "40fd2cb037f5b7d9ceeb05dc2852cb7b916c40ec",
-      "spacing.content.block.gap.sm": "bade2f2dd62d8df06d3dd40cb0de94a9db1f101b"
+      "spacing.content.block.gap.sm": "bade2f2dd62d8df06d3dd40cb0de94a9db1f101b",
+      "spacing.content.inline.gap.2xs": "c62fb837939098c3d41f84bdd69d4e8eec24b50e"
     },
     "$figmaCollectionId": "VariableCollectionId:7188:9472",
     "$figmaModeId": "7188:2",
