@@ -117,22 +117,24 @@
           }
         }
       },
-      "gap": {
-        "none": {
-          "value": "{spacing.none}",
-          "type": "spacing"
-        },
-        "xs": {
-          "value": "{spacing.2xs}",
-          "type": "spacing"
-        },
-        "sm": {
-          "value": "{spacing.md}",
-          "type": "spacing"
-        },
-        "xl": {
-          "value": "{spacing.xl}",
-          "type": "spacing"
+      "inline": {
+        "gap": {
+          "none": {
+            "value": "{spacing.none}",
+            "type": "spacing"
+          },
+          "xs": {
+            "value": "{spacing.2xs}",
+            "type": "spacing"
+          },
+          "sm": {
+            "value": "{spacing.md}",
+            "type": "spacing"
+          },
+          "xl": {
+            "value": "{spacing.xl}",
+            "type": "spacing"
+          }
         }
       },
       "offset": {
@@ -153,9 +155,7 @@
             "value": "{spacing.md}",
             "type": "spacing"
           }
-        }
-      },
-      "start": {
+        },
         "gap": {
           "2xs": {
             "value": "{spacing.2xs}",
