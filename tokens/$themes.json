@@ -1276,11 +1276,11 @@
       "severity.low": "S:3950d925b7c4f521f3f1c7a658b0e4caed4b860d,",
       "severity.none": "S:f1b11ca16e848d81e45a49a885dff06bff25773b,",
       "severity.undertermined": "S:6d412c458214565b1d3cfe9b263aff377fa3b315,",
-      "elevation.none": "S:f05d5ae02d285a482f7cf3b5a1580f982b5f6420,",
-      "elevation.container.default": "S:ebb196597d7a4c1985d575b1b060db3e378368d8,",
-      "elevation.container.elevated": "S:9eca38c53c734ded1aadd1679bdb0558891bae45,",
-      "elevation.base": "S:de5fe8f85a0d780cfdab7badf7a01c6bfcdc0af1,",
-      "elevation.overlay.popover": "S:834683637950c76500ba91ae68e8974ed1d70158,"
+      "elevation.none": "S:6fdb291bd423b3848fe55aa302ec301e7b8fd505,",
+      "elevation.container.default": "S:a0e2199e623870d5434009823488f62be366d11b,",
+      "elevation.container.elevated": "S:4ccd34dfd8764606d655ea9590b278cb07b5d76b,",
+      "elevation.base": "S:d50e506c2cd9f6bf0efbc10cf3e32e15a148b294,",
+      "elevation.overlay.popover": "S:03f52c68dbd9e71ad0ef3fb5ec462973d6283f3a,"
     },
     "$figmaVariableReferences": {
       "background.layer.one": "ba16bc7d8cc3ac84362e73377f5bcb08f784787e",
