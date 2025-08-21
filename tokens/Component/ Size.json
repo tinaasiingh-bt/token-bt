@@ -150,12 +150,14 @@
     }
   },
   "toast": {
-    "default": {
-      "progress": {
-        "width": {
-          "value": "{size.384}",
-          "type": "sizing"
-        }
+    "container": {
+      "max-width": {
+        "value": "{size.480}",
+        "type": "sizing"
+      },
+      "min-width": {
+        "value": "{size.280}",
+        "type": "sizing"
       }
     }
   },
