@@ -333,6 +333,11 @@
     "300": {
       "value": "#4ca3ea",
       "type": "color"
+    },
+    "400": {
+      "value": "#60A5FA",
+      "type": "color",
+      "description": "Keyword / Constants (Dark)"
     }
   },
   "Steel-blue": {
@@ -381,6 +386,11 @@
     "300": {
       "value": "#035030",
       "type": "color"
+    },
+    "400": {
+      "value": "#065F46",
+      "type": "color",
+      "description": "Numbers (Light)"
     }
   },
   "Raspberry": {
@@ -510,6 +520,11 @@
     "200": {
       "value": "#B1BBF2",
       "type": "color"
+    },
+    "300": {
+      "value": "#1E40AF",
+      "type": "color",
+      "description": "Properties / Object Keys (Light)"
     }
   },
   "Azure": {
@@ -560,6 +575,11 @@
     "200": {
       "value": "#67F06D",
       "type": "color"
+    },
+    "300": {
+      "value": "#047857",
+      "type": "color",
+      "description": "Functions / Functions 2 (Light)"
     }
   },
   "Charcoal-blue": {
@@ -650,6 +670,11 @@
     "200": {
       "value": "#00EDD7",
       "type": "color"
+    },
+    "300": {
+      "value": "#0E7490",
+      "type": "color",
+      "description": "Class Names (Light)"
     }
   },
   "blue-rgba": {
@@ -709,5 +734,125 @@
         }
       }
     }
+  },
+  "Royal-blue": {
+    "value": "#1D4ED8",
+    "type": "color",
+    "description": "Constants (Light)"
+  },
+  "Deep blue": {
+    "value": "#2563EB",
+    "type": "color",
+    "description": "Variables (Light)"
+  },
+  "vivid blue": {
+    "value": "#3B82F6",
+    "type": "color",
+    "description": "Keyword (Light)"
+  },
+  "soft cyan": {
+    "value": "#9CDCFE",
+    "type": "color",
+    "description": "Variables (Dark)"
+  },
+  "baby blue": {
+    "value": "#93C5FD",
+    "type": "color",
+    "description": "Properties / Object Keys (Dark)"
+  },
+  "teal blue": {
+    "value": "#0E7490",
+    "type": "color",
+    "description": "Class Names (Light)"
+  },
+  "Ice blue": {
+    "value": "#67E8F9",
+    "type": "color",
+    "description": "Class Names (Dark)"
+  },
+  "Mint green": {
+    "value": "#34D399",
+    "type": "color",
+    "description": "Numbers (Dark)"
+  },
+  "Aquamarine": {
+    "value": "#6EE7B7",
+    "type": "color",
+    "description": "Functions (Dark)"
+  },
+  "Sand beige": {
+    "value": "#DCDCAA",
+    "type": "color",
+    "description": "Functions 2 (Dark)"
+  },
+  "amber brown": {
+    "value": "#B45309",
+    "type": "color",
+    "description": "Strings (Light)"
+  },
+  "Golden yellow": {
+    "value": "#FACC15",
+    "type": "color",
+    "description": "Strings (Dark)"
+  },
+  "Copper rose": {
+    "value": "#C08269",
+    "type": "color",
+    "description": "Template Literals (Light)"
+  },
+  "Pale peach": {
+    "value": "#E4A991",
+    "type": "color",
+    "description": "Template Literals (Dark)"
+  },
+  "Crimson red": {
+    "value": "#B91C1C",
+    "type": "color",
+    "description": "Boolean Values (Light)"
+  },
+  "Coral pink": {
+    "value": "#F87171",
+    "type": "color",
+    "description": "Boolean Values (Dark)"
+  },
+  "Magenta": {
+    "value": "#F72CD2",
+    "type": "color",
+    "description": "Arrow Function (Light/Dark)"
+  },
+  "Electric purple": {
+    "value": "#9333EA",
+    "type": "color",
+    "description": "Line (Light)"
+  },
+  "Lavender": {
+    "value": "#C084FC",
+    "type": "color",
+    "description": "Line (Dark)"
+  },
+  "Slate gray": {
+    "value": "#374151",
+    "type": "color",
+    "description": "Operators (Light)"
+  },
+  "Graphite gray": {
+    "value": "#6B7280",
+    "type": "color",
+    "description": "Comments (Light)"
+  },
+  "Cool gray": {
+    "value": "#9CA3AF",
+    "type": "color",
+    "description": "Operators / Comments (Dark)"
+  },
+  "Charcoal": {
+    "value": "#343434",
+    "type": "color",
+    "description": "Line 2 (Light)"
+  },
+  "Warm gray": {
+    "value": "#BBB4B4",
+    "type": "color",
+    "description": "Line 2 (Dark)"
   }
 }
