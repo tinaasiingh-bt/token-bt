@@ -134,6 +134,14 @@
           "xl": {
             "value": "{spacing.xl}",
             "type": "spacing"
+          },
+          "2xl": {
+            "value": "{spacing.2xl}",
+            "type": "spacing"
+          },
+          "4xl": {
+            "value": "{spacing.4xl}",
+            "type": "spacing"
           }
         }
       },
