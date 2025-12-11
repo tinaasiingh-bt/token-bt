@@ -297,6 +297,10 @@
             "md": {
               "value": "{spacing.md}",
               "type": "spacing"
+            },
+            "8xl": {
+              "value": "{spacing.8xl}",
+              "type": "spacing"
             }
           },
           "2xs": {
