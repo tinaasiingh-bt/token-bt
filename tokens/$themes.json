@@ -1951,15 +1951,31 @@
     "id": "079969328aaeab84ddf5cbc173db93b4b89fc8b1",
     "name": "shadow",
     "$figmaStyleReferences": {
-      "elevation.none": "S:74ae7a934cbb33d748e67cd6688a18b1af626b81,",
-      "elevation.container.default": "S:fbb384e55ec5e1ab51000123265465c510a855a0,",
-      "elevation.container.elevated": "S:52bbf6b95dbd6a7b2e9502d35634169a8c2cf896,",
-      "elevation.base": "S:0520d52da2006cf35de093dc62f7058d23c42138,",
-      "elevation.overlay.popover": "S:a51625f4e9d9493649c0c955746ec18725171c02,"
+      "elevation.none": "S:5579a79c633f32b4f09665b448119dc750ad4b59,",
+      "elevation.container.default": "S:c6f94f8ce4b0de895de258cf91ea0389be492ff6,",
+      "elevation.container.elevated": "S:dede8864f74da142854f0777e686e9a6e247beb0,",
+      "elevation.base": "S:6a3b0c6bc81ce3085ba44c1ddbd229d13d9534c3,",
+      "elevation.overlay.popover": "S:48e691a55b63507e25ab2f348d21224a2ad21df6,"
     },
     "selectedTokenSets": {
-      "Primitive/ Shadow": "source",
+      "Primitive/ Shadow": "enabled",
       "Semantic/ Elevation": "enabled"
+    },
+    "$figmaCollectionId": "VariableCollectionId:11914:661",
+    "$figmaModeId": "11914:2",
+    "$figmaVariableReferences": {
+      "blur.100": "64f5a2ac09bce83b944f587246520e8dcf0a86d3",
+      "blur.200": "f41f3c87b09ba0038bea922240d4abd645b306d0",
+      "blur.300": "b8dd86456df3768ef5c05281e7ccfe93aa9a7a2b",
+      "blur.400": "d02cf73b9de19dabf905cd9a61718439f7e7b871",
+      "blur.none": "aebe67a31c9d5f4bc18f22533dfeb65d401b7599",
+      "X.0": "7971c7f8cdbcd5db5354f56f84032d01e8433f57",
+      "Y.0": "30d0786951631c85ea14d26a64f06f658408659e",
+      "Y.1": "ce5cec01ac217bdafb0dd283f5375fb8000b27de",
+      "Y.2": "df4d5898ad0cdb8485cb7a49f8067bd8741e77fd",
+      "Y.4": "8d8831ca27da54612f1ea6406dde0e4d2bbe521b",
+      "Y.8": "88ef72eb6c4e0c16c2a0f7af5a02b86b02ca8764",
+      "spread.0": "701530ee9fa0e1d31558b81d4d0c2746b09d3ae5"
     }
   },
   {
