@@ -1,0 +1,34 @@
+{
+  "badge": {
+    "border-radius": {
+      "value": "{border.radius.4xl}",
+      "type": "borderRadius"
+    }
+  },
+  "breadcrumb": {
+    "focus": {
+      "border-radius": {
+        "value": "{border.radius.2xs}",
+        "type": "borderRadius"
+      }
+    }
+  },
+  "checkbox": {
+    "unselected": {
+      "box-radius": {
+        "value": "{border.radius.xs}",
+        "type": "borderRadius"
+      }
+    }
+  },
+  "tag": {
+    "default": {
+      "container": {
+        "radius": {
+          "value": "{border.radius.lg}",
+          "type": "borderRadius"
+        }
+      }
+    }
+  }
+}

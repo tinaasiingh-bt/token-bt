@@ -1,0 +1,130 @@
+{
+  "font": {
+    "family": {
+      "inter": {
+        "value": "Inter",
+        "type": "fontFamilies"
+      },
+      "notoSans": {
+        "value": "Noto Sans",
+        "type": "fontFamilies"
+      },
+      "fira": {
+        "value": "Fira Code",
+        "type": "fontFamilies"
+      }
+    },
+    "weight": {
+      "regular": {
+        "value": "400",
+        "type": "fontWeights"
+      },
+      "medium": {
+        "value": "500",
+        "type": "fontWeights"
+      },
+      "semiBold": {
+        "value": "600",
+        "type": "fontWeights"
+      },
+      "strong": {
+        "value": "700",
+        "type": "fontWeights"
+      }
+    },
+    "size": {
+      "xs": {
+        "value": "0.75rem",
+        "type": "fontSizes"
+      },
+      "sm": {
+        "value": "0.875rem",
+        "type": "fontSizes"
+      },
+      "md": {
+        "value": "1rem",
+        "type": "fontSizes"
+      },
+      "lg": {
+        "value": "1.125rem",
+        "type": "fontSizes"
+      },
+      "xl": {
+        "value": "1.25rem",
+        "type": "fontSizes"
+      },
+      "2xl": {
+        "value": "1.5rem",
+        "type": "fontSizes"
+      },
+      "3xl": {
+        "value": "1.75rem",
+        "type": "fontSizes"
+      },
+      "4xl": {
+        "value": "2rem",
+        "type": "fontSizes"
+      },
+      "5xl": {
+        "value": "2.25rem",
+        "type": "fontSizes"
+      },
+      "6xl": {
+        "value": "2.5rem",
+        "type": "fontSizes"
+      }
+    }
+  },
+  "line-height": {
+    "xs": {
+      "value": "1.125rem",
+      "type": "lineHeights"
+    },
+    "sm": {
+      "value": "1.25rem",
+      "type": "lineHeights"
+    },
+    "md": {
+      "value": "1.5rem",
+      "type": "lineHeights"
+    },
+    "lg": {
+      "value": "1.75rem",
+      "type": "lineHeights"
+    },
+    "xl": {
+      "value": "2rem",
+      "type": "lineHeights"
+    },
+    "2xl": {
+      "value": "2.25rem",
+      "type": "lineHeights"
+    },
+    "3xl": {
+      "value": "2.5rem",
+      "type": "lineHeights"
+    },
+    "4xl": {
+      "value": "2.75rem",
+      "type": "lineHeights"
+    },
+    "5xl": {
+      "value": "3rem",
+      "type": "lineHeights"
+    }
+  },
+  "textDecoration": {
+    "underline": {
+      "value": "underline",
+      "type": "textDecoration"
+    },
+    "none": {
+      "value": "none",
+      "type": "textDecoration"
+    },
+    "line-through": {
+      "value": "line-through",
+      "type": "textDecoration"
+    }
+  }
+}

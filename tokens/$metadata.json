@@ -1,10 +1,24 @@
 {
   "tokenSetOrder": [
-    "global",
-    "Styling/Light Mode",
-    "Styling/Dark Mode",
-    "Typography/Mode 1",
-    "SDS colors/Dark",
-    "SDS colors/Light"
+    "Primitive/Color",
+    "Primitive/Spacing",
+    "Primitive/Border",
+    "Primitive/ Size",
+    "Primitive/Opacity",
+    "Primitive/ Shadow",
+    "Primitive/Typography",
+    "Semantic/ color mode/ light",
+    "Semantic/ color mode/ dark",
+    "Semantic/ Size",
+    "Semantic/ Border",
+    "Semantic/ Spacing",
+    "Semantic/  Opacity",
+    "Semantic/ Elevation",
+    "Semantic/ Typography",
+    "Component/ color mode/light",
+    "Component/ color mode/ dark",
+    "Component/ Border radius",
+    "Component/ Size",
+    "Component/ Spacing"
   ]
 }

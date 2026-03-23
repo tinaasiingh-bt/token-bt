@@ -1,0 +1,58 @@
+{
+  "blur": {
+    "100": {
+      "value": "2px",
+      "type": "dimension"
+    },
+    "200": {
+      "value": "4px",
+      "type": "dimension"
+    },
+    "300": {
+      "value": "8px",
+      "type": "dimension"
+    },
+    "400": {
+      "value": "16px",
+      "type": "dimension"
+    },
+    "none": {
+      "value": "0px",
+      "type": "dimension"
+    }
+  },
+  "X": {
+    "0": {
+      "value": "0px",
+      "type": "dimension"
+    }
+  },
+  "Y": {
+    "0": {
+      "value": "0px",
+      "type": "dimension"
+    },
+    "1": {
+      "value": "1px",
+      "type": "dimension"
+    },
+    "2": {
+      "value": "2px",
+      "type": "dimension"
+    },
+    "4": {
+      "value": "4px",
+      "type": "dimension"
+    },
+    "8": {
+      "value": "8px",
+      "type": "dimension"
+    }
+  },
+  "spread": {
+    "0": {
+      "value": "0px",
+      "type": "dimension"
+    }
+  }
+}

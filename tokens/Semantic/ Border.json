@@ -1,0 +1,82 @@
+{
+  "radius": {
+    "layout": {
+      "none": {
+        "value": "{border.radius.none}",
+        "type": "borderRadius"
+      },
+      "md": {
+        "value": "{border.radius.md}",
+        "type": "borderRadius"
+      },
+      "2xl": {
+        "value": "{border.radius.2xl}",
+        "type": "borderRadius"
+      }
+    },
+    "element": {
+      "none": {
+        "value": "{border.radius.none}",
+        "type": "borderRadius"
+      },
+      "sm": {
+        "value": "{border.radius.sm}",
+        "type": "borderRadius"
+      },
+      "md": {
+        "value": "{border.radius.md}",
+        "type": "borderRadius"
+      },
+      "5xl": {
+        "value": "{border.radius.5xl}",
+        "type": "borderRadius"
+      },
+      "xs": {
+        "value": "{border.radius.xs}",
+        "type": "borderRadius"
+      },
+      "2xs": {
+        "value": "{border.radius.2xs}",
+        "type": "borderRadius"
+      }
+    }
+  },
+  "border-width": {
+    "interactive": {
+      "none": {
+        "value": "{border.width.none}",
+        "type": "borderWidth"
+      },
+      "xs": {
+        "value": "{border.width.xs}",
+        "type": "borderWidth"
+      },
+      "sm": {
+        "value": "{border.width.sm}",
+        "type": "borderWidth"
+      },
+      "md": {
+        "value": "{border.width.md}",
+        "type": "borderWidth"
+      },
+      "lg": {
+        "value": "{border.width.lg}",
+        "type": "borderWidth"
+      }
+    },
+    "outline": {
+      "xs": {
+        "value": "{border.width.sm}",
+        "type": "borderWidth"
+      },
+      "sm": {
+        "value": "{border.width.sm}",
+        "type": "borderWidth"
+      },
+      "solid": {
+        "value": "border-width.solid",
+        "type": "borderWidth"
+      }
+    }
+  }
+}

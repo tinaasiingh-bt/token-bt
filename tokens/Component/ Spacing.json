@@ -1,0 +1,148 @@
+{
+  "accordion": {
+    "content": {
+      "padding": {
+        "11xl": {
+          "value": "{spacing.11xl}",
+          "type": "spacing"
+        }
+      }
+    }
+  },
+  "help-text": {
+    "default": {
+      "content": {
+        "margin": {
+          "negative": {
+            "8xs": {
+              "value": "{spacing.negative.8xs}",
+              "type": "spacing"
+            }
+          }
+        },
+        "padding": {
+          "none": {
+            "value": "{spacing.none}",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  },
+  "menu": {
+    "default": {
+      "menu-popup": {
+        "margin": {
+          "3xs": {
+            "value": "{spacing.3xs}",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  },
+  "radio-button": {
+    "default": {
+      "instructional": {
+        "margin": {
+          "4xs": {
+            "value": "{spacing.negative.4xs}",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  },
+  "slider": {
+    "vertical": {
+      "tick": {
+        "gap": {
+          "value": "{spacing.sm}",
+          "type": "spacing"
+        }
+      }
+    },
+    "horizontal": {
+      "margin": {
+        "2xl": {
+          "value": "{spacing.2xl}",
+          "type": "spacing"
+        }
+      }
+    }
+  },
+  "tab": {
+    "active": {
+      "item": {
+        "margin": {
+          "negative": {
+            "3xs": {
+              "value": "{spacing.negative.3xs}",
+              "type": "spacing"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tag": {
+    "block": {
+      "container": {
+        "popup": {
+          "margin": {
+            "value": "{spacing.negative.8xs}",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  },
+  "treeview": {
+    "toggle": {
+      "margin": {
+        "negative": {
+          "12xs": {
+            "value": "{spacing.negative.12xs}",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "left": {
+      "text": {
+        "margin": {
+          "lg": {
+            "value": "{spacing.lg}",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "leaf": {
+      "container": {
+        "margin": {
+          "3xl": {
+            "value": "{spacing.3xl}",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  },
+  "time-picker": {
+    "text-button": {
+      "gap": {
+        "value": "{spacing.8xl}",
+        "type": "spacing"
+      }
+    }
+  },
+  "tooltip": {
+    "content": {
+      "gap": {
+        "value": "{spacing.lg}",
+        "type": "spacing"
+      }
+    }
+  }
+}
