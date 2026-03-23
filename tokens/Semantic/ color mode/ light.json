@@ -1,0 +1,320 @@
+{
+  "background": {
+    "layer": {
+      "one": {
+        "$type": "color",
+        "$value": "{Gray.200}"
+      },
+      "two": {
+        "$type": "color",
+        "$value": "{Gray.100}"
+      },
+      "three": {
+        "$type": "color",
+        "$value": "{Gray.50}"
+      }
+    },
+    "selection": {
+      "$type": "color",
+      "$value": "{Gray.100}"
+    },
+    "input": {
+      "$type": "color",
+      "$value": "{Navy.25}"
+    },
+    "input-list-item": {
+      "hover": {
+        "primary": {
+          "$type": "color",
+          "$value": "{Gray.200}"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{Navy.50}"
+        }
+      }
+    },
+    " status": {
+      "success": {
+        "$type": "color",
+        "$value": "{Green.200}"
+      },
+      "error": {
+        "$type": "color",
+        "$value": "{Red.100}"
+      },
+      "informational": {
+        "$type": "color",
+        "$value": "{Cyan.800}"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{Sunset.250}"
+      }
+    },
+    "header": {
+      "$type": "color",
+      "$value": "{Gray.800}"
+    },
+    "interactive": {
+      "transparent": {
+        "$type": "color",
+        "$value": "{transparent}"
+      },
+      "primary": {
+        "$type": "color",
+        "$value": "{Blue.100}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{Blue-gray.100}"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{Navy.25}"
+      },
+      "hover": {
+        "primary": {
+          "$type": "color",
+          "$value": "{Blue.200}"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{Light-blue.100}"
+        },
+        "tertiary": {
+          "$type": "color",
+          "$value": "{Navy.100}"
+        }
+      },
+      "active": {
+        "$type": "color",
+        "$value": "{Light-blue.200}"
+      }
+    },
+    "surface": {
+      "overlay": {
+        "$type": "color",
+        "$value": "{Navy.25}"
+      },
+      "row": {
+        "$type": "color",
+        "$value": "{Gray.50}"
+      },
+      "row-hover": {
+        "$type": "color",
+        "$value": "{Navy.50}"
+      },
+      "row-selected": {
+        "$type": "color",
+        "$value": "{Cyan.100}"
+      }
+    },
+    "attention": {
+      "$type": "color",
+      "$value": "{Neutral.White}"
+    }
+  },
+  "text": {
+    "primary": {
+      "$type": "color",
+      "$value": "{Navy.700}",
+      "$description": "Checkbox, Radio Button, Switch,Slider, Text Field, Password Field, Number Field, Time Picker, Date Picker, Button Group, Button with Icon, Tooltip text, Accordion, Modal, Help Text, Tooltip, Severity, Tab, Data Grid, Data Table, Label / Value Pair, Pagination, Checkbox, Breadcrumb, Menu, Pagination, Tab, Chart, Toast, treeview, Tag: Default / Counter, System,"
+    },
+    "secondary": {
+      "$type": "color",
+      "$value": "{Navy.600}",
+      "$description": "Text Field, Password Field, Number Field, Time Picker, Date Picker, Modal, Help Text,severity, Data Grid, Data Table, Dropdown, password field, radio button instructional text, Slider"
+    },
+    "tertiary": {
+      "$type": "color",
+      "$value": "{Navy.700}",
+      "$description": "Tab, menu item, Slider"
+    },
+    "active": {
+      "$type": "color",
+      "$value": "{Blue.300}"
+    },
+    "hover": {
+      "$type": "color",
+      "$value": "{Blue.200}",
+      "$description": "Checkbox, Radio Button, Switch,Slider, Time Picker, Date Picker, buttonGroup, Tab, Toast, Text Link, Menu Trigger, Icon Button"
+    },
+    "error": {
+      "$type": "color",
+      "$value": "{Red.100}"
+    },
+    "interactive": {
+      "primary": {
+        "$type": "color",
+        "$value": "{Blue.100}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{Blue-gray.100}"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{Gray.25}"
+      },
+      "hover": {
+        "primary": {
+          "$type": "color",
+          "$value": "{Blue.200}"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{Blue.100}"
+        }
+      },
+      "secondary-hover": {
+        "$type": "color",
+        "$value": "{Blue-gray.200}"
+      }
+    },
+    "contrast": {
+      "primary": {
+        "$type": "color",
+        "$value": "{Neutral.White}"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{Navy.700}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{Gray.50}"
+      }
+    },
+    "legend": {
+      "disabled": {
+        "$type": "color",
+        "$value": "{Gray.400}"
+      }
+    },
+    "table": {
+      "header": {
+        "$type": "color",
+        "$value": "{Gray.25}"
+      }
+    }
+  },
+  "border": {
+    "primary": {
+      "$type": "color",
+      "$value": "{Gray.300}"
+    },
+    "secondary": {
+      "$type": "color",
+      "$value": "{Gray.400}"
+    },
+    "tertiary": {
+      "$type": "color",
+      "$value": "{Gray.800}"
+    },
+    "hover": {
+      "$type": "color",
+      "$value": "{Blue.200}"
+    },
+    "active": {
+      "$type": "color",
+      "$value": "{Cyan.800}"
+    },
+    "surface": {
+      "primary": {
+        "$type": "color",
+        "$value": "{Gray.300}",
+        "$description": "Modal, Help Text, Tooltip, Grid & Axis lines, Chart gridlines"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{Gray.300}",
+        "$description": "Pagination, Data Grid, Data Table"
+      }
+    },
+    "interactive": {
+      "primary": {
+        "$type": "color",
+        "$value": "{Blue.100}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{Navy.500}"
+      }
+    },
+    "error": {
+      "$type": "color",
+      "$value": "{Red.100}"
+    },
+    "outline": {
+      "focus": {
+        "$type": "color",
+        "$value": "{Orange.400}"
+      }
+    },
+    "data": {
+      "$type": "color",
+      "$value": "{Gray.300}"
+    }
+  },
+  "icon": {
+    "primary": {
+      "$type": "color",
+      "$value": "{Navy.500}"
+    },
+    "hover": {
+      "$type": "color",
+      "$value": "{Blue.200}"
+    },
+    "selection": {
+      "$type": "color",
+      "$value": "{Blue.100}"
+    },
+    "remove": {
+      "$type": "color",
+      "$value": "{Navy.500}"
+    },
+    "contrast": {
+      "$type": "color",
+      "$value": "{Black.50}"
+    },
+    "tertiary": {
+      "$type": "color",
+      "$value": "{Black.950}"
+    },
+    "secondary": {
+      "$type": "color",
+      "$value": "{Black.50}"
+    },
+    "error": {
+      "$type": "color",
+      "$value": "{Red.100}"
+    }
+  },
+  "severity": {
+    "critical": {
+      "$type": "color",
+      "$value": "{Rose.200}"
+    },
+    "high": {
+      "$type": "color",
+      "$value": "{Sunset.200}"
+    },
+    "moderate": {
+      "$type": "color",
+      "$value": "{Sunset.400}"
+    },
+    "low": {
+      "$type": "color",
+      "$value": "{Ocean.200}"
+    },
+    "none": {
+      "$type": "color",
+      "$value": "{Neutral.Ash}"
+    },
+    "undertermined": {
+      "$type": "color",
+      "$value": "{Stone.200}"
+    }
+  }
+}

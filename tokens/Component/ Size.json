@@ -1,0 +1,170 @@
+{
+  "data-grid": {
+    "default": {
+      "row": {
+        "height": {
+          "$type": "sizing",
+          "$value": "{size.42}"
+        }
+      }
+    },
+    "norecords": {
+      "row": {
+        "height": {
+          "$type": "sizing",
+          "$value": "{size.100}"
+        }
+      }
+    }
+  },
+  "chart": {
+    "tooltip": {
+      "container": {
+        "width": {
+          "$type": "sizing",
+          "$value": "{size.500}"
+        }
+      }
+    }
+  },
+  "pagination": {
+    "default": {
+      "container": {
+        "height": {
+          "$type": "sizing",
+          "$value": "{size.52}"
+        }
+      },
+      "button": {
+        "height": {
+          "$type": "sizing",
+          "$value": "{size.32}"
+        },
+        "width": {
+          "$type": "sizing",
+          "$value": "{size.32}"
+        }
+      }
+    }
+  },
+  "progress-indicator": {
+    "default": {
+      "fill": {
+        "line": {
+          "height": {
+            "$type": "sizing",
+            "$value": "{size.4}"
+          }
+        }
+      }
+    }
+  },
+  "radio-button": {
+    "default": {
+      "container": {
+        "list": {
+          "item": {
+            "$type": "sizing",
+            "$value": "{size.34}"
+          }
+        }
+      }
+    }
+  },
+  "severity": {
+    "default": {
+      "dot": {
+        "width": {
+          "$type": "sizing",
+          "$value": "{size.8}"
+        },
+        "height": {
+          "$type": "sizing",
+          "$value": "{size.8}"
+        }
+      }
+    }
+  },
+  "slider": {
+    "vertical": {
+      "container": {
+        "height": {
+          "$type": "sizing",
+          "$value": "{size.150}"
+        }
+      }
+    },
+    "horizontal": {
+      "container": {
+        "width": {
+          "$type": "sizing",
+          "$value": "{size.200}"
+        }
+      }
+    }
+  },
+  "tab": {
+    "icon": {
+      "height": {
+        "$type": "sizing",
+        "$value": "{size.20}"
+      },
+      "width": {
+        "$type": "sizing",
+        "$value": "{size.20}"
+      }
+    }
+  },
+  "text-field": {
+    "multiline": {
+      "inputbox": {
+        "height": {
+          "$type": "sizing",
+          "$value": "{size.72}"
+        }
+      }
+    }
+  },
+  "time-picker": {
+    "selected": {
+      "list": {
+        "height": {
+          "$type": "sizing",
+          "$value": "{size.28}"
+        }
+      }
+    }
+  },
+  "toast": {
+    "container": {
+      "width": {
+        "$type": "sizing",
+        "$value": "{size.480}"
+      }
+    }
+  },
+  "treeview": {
+    "leaf": {
+      "item": {
+        "height": {
+          "$type": "sizing",
+          "$value": "{size.51}"
+        }
+      },
+      "height": {
+        "$type": "sizing",
+        "$value": "{size.48}"
+      }
+    }
+  },
+  "tag": {
+    "container": {
+      "height": {
+        "sm": {
+          "$type": "sizing",
+          "$value": "{size.24}"
+        }
+      }
+    }
+  }
+}

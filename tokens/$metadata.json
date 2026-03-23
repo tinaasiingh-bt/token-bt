@@ -1,14 +1,24 @@
 {
   "tokenSetOrder": [
+    "Primitive/Color",
     "Primitive/Spacing",
     "Primitive/Border",
-    "Primitive/Color",
+    "Primitive/ Size",
+    "Primitive/Opacity",
+    "Primitive/ Shadow",
     "Primitive/Typography",
-    "Semantic/ Color",
+    "Semantic/ color mode/ light",
+    "Semantic/ color mode/ dark",
+    "Semantic/ Size",
+    "Semantic/ Border",
+    "Semantic/ Spacing",
+    "Semantic/  Opacity",
+    "Semantic/ Elevation",
     "Semantic/ Typography",
-    "Components/Color",
-    "Components/ Typography",
-    "Themes/Light Mode",
-    "Themes/Dark Mode"
+    "Component/ color mode/light",
+    "Component/ color mode/ dark",
+    "Component/ Border radius",
+    "Component/ Size",
+    "Component/ Spacing"
   ]
 }

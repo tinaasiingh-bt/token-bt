@@ -1,0 +1,138 @@
+{
+  "elevation": {
+    "none": {
+      "x": {
+        "$type": "x",
+        "$value": "{X.0}"
+      },
+      "y": {
+        "$type": "y",
+        "$value": "{Y.0}"
+      },
+      "blur": {
+        "$type": "blur",
+        "$value": "{blur.none}"
+      },
+      "spread": {
+        "$type": "spread",
+        "$value": "{spread.0}"
+      },
+      "color": {
+        "$type": "color",
+        "$value": "{transparent}"
+      },
+      "type": {
+        "$type": "type",
+        "$value": "dropShadow"
+      }
+    },
+    "container": {
+      "default": {
+        "x": {
+          "$type": "x",
+          "$value": "{X.0}"
+        },
+        "y": {
+          "$type": "y",
+          "$value": "{Y.1}"
+        },
+        "blur": {
+          "$type": "blur",
+          "$value": "{blur.100}"
+        },
+        "spread": {
+          "$type": "spread",
+          "$value": "{spread.0}"
+        },
+        "color": {
+          "$type": "color",
+          "$value": "{Black.400}"
+        },
+        "type": {
+          "$type": "type",
+          "$value": "dropShadow"
+        }
+      },
+      "elevated": {
+        "x": {
+          "$type": "x",
+          "$value": "{X.0}"
+        },
+        "y": {
+          "$type": "y",
+          "$value": "{Y.2}"
+        },
+        "blur": {
+          "$type": "blur",
+          "$value": "{blur.200}"
+        },
+        "spread": {
+          "$type": "spread",
+          "$value": "{spread.0}"
+        },
+        "color": {
+          "$type": "color",
+          "$value": "{Black.400}"
+        },
+        "type": {
+          "$type": "type",
+          "$value": "dropShadow"
+        }
+      }
+    },
+    "base": {
+      "x": {
+        "$type": "x",
+        "$value": "{X.0}"
+      },
+      "y": {
+        "$type": "y",
+        "$value": "{Y.4}"
+      },
+      "blur": {
+        "$type": "blur",
+        "$value": "{blur.300}"
+      },
+      "spread": {
+        "$type": "spread",
+        "$value": "{spread.0}"
+      },
+      "color": {
+        "$type": "color",
+        "$value": "{Black.400}"
+      },
+      "type": {
+        "$type": "type",
+        "$value": "dropShadow"
+      }
+    },
+    "overlay": {
+      "popover": {
+        "x": {
+          "$type": "x",
+          "$value": "{X.0}"
+        },
+        "y": {
+          "$type": "y",
+          "$value": "{Y.8}"
+        },
+        "blur": {
+          "$type": "blur",
+          "$value": "{blur.400}"
+        },
+        "spread": {
+          "$type": "spread",
+          "$value": "{spread.0}"
+        },
+        "color": {
+          "$type": "color",
+          "$value": "{Black.400}"
+        },
+        "type": {
+          "$type": "type",
+          "$value": "dropShadow"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "radius": {
+    "layout": {
+      "none": {
+        "$type": "borderRadius",
+        "$value": "{border.radius.none}"
+      },
+      "md": {
+        "$type": "borderRadius",
+        "$value": "{border.radius.md}"
+      },
+      "2xl": {
+        "$type": "borderRadius",
+        "$value": "{border.radius.2xl}"
+      }
+    },
+    "element": {
+      "none": {
+        "$type": "borderRadius",
+        "$value": "{border.radius.none}"
+      },
+      "sm": {
+        "$type": "borderRadius",
+        "$value": "{border.radius.sm}"
+      },
+      "md": {
+        "$type": "borderRadius",
+        "$value": "{border.radius.md}"
+      },
+      "5xl": {
+        "$type": "borderRadius",
+        "$value": "{border.radius.5xl}"
+      },
+      "xs": {
+        "$type": "borderRadius",
+        "$value": "{border.radius.xs}"
+      },
+      "2xs": {
+        "$type": "borderRadius",
+        "$value": "{border.radius.2xs}"
+      }
+    }
+  },
+  "border-width": {
+    "interactive": {
+      "none": {
+        "$type": "borderWidth",
+        "$value": "{border.width.none}"
+      },
+      "xs": {
+        "$type": "borderWidth",
+        "$value": "{border.width.xs}"
+      },
+      "sm": {
+        "$type": "borderWidth",
+        "$value": "{border.width.sm}"
+      },
+      "md": {
+        "$type": "borderWidth",
+        "$value": "{border.width.md}"
+      },
+      "lg": {
+        "$type": "borderWidth",
+        "$value": "{border.width.lg}"
+      }
+    },
+    "outline": {
+      "xs": {
+        "$type": "borderWidth",
+        "$value": "{border.width.sm}"
+      },
+      "sm": {
+        "$type": "borderWidth",
+        "$value": "{border.width.sm}"
+      },
+      "solid": {
+        "$type": "borderWidth",
+        "$value": "border-width.solid"
+      }
+    }
+  }
+}

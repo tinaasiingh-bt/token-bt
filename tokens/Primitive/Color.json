@@ -135,6 +135,10 @@
     "900": {
       "$type": "color",
       "$value": "#066c84"
+    },
+    "950": {
+      "$type": "color",
+      "$value": "#125667"
     }
   },
   "Orange": {
@@ -290,7 +294,7 @@
     },
     "300": {
       "$type": "color",
-      "$value": "#18568f"
+      "$value": "#18568F"
     }
   },
   "Blue-gray": {
@@ -307,7 +311,7 @@
       "$value": "#38597a"
     }
   },
-  "Light blue": {
+  "Light-blue": {
     "100": {
       "$type": "color",
       "$value": "#deeeff"
@@ -317,7 +321,7 @@
       "$value": "#d5e4f5"
     }
   },
-  "Sky blue": {
+  "Sky-blue": {
     "100": {
       "$type": "color",
       "$value": "#53b1fd"
@@ -329,9 +333,14 @@
     "300": {
       "$type": "color",
       "$value": "#4ca3ea"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "#60A5FA",
+      "$description": "Keyword / Constants (Dark)"
     }
   },
-  "Steel blue": {
+  "Steel-blue": {
     "100": {
       "$type": "color",
       "$value": "#48709a"
@@ -345,7 +354,7 @@
       "$value": "#41668c"
     }
   },
-  "Deep teal": {
+  "Deep-teal": {
     "100": {
       "$type": "color",
       "$value": "#034969"
@@ -365,7 +374,7 @@
       "$value": "#c6b539"
     }
   },
-  "Forest green": {
+  "Forest-green": {
     "100": {
       "$type": "color",
       "$value": "#ecfdf3"
@@ -377,6 +386,11 @@
     "300": {
       "$type": "color",
       "$value": "#035030"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "#065F46",
+      "$description": "Numbers (Light)"
     }
   },
   "Raspberry": {
@@ -444,5 +458,401 @@
       "$type": "color",
       "$value": "#a1a1a1"
     }
+  },
+  "transparent": {
+    "$extensions": {
+      "studio.tokens": {
+        "modify": {
+          "type": "alpha",
+          "value": "0",
+          "space": "lch"
+        }
+      }
+    },
+    "$type": "color",
+    "$value": "rgba(0,0,0,0)"
+  },
+  "Coral": {
+    "100": {
+      "$type": "color",
+      "$value": "#f44336"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#ff8178"
+    }
+  },
+  "Fuchsia": {
+    "100": {
+      "$type": "color",
+      "$value": "#e91e9b"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#e91e9b"
+    }
+  },
+  "Orchid": {
+    "100": {
+      "$type": "color",
+      "$value": "#9C27B0"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#B83DFF"
+    }
+  },
+  "Violet": {
+    "100": {
+      "$type": "color",
+      "$value": "#673AB7"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#BE99FF"
+    }
+  },
+  "Indigo": {
+    "100": {
+      "$type": "color",
+      "$value": "#3F51B5"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#B1BBF2"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "#1E40AF",
+      "$description": "Properties / Object Keys (Light)"
+    }
+  },
+  "Azure": {
+    "100": {
+      "$type": "color",
+      "$value": "#2196F3"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#69BCFF"
+    }
+  },
+  "Tangerine": {
+    "100": {
+      "$type": "color",
+      "$value": "#FF9800"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#FFBA54"
+    }
+  },
+  "Turquoise": {
+    "100": {
+      "$type": "color",
+      "$value": "#00BCD4"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#00E0FC"
+    }
+  },
+  "Amber": {
+    "100": {
+      "$type": "color",
+      "$value": "#FFC107"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#FFCE3B"
+    }
+  },
+  "Emerald": {
+    "100": {
+      "$type": "color",
+      "$value": "#4CAF50"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#67F06D"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "#047857",
+      "$description": "Functions / Functions 2 (Light)"
+    }
+  },
+  "Charcoal-blue": {
+    "100": {
+      "$type": "color",
+      "$value": "#25ABEA"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#4184A3"
+    }
+  },
+  "Cerulean": {
+    "100": {
+      "$type": "color",
+      "$value": "#03A9F4"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#9EE1FF"
+    }
+  },
+  "Golden": {
+    "100": {
+      "$type": "color",
+      "$value": "#FFEB3B"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#FAEC71"
+    }
+  },
+  "Ember": {
+    "100": {
+      "$type": "color",
+      "$value": "#FF5722"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#FF7F57"
+    }
+  },
+  "Ashen-gray": {
+    "100": {
+      "$type": "color",
+      "$value": "#858383"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#9E9E9E"
+    }
+  },
+  "Aqua": {
+    "100": {
+      "$type": "color",
+      "$value": "#7FD3FA"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#C7EAF9"
+    }
+  },
+  "Lime": {
+    "100": {
+      "$type": "color",
+      "$value": "#8BC34A"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#ADF25C"
+    }
+  },
+  "Citrus-lime": {
+    "100": {
+      "$type": "color",
+      "$value": "#CDDC39"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#EEFF42"
+    }
+  },
+  "Teal": {
+    "100": {
+      "$type": "color",
+      "$value": "#009688"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#00EDD7"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "#0E7490",
+      "$description": "Class Names (Light)"
+    }
+  },
+  "blue-rgba": {
+    "50": {
+      "$type": "color",
+      "$value": "rgb(28 99 165 / 50%)"
+    }
+  },
+  "sky-blue": {
+    "rgba": {
+      "50": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "mix",
+              "value": "0",
+              "space": "lch",
+              "color": "rgb(83 177 253 / 50%)"
+            }
+          }
+        },
+        "$type": "color",
+        "$value": "rgb(83 177 253 / 50%)"
+      }
+    }
+  },
+  "Slate": {
+    "rgba": {
+      "$extensions": {
+        "studio.tokens": {
+          "modify": {
+            "type": "mix",
+            "value": "0",
+            "space": "lch",
+            "color": "rgb(66 85 99 / 25%)"
+          }
+        }
+      },
+      "$type": "color",
+      "$value": "#rgb(66 85 99 / 25%)"
+    }
+  },
+  "slate": {
+    "rgba": {
+      "08": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "mix",
+              "value": "0",
+              "space": "lch",
+              "color": "rgb(66 85 99 / 8%)"
+            }
+          }
+        },
+        "$type": "color",
+        "$value": "#"
+      }
+    }
+  },
+  "Royal-blue": {
+    "$type": "color",
+    "$value": "#1D4ED8",
+    "$description": "Constants (Light)"
+  },
+  "Deep blue": {
+    "$type": "color",
+    "$value": "#2563EB",
+    "$description": "Variables (Light)"
+  },
+  "vivid blue": {
+    "$type": "color",
+    "$value": "#3B82F6",
+    "$description": "Keyword (Light)"
+  },
+  "soft cyan": {
+    "$type": "color",
+    "$value": "#9CDCFE",
+    "$description": "Variables (Dark)"
+  },
+  "baby blue": {
+    "$type": "color",
+    "$value": "#93C5FD",
+    "$description": "Properties / Object Keys (Dark)"
+  },
+  "teal blue": {
+    "$type": "color",
+    "$value": "#0E7490",
+    "$description": "Class Names (Light)"
+  },
+  "Ice blue": {
+    "$type": "color",
+    "$value": "#67E8F9",
+    "$description": "Class Names (Dark)"
+  },
+  "Mint green": {
+    "$type": "color",
+    "$value": "#34D399",
+    "$description": "Numbers (Dark)"
+  },
+  "Aquamarine": {
+    "$type": "color",
+    "$value": "#6EE7B7",
+    "$description": "Functions (Dark)"
+  },
+  "Sand beige": {
+    "$type": "color",
+    "$value": "#DCDCAA",
+    "$description": "Functions 2 (Dark)"
+  },
+  "amber brown": {
+    "$type": "color",
+    "$value": "#B45309",
+    "$description": "Strings (Light)"
+  },
+  "Golden yellow": {
+    "$type": "color",
+    "$value": "#FACC15",
+    "$description": "Strings (Dark)"
+  },
+  "Copper rose": {
+    "$type": "color",
+    "$value": "#C08269",
+    "$description": "Template Literals (Light)"
+  },
+  "Pale peach": {
+    "$type": "color",
+    "$value": "#E4A991",
+    "$description": "Template Literals (Dark)"
+  },
+  "Crimson red": {
+    "$type": "color",
+    "$value": "#B91C1C",
+    "$description": "Boolean Values (Light)"
+  },
+  "Coral pink": {
+    "$type": "color",
+    "$value": "#F87171",
+    "$description": "Boolean Values (Dark)"
+  },
+  "Magenta": {
+    "$type": "color",
+    "$value": "#F72CD2",
+    "$description": "Arrow Function (Light/Dark)"
+  },
+  "Electric purple": {
+    "$type": "color",
+    "$value": "#9333EA",
+    "$description": "Line (Light)"
+  },
+  "Lavender": {
+    "$type": "color",
+    "$value": "#C084FC",
+    "$description": "Line (Dark)"
+  },
+  "Slate gray": {
+    "$type": "color",
+    "$value": "#374151",
+    "$description": "Operators (Light)"
+  },
+  "Graphite gray": {
+    "$type": "color",
+    "$value": "#6B7280",
+    "$description": "Comments (Light)"
+  },
+  "Cool gray": {
+    "$type": "color",
+    "$value": "#9CA3AF",
+    "$description": "Operators / Comments (Dark)"
+  },
+  "Charcoal": {
+    "$type": "color",
+    "$value": "#343434",
+    "$description": "Line 2 (Light)"
+  },
+  "Warm gray": {
+    "$type": "color",
+    "$value": "#BBB4B4",
+    "$description": "Line 2 (Dark)"
   }
 }

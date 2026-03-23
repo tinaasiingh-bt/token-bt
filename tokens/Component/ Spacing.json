@@ -1,0 +1,148 @@
+{
+  "accordion": {
+    "content": {
+      "padding": {
+        "11xl": {
+          "$type": "spacing",
+          "$value": "{spacing.11xl}"
+        }
+      }
+    }
+  },
+  "help-text": {
+    "default": {
+      "content": {
+        "margin": {
+          "negative": {
+            "8xs": {
+              "$type": "spacing",
+              "$value": "{spacing.negative.8xs}"
+            }
+          }
+        },
+        "padding": {
+          "none": {
+            "$type": "spacing",
+            "$value": "{spacing.none}"
+          }
+        }
+      }
+    }
+  },
+  "menu": {
+    "default": {
+      "menu-popup": {
+        "margin": {
+          "3xs": {
+            "$type": "spacing",
+            "$value": "{spacing.3xs}"
+          }
+        }
+      }
+    }
+  },
+  "radio-button": {
+    "default": {
+      "instructional": {
+        "margin": {
+          "4xs": {
+            "$type": "spacing",
+            "$value": "{spacing.negative.4xs}"
+          }
+        }
+      }
+    }
+  },
+  "slider": {
+    "vertical": {
+      "tick": {
+        "gap": {
+          "$type": "spacing",
+          "$value": "{spacing.sm}"
+        }
+      }
+    },
+    "horizontal": {
+      "margin": {
+        "2xl": {
+          "$type": "spacing",
+          "$value": "{spacing.2xl}"
+        }
+      }
+    }
+  },
+  "tab": {
+    "active": {
+      "item": {
+        "margin": {
+          "negative": {
+            "3xs": {
+              "$type": "spacing",
+              "$value": "{spacing.negative.3xs}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tag": {
+    "block": {
+      "container": {
+        "popup": {
+          "margin": {
+            "$type": "spacing",
+            "$value": "{spacing.negative.8xs}"
+          }
+        }
+      }
+    }
+  },
+  "treeview": {
+    "toggle": {
+      "margin": {
+        "negative": {
+          "12xs": {
+            "$type": "spacing",
+            "$value": "{spacing.negative.12xs}"
+          }
+        }
+      }
+    },
+    "left": {
+      "text": {
+        "margin": {
+          "lg": {
+            "$type": "spacing",
+            "$value": "{spacing.lg}"
+          }
+        }
+      }
+    },
+    "leaf": {
+      "container": {
+        "margin": {
+          "3xl": {
+            "$type": "spacing",
+            "$value": "{spacing.3xl}"
+          }
+        }
+      }
+    }
+  },
+  "time-picker": {
+    "text-button": {
+      "gap": {
+        "$type": "spacing",
+        "$value": "{spacing.8xl}"
+      }
+    }
+  },
+  "tooltip": {
+    "content": {
+      "gap": {
+        "$type": "spacing",
+        "$value": "{spacing.lg}"
+      }
+    }
+  }
+}

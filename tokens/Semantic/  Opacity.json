@@ -1,0 +1,21 @@
+{
+  "opacity": {
+    "surface": {
+      "hidden": {
+        "$type": "opacity",
+        "$value": "{opacity.0}",
+        "$description": "fully transparent (0%), making the color invisible"
+      },
+      "disabled": {
+        "$type": "opacity",
+        "$value": "{opacity.50}",
+        "$description": "50% opacity, making the color semi-transparent"
+      },
+      "visible": {
+        "$type": "opacity",
+        "$value": "{opacity.100}",
+        "$description": "fully opaque (100%)"
+      }
+    }
+  }
+}

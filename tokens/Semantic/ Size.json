@@ -1,0 +1,144 @@
+{
+  "size": {
+    "width": {
+      "none": {
+        "$type": "sizing",
+        "$value": "{size.0}"
+      },
+      "4xs": {
+        "$type": "sizing",
+        "$value": "{size.10}"
+      },
+      "3xs": {
+        "$type": "sizing",
+        "$value": "{size.26}"
+      },
+      "2xs": {
+        "$type": "sizing",
+        "$value": "{size.44}"
+      },
+      "xs": {
+        "$type": "sizing",
+        "$value": "{size.90}"
+      },
+      "sm": {
+        "$type": "sizing",
+        "$value": "{size.140}"
+      },
+      "md": {
+        "$type": "sizing",
+        "$value": "{size.200}"
+      },
+      "lg": {
+        "$type": "sizing",
+        "$value": "{size.240}"
+      },
+      "xl": {
+        "$type": "sizing",
+        "$value": "{size.288}"
+      },
+      "2xl": {
+        "$type": "sizing",
+        "$value": "{size.384}"
+      },
+      "4xl": {
+        "$type": "sizing",
+        "$value": "{size.450}"
+      },
+      "3xl": {
+        "$type": "sizing",
+        "$value": "{size.400}"
+      },
+      "5xl": {
+        "$type": "sizing",
+        "$value": "{size.600}"
+      },
+      "full": {
+        "$type": "sizing",
+        "$value": "{size.100}"
+      }
+    },
+    "height": {
+      "xs": {
+        "$type": "sizing",
+        "$value": "{size.4}"
+      },
+      "sm": {
+        "$type": "sizing",
+        "$value": "{size.10}"
+      },
+      "md": {
+        "$type": "sizing",
+        "$value": "{size.22}"
+      },
+      "lg": {
+        "$type": "sizing",
+        "$value": "{size.28}"
+      },
+      "xl": {
+        "$type": "sizing",
+        "$value": "{size.32}"
+      },
+      "2xl": {
+        "$type": "sizing",
+        "$value": "{size.36}"
+      },
+      "3xl": {
+        "$type": "sizing",
+        "$value": "{size.42}"
+      },
+      "4xl": {
+        "$type": "sizing",
+        "$value": "{size.48}"
+      },
+      "full": {
+        "$type": "sizing",
+        "$value": "{size.100}"
+      },
+      "none": {
+        "$type": "sizing",
+        "$value": "{size.0}"
+      }
+    },
+    "interactive": {
+      "xs": {
+        "$type": "sizing",
+        "$value": "{size.16}"
+      },
+      "sm": {
+        "$type": "sizing",
+        "$value": "{size.18}"
+      },
+      "md": {
+        "$type": "sizing",
+        "$value": "{size.20}"
+      },
+      "lg": {
+        "$type": "sizing",
+        "$value": "{size.24}"
+      },
+      "xl": {
+        "$type": "sizing",
+        "$value": "{size.48}"
+      }
+    },
+    "icon": {
+      "xs": {
+        "$type": "sizing",
+        "$value": "{size.16}"
+      },
+      "sm": {
+        "$type": "sizing",
+        "$value": "{size.24}"
+      },
+      "md": {
+        "$type": "sizing",
+        "$value": "{size.48}"
+      },
+      "lg": {
+        "$type": "sizing",
+        "$value": "{size.64}"
+      }
+    }
+  }
+}
