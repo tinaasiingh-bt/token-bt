@@ -1,38 +1,20 @@
 {
   "size": {
     "width": {
-      "xs": {
+      "none": {
+        "value": "{size.0}",
+        "type": "sizing"
+      },
+      "4xs": {
         "value": "{size.10}",
         "type": "sizing"
       },
-      "sm": {
+      "3xs": {
         "value": "{size.26}",
         "type": "sizing"
       },
-      "md": {
+      "2xs": {
         "value": "{size.44}",
-        "type": "sizing"
-      },
-      "lg": {
-        "value": "{size.140}",
-        "type": "sizing"
-      },
-      "xl": {
-        "value": "{size.384}",
-        "type": "sizing"
-      },
-      "2xl": {
-        "value": "{size.450}",
-        "type": "sizing"
-      },
-      "full": {
-        "value": "{size.full}",
-        "type": "sizing"
-      }
-    },
-    "min-width": {
-      "none": {
-        "value": "{size.0}",
         "type": "sizing"
       },
       "xs": {
@@ -40,28 +22,34 @@
         "type": "sizing"
       },
       "sm": {
+        "value": "{size.140}",
+        "type": "sizing"
+      },
+      "md": {
         "value": "{size.200}",
         "type": "sizing"
       },
-      "md": {
+      "lg": {
         "value": "{size.240}",
         "type": "sizing"
       },
-      "lg": {
+      "xl": {
         "value": "{size.288}",
         "type": "sizing"
-      }
-    },
-    "max-width": {
-      "xs": {
-        "value": "{size.210}",
+      },
+      "2xl": {
+        "value": "{size.384}",
         "type": "sizing"
       },
-      "sm": {
+      "4xl": {
+        "value": "{size.450}",
+        "type": "sizing"
+      },
+      "3xl": {
         "value": "{size.400}",
         "type": "sizing"
       },
-      "md": {
+      "5xl": {
         "value": "{size.600}",
         "type": "sizing"
       },
@@ -106,15 +94,9 @@
       "full": {
         "value": "{size.100}",
         "type": "sizing"
-      }
-    },
-    "min-height": {
+      },
       "none": {
         "value": "{size.0}",
-        "type": "sizing"
-      },
-      "xs": {
-        "value": "{size.22}",
         "type": "sizing"
       }
     },

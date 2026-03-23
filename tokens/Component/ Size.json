@@ -30,7 +30,7 @@
   "pagination": {
     "default": {
       "container": {
-        "min-height": {
+        "height": {
           "value": "{size.52}",
           "type": "sizing"
         }
@@ -88,7 +88,7 @@
   "slider": {
     "vertical": {
       "container": {
-        "min-height": {
+        "height": {
           "value": "{size.150}",
           "type": "sizing"
         }
@@ -96,28 +96,14 @@
     },
     "horizontal": {
       "container": {
-        "min-width": {
+        "width": {
           "value": "{size.200}",
           "type": "sizing"
         }
       }
     }
   },
-  "switch": {
-    "default": {
-      "container": {
-        "width": {
-          "value": "{size.44}",
-          "type": "sizing"
-        },
-        "height": {
-          "value": "{size.22}",
-          "type": "sizing"
-        }
-      }
-    }
-  },
-  "tabs": {
+  "tab": {
     "icon": {
       "height": {
         "value": "{size.20}",
@@ -151,12 +137,8 @@
   },
   "toast": {
     "container": {
-      "max-width": {
+      "width": {
         "value": "{size.480}",
-        "type": "sizing"
-      },
-      "min-width": {
-        "value": "{size.280}",
         "type": "sizing"
       }
     }
@@ -164,7 +146,7 @@
   "treeview": {
     "leaf": {
       "item": {
-        "min-height": {
+        "height": {
           "value": "{size.51}",
           "type": "sizing"
         }
@@ -175,26 +157,10 @@
       }
     }
   },
-  "button": {
-    "min-height": {
-      "value": "{size.36}",
-      "type": "sizing"
-    }
-  },
-  "number-field": {
-    "input": {
-      "box": {
-        "width": {
-          "value": "{size.120}",
-          "type": "sizing"
-        }
-      }
-    }
-  },
   "tag": {
-    "sm": {
-      "container": {
-        "height": {
+    "container": {
+      "height": {
+        "sm": {
           "value": "{size.24}",
           "type": "sizing"
         }

@@ -82,18 +82,24 @@
     },
     "style": {
       "dashed": {
-        "value": {
-          "style": "dashed",
-          "width": "{border.width.xs}"
+        "style": {
+          "value": "dashed",
+          "type": "strokeStyle"
         },
-        "type": "border"
+        "width": {
+          "value": "{border.width.xs}",
+          "type": "dimension"
+        }
       },
       "solid": {
-        "value": {
-          "style": "solid",
-          "width": "{border.width.xs}"
+        "style": {
+          "value": "solid",
+          "type": "strokeStyle"
         },
-        "type": "border"
+        "width": {
+          "value": "{border.width.xs}",
+          "type": "dimension"
+        }
       }
     }
   }

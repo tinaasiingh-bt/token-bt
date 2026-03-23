@@ -1,51 +1,9 @@
 {
   "accordion": {
-    "icon": {
-      "margin": {
-        "top": {
-          "value": "{spacing.xs}",
-          "type": "spacing"
-        }
-      }
-    },
     "content": {
-      "margin": {
-        "left": {
-          "value": "{spacing.11xl}",
-          "type": "spacing"
-        }
-      }
-    }
-  },
-  "data-grid": {
-    "list": {
-      "checkbox": {
-        "instructional": {
-          "margin": {
-            "left": {
-              "value": "{spacing.9xl}",
-              "type": "spacing"
-            }
-          }
-        }
-      },
-      "menu": {
-        "tem": {
-          "list": {
-            "padding": {
-              "block": {
-                "value": "{spacing.sm}",
-                "type": "spacing"
-              }
-            }
-          }
-        }
-      }
-    },
-    "norecords": {
       "padding": {
-        "block": {
-          "value": "{spacing.5xl}",
+        "11xl": {
+          "value": "{spacing.11xl}",
           "type": "spacing"
         }
       }
@@ -53,15 +11,17 @@
   },
   "help-text": {
     "default": {
-      "body": {
+      "content": {
         "margin": {
-          "bottom": {
-            "value": "{spacing.negative.8xs}",
-            "type": "spacing"
+          "negative": {
+            "8xs": {
+              "value": "{spacing.negative.8xs}",
+              "type": "spacing"
+            }
           }
         },
         "padding": {
-          "bottom": {
+          "none": {
             "value": "{spacing.none}",
             "type": "spacing"
           }
@@ -71,9 +31,9 @@
   },
   "menu": {
     "default": {
-      "menu-container": {
+      "menu-popup": {
         "margin": {
-          "top": {
+          "3xs": {
             "value": "{spacing.3xs}",
             "type": "spacing"
           }
@@ -81,47 +41,11 @@
       }
     }
   },
-  "modal": {
-    "default": {
-      "container": {
-        "padding": {
-          "top": {
-            "value": "{spacing.5xl}",
-            "type": "spacing"
-          }
-        }
-      }
-    }
-  },
-  "progress-indicator": {
-    "within": {
-      "button": {
-        "container": {
-          "value": "{spacing.lg}",
-          "type": "spacing"
-        }
-      }
-    }
-  },
   "radio-button": {
     "default": {
-      "circle": {
-        "margin": {
-          "top": {
-            "value": "{spacing.md}",
-            "type": "spacing"
-          }
-        }
-      },
-      "label": {
-        "margin-top": {
-          "value": "{spacing.md}",
-          "type": "spacing"
-        }
-      },
       "instructional": {
         "margin": {
-          "top": {
+          "4xs": {
             "value": "{spacing.negative.4xs}",
             "type": "spacing"
           }
@@ -129,32 +53,8 @@
       }
     }
   },
-  "severity": {
-    "default": {
-      "dot": {
-        "margin-left": {
-          "value": "{spacing.4xs}",
-          "type": "spacing"
-        },
-        "margin-right": {
-          "value": "{spacing.4xs}",
-          "type": "spacing"
-        }
-      }
-    }
-  },
   "slider": {
     "vertical": {
-      "margin": {
-        "top": {
-          "value": "{spacing.xl}",
-          "type": "spacing"
-        },
-        "left": {
-          "value": "{spacing.sm}",
-          "type": "spacing"
-        }
-      },
       "tick": {
         "gap": {
           "value": "{spacing.sm}",
@@ -164,45 +64,19 @@
     },
     "horizontal": {
       "margin": {
-        "bottom": {
+        "2xl": {
           "value": "{spacing.2xl}",
           "type": "spacing"
         }
       }
-    },
-    "container": {
-      "value": "{spacing.xl}",
-      "type": "spacing"
     }
   },
   "tab": {
-    "icon": {
-      "padding": {
-        "right": {
-          "value": "{spacing.xs}",
-          "type": "spacing"
-        }
-      }
-    },
-    "horizontal": {
-      "active": {
-        "item": {
-          "margin": {
-            "top": {
-              "value": "{spacing.negative.3xs}",
-              "type": "spacing"
-            }
-          }
-        }
-      }
-    }
-  },
-  "tabs": {
-    "vertical": {
-      "active": {
-        "item": {
-          "margin": {
-            "bottom": {
+    "active": {
+      "item": {
+        "margin": {
+          "negative": {
+            "3xs": {
               "value": "{spacing.negative.3xs}",
               "type": "spacing"
             }
@@ -212,22 +86,6 @@
     }
   },
   "tag": {
-    "container": {
-      "padding": {
-        "inline": {
-          "value": "{spacing.2xs}",
-          "type": "spacing"
-        }
-      },
-      "container": {
-        "margin": {
-          "inline": {
-            "value": "{spacing.3xs}",
-            "type": "spacing"
-          }
-        }
-      }
-    },
     "block": {
       "container": {
         "popup": {
@@ -239,70 +97,34 @@
       }
     }
   },
-  "text-field": {
-    "default": {
-      "inputbox": {
-        "padding": {
-          "block": {
-            "value": "{spacing.xs}",
-            "type": "spacing"
-          }
-        }
-      }
-    }
-  },
-  "toast": {
-    "default": {
-      "button": {
-        "margin-top": {
-          "value": "{spacing.5xs}",
-          "type": "spacing"
-        },
-        "margin": {
-          "left": {
-            "value": "{spacing.xl}",
-            "type": "spacing"
-          }
-        }
-      }
-    },
-    "content": {
-      "gap": {
-        "value": "{spacing.xl}",
-        "type": "spacing"
-      }
-    }
-  },
   "treeview": {
-    "toogle": {
-      "margin-left": {
-        "value": "{spacing.negative.12xs}",
-        "type": "spacing"
+    "toggle": {
+      "margin": {
+        "negative": {
+          "12xs": {
+            "value": "{spacing.negative.12xs}",
+            "type": "spacing"
+          }
+        }
       }
     },
     "left": {
       "text": {
-        "margin-left": {
-          "value": "{spacing.lg}",
-          "type": "spacing"
+        "margin": {
+          "lg": {
+            "value": "{spacing.lg}",
+            "type": "spacing"
+          }
         }
       }
     },
     "leaf": {
       "container": {
-        "margin-left": {
-          "value": "{spacing.3xl}",
-          "type": "spacing"
-        }
-      }
-    }
-  },
-  "breadcrumb": {
-    "label": {
-      "icon": {
-        "spacing": {
-          "value": "{spacing.xl}",
-          "type": "spacing"
+        "margin": {
+          "3xl": {
+            "value": "{spacing.3xl}",
+            "type": "spacing"
+          }
         }
       }
     }
