@@ -2,10 +2,8 @@
   "accordion": {
     "content": {
       "padding": {
-        "11xl": {
-          "value": "{spacing.11xl}",
-          "type": "spacing"
-        }
+        "value": "{spacing.11xl}",
+        "type": "spacing"
       }
     }
   },
@@ -14,10 +12,8 @@
       "content": {
         "margin": {
           "negative": {
-            "8xs": {
-              "value": "{spacing.negative.8xs}",
-              "type": "spacing"
-            }
+            "value": "{spacing.negative.8xs}",
+            "type": "spacing"
           }
         },
         "padding": {
@@ -33,10 +29,8 @@
     "default": {
       "menu-popup": {
         "margin": {
-          "3xs": {
-            "value": "{spacing.3xs}",
-            "type": "spacing"
-          }
+          "value": "{spacing.3xs}",
+          "type": "spacing"
         }
       }
     }
@@ -45,29 +39,17 @@
     "default": {
       "instructional": {
         "margin": {
-          "4xs": {
-            "value": "{spacing.negative.4xs}",
-            "type": "spacing"
-          }
+          "value": "{spacing.negative.4xs}",
+          "type": "spacing"
         }
       }
     }
   },
   "slider": {
-    "vertical": {
-      "tick": {
-        "gap": {
-          "value": "{spacing.sm}",
-          "type": "spacing"
-        }
-      }
-    },
     "horizontal": {
       "margin": {
-        "2xl": {
-          "value": "{spacing.2xl}",
-          "type": "spacing"
-        }
+        "value": "{spacing.2xl}",
+        "type": "spacing"
       }
     }
   },
@@ -76,10 +58,8 @@
       "item": {
         "margin": {
           "negative": {
-            "3xs": {
-              "value": "{spacing.negative.3xs}",
-              "type": "spacing"
-            }
+            "value": "{spacing.negative.3xs}",
+            "type": "spacing"
           }
         }
       }
@@ -101,30 +81,24 @@
     "toggle": {
       "margin": {
         "negative": {
-          "12xs": {
-            "value": "{spacing.negative.12xs}",
-            "type": "spacing"
-          }
+          "value": "{spacing.negative.12xs}",
+          "type": "spacing"
         }
       }
     },
     "left": {
       "text": {
         "margin": {
-          "lg": {
-            "value": "{spacing.lg}",
-            "type": "spacing"
-          }
+          "value": "{spacing.lg}",
+          "type": "spacing"
         }
       }
     },
     "leaf": {
       "container": {
         "margin": {
-          "3xl": {
-            "value": "{spacing.3xl}",
-            "type": "spacing"
-          }
+          "value": "{spacing.3xl}",
+          "type": "spacing"
         }
       }
     }

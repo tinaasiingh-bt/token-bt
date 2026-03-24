@@ -61,12 +61,10 @@
   },
   "radio-button": {
     "default": {
-      "container": {
-        "list": {
-          "item": {
-            "value": "{size.34}",
-            "type": "sizing"
-          }
+      "listitem": {
+        "height": {
+          "value": "{size.34}",
+          "type": "sizing"
         }
       }
     }
@@ -97,7 +95,7 @@
     "horizontal": {
       "container": {
         "width": {
-          "value": "{size.200}",
+          "value": "{size.150}",
           "type": "sizing"
         }
       }
