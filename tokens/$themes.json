@@ -1,8 +1,7 @@
 [
   {
     "id": "0de9b16ee1676e97552cbbc943fae6fc1fa85fc7",
-    "name": "Typography",
-    "group": "Primitive",
+    "name": "mode",
     "selectedTokenSets": {
       "Primitive/Color": "enabled",
       "Primitive/Spacing": "enabled",
@@ -779,7 +778,8 @@
       "text.line-height.card.xs": "ee224415eee606f54746e236bbddb39fca394de5"
     },
     "$figmaCollectionId": "VariableCollectionId:7188:9471",
-    "$figmaModeId": "8704:0"
+    "$figmaModeId": "8704:0",
+    "group": "Primitive"
   },
   {
     "id": "6564e3eea7c74be2003bb10ce5d4e0f75543d3c1",
