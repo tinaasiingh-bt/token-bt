@@ -892,10 +892,6 @@
     "description": "Line 2 (Dark)"
   },
   "Peach": {
-    "50": {
-      "value": "#ffe6d9",
-      "type": "color"
-    },
     "200": {
       "value": "#a6420d",
       "type": "color"
