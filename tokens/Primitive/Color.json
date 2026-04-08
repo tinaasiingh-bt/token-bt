@@ -322,6 +322,10 @@
     }
   },
   "Sky-blue": {
+    "50": {
+      "value": "#d9ecff",
+      "type": "color"
+    },
     "100": {
       "value": "#53b1fd",
       "type": "color"
@@ -338,6 +342,14 @@
       "value": "#60A5FA",
       "type": "color",
       "description": "Keyword / Constants (Dark)"
+    },
+    "500": {
+      "value": "#6ba5e0",
+      "type": "color"
+    },
+    "600": {
+      "value": "#17719b",
+      "type": "color"
     }
   },
   "Steel-blue": {
@@ -854,5 +866,25 @@
     "value": "#BBB4B4",
     "type": "color",
     "description": "Line 2 (Dark)"
+  },
+  "Peach": {
+    "50": {
+      "value": "#ffe6d9",
+      "type": "color"
+    },
+    "200": {
+      "value": "#a6420d",
+      "type": "color"
+    }
+  },
+  "Gold": {
+    "50": {
+      "value": "#ffefba",
+      "type": "color"
+    },
+    "200": {
+      "value": "#795f0a",
+      "type": "color"
+    }
   }
 }
