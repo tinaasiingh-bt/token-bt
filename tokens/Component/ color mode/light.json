@@ -54,15 +54,15 @@
           "color": {
             "value": "{Orange.900}",
             "type": "color"
-          }
+          },
+          "value": "{Rose.35}",
+          "type": "color"
         }
       },
       "default": {
         "background": {
-          "color": {
-            "value": "{Red.100}",
-            "type": "color"
-          }
+          "value": "{Red.100}",
+          "type": "color"
         }
       },
       "hover": {
@@ -70,7 +70,15 @@
           "color": {
             "value": "{Orange.800}",
             "type": "color"
-          }
+          },
+          "value": "{Rose.30}",
+          "type": "color"
+        }
+      },
+      "focus": {
+        "background": {
+          "value": "{Rose.30}",
+          "type": "color"
         }
       }
     },

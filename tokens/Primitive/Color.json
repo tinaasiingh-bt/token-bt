@@ -424,6 +424,16 @@
       "value": "#ffedef",
       "type": "color"
     },
+    "30": {
+      "value": "#f9e5e8",
+      "type": "color",
+      "description": "Hover + focus bg (light)"
+    },
+    "35": {
+      "value": "#ffd9de",
+      "type": "color",
+      "description": "Pressed bg (light)"
+    },
     "100": {
       "value": "#fe5666",
       "type": "color"
@@ -431,6 +441,16 @@
     "200": {
       "value": "#8c2000",
       "type": "color"
+    },
+    "250": {
+      "value": "#4d282c",
+      "type": "color",
+      "description": "Hover + focus bg (dark)"
+    },
+    "275": {
+      "value": "#50292d",
+      "type": "color",
+      "description": "Pressed bg (dark)"
     }
   },
   "Sunset": {
