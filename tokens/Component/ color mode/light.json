@@ -51,6 +51,8 @@
     "danger": {
       "active": {
         "background": {
+          "value": "{Rose.35}",
+          "type": "color",
           "color": {
             "value": "{Orange.900}",
             "type": "color"
@@ -59,18 +61,24 @@
       },
       "default": {
         "background": {
-          "color": {
-            "value": "{Red.100}",
-            "type": "color"
-          }
+          "value": "{Red.100}",
+          "type": "color"
         }
       },
       "hover": {
         "background": {
+          "value": "{Rose.30}",
+          "type": "color",
           "color": {
             "value": "{Orange.800}",
             "type": "color"
           }
+        }
+      },
+      "focus": {
+        "background": {
+          "value": "{Rose.30}",
+          "type": "color"
         }
       }
     },
@@ -128,6 +136,85 @@
           "color": {
             "value": "{Blue.300}",
             "type": "color"
+          }
+        }
+      }
+    },
+    "danger-icon": {
+      "default": {
+        "background": {
+          "value": "{transparent}",
+          "type": "color",
+          "description": "Danger icon button — default state (transparent)"
+        },
+        "icon": {
+          "color": {
+            "value": "{Red.100}",
+            "type": "color",
+            "description": "Danger icon button — icon color default"
+          }
+        }
+      },
+      "hover": {
+        "background": {
+          "value": "{Rose.30}",
+          "type": "color",
+          "description": "Danger icon button — hover state background"
+        },
+        "icon": {
+          "color": {
+            "value": "{Red.100}",
+            "type": "color",
+            "description": "Danger icon button — icon color on hover"
+          }
+        }
+      },
+      "focus": {
+        "background": {
+          "value": "{Rose.30}",
+          "type": "color",
+          "description": "Danger icon button — focus state background"
+        },
+        "border": {
+          "color": {
+            "value": "{Orange.400}",
+            "type": "color",
+            "description": "Danger icon button — focus ring color"
+          }
+        },
+        "icon": {
+          "color": {
+            "value": "{Red.100}",
+            "type": "color",
+            "description": "Danger icon button — icon color on focus"
+          }
+        }
+      },
+      "active": {
+        "background": {
+          "value": "{Rose.35}",
+          "type": "color",
+          "description": "Danger icon button — pressed/active state background"
+        },
+        "icon": {
+          "color": {
+            "value": "{Red.100}",
+            "type": "color",
+            "description": "Danger icon button — icon color on active"
+          }
+        }
+      },
+      "disabled": {
+        "background": {
+          "value": "{transparent}",
+          "type": "color",
+          "description": "Danger icon button — disabled state (transparent + opacity)"
+        },
+        "icon": {
+          "color": {
+            "value": "{Red.100}",
+            "type": "color",
+            "description": "Danger icon button — icon color disabled (with opacity layer)"
           }
         }
       }
@@ -369,6 +456,149 @@
         "color": {
           "value": "{Black.950}",
           "type": "color"
+        }
+      }
+    },
+    "color": {
+      "1": {
+        "prominent": {
+          "fill": {
+            "value": "{Rose.200}",
+            "type": "color",
+            "description": "color/1/prominent/fill"
+          }
+        },
+        "subtle": {
+          "fill": {
+            "value": "{Rose.25}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{Red.100}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{Red.100}",
+            "type": "color"
+          }
+        }
+      },
+      "2": {
+        "prominent": {
+          "fill": {
+            "value": "{Sunset.400}",
+            "type": "color"
+          }
+        },
+        "subtle": {
+          "fill": {
+            "value": "{Orange.50}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{Peach.200}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{Peach.200}",
+            "type": "color"
+          }
+        }
+      },
+      "3": {
+        "prominent": {
+          "fill": {
+            "value": "{Sunset.200}",
+            "type": "color"
+          }
+        },
+        "subtle": {
+          "fill": {
+            "value": "{Gold.50}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{Gold.200}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{Gold.200}",
+            "type": "color"
+          }
+        }
+      },
+      "4": {
+        "prominent": {
+          "fill": {
+            "value": "{Green.200}",
+            "type": "color"
+          }
+        },
+        "subtle": {
+          "fill": {
+            "value": "{Mint.50}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{Mint.200}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{Mint.300}",
+            "type": "color"
+          }
+        }
+      },
+      "5": {
+        "prominent": {
+          "fill": {
+            "value": "{Teal.150}",
+            "type": "color"
+          }
+        },
+        "subtle": {
+          "fill": {
+            "value": "{Aqua.50}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{Mint.500}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{Aqua.300}",
+            "type": "color"
+          }
+        }
+      },
+      "6": {
+        "prominent": {
+          "fill": {
+            "value": "{Sky-blue.600}",
+            "type": "color"
+          }
+        },
+        "subtle": {
+          "fill": {
+            "value": "{Sky-blue.50}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{Blue.100}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{Blue.100}",
+            "type": "color"
+          }
+        }
+      },
+      "undetermined": {
+        "prominent": {
+          "fill": {
+            "value": "{Stone.300}",
+            "type": "color"
+          }
         }
       }
     }
