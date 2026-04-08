@@ -129,13 +129,13 @@
             "value": "{Orange.800}",
             "type": "color"
           },
-          "value": "{Rose.30}",
+          "value": "{Rose.250}",
           "type": "color"
         }
       },
       "focus": {
         "background": {
-          "value": "{Rose.30}",
+          "value": "{Rose.250}",
           "type": "color"
         }
       }
