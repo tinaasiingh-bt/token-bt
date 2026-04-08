@@ -420,6 +420,10 @@
     }
   },
   "Rose": {
+    "25": {
+      "value": "#ffedef",
+      "type": "color"
+    },
     "100": {
       "value": "#fe5666",
       "type": "color"
@@ -468,6 +472,10 @@
     },
     "200": {
       "value": "#a1a1a1",
+      "type": "color"
+    },
+    "300": {
+      "value": "#636060",
       "type": "color"
     }
   },
@@ -645,12 +653,20 @@
     }
   },
   "Aqua": {
+    "50": {
+      "value": "#d2feff",
+      "type": "color"
+    },
     "100": {
       "value": "#7FD3FA",
       "type": "color"
     },
     "200": {
       "value": "#C7EAF9",
+      "type": "color"
+    },
+    "300": {
+      "value": "#435556",
       "type": "color"
     }
   },
@@ -679,8 +695,16 @@
       "value": "#009688",
       "type": "color"
     },
+    "150": {
+      "value": "#00c5d3",
+      "type": "color"
+    },
     "200": {
       "value": "#00EDD7",
+      "type": "color"
+    },
+    "250": {
+      "value": "#55f4fc",
       "type": "color"
     },
     "300": {
@@ -884,6 +908,24 @@
     },
     "200": {
       "value": "#795f0a",
+      "type": "color"
+    }
+  },
+  "Mint": {
+    "50": {
+      "value": "#bcffde",
+      "type": "color"
+    },
+    "200": {
+      "value": "#51ae56",
+      "type": "color"
+    },
+    "300": {
+      "value": "#2c622f",
+      "type": "color"
+    },
+    "500": {
+      "value": "#0f5556",
       "type": "color"
     }
   }
