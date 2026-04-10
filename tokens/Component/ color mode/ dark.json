@@ -660,6 +660,10 @@
           "border": {
             "value": "{Gold.200}",
             "type": "color"
+          },
+          "text": {
+            "value": "{Gold.200}",
+            "type": "color"
           }
         }
       },
