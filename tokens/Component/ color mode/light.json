@@ -476,10 +476,6 @@
           "border": {
             "value": "{Red.100}",
             "type": "color"
-          },
-          "text": {
-            "value": "{Red.100}",
-            "type": "color"
           }
         }
       },
@@ -518,6 +514,10 @@
             "type": "color"
           },
           "border": {
+            "value": "{Gold.200}",
+            "type": "color"
+          },
+          "text": {
             "value": "{Gold.200}",
             "type": "color"
           }
