@@ -536,7 +536,7 @@
             "type": "color"
           },
           "border": {
-            "value": "{Mint.200}",
+            "value": "{Mint.300}",
             "type": "color"
           },
           "text": {
@@ -558,7 +558,7 @@
             "type": "color"
           },
           "border": {
-            "value": "{Mint.500}",
+            "value": "{Aqua.300}",
             "type": "color"
           },
           "text": {
