@@ -1082,7 +1082,7 @@
         "type": "lineHeights"
       },
       "instructional": {
-        "value": "{line-height.sm}",
+        "value": "{line-height.xs}",
         "type": "lineHeights"
       },
       "card": {
