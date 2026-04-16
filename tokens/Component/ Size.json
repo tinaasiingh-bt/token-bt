@@ -183,6 +183,15 @@
           }
         }
       }
+    },
+    "container": {
+      "height": {
+        "lg": {
+          "value": "{size.40}",
+          "type": "sizing",
+          "description": "Large button height"
+        }
+      }
     }
   }
 }
