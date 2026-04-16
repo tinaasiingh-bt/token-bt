@@ -119,7 +119,7 @@
       },
       "default": {
         "background": {
-          "value": "{Red.50}",
+          "value": "{Red.100}",
           "type": "color"
         }
       },
