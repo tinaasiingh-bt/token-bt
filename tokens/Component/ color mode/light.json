@@ -51,7 +51,7 @@
     "danger": {
       "active": {
         "background": {
-          "value": "{Rose.35}",
+          "value": "{Orange.900}",
           "type": "color",
           "color": {
             "value": "{Orange.900}",
@@ -67,7 +67,7 @@
       },
       "hover": {
         "background": {
-          "value": "{Rose.30}",
+          "value": "{Orange.800}",
           "type": "color",
           "color": {
             "value": "{Orange.800}",
@@ -77,7 +77,7 @@
       },
       "focus": {
         "background": {
-          "value": "{Rose.30}",
+          "value": "{Orange.800}",
           "type": "color"
         }
       }
@@ -216,6 +216,34 @@
             "type": "color",
             "description": "Danger icon button — icon color disabled (with opacity layer)"
           }
+        }
+      }
+    },
+    "danger-text": {
+      "active": {
+        "background": {
+          "value": "{Rose.35}",
+          "type": "color",
+          "color": {
+            "value": "{Orange.900}",
+            "type": "color"
+          }
+        }
+      },
+      "hover": {
+        "background": {
+          "value": "{Rose.30}",
+          "type": "color",
+          "color": {
+            "value": "{Orange.800}",
+            "type": "color"
+          }
+        }
+      },
+      "focus": {
+        "background": {
+          "value": "{Rose.30}",
+          "type": "color"
         }
       }
     }
