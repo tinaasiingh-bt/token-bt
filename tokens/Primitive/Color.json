@@ -36,6 +36,10 @@
       "value": "#3b3b3b",
       "type": "color"
     },
+    "850": {
+      "value": "#2f2f2f",
+      "type": "color"
+    },
     "900": {
       "value": "#242424",
       "type": "color"
@@ -942,6 +946,12 @@
     },
     "500": {
       "value": "#0f5556",
+      "type": "color"
+    }
+  },
+  "black": {
+    "850": {
+      "value": "#2f2f2f",
       "type": "color"
     }
   }
