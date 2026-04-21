@@ -798,6 +798,12 @@
           "value": "{Black.200}",
           "type": "color"
         }
+      },
+      "sender-timestamp": {
+        "text": {
+          "value": "{Black.300}",
+          "type": "color"
+        }
       }
     }
   }

@@ -780,6 +780,12 @@
           "value": "{Gray.400}",
           "type": "color"
         }
+      },
+      "sender-timestamp": {
+        "text": {
+          "value": "{Gray.600}",
+          "type": "color"
+        }
       }
     }
   }
