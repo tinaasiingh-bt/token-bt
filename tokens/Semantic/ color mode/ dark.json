@@ -166,10 +166,6 @@
           "value": "{Sky-blue.200}",
           "type": "color"
         }
-      },
-      "secondary-hover": {
-        "value": "{Blue-gray.200}",
-        "type": "color"
       }
     },
     "contrast": {

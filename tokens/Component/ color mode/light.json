@@ -294,12 +294,6 @@
             "value": "{Blue-gray.200}",
             "type": "color"
           }
-        },
-        "label": {
-          "color": {
-            "value": "{Blue-gray.200}",
-            "type": "color"
-          }
         }
       },
       "active": {
