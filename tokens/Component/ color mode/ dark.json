@@ -46,6 +46,32 @@
             "type": "color"
           }
         }
+      },
+      "icon": {
+        "hover": {
+          "background": {
+            "color": {
+              "value": "{Light-blue.200}",
+              "type": "color"
+            }
+          }
+        },
+        "active": {
+          "background": {
+            "color": {
+              "value": "{Light-blue.400}",
+              "type": "color"
+            }
+          }
+        },
+        "default": {
+          "background": {
+            "color": {
+              "value": "{Light-blue.200}",
+              "type": "color"
+            }
+          }
+        }
       }
     },
     "ghost": {
