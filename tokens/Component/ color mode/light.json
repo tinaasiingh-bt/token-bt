@@ -120,7 +120,7 @@
         }
       }
     },
-    "secondary-text": {
+    "secondarytext": {
       "default": {
         "label": {
           "color": {
@@ -244,22 +244,6 @@
         "background": {
           "value": "{Rose.30}",
           "type": "color"
-        }
-      }
-    },
-    "secondary-outline": {
-      "default": {
-        "border": {
-          "color": {
-            "value": "{Blue-gray.100}",
-            "type": "color"
-          }
-        },
-        "label": {
-          "color": {
-            "value": "{Blue-gray.100}",
-            "type": "color"
-          }
         }
       }
     }
@@ -393,7 +377,7 @@
       "header": {
         "background": {
           "color": {
-            "value": "{Gray.200}",
+            "value": "{Navy.600}",
             "type": "color"
           }
         }
@@ -770,78 +754,6 @@
       "default": {
         "color": {
           "value": "{Navy.700}",
-          "type": "color"
-        }
-      }
-    }
-  },
-  "chat": {
-    "hover": {
-      "receiver-bubble": {
-        "background": {
-          "value": "{Gray.100}",
-          "type": "color"
-        }
-      }
-    },
-    "default": {
-      "code": {
-        "background": {
-          "value": "{Gray.200}",
-          "type": "color"
-        }
-      },
-      "receiver-timestamp": {
-        "text": {
-          "value": "{Gray.400}",
-          "type": "color"
-        }
-      },
-      "sender-timestamp": {
-        "text": {
-          "value": "{Gray.600}",
-          "type": "color"
-        }
-      },
-      "reply": {
-        "border": {
-          "value": "{Gray.300}",
-          "type": "color",
-          "$extensions": {
-            "com.figma.scopes": [
-              "STROKE_COLOR"
-            ],
-            "com.figma.hiddenFromPublishing": false
-          }
-        }
-      },
-      "typing-dot-1": {
-        "background": {
-          "value": "{Navy.100}",
-          "type": "color",
-          "$extensions": {
-            "com.figma.scopes": [
-              "ALL_FILLS"
-            ],
-            "com.figma.hiddenFromPublishing": false
-          }
-        }
-      },
-      "typing-dot-2": {
-        "background": {
-          "value": "{Navy.300}",
-          "type": "color"
-        }
-      },
-      "typing-dot-3": {
-        "background": {
-          "value": "{Navy.500}",
-          "type": "color"
-        }
-      },
-      "transcribing-dot": {
-        "background": {
-          "value": "{Gray.400}",
           "type": "color"
         }
       }
