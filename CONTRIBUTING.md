@@ -8,11 +8,12 @@ This document explains how to work safely with the tokens in this repository and
 
 1. [Repository layout](#repository-layout)
 2. [How to add or edit a token](#how-to-add-or-edit-a-token)
-3. [Naming conventions](#naming-conventions)
-4. [What is generated vs. what is hand-edited](#what-is-generated-vs-what-is-hand-edited)
-5. [Local guardrails (pre-commit)](#local-guardrails-pre-commit)
-6. [CI drift checks](#ci-drift-checks)
-7. [Troubleshooting CI failures](#troubleshooting-ci-failures)
+3. [Token Studio and Figma workflow](#token-studio-and-figma-workflow)
+4. [Naming conventions](#naming-conventions)
+5. [What is generated vs. what is hand-edited](#what-is-generated-vs-what-is-hand-edited)
+6. [Local guardrails (pre-commit)](#local-guardrails-pre-commit)
+7. [CI drift checks](#ci-drift-checks)
+8. [Troubleshooting CI failures](#troubleshooting-ci-failures)
 
 ---
 
@@ -105,7 +106,44 @@ Open the Figma file, make changes in Tokens Studio, and sync/push to this reposi
 
 ---
 
-## Naming conventions
+## Token Studio and Figma workflow
+
+Token Studio (the Figma plugin) is the primary authoring tool for tokens in this repo. It syncs directly to GitHub by committing changes to `tokens/`. The CI and local hooks are explicitly designed to be **non-blocking for Token Studio and Figma exports**.
+
+### How it works
+
+| Step | Who does it | What happens |
+|---|---|---|
+| Edit tokens | Designer in Figma + Tokens Studio | Plugin writes JSON to the repo via a push/PR |
+| Normalize formatting | CI / pre-commit hook | `npm run format` normalizes indentation before validation |
+| Validate content | CI / pre-commit hook | `npm run validate` checks token quality (not formatting) |
+
+**Token Studio formatting is automatically normalized by the formatter before validation runs.** This means:
+
+- Token Studio PRs are never rejected purely for indentation or whitespace differences.
+- CI still catches real problems: broken references, empty values, malformed colors, missing files.
+
+### Token Studio-specific fields are preserved
+
+The validator intentionally ignores these Token Studio / Figma fields and never modifies them:
+
+| Field | Where it appears | Behaviour |
+|---|---|---|
+| `$extensions.studio.tokens` | Any token leaf | Skipped during validation |
+| `$extensions.com.figma.*` | Any token leaf | Skipped during validation |
+| `$figmaStyleReferences` | `$themes.json` | Skipped during validation |
+
+### Adding a new token set via Token Studio
+
+Token Studio manages `$metadata.json` (`tokenSetOrder`) and `$themes.json` automatically when you add or rename a set through the plugin. After pushing, CI will verify:
+1. The JSON file exists on disk at the path listed in `$metadata.json`.
+2. Any theme that references the set also lists it in `$metadata.json`.
+
+If you create a file through Token Studio but CI reports `[metadata-drift]`, the most likely cause is a mismatch between the file name on disk and the entry in `$metadata.json` (e.g., a leading or trailing space). Fix the mismatch in Token Studio's settings panel and re-sync.
+
+---
+
+
 
 | Layer | Folder | File naming |
 |---|---|---|
@@ -141,7 +179,9 @@ After cloning the repo, run once:
 npm install
 ```
 
-This triggers the `prepare` script which sets `core.hooksPath` to `.githooks/`.  From then on, every `git commit` automatically runs `scripts/validate-tokens.js`.  If validation fails the commit is blocked.
+This triggers the `prepare` script which sets `core.hooksPath` to `.githooks/`.  From then on, every `git commit` automatically:
+1. Runs `npm run format` — normalizes JSON formatting (same as CI does).
+2. Runs `npm run validate` — blocks the commit if any content errors are found.
 
 To bypass the hook in an emergency:
 
@@ -164,7 +204,10 @@ npm run format      # auto-fix formatting
 
 Every pull request that touches `tokens/**`, `scripts/**`, or `package.json` triggers the **Validate Design Tokens** GitHub Actions workflow (`.github/workflows/validate-tokens.yml`).
 
-The workflow runs `node scripts/validate-tokens.js` and fails the PR if any errors are found.
+The workflow runs in two steps and fails the PR if any errors are found:
+
+1. **Normalize** — `node scripts/format-tokens.js` normalizes Token Studio's output (2-space indentation, trailing newline).
+2. **Validate** — `node scripts/validate-tokens.js` checks token content quality.
 
 ### What the validator checks
 
@@ -185,13 +228,13 @@ The workflow runs `node scripts/validate-tokens.js` and fails the PR if any erro
 
 ### `[formatting]` — "File is not formatted with 2-space indentation"
 
-Run locally:
+CI always runs the formatter first, so this error will not appear in PR checks. If you see it locally (when running `npm run validate` directly without `npm run format` first), run:
 
 ```sh
 npm run format
-git add tokens/
-git commit --amend --no-edit   # or a new commit
 ```
+
+The pre-commit hook runs the formatter automatically before every commit, so this is only seen when invoking `npm run validate` in isolation.
 
 ### `[invalid-color]` — bare `"#"` or `"#rgb(…)"`
 

@@ -4,6 +4,9 @@
 
 set -e
 
+echo "🔍  Normalizing token formatting..."
+node scripts/format-tokens.js
+
 echo "🔍  Running token drift checks..."
 node scripts/validate-tokens.js
 

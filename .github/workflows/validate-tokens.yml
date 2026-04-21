@@ -31,5 +31,8 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Normalize Token Studio formatting
+        run: node scripts/format-tokens.js
+
       - name: Run token validation
         run: node scripts/validate-tokens.js
