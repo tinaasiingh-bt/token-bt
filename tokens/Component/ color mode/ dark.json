@@ -258,6 +258,12 @@
             "value": "{Sky-blue.50}",
             "type": "color"
           }
+        },
+        "label": {
+          "color": {
+            "value": "{Light-blue.200}",
+            "type": "color"
+          }
         }
       }
     },
