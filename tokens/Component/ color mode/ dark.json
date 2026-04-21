@@ -265,6 +265,14 @@
             "type": "color"
           }
         }
+      },
+      "active": {
+        "label": {
+          "color-copy": {
+            "value": "{Sky-blue.500}",
+            "type": "color"
+          }
+        }
       }
     },
     "secondary-text": {

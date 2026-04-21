@@ -275,6 +275,14 @@
             "type": "color"
           }
         }
+      },
+      "active": {
+        "label": {
+          "color": {
+            "value": "{Blue-gray.500}",
+            "type": "color"
+          }
+        }
       }
     }
   },
