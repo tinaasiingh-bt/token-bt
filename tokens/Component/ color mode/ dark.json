@@ -2,7 +2,7 @@
   "accordion": {
     "hover": {
       "background": {
-        "value": "{Black.800}",
+        "value": "{Black.850}",
         "type": "color"
       }
     }
@@ -393,7 +393,7 @@
       "grid-row": {
         "background": {
           "color": {
-            "value": "{Black.800}",
+            "value": "{Black.850}",
             "type": "color"
           }
         }
@@ -493,7 +493,7 @@
       "container": {
         "border": {
           "color": {
-            "value": "{Black.800}",
+            "value": "{Black.850}",
             "type": "color"
           }
         }
@@ -763,6 +763,16 @@
             "value": "{Stone.300}",
             "type": "color"
           }
+        }
+      }
+    }
+  },
+  "navigation": {
+    "secondary": {
+      "background": {
+        "color": {
+          "value": "{Black.850}",
+          "type": "color"
         }
       }
     }
