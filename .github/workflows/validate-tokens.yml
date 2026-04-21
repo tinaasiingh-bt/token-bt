@@ -19,6 +19,8 @@ jobs:
   validate:
     name: Token Drift Check
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
 
     steps:
       - name: Checkout

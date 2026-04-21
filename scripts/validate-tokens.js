@@ -45,7 +45,10 @@ const VALID_TYPES = new Set([
   'lineHeights',
   'textDecoration',
   'strokeStyle',
-  'x', 'y', 'blur', 'spread', 'type',
+  'x', 'y', 'blur', 'spread',
+  // 'type' is a valid Tokens Studio type for the "type" property of shadow tokens
+  // (e.g., elevation tokens use { "value": "dropShadow", "type": "type" })
+  'type',
   'typography',
   'boxShadow',
   'border',
