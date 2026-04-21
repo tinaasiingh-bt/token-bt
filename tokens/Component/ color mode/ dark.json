@@ -246,6 +246,16 @@
           "type": "color"
         }
       }
+    },
+    "secondary-outline": {
+      "hover": {
+        "border": {
+          "color": {
+            "value": "{Light-blue.300}",
+            "type": "color"
+          }
+        }
+      }
     }
   },
   "chart": {

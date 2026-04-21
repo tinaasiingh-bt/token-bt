@@ -309,6 +309,14 @@
     "300": {
       "value": "#38597a",
       "type": "color"
+    },
+    "400": {
+      "value": "#436C93",
+      "type": "color"
+    },
+    "500": {
+      "value": "#385570",
+      "type": "color"
     }
   },
   "Light-blue": {
@@ -318,6 +326,14 @@
     },
     "200": {
       "value": "#d5e4f5",
+      "type": "color"
+    },
+    "300": {
+      "value": "#D8ECFF",
+      "type": "color"
+    },
+    "400": {
+      "value": "#A2C5E6",
       "type": "color"
     }
   },
