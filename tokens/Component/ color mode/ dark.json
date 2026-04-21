@@ -86,16 +86,6 @@
         }
       }
     },
-    "secondarytext": {
-      "default": {
-        "label": {
-          "color": {
-            "value": "{Light-blue.100}",
-            "type": "color"
-          }
-        }
-      }
-    },
     "icon": {
       "active": {
         "background": {
@@ -250,6 +240,16 @@
     "secondary-outline": {
       "default": {
         "border": {
+          "color": {
+            "value": "{Steel-blue.100}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "secondary-text": {
+      "default": {
+        "label": {
           "color": {
             "value": "{Steel-blue.100}",
             "type": "color"

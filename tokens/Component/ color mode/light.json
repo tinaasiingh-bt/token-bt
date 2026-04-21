@@ -120,7 +120,7 @@
         }
       }
     },
-    "secondarytext": {
+    "secondary-text": {
       "default": {
         "label": {
           "color": {
@@ -250,6 +250,12 @@
     "secondary-outline": {
       "default": {
         "border": {
+          "color": {
+            "value": "{Blue-gray.100}",
+            "type": "color"
+          }
+        },
+        "label": {
           "color": {
             "value": "{Blue-gray.100}",
             "type": "color"
