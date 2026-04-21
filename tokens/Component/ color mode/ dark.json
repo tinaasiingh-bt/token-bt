@@ -785,6 +785,14 @@
           "type": "color"
         }
       }
+    },
+    "hover": {
+      "receiver-bubble": {
+        "background": {
+          "value": "{Black.700}",
+          "type": "color"
+        }
+      }
     }
   }
 }
