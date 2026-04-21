@@ -289,6 +289,10 @@
     "error": {
       "value": "{Red.100}",
       "type": "color"
+    },
+    "active": {
+      "value": "{Blue-gray.300}",
+      "type": "color"
     }
   },
   "severity": {
