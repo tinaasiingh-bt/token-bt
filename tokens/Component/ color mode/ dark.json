@@ -785,6 +785,20 @@
           "type": "color"
         }
       }
+    },
+    "default": {
+      "code": {
+        "background": {
+          "value": "{Black.800}",
+          "type": "color"
+        }
+      },
+      "receiver-timestamp": {
+        "text": {
+          "value": "{Black.200}",
+          "type": "color"
+        }
+      }
     }
   }
 }
