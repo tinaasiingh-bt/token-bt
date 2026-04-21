@@ -305,7 +305,7 @@
       "active": {
         "label": {
           "color": {
-            "value": "{Blue-gray.500}",
+            "value": "{Blue-gray.300}",
             "type": "color"
           }
         }

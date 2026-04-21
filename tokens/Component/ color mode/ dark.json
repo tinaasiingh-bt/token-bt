@@ -294,8 +294,8 @@
       },
       "active": {
         "label": {
-          "color-copy": {
-            "value": "{Sky-blue.500}",
+          "color": {
+            "value": "{Light-blue.400}",
             "type": "color"
           }
         }
