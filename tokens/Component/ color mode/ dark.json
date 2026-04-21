@@ -776,5 +776,15 @@
         }
       }
     }
+  },
+  "chat": {
+    "default": {
+      "container": {
+        "background": {
+          "value": "{Black.900}",
+          "type": "color"
+        }
+      }
+    }
   }
 }
