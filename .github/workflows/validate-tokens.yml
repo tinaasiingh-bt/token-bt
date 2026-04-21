@@ -1,0 +1,33 @@
+name: Validate Design Tokens
+
+on:
+  pull_request:
+    branches: ["**"]
+    paths:
+      - "tokens/**"
+      - "scripts/**"
+      - "package.json"
+  push:
+    branches:
+      - main
+    paths:
+      - "tokens/**"
+      - "scripts/**"
+      - "package.json"
+
+jobs:
+  validate:
+    name: Token Drift Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run token validation
+        run: node scripts/validate-tokens.js

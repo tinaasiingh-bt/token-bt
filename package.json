@@ -1,0 +1,11 @@
+{
+  "name": "token-bt",
+  "version": "1.0.0",
+  "description": "Design token source of truth for Blueprism",
+  "private": true,
+  "scripts": {
+    "validate": "node scripts/validate-tokens.js",
+    "format": "node scripts/format-tokens.js",
+    "prepare": "git config core.hooksPath .githooks"
+  }
+}

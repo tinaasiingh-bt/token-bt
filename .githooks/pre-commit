@@ -1,0 +1,10 @@
+#!/bin/sh
+# Pre-commit hook: run the token drift-check before every commit.
+# Install automatically by running: npm install  (triggers "prepare" script)
+
+set -e
+
+echo "🔍  Running token drift checks..."
+node scripts/validate-tokens.js
+
+echo "✅  Token checks passed."

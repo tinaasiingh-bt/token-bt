@@ -779,7 +779,7 @@
   },
   "Slate": {
     "rgba": {
-      "value": "#rgb(66 85 99 / 25%)",
+      "value": "rgb(66 85 99 / 25%)",
       "type": "color",
       "$extensions": {
         "studio.tokens": {
@@ -796,7 +796,7 @@
   "slate": {
     "rgba": {
       "08": {
-        "value": "#",
+        "value": "rgb(66 85 99 / 8%)",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
