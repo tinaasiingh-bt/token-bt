@@ -246,6 +246,16 @@
           "type": "color"
         }
       }
+    },
+    "secondary-outline": {
+      "default": {
+        "border": {
+          "color": {
+            "value": "{Steel-blue.100}",
+            "type": "color"
+          }
+        }
+      }
     }
   },
   "chart": {
