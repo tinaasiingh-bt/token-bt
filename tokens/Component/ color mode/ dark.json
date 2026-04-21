@@ -247,7 +247,15 @@
         },
         "label": {
           "color": {
-            "value": "{Blue-gray.100}",
+            "value": "{Steel-blue.100}",
+            "type": "color"
+          }
+        }
+      },
+      "hover": {
+        "border": {
+          "color": {
+            "value": "{Sky-blue.50}",
             "type": "color"
           }
         }

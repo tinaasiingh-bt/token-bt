@@ -261,6 +261,14 @@
             "type": "color"
           }
         }
+      },
+      "hover": {
+        "border": {
+          "color": {
+            "value": "{Blue-gray.200}",
+            "type": "color"
+          }
+        }
       }
     }
   },
