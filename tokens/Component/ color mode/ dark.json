@@ -251,7 +251,7 @@
       "hover": {
         "border": {
           "color": {
-            "value": "{Light-blue.300}",
+            "value": "{Sky-blue.50}",
             "type": "color"
           }
         }
