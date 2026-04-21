@@ -59,7 +59,7 @@
         "hover": {
           "background": {
             "color": {
-              "value": "{Blue-gray.300}",
+              "value": "{Blue-gray.200}",
               "type": "color"
             }
           }
