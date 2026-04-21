@@ -377,7 +377,7 @@
       "header": {
         "background": {
           "color": {
-            "value": "{Navy.600}",
+            "value": "{Gray.200}",
             "type": "color"
           }
         }
