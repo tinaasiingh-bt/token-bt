@@ -30,16 +30,5 @@
         }
       }
     }
-  },
-  "button": {
-    "danger-icon": {
-      "default": {
-        "border-radius": {
-          "value": "{radius.element.md}",
-          "type": "borderRadius",
-          "description": "Danger icon button corner radius — 6px"
-        }
-      }
-    }
   }
 }

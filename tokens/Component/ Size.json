@@ -166,24 +166,6 @@
     }
   },
   "button": {
-    "danger-icon": {
-      "default": {
-        "container": {
-          "size": {
-            "value": "{size.interactive.xl}",
-            "type": "sizing",
-            "description": "Danger icon button container — 48x48 touch target"
-          }
-        },
-        "icon": {
-          "size": {
-            "value": "{size.icon.sm}",
-            "type": "sizing",
-            "description": "Danger icon button icon — 24px"
-          }
-        }
-      }
-    },
     "container": {
       "height": {
         "lg": {
