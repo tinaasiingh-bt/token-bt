@@ -34,7 +34,7 @@
         }
       }
     },
-    " status": {
+    "status": {
       "success": {
         "value": "{Green.200}",
         "type": "color"
@@ -311,10 +311,10 @@
     "none": {
       "value": "{Neutral.Ash}",
       "type": "color"
-    },
-    "undertermined": {
-      "value": "{Stone.200}",
-      "type": "color"
     }
+  },
+  "undetermined": {
+    "value": "{Stone.200}",
+    "type": "color"
   }
 }
