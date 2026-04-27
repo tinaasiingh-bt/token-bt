@@ -886,6 +886,12 @@
           "value": "{Gray.400}",
           "type": "color"
         }
+      },
+      "ai-avatar": {
+        "icon": {
+          "value": "{Navy.700}",
+          "type": "color"
+        }
       }
     }
   }

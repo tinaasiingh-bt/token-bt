@@ -307,10 +307,6 @@
     "low": {
       "value": "{Ocean.200}",
       "type": "color"
-    },
-    "none": {
-      "value": "{Neutral.Ash}",
-      "type": "color"
     }
   },
   "undetermined": {
