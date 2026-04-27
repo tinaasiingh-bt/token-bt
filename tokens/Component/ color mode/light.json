@@ -835,7 +835,7 @@
       },
       "receiver-timestamp": {
         "text": {
-          "value": "{Gray.400}",
+          "value": "{Gray.500}",
           "type": "color"
         }
       },
