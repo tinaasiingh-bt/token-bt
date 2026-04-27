@@ -883,7 +883,7 @@
       },
       "transcribing-dot": {
         "background": {
-          "value": "{Gray.400}",
+          "value": "{Gray.500}",
           "type": "color"
         }
       },
