@@ -847,7 +847,7 @@
       },
       "reply": {
         "border": {
-          "value": "{Gray.300}",
+          "value": "{Gray.500}",
           "type": "color",
           "$extensions": {
             "com.figma.scopes": [
