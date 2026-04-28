@@ -894,5 +894,15 @@
         }
       }
     }
+  },
+  "navigation": {
+    "secondary": {
+      "background": {
+        "color": {
+          "value": "{Gray.25}",
+          "type": "color"
+        }
+      }
+    }
   }
 }
