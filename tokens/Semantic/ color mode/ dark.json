@@ -176,18 +176,6 @@
         "value": "{Black.50}",
         "type": "color"
       }
-    },
-    "legend": {
-      "disabled": {
-        "value": "{Gray.400}",
-        "type": "color"
-      }
-    },
-    "table": {
-      "header": {
-        "value": "{Gray.25}",
-        "type": "color"
-      }
     }
   },
   "border": {
