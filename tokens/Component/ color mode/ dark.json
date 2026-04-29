@@ -295,7 +295,7 @@
         },
         "icon": {
           "color": {
-            "value": "{Light-blue.200}",
+            "value": "{Light-blue.400}",
             "type": "color"
           }
         }
