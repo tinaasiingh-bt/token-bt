@@ -278,7 +278,7 @@
       "type": "color"
     },
     "active": {
-      "value": "{Blue-gray.300}",
+      "value": "{Blue.300}",
       "type": "color"
     }
   },
