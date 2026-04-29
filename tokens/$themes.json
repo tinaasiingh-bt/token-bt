@@ -1070,7 +1070,6 @@
       "border.interactive.secondary": "6c28ba8f2688185cb5c9c772bf8486cf03383e7a",
       "border.error": "4829ad724f4a027cffc52facc8f6edd95f18f9cc",
       "border.outline.focus": "51d46b4043658bab691561d8154975104789ffad",
-      "border.data": "8c2a8f6909a619251835d3ba8884a11f0df84c33",
       "icon.primary": "f9e3041c2ac7b8189b6f7d18ba41c4026d016e08",
       "icon.hover": "17331c1eaab2aee1c0f5c970e3863191f0ccd0fe",
       "icon.selection": "337ab4e3080ccd42c056b5a82b166b05117d590b",
@@ -1193,7 +1192,6 @@
       "Primitive/ Size": "source",
       "Primitive/Opacity": "source",
       "Primitive/ Shadow": "source",
-      "Semantic/ color mode/ dark": "enabled",
       "Semantic/ Elevation": "enabled",
       "Semantic/  Opacity": "enabled",
       "Semantic/ Spacing": "enabled",
@@ -1835,8 +1833,7 @@
       "Component/ color mode/ dark": "enabled",
       "Component/ Spacing": "enabled",
       "Component/ Size": "enabled",
-      "Component/ Border radius": "enabled",
-      "Semantic/ color mode/ dark": "source"
+      "Component/ Border radius": "enabled"
     },
     "$figmaStyleReferences": {
       "accordion.hover.background": "S:bbcf6d34ed77a52c9a205d903cddd802abc82a51,",
@@ -2024,7 +2021,6 @@
       "chat.default.transcribing-dot.background": "1db17262783df5d17e75f233edb4dce0dd68052b",
       "chat.default.ai-avatar.icon": "41f0e9428135f9a11ea1e0629cea299849db1232",
       "navigation.secondary.background.color": "3df85ef061592ed05c823e440f3ad7cb5c87ad27",
-      "data-grid.text.color.color": "3ac5e7ceb4875160207a09a98bbfbad2215da470",
       "badge.border-radius": "ca2a45aa55bd470af301fd04a1b94db1f435670e",
       "breadcrumb.focus.border-radius": "0078a67e2bb2f4f76104d6df178a56d0bba78dce",
       "checkbox.unselected.box-radius": "340f66b98939046867fd2aeb16f64a7b531c9afa",

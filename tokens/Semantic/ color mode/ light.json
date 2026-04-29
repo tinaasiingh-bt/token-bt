@@ -135,11 +135,6 @@
       "value": "{Blue.300}",
       "type": "color"
     },
-    "hover": {
-      "value": "{Blue.200}",
-      "type": "color",
-      "description": "Checkbox, Radio Button, Switch,Slider, Time Picker, Date Picker, buttonGroup, Tab, Toast, Text Link, Menu Trigger, Icon Button"
-    },
     "error": {
       "value": "{Red.100}",
       "type": "color"
@@ -247,10 +242,6 @@
         "value": "{Orange.400}",
         "type": "color"
       }
-    },
-    "data": {
-      "value": "{Gray.300}",
-      "type": "color"
     }
   },
   "icon": {
