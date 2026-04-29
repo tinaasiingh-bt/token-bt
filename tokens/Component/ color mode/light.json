@@ -302,6 +302,12 @@
             "value": "{Blue-gray.300}",
             "type": "color"
           }
+        },
+        "icon": {
+          "color": {
+            "value": "{Blue-gray.300}",
+            "type": "color"
+          }
         }
       }
     }
