@@ -512,5 +512,9 @@
         }
       }
     }
+  },
+  "navigation-secondary-background-color": {
+    "value": "{Black.850}",
+    "type": "color"
   }
 }
