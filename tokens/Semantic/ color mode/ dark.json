@@ -34,24 +34,6 @@
         }
       }
     },
-    " status": {
-      "success": {
-        "value": "{Green.100}",
-        "type": "color"
-      },
-      "error": {
-        "value": "{Red.50}",
-        "type": "color"
-      },
-      "informational": {
-        "value": "{Blue.50}",
-        "type": "color"
-      },
-      "warning": {
-        "value": "{Orange.275}",
-        "type": "color"
-      }
-    },
     "header": {
       "value": "{Black.800}",
       "type": "color"
@@ -113,6 +95,24 @@
     "attention": {
       "value": "{Black.950}",
       "type": "color"
+    },
+    "status": {
+      "success": {
+        "value": "{Green.100}",
+        "type": "color"
+      },
+      "error": {
+        "value": "{Red.50}",
+        "type": "color"
+      },
+      "informational": {
+        "value": "{Blue.50}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{Orange.275}",
+        "type": "color"
+      }
     }
   },
   "text": {
@@ -255,6 +255,10 @@
     "data": {
       "value": "{Gray.300}",
       "type": "color"
+    },
+    "divider": {
+      "value": "{Black.700}",
+      "type": "color"
     }
   },
   "icon": {
@@ -288,6 +292,10 @@
     },
     "error": {
       "value": "{Red.50}",
+      "type": "color"
+    },
+    "active": {
+      "value": "{Sky-blue.300}",
       "type": "color"
     }
   },

@@ -2,6 +2,7 @@
   {
     "id": "0de9b16ee1676e97552cbbc943fae6fc1fa85fc7",
     "name": "Mode",
+    "group": "Primitive",
     "selectedTokenSets": {
       "Primitive/Color": "enabled",
       "Primitive/Spacing": "enabled",
@@ -562,12 +563,12 @@
       "line-height.5xl": "348dc824b6f8991a6543663a35ab3f81328073c8"
     },
     "$figmaCollectionId": "VariableCollectionId:1315:33970",
-    "$figmaModeId": "1315:0",
-    "group": "Primitive"
+    "$figmaModeId": "1315:0"
   },
   {
     "id": "6564e3eea7c74be2003bb10ce5d4e0f75543d3c1",
     "name": "light",
+    "group": "Semantic",
     "selectedTokenSets": {
       "Primitive/Spacing": "source",
       "Primitive/Border": "source",
@@ -991,12 +992,12 @@
       "opacity.surface.visible": "27d71fe518d8020878784be033ba10e5275c49dd"
     },
     "$figmaCollectionId": "VariableCollectionId:1315:33971",
-    "$figmaModeId": "1315:1",
-    "group": "Semantic"
+    "$figmaModeId": "1315:1"
   },
   {
     "id": "9ad92b26719f488a85ea6362260839526f1d79a5",
     "name": "dark",
+    "group": "Semantic",
     "selectedTokenSets": {
       "Primitive/Spacing": "source",
       "Primitive/Border": "source",
@@ -1497,12 +1498,12 @@
       "opacity.surface.visible": "27d71fe518d8020878784be033ba10e5275c49dd"
     },
     "$figmaCollectionId": "VariableCollectionId:1315:33971",
-    "$figmaModeId": "1315:2",
-    "group": "Semantic"
+    "$figmaModeId": "1315:2"
   },
   {
     "id": "5157d128c8145246c94cb28a5c95fcb6c46c6267",
     "name": "light",
+    "group": "Component",
     "selectedTokenSets": {
       "Primitive/Color": "source",
       "Primitive/Spacing": "source",
@@ -1721,12 +1722,12 @@
       "tooltip.content.gap": "d8fbdf8c749f05fd0136b44cb45b4df6c4193d5c"
     },
     "$figmaCollectionId": "VariableCollectionId:1315:33972",
-    "$figmaModeId": "1315:3",
-    "group": "Component"
+    "$figmaModeId": "1315:3"
   },
   {
     "id": "2e81a4bb7dc75e2a3ad66f7304d96292ab9c8648",
     "name": "dark",
+    "group": "Component",
     "selectedTokenSets": {
       "Primitive/Color": "source",
       "Primitive/Spacing": "source",
@@ -1948,27 +1949,30 @@
       "tooltip.content.gap": "d8fbdf8c749f05fd0136b44cb45b4df6c4193d5c"
     },
     "$figmaCollectionId": "VariableCollectionId:1315:33972",
-    "$figmaModeId": "1315:4",
-    "group": "Component"
+    "$figmaModeId": "1315:4"
   },
   {
     "id": "079969328aaeab84ddf5cbc173db93b4b89fc8b1",
     "name": "shadow",
+    "selectedTokenSets": {
+      "Primitive/ Shadow": "source",
+      "Semantic/ Elevation": "enabled"
+    },
     "$figmaStyleReferences": {
       "elevation.none": "S:ab8b6a8f3d0e924dddfc8d5e9eab7cd1c0ddb144,",
       "elevation.container.default": "S:faad4a5a3b1c0a68a75126b7e011a1f4adc708b0,",
       "elevation.container.elevated": "S:5a3e66a5891c7b74f83fad26f9d860993e6f5cc0,",
       "elevation.base": "S:31bd27321c53de25b1e01033ba93b937391c1f67,",
       "elevation.overlay.popover": "S:1148a38da716743b5583604d2479bf3a7fed917d,"
-    },
-    "selectedTokenSets": {
-      "Primitive/ Shadow": "source",
-      "Semantic/ Elevation": "enabled"
     }
   },
   {
     "id": "e8fa8d7f924c00796170c197b787bf7ece4d7581",
     "name": "Typography",
+    "selectedTokenSets": {
+      "Primitive/Typography": "source",
+      "Semantic/ Typography": "enabled"
+    },
     "$figmaStyleReferences": {
       "display.lg": "S:600844ba822e89b4016170060a7e17d27ef7528e,",
       "display.md": "S:36b93fe770dacf8b017af4c4c24e82511584adbe,",
@@ -1999,12 +2003,6 @@
       "card.sm": "S:ead45c1032277dbeae480f4dc394322ed6276bf7,",
       "card.xs": "S:02ede6aa984e6727927a0f7a6a43f9bc0dc25520,"
     },
-    "selectedTokenSets": {
-      "Primitive/Typography": "source",
-      "Semantic/ Typography": "enabled"
-    },
-    "$figmaCollectionId": "VariableCollectionId:1315:33974",
-    "$figmaModeId": "1315:6",
     "$figmaVariableReferences": {
       "paragraphSpacing.0": "4a0f6313270cc124f6a26e30aada0a511f2bae1e",
       "paragraphIndent.0": "4de9b89bf56e8149de586850cc1ec7236349c707",
@@ -2071,6 +2069,8 @@
       "text.line-height.card.md": "2e81c91f2b67bfe61ba7eedcee7a1319aa1aba69",
       "text.line-height.card.sm": "256de0ee342f1f337655418ca8989cbf8fecec60",
       "text.line-height.card.xs": "022fd5a6996c8ca8656972c96ad87cf8400cc686"
-    }
+    },
+    "$figmaCollectionId": "VariableCollectionId:1315:33974",
+    "$figmaModeId": "1315:6"
   }
 ]

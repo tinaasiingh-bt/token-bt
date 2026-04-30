@@ -34,24 +34,6 @@
         }
       }
     },
-    " status": {
-      "success": {
-        "value": "{Green.200}",
-        "type": "color"
-      },
-      "error": {
-        "value": "{Red.100}",
-        "type": "color"
-      },
-      "informational": {
-        "value": "{Cyan.800}",
-        "type": "color"
-      },
-      "warning": {
-        "value": "{Sunset.250}",
-        "type": "color"
-      }
-    },
     "header": {
       "value": "{Gray.800}",
       "type": "color"
@@ -113,6 +95,24 @@
     "attention": {
       "value": "{Neutral.White}",
       "type": "color"
+    },
+    "status": {
+      "success": {
+        "value": "{Green.200}",
+        "type": "color"
+      },
+      "error": {
+        "value": "{Red.100}",
+        "type": "color"
+      },
+      "informational": {
+        "value": "{Cyan.800}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{Sunset.250}",
+        "type": "color"
+      }
     }
   },
   "text": {
@@ -255,6 +255,10 @@
     "data": {
       "value": "{Gray.300}",
       "type": "color"
+    },
+    "divider": {
+      "value": "{Gray.200}",
+      "type": "color"
     }
   },
   "icon": {
@@ -289,6 +293,10 @@
     "error": {
       "value": "{Red.100}",
       "type": "color"
+    },
+    "active": {
+      "value": "{Blue-gray.300}",
+      "type": "color"
     }
   },
   "severity": {
@@ -316,5 +324,9 @@
       "value": "{Stone.200}",
       "type": "color"
     }
+  },
+  "undetermined": {
+    "value": "{Stone.200}",
+    "type": "color"
   }
 }

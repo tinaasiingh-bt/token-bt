@@ -81,6 +81,10 @@
       "type": "spacing"
     },
     "negative": {
+      "xs": {
+        "value": "-1px",
+        "type": "spacing"
+      },
       "2xs": {
         "value": "-2px",
         "type": "spacing"
