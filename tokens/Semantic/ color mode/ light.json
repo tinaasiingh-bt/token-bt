@@ -255,6 +255,10 @@
     "data": {
       "value": "{Gray.300}",
       "type": "color"
+    },
+    "divider": {
+      "value": "{Gray.200}",
+      "type": "color"
     }
   },
   "icon": {
