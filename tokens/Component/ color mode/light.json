@@ -513,6 +513,16 @@
           "type": "color"
         }
       }
+    },
+    "item": {
+      "hover": {
+        "background": {
+          "color": {
+            "value": "{Gray.200}",
+            "type": "color"
+          }
+        }
+      }
     }
   }
 }
