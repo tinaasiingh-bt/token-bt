@@ -515,10 +515,10 @@
       }
     },
     "item": {
-      "hover": {
+      "default": {
         "background": {
           "color": {
-            "value": "{Gray.200}",
+            "value": "{Gray.50}",
             "type": "color"
           }
         }
