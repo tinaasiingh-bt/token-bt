@@ -30,7 +30,7 @@
   "pagination": {
     "default": {
       "container": {
-        "height": {
+        "min-height": {
           "value": "{size.52}",
           "type": "sizing"
         }
@@ -61,10 +61,12 @@
   },
   "radio-button": {
     "default": {
-      "listitem": {
-        "height": {
-          "value": "{size.34}",
-          "type": "sizing"
+      "container": {
+        "list": {
+          "item": {
+            "value": "{size.34}",
+            "type": "sizing"
+          }
         }
       }
     }
@@ -86,7 +88,7 @@
   "slider": {
     "vertical": {
       "container": {
-        "height": {
+        "min-height": {
           "value": "{size.150}",
           "type": "sizing"
         }
@@ -94,14 +96,28 @@
     },
     "horizontal": {
       "container": {
-        "width": {
-          "value": "{size.150}",
+        "min-width": {
+          "value": "{size.200}",
           "type": "sizing"
         }
       }
     }
   },
-  "tab": {
+  "switch": {
+    "default": {
+      "container": {
+        "width": {
+          "value": "{size.44}",
+          "type": "sizing"
+        },
+        "height": {
+          "value": "{size.22}",
+          "type": "sizing"
+        }
+      }
+    }
+  },
+  "tabs": {
     "icon": {
       "height": {
         "value": "{size.20}",
@@ -135,8 +151,12 @@
   },
   "toast": {
     "container": {
-      "width": {
+      "max-width": {
         "value": "{size.480}",
+        "type": "sizing"
+      },
+      "min-width": {
+        "value": "{size.280}",
         "type": "sizing"
       }
     }
@@ -144,7 +164,7 @@
   "treeview": {
     "leaf": {
       "item": {
-        "height": {
+        "min-height": {
           "value": "{size.51}",
           "type": "sizing"
         }
@@ -155,23 +175,28 @@
       }
     }
   },
-  "tag": {
-    "container": {
-      "height": {
-        "sm": {
-          "value": "{size.24}",
+  "button": {
+    "min-height": {
+      "value": "{size.36}",
+      "type": "sizing"
+    }
+  },
+  "number-field": {
+    "input": {
+      "box": {
+        "width": {
+          "value": "{size.120}",
           "type": "sizing"
         }
       }
     }
   },
-  "button": {
-    "container": {
-      "height": {
-        "lg": {
-          "value": "{size.40}",
-          "type": "sizing",
-          "description": "Large button height"
+  "tag": {
+    "sm": {
+      "container": {
+        "height": {
+          "value": "{size.24}",
+          "type": "sizing"
         }
       }
     }

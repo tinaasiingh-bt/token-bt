@@ -34,7 +34,7 @@
         }
       }
     },
-    "status": {
+    " status": {
       "success": {
         "value": "{Green.100}",
         "type": "color"
@@ -135,6 +135,11 @@
       "value": "{Sky-blue.300}",
       "type": "color"
     },
+    "hover": {
+      "value": "{Sky-blue.200}",
+      "type": "color",
+      "description": "Checkbox, Radio Button, Switch,Slider, Time Picker, Date Picker, buttonGroup, Tab, Toast, Text Link, Menu Trigger, Icon Button"
+    },
     "error": {
       "value": "{Red.50}",
       "type": "color"
@@ -161,6 +166,10 @@
           "value": "{Sky-blue.200}",
           "type": "color"
         }
+      },
+      "secondary-hover": {
+        "value": "{Blue-gray.200}",
+        "type": "color"
       }
     },
     "contrast": {
@@ -174,6 +183,18 @@
       },
       "secondary": {
         "value": "{Black.50}",
+        "type": "color"
+      }
+    },
+    "legend": {
+      "disabled": {
+        "value": "{Gray.400}",
+        "type": "color"
+      }
+    },
+    "table": {
+      "header": {
+        "value": "{Gray.25}",
         "type": "color"
       }
     }
@@ -230,6 +251,10 @@
         "value": "{Orange.400}",
         "type": "color"
       }
+    },
+    "data": {
+      "value": "{Gray.300}",
+      "type": "color"
     }
   },
   "icon": {
@@ -264,10 +289,6 @@
     "error": {
       "value": "{Red.50}",
       "type": "color"
-    },
-    "active": {
-      "value": "{Sky-blue.300}",
-      "type": "color"
     }
   },
   "severity": {
@@ -285,6 +306,14 @@
     },
     "low": {
       "value": "{Ocean.100}",
+      "type": "color"
+    },
+    "none": {
+      "value": "{Black.400}",
+      "type": "color"
+    },
+    "undertermined": {
+      "value": "{Stone.200}",
       "type": "color"
     }
   }
