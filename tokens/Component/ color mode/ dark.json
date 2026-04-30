@@ -112,7 +112,7 @@
         }
       }
     },
-    "secondarytext": {
+    "secondary-text": {
       "default": {
         "label": {
           "color": {
@@ -513,8 +513,14 @@
       }
     }
   },
-  "navigation-secondary-background-color": {
-    "value": "{Black.850}",
-    "type": "color"
+  "navigation": {
+    "secondary": {
+      "background": {
+        "color": {
+          "value": "{Black.850}",
+          "type": "color"
+        }
+      }
+    }
   }
 }

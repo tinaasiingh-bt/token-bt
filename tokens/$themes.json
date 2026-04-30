@@ -1599,7 +1599,6 @@
       "button.ghost.hover.label.color": "ce246d0755bb3d7d435cf50f1012644046210026",
       "button.text.secondary.active.background.color": "e28151517cb5b338200118a25ef43dd517677d63",
       "button.primary-text.hover.background": "02e9f9e126cd11c7858bd45a9123207edbc8a6ae",
-      "button.secondarytext.default.label.color": "931993be780d81d1cfd5f9c6dba06fa2f6e4e323",
       "button.icon.active.background.color": "7babee7fbad139f3b3b6b74478cbbb3036a960f2",
       "chart.default.color.data-01": "8dfb31a495b455beab8b0a59801ebf0c66da93f1",
       "chart.default.color.data-02": "7e943ef1bb34903b3fc34d972cf47aeea6c0424a",
@@ -1716,7 +1715,8 @@
       "treeview.leaf.container.margin-left": "82e877597009b65cca50ffd9d0778403a8403008",
       "breadcrumb.label.icon.spacing": "bc6c15b21da8ec42819dccb484a15860328141de",
       "time-picker.text-button.gap": "a00c25fb83266f7c0499490d701f9dc726761857",
-      "tooltip.content.gap": "d7f94495bfc61e89f5222a606b2a75e811d48ff5"
+      "tooltip.content.gap": "d7f94495bfc61e89f5222a606b2a75e811d48ff5",
+      "button.secondary-text.default.label.color": "931993be780d81d1cfd5f9c6dba06fa2f6e4e323"
     },
     "$figmaCollectionId": "VariableCollectionId:675:12229",
     "$figmaModeId": "675:3",
@@ -1823,7 +1823,6 @@
       "button.ghost.hover.label.color": "ce246d0755bb3d7d435cf50f1012644046210026",
       "button.text.secondary.active.background.color": "e28151517cb5b338200118a25ef43dd517677d63",
       "button.primary-text.hover.background": "02e9f9e126cd11c7858bd45a9123207edbc8a6ae",
-      "button.secondarytext.default.label.color": "931993be780d81d1cfd5f9c6dba06fa2f6e4e323",
       "button.icon.active.background.color": "7babee7fbad139f3b3b6b74478cbbb3036a960f2",
       "chart.default.color.data-01": "8dfb31a495b455beab8b0a59801ebf0c66da93f1",
       "chart.default.color.data-02": "7e943ef1bb34903b3fc34d972cf47aeea6c0424a",
@@ -1941,7 +1940,8 @@
       "treeview.leaf.container.margin-left": "82e877597009b65cca50ffd9d0778403a8403008",
       "breadcrumb.label.icon.spacing": "bc6c15b21da8ec42819dccb484a15860328141de",
       "time-picker.text-button.gap": "a00c25fb83266f7c0499490d701f9dc726761857",
-      "tooltip.content.gap": "d7f94495bfc61e89f5222a606b2a75e811d48ff5"
+      "tooltip.content.gap": "d7f94495bfc61e89f5222a606b2a75e811d48ff5",
+      "button.secondary-text.default.label.color": "931993be780d81d1cfd5f9c6dba06fa2f6e4e323"
     },
     "$figmaCollectionId": "VariableCollectionId:675:12229",
     "$figmaModeId": "675:4",
