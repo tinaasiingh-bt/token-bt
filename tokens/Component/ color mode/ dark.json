@@ -935,7 +935,7 @@
       },
       "container": {
         "background": {
-          "value": "{Black.800}",
+          "value": "{Black.900}",
           "type": "color"
         },
         "border": {
