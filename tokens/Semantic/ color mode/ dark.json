@@ -315,10 +315,6 @@
     "none": {
       "value": "{Black.400}",
       "type": "color"
-    },
-    "undertermined": {
-      "value": "{Stone.200}",
-      "type": "color"
     }
   }
 }
