@@ -34,14 +34,6 @@
         }
       },
       "hover": {
-        "label": {
-          "color": {
-            "value": "{Light-blue.100}",
-            "type": "color"
-          },
-          "value": "{Blue-gray.200}",
-          "type": "color"
-        },
         "background": {
           "color": {
             "value": "{Steel-blue.200}",
@@ -866,6 +858,16 @@
         }
       },
       "selected": {
+        "background": {
+          "color": {
+            "value": "{Black.950}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "submenu": {
+      "default": {
         "background": {
           "color": {
             "value": "{Black.950}",
