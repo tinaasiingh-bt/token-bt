@@ -310,6 +310,12 @@
             "value": "{Light-blue.400}",
             "type": "color"
           }
+        },
+        "icon": {
+          "color": {
+            "value": "{Light-blue.400}",
+            "type": "color"
+          }
         }
       }
     }
