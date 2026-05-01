@@ -842,7 +842,7 @@
       "default": {
         "background": {
           "color": {
-            "value": "{Gray.50}",
+            "value": "{Gray.100}",
             "type": "color"
           }
         }
@@ -851,6 +851,14 @@
         "background": {
           "color": {
             "value": "{Gray.200}",
+            "type": "color"
+          }
+        }
+      },
+      "selected": {
+        "background": {
+          "color": {
+            "value": "{Gray.100}",
             "type": "color"
           }
         }

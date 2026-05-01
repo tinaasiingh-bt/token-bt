@@ -864,6 +864,14 @@
             "type": "color"
           }
         }
+      },
+      "selected": {
+        "background": {
+          "color": {
+            "value": "{Black.950}",
+            "type": "color"
+          }
+        }
       }
     }
   },
