@@ -302,6 +302,12 @@
             "value": "{Light-blue.400}",
             "type": "color"
           }
+        },
+        "icon": {
+          "color": {
+            "value": "{Light-blue.400}",
+            "type": "color"
+          }
         }
       }
     }
@@ -454,14 +460,6 @@
             "value": "{Black.800}",
             "type": "color"
           }
-        }
-      }
-    },
-    "text": {
-      "color": {
-        "color": {
-          "value": "{Neutral.light-ash}",
-          "type": "color"
         }
       }
     },

@@ -135,11 +135,6 @@
       "value": "{Sky-blue.300}",
       "type": "color"
     },
-    "hover": {
-      "value": "{Sky-blue.200}",
-      "type": "color",
-      "description": "Checkbox, Radio Button, Switch,Slider, Time Picker, Date Picker, buttonGroup, Tab, Toast, Text Link, Menu Trigger, Icon Button"
-    },
     "error": {
       "value": "{Red.50}",
       "type": "color"
@@ -183,12 +178,6 @@
       },
       "secondary": {
         "value": "{Black.50}",
-        "type": "color"
-      }
-    },
-    "legend": {
-      "disabled": {
-        "value": "{Gray.400}",
         "type": "color"
       }
     },
@@ -314,14 +303,6 @@
     },
     "low": {
       "value": "{Ocean.100}",
-      "type": "color"
-    },
-    "none": {
-      "value": "{Black.400}",
-      "type": "color"
-    },
-    "undertermined": {
-      "value": "{Stone.200}",
       "type": "color"
     }
   }
