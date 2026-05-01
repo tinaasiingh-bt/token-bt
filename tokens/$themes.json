@@ -1964,7 +1964,8 @@
       "elevation.container.elevated": "S:5a3e66a5891c7b74f83fad26f9d860993e6f5cc0,",
       "elevation.base": "S:31bd27321c53de25b1e01033ba93b937391c1f67,",
       "elevation.overlay.popover": "S:1148a38da716743b5583604d2479bf3a7fed917d,"
-    }
+    },
+    "$figmaVariableReferences": {}
   },
   {
     "id": "e8fa8d7f924c00796170c197b787bf7ece4d7581",

@@ -919,35 +919,11 @@
         "icon": {
           "value": "{Navy.700}",
           "type": "color"
-        },
-        "background": {
-          "value": "{Navy.50}",
-          "type": "color"
         }
       },
       "container": {
         "background": {
           "value": "{Gray.50}",
-          "type": "color"
-        },
-        "border": {
-          "value": "{Gray.200}",
-          "type": "color"
-        }
-      },
-      "sender-bubble": {
-        "text": {
-          "value": "{Neutral.White}",
-          "type": "color"
-        }
-      },
-      "receiver-bubble": {
-        "background": {
-          "value": "{Gray.50}",
-          "type": "color"
-        },
-        "text": {
-          "value": "{Navy.700}",
           "type": "color"
         }
       }
