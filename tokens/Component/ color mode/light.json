@@ -844,7 +844,7 @@
       "selected": {
         "background": {
           "color": {
-            "value": "{Gray.100}",
+            "value": "{Navy.50}",
             "type": "color"
           }
         }
