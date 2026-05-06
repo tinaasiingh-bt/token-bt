@@ -836,7 +836,7 @@
       "default": {
         "background": {
           "color": {
-            "value": "{Navy.50}",
+            "value": "{Gray.100}",
             "type": "color"
           }
         }
