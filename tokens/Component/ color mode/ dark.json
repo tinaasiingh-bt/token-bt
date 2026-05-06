@@ -865,16 +865,6 @@
           }
         }
       }
-    },
-    "submenu": {
-      "default": {
-        "background": {
-          "color": {
-            "value": "{Black.950}",
-            "type": "color"
-          }
-        }
-      }
     }
   },
   "chat": {
