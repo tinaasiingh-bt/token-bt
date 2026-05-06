@@ -848,6 +848,14 @@
             "type": "color"
           }
         }
+      },
+      "hover": {
+        "background": {
+          "color": {
+            "value": "{Gray.200}",
+            "type": "color"
+          }
+        }
       }
     },
     "submenu": {
