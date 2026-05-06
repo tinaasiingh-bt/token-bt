@@ -849,14 +849,6 @@
           }
         }
       },
-      "hover": {
-        "background": {
-          "color": {
-            "value": "{Black.950}",
-            "type": "color"
-          }
-        }
-      },
       "selected": {
         "background": {
           "color": {
