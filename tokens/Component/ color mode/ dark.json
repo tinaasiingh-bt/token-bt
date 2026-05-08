@@ -291,7 +291,7 @@
         },
         "label": {
           "color": {
-            "value": "{Light-blue.100}",
+            "value": "{Light-blue.200}",
             "type": "color"
           }
         }
