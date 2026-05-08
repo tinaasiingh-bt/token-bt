@@ -308,6 +308,12 @@
             "value": "{Blue-gray.300}",
             "type": "color"
           }
+        },
+        "border": {
+          "color": {
+            "value": "{Blue-gray.300}",
+            "type": "color"
+          }
         }
       }
     }

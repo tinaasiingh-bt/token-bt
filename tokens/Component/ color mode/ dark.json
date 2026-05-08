@@ -308,6 +308,12 @@
             "value": "{Light-blue.400}",
             "type": "color"
           }
+        },
+        "border": {
+          "color": {
+            "value": "{Light-blue.400}",
+            "type": "color"
+          }
         }
       }
     }
