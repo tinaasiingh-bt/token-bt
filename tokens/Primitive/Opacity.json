@@ -1,19 +1,29 @@
 {
   "opacity": {
     "0": {
-      "value": "0",
+      "value": "0%",
       "type": "opacity"
     },
     "26": {
-      "value": "0.26",
-      "type": "opacity"
+      "value": "26%",
+      "type": "opacity",
+      "$extensions": {
+        "com.figma.scopes": [
+          "OPACITY"
+        ]
+      }
     },
     "50": {
-      "value": "0.5",
-      "type": "opacity"
+      "value": "50%",
+      "type": "opacity",
+      "$extensions": {
+        "com.figma.scopes": [
+          "OPACITY"
+        ]
+      }
     },
     "100": {
-      "value": "1",
+      "value": "100%",
       "type": "opacity"
     }
   }
