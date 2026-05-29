@@ -442,6 +442,40 @@
               }
             }
           }
+        },
+        "background": {
+          "color": {
+            "value": "{Black.900}",
+            "type": "color"
+          }
+        },
+        "row": {
+          "background": {
+            "color": {
+              "value": "{Black.950}",
+              "type": "color"
+            }
+          }
+        },
+        "border": {
+          "color": {
+            "value": "{Black.600}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "color": {
+            "value": "{Black.50}",
+            "type": "color"
+          }
+        },
+        "input": {
+          "background": {
+            "color": {
+              "value": "{Black.950}",
+              "type": "color"
+            }
+          }
         }
       },
       "header": {
