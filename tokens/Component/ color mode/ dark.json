@@ -956,5 +956,15 @@
         }
       }
     }
+  },
+  "tile": {
+    "hover": {
+      "background": {
+        "color": {
+          "value": "{Black.700}",
+          "type": "color"
+        }
+      }
+    }
   }
 }

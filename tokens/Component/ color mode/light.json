@@ -948,5 +948,15 @@
         }
       }
     }
+  },
+  "tile": {
+    "hover": {
+      "background": {
+        "color": {
+          "value": "{Gray.100}",
+          "type": "color"
+        }
+      }
+    }
   }
 }
