@@ -271,7 +271,7 @@
       "type": "color"
     },
     "remove": {
-      "value": "{Black.950}",
+      "value": "{Neutral.Ash}",
       "type": "color"
     },
     "contrast": {
