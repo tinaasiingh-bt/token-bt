@@ -697,6 +697,8 @@
       "spacing.element.margin.none": "21b0e1d08f69f9d90117683756dbcdd0a91814b0",
       "spacing.element.offset.sm": "5ece36362fdff251e9602f8cfa6f992e711425a4",
       "spacing.element.offset.negative.2xs": "4be53de22021deef0abdc9e835e3662de6de5e9a",
+      "spacing.element.padding.8xl": "5e586661ed8f55eb70ca621d7f6b3bc2fb2130af",
+      "spacing.element.padding.3xl": "53c73fca5285fcda41bdf67ce286a79152b85037",
       "opacity.surface.hidden": "645a12bf322ffaa18881455e8d6ace2d5a5f9c25",
       "opacity.surface.disabled": "76e69f089664b39521b0c4d4958882c09d13a5a2",
       "opacity.surface.visible": "bcac8ca8e3ae6bc29d4858aa48d09ae84a1e0460"
@@ -1152,6 +1154,8 @@
       "spacing.element.margin.none": "21b0e1d08f69f9d90117683756dbcdd0a91814b0",
       "spacing.element.offset.sm": "5ece36362fdff251e9602f8cfa6f992e711425a4",
       "spacing.element.offset.negative.2xs": "4be53de22021deef0abdc9e835e3662de6de5e9a",
+      "spacing.element.padding.8xl": "5e586661ed8f55eb70ca621d7f6b3bc2fb2130af",
+      "spacing.element.padding.3xl": "53c73fca5285fcda41bdf67ce286a79152b85037",
       "opacity.surface.hidden": "645a12bf322ffaa18881455e8d6ace2d5a5f9c25",
       "opacity.surface.disabled": "76e69f089664b39521b0c4d4958882c09d13a5a2",
       "opacity.surface.visible": "bcac8ca8e3ae6bc29d4858aa48d09ae84a1e0460"
@@ -1636,7 +1640,7 @@
       "navigation.item.hover.background.color": "863c4a40c5931ed81bac0c3005f531fc79af9175",
       "button.secondary-outline.active.border.color": "c0000c345942944b2b5c63b067dceb210b3ac7d7",
       "tile.hover.background.color": "5da4825620e12d4e6af4c3ef1a88a82ef91a3fba",
-      "data-grid.text.color.color": "9766c1917f35be2cae5752e6db02809cb94caef4",
+      "data-grid.text.color.color": "d3e4cfa4b95b5525231da77fc0af2f242499ace4",
       "badge.border-radius": "ca2a45aa55bd470af301fd04a1b94db1f435670e",
       "breadcrumb.focus.border-radius": "0078a67e2bb2f4f76104d6df178a56d0bba78dce",
       "checkbox.unselected.box-radius": "340f66b98939046867fd2aeb16f64a7b531c9afa",
