@@ -111,6 +111,14 @@
         "2xl": {
           "value": "{spacing.5xl}",
           "type": "spacing"
+        },
+        "8xl": {
+          "value": "{spacing.11xl}",
+          "type": "spacing"
+        },
+        "3xl": {
+          "value": "{spacing.6xl}",
+          "type": "spacing"
         }
       },
       "margin": {

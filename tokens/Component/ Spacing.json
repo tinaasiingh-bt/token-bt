@@ -1,12 +1,4 @@
 {
-  "accordion": {
-    "content": {
-      "padding": {
-        "value": "{spacing.11xl}",
-        "type": "spacing"
-      }
-    }
-  },
   "help-text": {
     "default": {
       "content": {
