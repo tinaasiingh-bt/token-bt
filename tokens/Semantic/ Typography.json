@@ -101,12 +101,12 @@
       "type": "typography",
       "description": "Subsection titles within a section,Button, card headers, or table headers."
     },
-    "quarternary": {
+    "quaternary": {
       "value": {
         "fontFamily": "{text.family.heading}",
         "fontWeight": "{text.weight.heading}",
-        "lineHeight": "{text.line-height.heading.quarternary}",
-        "fontSize": "{text.size.heading.quarternary}",
+        "lineHeight": "{text.line-height.heading.quaternary}",
+        "fontSize": "{text.size.heading.quaternary}",
         "letterSpacing": "{letterSpacing.0}",
         "paragraphSpacing": "{paragraphSpacing.0}",
         "paragraphIndent": "{paragraphIndent.0}"
@@ -504,7 +504,7 @@
           "value": "{font.size.md}",
           "type": "fontSizes"
         },
-        "quarternary": {
+        "quaternary": {
           "value": "{font.size.sm}",
           "type": "fontSizes"
         }
@@ -602,7 +602,7 @@
           "value": "{line-height.md}",
           "type": "lineHeights"
         },
-        "quarternary": {
+        "quaternary": {
           "value": "{line-height.sm}",
           "type": "lineHeights"
         }
