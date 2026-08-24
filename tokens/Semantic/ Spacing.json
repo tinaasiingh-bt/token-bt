@@ -169,7 +169,7 @@
           "2xs": {
             "value": "{spacing.negative.2xs}",
             "type": "spacing",
-            "description": "For Developers\n"
+            "description": "For Developers"
           }
         }
       }

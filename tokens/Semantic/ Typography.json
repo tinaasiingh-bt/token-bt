@@ -73,7 +73,7 @@
         "paragraphIndent": "{paragraphIndent.0}"
       },
       "type": "typography",
-      "description": "Primary page titles  or sections(e.g., \"user details, application access\")."
+      "description": "Primary page titles or sections(e.g., \"user details, application access\")."
     },
     "secondary": {
       "value": {
@@ -99,7 +99,7 @@
         "paragraphIndent": "{paragraphIndent.0}"
       },
       "type": "typography",
-      "description": "Subsection titles within a section,Button, card headers, or table headers."
+      "description": "Subsection titles within a section, Button, card headers, or table headers."
     },
     "quaternary": {
       "value": {
@@ -332,7 +332,7 @@
         "fontSize": "{text.size.instructional}"
       },
       "type": "typography",
-      "description": "checkbox ,charts tips,number filed,slider,text field,error"
+      "description": "checkbox, chart tips, number field, slider, text field, error"
     },
     "strong": {
       "value": {
@@ -342,7 +342,7 @@
         "fontSize": "{text.size.instructional}"
       },
       "type": "typography",
-      "description": "checkbox ,charts tips,number filed,slider,text field,error"
+      "description": "checkbox, chart tips, number field, slider, text field, error"
     }
   },
   "card": {
