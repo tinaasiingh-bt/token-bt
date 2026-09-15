@@ -302,16 +302,6 @@
       "type": "typography",
       "description": "breadcrumb, text link"
     },
-    "error": {
-      "value": {
-        "fontFamily": "{text.family.functional}",
-        "fontWeight": "{text.weight.functional}",
-        "lineHeight": "{text.line-height.functional.xs}",
-        "fontSize": "{text.size.functional.xs}"
-      },
-      "type": "typography",
-      "description": "error"
-    },
     "code": {
       "value": {
         "fontFamily": "{text.family.code}",
