@@ -34,24 +34,6 @@
         }
       }
     },
-    " status": {
-      "success": {
-        "$type": "color",
-        "$value": "{Green.100}"
-      },
-      "error": {
-        "$type": "color",
-        "$value": "{Red.50}"
-      },
-      "informational": {
-        "$type": "color",
-        "$value": "{Blue.50}"
-      },
-      "warning": {
-        "$type": "color",
-        "$value": "{Orange.275}"
-      }
-    },
     "header": {
       "$type": "color",
       "$value": "{Black.800}"
@@ -113,18 +95,36 @@
     "attention": {
       "$type": "color",
       "$value": "{Black.950}"
+    },
+    "status": {
+      "success": {
+        "$type": "color",
+        "$value": "{Green.100}"
+      },
+      "error": {
+        "$type": "color",
+        "$value": "{Red.50}"
+      },
+      "informational": {
+        "$type": "color",
+        "$value": "{Blue.50}"
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "{Orange.275}"
+      }
     }
   },
   "text": {
     "primary": {
       "$type": "color",
       "$value": "{Black.50}",
-      "$description": "Checkbox, Radio Button, Switch,Slider, Text Field, Password Field, Number Field, Time Picker, Date Picker, Button Group, Button with Icon, Tooltip text, Accordion, Modal, Help Text, Tooltip, Severity, Tab, Data Grid, Data Table, Label / Value Pair, Pagination, Checkbox, Breadcrumb, Menu, Pagination, Tab, Chart, Toast, treeview, Tag: Default / Counter, System,"
+      "$description": "Checkbox, Radio Button, Switch, Slider, Text Field, Password Field, Number Field, Time Picker, Date Picker, Button Group, Button with Icon, Tooltip text, Accordion, Modal, Help Text, Tooltip, Severity, Tab, Data Grid, Data Table, Label / Value Pair, Pagination, Checkbox, Breadcrumb, Menu, Pagination, Tab, Chart, Toast, treeview, Tag: Default / Counter, System"
     },
     "secondary": {
       "$type": "color",
       "$value": "{Neutral.light-ash}",
-      "$description": "Text Field, Password Field, Number Field, Time Picker, Date Picker, Modal, Help Text,severity, Data Grid, Data Table, Dropdown, password field, radio button instructional text, Slider"
+      "$description": "Text Field, Password Field, Number Field, Time Picker, Date Picker, Modal, Help Text, severity, Data Grid, Data Table, Dropdown, password field, radio button instructional text, Slider"
     },
     "tertiary": {
       "$type": "color",
@@ -138,7 +138,7 @@
     "hover": {
       "$type": "color",
       "$value": "{Sky-blue.200}",
-      "$description": "Checkbox, Radio Button, Switch,Slider, Time Picker, Date Picker, buttonGroup, Tab, Toast, Text Link, Menu Trigger, Icon Button"
+      "$description": "Checkbox, Radio Button, Switch, Slider, Time Picker, Date Picker, buttonGroup, Tab, Toast, Text Link, Menu Trigger, Icon Button"
     },
     "error": {
       "$type": "color",
@@ -252,9 +252,9 @@
         "$value": "{Orange.400}"
       }
     },
-    "data": {
+    "divider": {
       "$type": "color",
-      "$value": "{Gray.300}"
+      "$value": "{Black.700}"
     }
   },
   "icon": {
@@ -289,6 +289,10 @@
     "error": {
       "$type": "color",
       "$value": "{Red.50}"
+    },
+    "active": {
+      "$type": "color",
+      "$value": "{Sky-blue.300}"
     }
   },
   "severity": {
@@ -311,10 +315,6 @@
     "none": {
       "$type": "color",
       "$value": "{Black.400}"
-    },
-    "undertermined": {
-      "$type": "color",
-      "$value": "{Stone.200}"
     }
   }
 }

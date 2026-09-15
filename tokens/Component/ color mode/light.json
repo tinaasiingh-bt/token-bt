@@ -34,16 +34,36 @@
         }
       },
       "hover": {
-        "label": {
-          "color": {
-            "$type": "color",
-            "$value": "{Blue-gray.200}"
-          }
-        },
         "background": {
           "color": {
             "$type": "color",
             "$value": "{Blue-gray.200}"
+          }
+        }
+      },
+      "icon": {
+        "default": {
+          "background": {
+            "color": {
+              "$type": "color",
+              "$value": "{Blue-gray.100}"
+            }
+          }
+        },
+        "hover": {
+          "background": {
+            "color": {
+              "$type": "color",
+              "$value": "{Blue-gray.200}"
+            }
+          }
+        },
+        "active": {
+          "background": {
+            "color": {
+              "$type": "color",
+              "$value": "{Blue-gray.300}"
+            }
           }
         }
       }
@@ -52,25 +72,33 @@
       "active": {
         "background": {
           "color": {
-            "$type": "color",
-            "$value": "{Orange.900}"
-          }
+            "value": "{Orange.900}",
+            "type": "color"
+          },
+          "$type": "color",
+          "$value": "{Orange.900}"
         }
       },
       "default": {
         "background": {
-          "color": {
-            "$type": "color",
-            "$value": "{Red.100}"
-          }
+          "$type": "color",
+          "$value": "{Red.100}"
         }
       },
       "hover": {
         "background": {
           "color": {
-            "$type": "color",
-            "$value": "{Orange.800}"
-          }
+            "value": "{Orange.800}",
+            "type": "color"
+          },
+          "$type": "color",
+          "$value": "{Orange.800}"
+        }
+      },
+      "focus": {
+        "background": {
+          "$type": "color",
+          "$value": "{Orange.800}"
         }
       }
     },
@@ -112,7 +140,7 @@
         }
       }
     },
-    "secondarytext": {
+    "secondary-text": {
       "default": {
         "label": {
           "color": {
@@ -128,6 +156,163 @@
           "color": {
             "$type": "color",
             "$value": "{Blue.300}"
+          }
+        }
+      }
+    },
+    "danger-icon": {
+      "default": {
+        "background": {
+          "$type": "color",
+          "$value": "{transparent}",
+          "$description": "Danger icon button — default state (transparent)"
+        },
+        "icon": {
+          "color": {
+            "$type": "color",
+            "$value": "{Red.100}",
+            "$description": "Danger icon button — icon color default"
+          }
+        }
+      },
+      "hover": {
+        "background": {
+          "$type": "color",
+          "$value": "{Rose.30}",
+          "$description": "Danger icon button — hover state background"
+        },
+        "icon": {
+          "color": {
+            "$type": "color",
+            "$value": "{Red.100}",
+            "$description": "Danger icon button — icon color on hover"
+          }
+        }
+      },
+      "focus": {
+        "background": {
+          "$type": "color",
+          "$value": "{Rose.30}",
+          "$description": "Danger icon button — focus state background"
+        },
+        "border": {
+          "color": {
+            "$type": "color",
+            "$value": "{Orange.400}",
+            "$description": "Danger icon button — focus ring color"
+          }
+        },
+        "icon": {
+          "color": {
+            "$type": "color",
+            "$value": "{Red.100}",
+            "$description": "Danger icon button — icon color on focus"
+          }
+        }
+      },
+      "active": {
+        "background": {
+          "$type": "color",
+          "$value": "{Rose.35}",
+          "$description": "Danger icon button — pressed/active state background"
+        },
+        "icon": {
+          "color": {
+            "$type": "color",
+            "$value": "{Red.100}",
+            "$description": "Danger icon button — icon color on active"
+          }
+        }
+      },
+      "disabled": {
+        "background": {
+          "$type": "color",
+          "$value": "{transparent}",
+          "$description": "Danger icon button — disabled state (transparent + opacity)"
+        },
+        "icon": {
+          "color": {
+            "$type": "color",
+            "$value": "{Red.100}",
+            "$description": "Danger icon button — icon color disabled (with opacity layer)"
+          }
+        }
+      }
+    },
+    "danger-text": {
+      "active": {
+        "background": {
+          "color": {
+            "value": "{Orange.900}",
+            "type": "color"
+          },
+          "$type": "color",
+          "$value": "{Rose.35}"
+        }
+      },
+      "hover": {
+        "background": {
+          "color": {
+            "value": "{Orange.800}",
+            "type": "color"
+          },
+          "$type": "color",
+          "$value": "{Rose.30}"
+        }
+      },
+      "focus": {
+        "background": {
+          "$type": "color",
+          "$value": "{Rose.30}"
+        }
+      }
+    },
+    "secondary-outline": {
+      "default": {
+        "border": {
+          "color": {
+            "$type": "color",
+            "$value": "{Blue-gray.100}"
+          }
+        },
+        "label": {
+          "color": {
+            "$type": "color",
+            "$value": "{Blue-gray.100}"
+          }
+        }
+      },
+      "hover": {
+        "border": {
+          "color": {
+            "$type": "color",
+            "$value": "{Blue-gray.200}"
+          }
+        },
+        "label": {
+          "color": {
+            "$type": "color",
+            "$value": "{Blue-gray.200}"
+          }
+        }
+      },
+      "active": {
+        "label": {
+          "color": {
+            "$type": "color",
+            "$value": "{Blue-gray.300}"
+          }
+        },
+        "icon": {
+          "color": {
+            "$type": "color",
+            "$value": "{Blue-gray.300}"
+          }
+        },
+        "border": {
+          "color": {
+            "$type": "color",
+            "$value": "{Blue-gray.300}"
           }
         }
       }
@@ -257,13 +442,47 @@
               }
             }
           }
+        },
+        "background": {
+          "color": {
+            "$type": "color",
+            "$value": "{Gray.50}"
+          }
+        },
+        "row": {
+          "background": {
+            "color": {
+              "$type": "color",
+              "$value": "{Gray.200}"
+            }
+          }
+        },
+        "border": {
+          "color": {
+            "$type": "color",
+            "$value": "{Gray.300}"
+          }
+        },
+        "text": {
+          "color": {
+            "$type": "color",
+            "$value": "{Navy.700}"
+          }
+        },
+        "input": {
+          "background": {
+            "color": {
+              "$type": "color",
+              "$value": "{Neutral.White}"
+            }
+          }
         }
       },
       "header": {
         "background": {
           "color": {
             "$type": "color",
-            "$value": "{Navy.600}"
+            "$value": "{Gray.200}"
           }
         }
       },
@@ -369,6 +588,145 @@
         "color": {
           "$type": "color",
           "$value": "{Black.950}"
+        }
+      }
+    },
+    "color": {
+      "1": {
+        "prominent": {
+          "fill": {
+            "$type": "color",
+            "$value": "{Rose.200}",
+            "$description": "color/1/prominent/fill"
+          }
+        },
+        "subtle": {
+          "fill": {
+            "$type": "color",
+            "$value": "{Rose.25}"
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{Red.100}"
+          }
+        }
+      },
+      "2": {
+        "prominent": {
+          "fill": {
+            "$type": "color",
+            "$value": "{Sunset.400}"
+          }
+        },
+        "subtle": {
+          "fill": {
+            "$type": "color",
+            "$value": "{Orange.50}"
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{Peach.200}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{Peach.200}"
+          }
+        }
+      },
+      "3": {
+        "prominent": {
+          "fill": {
+            "$type": "color",
+            "$value": "{Sunset.200}"
+          }
+        },
+        "subtle": {
+          "fill": {
+            "$type": "color",
+            "$value": "{Gold.50}"
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{Gold.200}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{Gold.200}"
+          }
+        }
+      },
+      "4": {
+        "prominent": {
+          "fill": {
+            "$type": "color",
+            "$value": "{Green.200}"
+          }
+        },
+        "subtle": {
+          "fill": {
+            "$type": "color",
+            "$value": "{Mint.50}"
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{Mint.300}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{Mint.300}"
+          }
+        }
+      },
+      "5": {
+        "prominent": {
+          "fill": {
+            "$type": "color",
+            "$value": "{Teal.150}"
+          }
+        },
+        "subtle": {
+          "fill": {
+            "$type": "color",
+            "$value": "{Aqua.50}"
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{Aqua.300}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{Aqua.300}"
+          }
+        }
+      },
+      "6": {
+        "prominent": {
+          "fill": {
+            "$type": "color",
+            "$value": "{Sky-blue.600}"
+          }
+        },
+        "subtle": {
+          "fill": {
+            "$type": "color",
+            "$value": "{Sky-blue.50}"
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{Blue.100}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{Blue.100}"
+          }
+        }
+      },
+      "undetermined": {
+        "prominent": {
+          "fill": {
+            "$type": "color",
+            "$value": "{Stone.300}"
+          }
         }
       }
     }
@@ -501,6 +859,136 @@
         "color": {
           "$type": "color",
           "$value": "{Navy.700}"
+        }
+      }
+    }
+  },
+  "navigation": {
+    "secondary": {
+      "background": {
+        "color": {
+          "$type": "color",
+          "$value": "{Gray.25}"
+        }
+      }
+    },
+    "item": {
+      "default": {
+        "background": {
+          "color": {
+            "$type": "color",
+            "$value": "{Gray.100}"
+          }
+        }
+      },
+      "selected": {
+        "background": {
+          "color": {
+            "$type": "color",
+            "$value": "{Navy.50}"
+          }
+        }
+      },
+      "hover": {
+        "background": {
+          "color": {
+            "$type": "color",
+            "$value": "{Gray.200}"
+          }
+        }
+      }
+    }
+  },
+  "chat": {
+    "hover": {
+      "receiver-bubble": {
+        "background": {
+          "$type": "color",
+          "$value": "{Gray.100}"
+        }
+      }
+    },
+    "default": {
+      "code": {
+        "background": {
+          "$type": "color",
+          "$value": "{Gray.200}"
+        }
+      },
+      "receiver-timestamp": {
+        "text": {
+          "$type": "color",
+          "$value": "{Gray.500}"
+        }
+      },
+      "sender-timestamp": {
+        "text": {
+          "$type": "color",
+          "$value": "{Gray.600}"
+        }
+      },
+      "reply": {
+        "border": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Gray.500}"
+        }
+      },
+      "typing-dot-1": {
+        "background": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_FILLS"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$type": "color",
+          "$value": "{Navy.100}"
+        }
+      },
+      "typing-dot-2": {
+        "background": {
+          "$type": "color",
+          "$value": "{Navy.300}"
+        }
+      },
+      "typing-dot-3": {
+        "background": {
+          "$type": "color",
+          "$value": "{Navy.500}"
+        }
+      },
+      "transcribing-dot": {
+        "background": {
+          "$type": "color",
+          "$value": "{Gray.500}"
+        }
+      },
+      "ai-avatar": {
+        "icon": {
+          "$type": "color",
+          "$value": "{Navy.700}"
+        }
+      },
+      "container": {
+        "background": {
+          "$type": "color",
+          "$value": "{Gray.50}"
+        }
+      }
+    }
+  },
+  "tile": {
+    "hover": {
+      "background": {
+        "color": {
+          "$type": "color",
+          "$value": "{Gray.100}"
         }
       }
     }

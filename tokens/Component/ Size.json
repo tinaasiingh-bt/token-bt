@@ -61,12 +61,10 @@
   },
   "radio-button": {
     "default": {
-      "container": {
-        "list": {
-          "item": {
-            "$type": "sizing",
-            "$value": "{size.34}"
-          }
+      "listitem": {
+        "height": {
+          "$type": "sizing",
+          "$value": "{size.34}"
         }
       }
     }
@@ -98,7 +96,7 @@
       "container": {
         "width": {
           "$type": "sizing",
-          "$value": "{size.200}"
+          "$value": "{size.150}"
         }
       }
     }
@@ -163,6 +161,17 @@
         "sm": {
           "$type": "sizing",
           "$value": "{size.24}"
+        }
+      }
+    }
+  },
+  "button": {
+    "container": {
+      "height": {
+        "lg": {
+          "$type": "sizing",
+          "$value": "{size.40}",
+          "$description": "Large button height"
         }
       }
     }

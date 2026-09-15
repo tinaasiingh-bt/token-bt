@@ -107,6 +107,18 @@
         "md": {
           "$type": "spacing",
           "$value": "{spacing.md}"
+        },
+        "2xl": {
+          "$type": "spacing",
+          "$value": "{spacing.5xl}"
+        },
+        "8xl": {
+          "$type": "spacing",
+          "$value": "{spacing.11xl}"
+        },
+        "3xl": {
+          "$type": "spacing",
+          "$value": "{spacing.6xl}"
         }
       },
       "margin": {
@@ -157,7 +169,7 @@
           "2xs": {
             "$type": "spacing",
             "$value": "{spacing.negative.2xs}",
-            "$description": "For Developers\n"
+            "$description": "For Developers"
           }
         }
       }

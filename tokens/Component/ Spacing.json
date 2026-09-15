@@ -1,23 +1,11 @@
 {
-  "accordion": {
-    "content": {
-      "padding": {
-        "11xl": {
-          "$type": "spacing",
-          "$value": "{spacing.11xl}"
-        }
-      }
-    }
-  },
   "help-text": {
     "default": {
       "content": {
         "margin": {
           "negative": {
-            "8xs": {
-              "$type": "spacing",
-              "$value": "{spacing.negative.8xs}"
-            }
+            "$type": "spacing",
+            "$value": "{spacing.negative.8xs}"
           }
         },
         "padding": {
@@ -33,10 +21,8 @@
     "default": {
       "menu-popup": {
         "margin": {
-          "3xs": {
-            "$type": "spacing",
-            "$value": "{spacing.3xs}"
-          }
+          "$type": "spacing",
+          "$value": "{spacing.3xs}"
         }
       }
     }
@@ -45,29 +31,17 @@
     "default": {
       "instructional": {
         "margin": {
-          "4xs": {
-            "$type": "spacing",
-            "$value": "{spacing.negative.4xs}"
-          }
+          "$type": "spacing",
+          "$value": "{spacing.negative.4xs}"
         }
       }
     }
   },
   "slider": {
-    "vertical": {
-      "tick": {
-        "gap": {
-          "$type": "spacing",
-          "$value": "{spacing.sm}"
-        }
-      }
-    },
     "horizontal": {
       "margin": {
-        "2xl": {
-          "$type": "spacing",
-          "$value": "{spacing.2xl}"
-        }
+        "$type": "spacing",
+        "$value": "{spacing.2xl}"
       }
     }
   },
@@ -76,10 +50,8 @@
       "item": {
         "margin": {
           "negative": {
-            "3xs": {
-              "$type": "spacing",
-              "$value": "{spacing.negative.3xs}"
-            }
+            "$type": "spacing",
+            "$value": "{spacing.negative.3xs}"
           }
         }
       }
@@ -101,30 +73,24 @@
     "toggle": {
       "margin": {
         "negative": {
-          "12xs": {
-            "$type": "spacing",
-            "$value": "{spacing.negative.12xs}"
-          }
+          "$type": "spacing",
+          "$value": "{spacing.negative.12xs}"
         }
       }
     },
     "left": {
       "text": {
         "margin": {
-          "lg": {
-            "$type": "spacing",
-            "$value": "{spacing.lg}"
-          }
+          "$type": "spacing",
+          "$value": "{spacing.lg}"
         }
       }
     },
     "leaf": {
       "container": {
         "margin": {
-          "3xl": {
-            "$type": "spacing",
-            "$value": "{spacing.3xl}"
-          }
+          "$type": "spacing",
+          "$value": "{spacing.3xl}"
         }
       }
     }
