@@ -1,6 +1,0 @@
-{
-  "color-background-primary": {
-    "$type": "color",
-    "$value": "{Button.button-primary}"
-  }
-}
