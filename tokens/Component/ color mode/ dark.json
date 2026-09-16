@@ -71,10 +71,6 @@
     "danger": {
       "active": {
         "background": {
-          "color": {
-            "value": "{Orange.900}",
-            "type": "color"
-          },
           "$type": "color",
           "$value": "{Orange.900}"
         }
@@ -87,10 +83,6 @@
       },
       "hover": {
         "background": {
-          "color": {
-            "value": "{Orange.800}",
-            "type": "color"
-          },
           "$type": "color",
           "$value": "{Orange.800}"
         }
@@ -242,20 +234,12 @@
     "danger-text": {
       "active": {
         "background": {
-          "color": {
-            "value": "{Orange.900}",
-            "type": "color"
-          },
           "$type": "color",
           "$value": "{Rose.275}"
         }
       },
       "hover": {
         "background": {
-          "color": {
-            "value": "{Orange.800}",
-            "type": "color"
-          },
           "$type": "color",
           "$value": "{Rose.250}"
         }
