@@ -102,6 +102,12 @@
     }
   },
   "tab": {
+    "container": {
+      "height": {
+        "value": "{size.44}",
+        "type": "sizing"
+      }
+    },
     "icon": {
       "height": {
         "value": "{size.20}",
