@@ -5,12 +5,6 @@
       "type": "letterSpacing"
     }
   },
-  "paragraphSpacing": {
-    "0": {
-      "value": "0",
-      "type": "paragraphSpacing"
-    }
-  },
   "textCase": {
     "none": {
       "value": "none",
@@ -27,12 +21,6 @@
       "type": "textDecoration"
     }
   },
-  "paragraphIndent": {
-    "0": {
-      "value": "0px",
-      "type": "dimension"
-    }
-  },
   "display": {
     "lg": {
       "value": {
@@ -41,8 +29,6 @@
         "lineHeight": "{text.line-height.display.lg}",
         "fontSize": "{text.size.display.lg}",
         "letterSpacing": "{letterSpacing.0}",
-        "paragraphSpacing": "{paragraphSpacing.0}",
-        "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}"
       },
       "type": "typography"
@@ -54,8 +40,6 @@
         "lineHeight": "{text.line-height.display.md}",
         "fontSize": "{text.size.display.md}",
         "letterSpacing": "{letterSpacing.0}",
-        "paragraphSpacing": "{paragraphSpacing.0}",
-        "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}"
       },
       "type": "typography"
@@ -68,9 +52,7 @@
         "fontWeight": "{text.weight.heading}",
         "lineHeight": "{text.line-height.heading.primary}",
         "fontSize": "{text.size.heading.primary}",
-        "letterSpacing": "{letterSpacing.0}",
-        "paragraphSpacing": "{paragraphSpacing.0}",
-        "paragraphIndent": "{paragraphIndent.0}"
+        "letterSpacing": "{letterSpacing.0}"
       },
       "type": "typography",
       "description": "Primary page titles or sections(e.g., \"user details, application access\")."
@@ -81,9 +63,7 @@
         "fontWeight": "{text.weight.heading}",
         "lineHeight": "{text.line-height.heading.secondary}",
         "fontSize": "{text.size.heading.secondary}",
-        "letterSpacing": "{letterSpacing.0}",
-        "paragraphSpacing": "{paragraphSpacing.0}",
-        "paragraphIndent": "{paragraphIndent.0}"
+        "letterSpacing": "{letterSpacing.0}"
       },
       "type": "typography",
       "description": "Section headings or significant sections in the UI."
@@ -94,9 +74,7 @@
         "fontWeight": "{text.weight.heading}",
         "lineHeight": "{text.line-height.heading.tertiary}",
         "fontSize": "{text.size.heading.tertiary}",
-        "letterSpacing": "{letterSpacing.0}",
-        "paragraphSpacing": "{paragraphSpacing.0}",
-        "paragraphIndent": "{paragraphIndent.0}"
+        "letterSpacing": "{letterSpacing.0}"
       },
       "type": "typography",
       "description": "Subsection titles within a section, Button, card headers, or table headers."
@@ -107,9 +85,7 @@
         "fontWeight": "{text.weight.heading}",
         "lineHeight": "{text.line-height.heading.quaternary}",
         "fontSize": "{text.size.heading.quaternary}",
-        "letterSpacing": "{letterSpacing.0}",
-        "paragraphSpacing": "{paragraphSpacing.0}",
-        "paragraphIndent": "{paragraphIndent.0}"
+        "letterSpacing": "{letterSpacing.0}"
       },
       "type": "typography",
       "description": "labels"
@@ -123,9 +99,7 @@
           "fontWeight": "{text.weight.label.primary}",
           "lineHeight": "{text.line-height.label.sm}",
           "fontSize": "{text.size.label.sm}",
-          "letterSpacing": "{letterSpacing.0}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}"
+          "letterSpacing": "{letterSpacing.0}"
         },
         "type": "typography",
         "description": "Breadcrumb (active)"
@@ -137,8 +111,6 @@
           "lineHeight": "{text.line-height.label.sm}",
           "fontSize": "{text.size.label.sm}",
           "letterSpacing": "{letterSpacing.0}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}",
           "textCase": "{textCase.none}",
           "textDecoration": "{textDecoration.none}"
         },
@@ -163,9 +135,7 @@
           "fontWeight": "{text.weight.label.primary}",
           "lineHeight": "{text.line-height.label.md}",
           "fontSize": "{text.size.label.md}",
-          "letterSpacing": "{letterSpacing.0}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}"
+          "letterSpacing": "{letterSpacing.0}"
         },
         "type": "typography"
       },
@@ -175,9 +145,7 @@
           "fontWeight": "{text.weight.label.secondary}",
           "lineHeight": "{text.line-height.label.md}",
           "fontSize": "{text.size.label.md}",
-          "letterSpacing": "{letterSpacing.0}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}"
+          "letterSpacing": "{letterSpacing.0}"
         },
         "type": "typography"
       },
@@ -187,9 +155,7 @@
           "fontWeight": "{text.weight.label.tertiary}",
           "lineHeight": "{text.line-height.label.md}",
           "fontSize": "{text.size.label.md}",
-          "letterSpacing": "{letterSpacing.0}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}"
+          "letterSpacing": "{letterSpacing.0}"
         },
         "type": "typography"
       }
@@ -201,9 +167,7 @@
           "fontWeight": "{text.weight.label.primary}",
           "lineHeight": "{text.line-height.label.lg}",
           "fontSize": "{text.size.label.lg}",
-          "letterSpacing": "{letterSpacing.0}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}"
+          "letterSpacing": "{letterSpacing.0}"
         },
         "type": "typography"
       },
@@ -213,9 +177,7 @@
           "fontWeight": "{text.weight.label.secondary}",
           "lineHeight": "{text.line-height.label.lg}",
           "fontSize": "{text.size.label.lg}",
-          "letterSpacing": "{letterSpacing.0}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}"
+          "letterSpacing": "{letterSpacing.0}"
         },
         "type": "typography"
       },
@@ -225,9 +187,7 @@
           "fontWeight": "{text.weight.label.tertiary}",
           "lineHeight": "{text.line-height.label.lg}",
           "fontSize": "{text.size.label.lg}",
-          "letterSpacing": "{letterSpacing.0}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
-          "paragraphIndent": "{paragraphIndent.0}"
+          "letterSpacing": "{letterSpacing.0}"
         },
         "type": "typography"
       }
@@ -240,7 +200,6 @@
           "fontSize": "{text.size.label.xs}",
           "lineHeight": "{text.line-height.label.xs}",
           "letterSpacing": "{letterSpacing.0}",
-          "paragraphSpacing": "{paragraphSpacing.0}",
           "textDecoration": "{textDecoration.none}"
         },
         "type": "typography"
@@ -254,9 +213,7 @@
         "fontWeight": "{text.weight.body}",
         "lineHeight": "{text.line-height.body.sm}",
         "fontSize": "{text.size.body.sm}",
-        "letterSpacing": "{letterSpacing.0}",
-        "paragraphSpacing": "{paragraphSpacing.0}",
-        "paragraphIndent": "{paragraphIndent.0}"
+        "letterSpacing": "{letterSpacing.0}"
       },
       "type": "typography",
       "description": "subtitle, paragraph"
@@ -267,9 +224,7 @@
         "fontWeight": "{text.weight.body}",
         "lineHeight": "{text.line-height.body.md}",
         "fontSize": "{text.size.body.md}",
-        "letterSpacing": "{letterSpacing.0}",
-        "paragraphSpacing": "{paragraphSpacing.0}",
-        "paragraphIndent": "{paragraphIndent.0}"
+        "letterSpacing": "{letterSpacing.0}"
       },
       "type": "typography"
     },
@@ -279,9 +234,7 @@
         "fontWeight": "{text.weight.body}",
         "lineHeight": "{text.line-height.body.lg}",
         "fontSize": "{text.size.body.lg}",
-        "letterSpacing": "{letterSpacing.0}",
-        "paragraphSpacing": "{paragraphSpacing.0}",
-        "paragraphIndent": "{paragraphIndent.0}"
+        "letterSpacing": "{letterSpacing.0}"
       },
       "type": "typography"
     }
@@ -294,8 +247,6 @@
         "lineHeight": "{text.line-height.functional.sm}",
         "fontSize": "{text.size.functional.sm}",
         "letterSpacing": "{letterSpacing.0}",
-        "paragraphSpacing": "{paragraphSpacing.0}",
-        "paragraphIndent": "{paragraphIndent.0}",
         "textCase": "{textCase.none}",
         "textDecoration": "{textDecoration.underline}"
       },
