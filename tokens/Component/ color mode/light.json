@@ -415,12 +415,10 @@
         "type": "color"
       }
     },
-    "tooltip": {
-      "line": {
-        "color": {
-          "value": "{Navy.700}",
-          "type": "color"
-        }
+    "leader-line": {
+      "color": {
+        "value": "{Navy.700}",
+        "type": "color"
       }
     }
   },

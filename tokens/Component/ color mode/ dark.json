@@ -415,12 +415,10 @@
         "type": "color"
       }
     },
-    "tooltip": {
-      "line": {
-        "color": {
-          "value": "{Black.50}",
-          "type": "color"
-        }
+    "leader-line": {
+      "color": {
+        "value": "{Black.50}",
+        "type": "color"
       }
     }
   },
