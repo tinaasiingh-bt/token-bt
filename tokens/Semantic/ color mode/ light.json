@@ -90,6 +90,10 @@
       "row-selected": {
         "value": "{Cyan.100}",
         "type": "color"
+      },
+      "row-active": {
+        "value": "{Cyan.100}",
+        "type": "color"
       }
     },
     "attention": {
