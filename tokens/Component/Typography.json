@@ -1,12 +1,20 @@
 {
-  "chart-disabled-legend-item": {
-    "value": {
-      "fontFamily": "{font.family.inter}",
-      "fontWeight": "{font.weight.regular}",
-      "fontSize": "{font.size.sm}",
-      "lineHeight": "{line-height.sm}",
-      "textDecoration": "{text-decoration.line-through}"
-    },
-    "type": "typography"
+  "chart": {
+    "disabled": {
+      "legend": {
+        "item": {
+          "text": {
+            "value": {
+              "fontFamily": "{font.family.inter}",
+              "fontWeight": "{font.weight.regular}",
+              "fontSize": "{font.size.sm}",
+              "lineHeight": "{line-height.sm}",
+              "textDecoration": "{text-decoration.line-through}"
+            },
+            "type": "typography"
+          }
+        }
+      }
+    }
   }
 }
