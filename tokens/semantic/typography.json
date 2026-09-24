@@ -537,7 +537,7 @@
           "type": "lineHeights"
         },
         "xs": {
-          "value": "{line-height.sm}",
+          "value": "{line-height.xs}",
           "type": "lineHeights"
         }
       },
