@@ -507,7 +507,7 @@
       },
       "heading": {
         "primary": {
-          "value": "{line-height.xl}",
+          "value": "{line-height.lg}",
           "type": "lineHeights"
         },
         "secondary": {
