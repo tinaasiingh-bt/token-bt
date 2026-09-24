@@ -3,7 +3,7 @@
     "disabled": {
       "legend": {
         "item": {
-          "text": {
+          "text-decoration": {
             "value": {
               "fontFamily": "{font.family.inter}",
               "fontWeight": "{font.weight.regular}",
