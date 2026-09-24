@@ -1180,8 +1180,7 @@
       "Component/ Spacing": "enabled",
       "Component/ Size": "enabled",
       "Component/ Border radius": "enabled",
-      "Semantic/ color mode/ light": "source",
-      "Component/Typography": "enabled"
+      "Semantic/ color mode/ light": "source"
     },
     "$figmaStyleReferences": {
       "data-grid.text.color": "S:c93cf3a19fcbd6b412277364ca0409b9728f9d22,",
@@ -1656,7 +1655,7 @@
       "chat.default.ai-avatar.icon": "41f0e9428135f9a11ea1e0629cea299849db1232",
       "chat.default.container.background": "68973ed9e833dd0ac8036af75f0d74ef274d2d47",
       "tile.hover.background.color": "5da4825620e12d4e6af4c3ef1a88a82ef91a3fba",
-      "data-grid.text.color.color": "b230bec648d0296564767cfd8200a369a6aa0cc7",
+      "data-grid.text.color.color": "d8cd542fa2f1942a43ba8a8c664d3241bc8b1859",
       "badge.border-radius": "ca2a45aa55bd470af301fd04a1b94db1f435670e",
       "breadcrumb.focus.border-radius": "0078a67e2bb2f4f76104d6df178a56d0bba78dce",
       "checkbox.unselected.box-radius": "340f66b98939046867fd2aeb16f64a7b531c9afa",
@@ -1752,7 +1751,8 @@
       "card.lg": "S:4d073e8eb0a1f714df307db9f1e16f04c8746016,",
       "card.md": "S:5fb7ba24a061f36145dc6a45351ea541291e3925,",
       "card.sm": "S:e8a17b8e6103641fb4ad8fe85876ee699354a8e8,",
-      "card.xs": "S:ec9df39cd54f6cf6ec90956e4263522cb18efa55,"
+      "card.xs": "S:ec9df39cd54f6cf6ec90956e4263522cb18efa55,",
+      "chart-disabled-legend-item": "S:94426c3cf2be27fa566527b8c16b5e40b6b319fa,"
     },
     "$figmaVariableReferences": {
       "text.family.display": "7160bb56d6b92134e024cf0b350857a7d04f5ed6",
