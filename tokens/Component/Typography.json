@@ -1,0 +1,8 @@
+{
+  "chart-disabled-legend-item-text-decoration": {
+    "value": {
+      "textDecoration": "{textDecoration.line-through}"
+    },
+    "type": "typography"
+  }
+}
