@@ -579,15 +579,15 @@
           "type": "lineHeights"
         },
         "md": {
-          "value": "{line-height.md}",
+          "value": "{line-height.3xl}",
           "type": "lineHeights"
         },
         "sm": {
-          "value": "{line-height.sm}",
+          "value": "{line-height.2xl}",
           "type": "lineHeights"
         },
         "xs": {
-          "value": "{line-height.xs}",
+          "value": "{line-height.xl}",
           "type": "lineHeights"
         }
       }
