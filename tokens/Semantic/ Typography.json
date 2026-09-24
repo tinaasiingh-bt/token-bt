@@ -5,7 +5,7 @@
       "type": "textCase"
     }
   },
-  "textDecoration": {
+  "text-decoration": {
     "none": {
       "value": "none",
       "type": "textDecoration"
@@ -98,7 +98,7 @@
           "lineHeight": "{text.line-height.label.sm}",
           "fontSize": "{text.size.label.sm}",
           "textCase": "{textCase.none}",
-          "textDecoration": "{textDecoration.none}"
+          "textDecoration": "{text-decoration.none}"
         },
         "type": "typography",
         "description": "checkbox, tags"
@@ -179,7 +179,7 @@
           "fontWeight": "{text.weight.label.primary}",
           "fontSize": "{text.size.label.xs}",
           "lineHeight": "{text.line-height.label.xs}",
-          "textDecoration": "{textDecoration.none}"
+          "textDecoration": "{text-decoration.none}"
         },
         "type": "typography"
       }
@@ -223,7 +223,7 @@
         "lineHeight": "{text.line-height.functional.sm}",
         "fontSize": "{text.size.functional.sm}",
         "textCase": "{textCase.none}",
-        "textDecoration": "{textDecoration.underline}"
+        "textDecoration": "{text-decoration.underline}"
       },
       "type": "typography",
       "description": "breadcrumb, text link"

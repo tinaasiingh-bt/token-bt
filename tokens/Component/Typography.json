@@ -1,7 +1,10 @@
 {
-  "chart-disabled-legend-item-text-decoration": {
+  "chart-disabled-legend-item": {
     "value": {
-      "textDecoration": "{textDecoration.line-through}"
+      "textDecoration": "{text-decoration.line-through}",
+      "fontFamily": "{font.family.inter}",
+      "fontWeight": "{font.weight.regular}",
+      "fontSize": "{font.size.sm}"
     },
     "type": "typography"
   }

@@ -113,7 +113,7 @@
       "type": "lineHeights"
     }
   },
-  "textDecoration": {
+  "text-decoration": {
     "underline": {
       "value": "underline",
       "type": "textDecoration"
