@@ -3,13 +3,13 @@
     "id": "primitives-mode",
     "name": "mode",
     "selectedTokenSets": {
-      "Primitive/Color": "enabled",
-      "Primitive/Spacing": "enabled",
-      "Primitive/Border": "enabled",
-      "Primitive/ Size": "enabled",
-      "Primitive/Opacity": "enabled",
-      "Primitive/ Shadow": "enabled",
-      "Primitive/Typography": "source"
+      "primitive/color": "enabled",
+      "primitive/spacing": "enabled",
+      "primitive/border": "enabled",
+      "primitive/size": "enabled",
+      "primitive/opacity": "enabled",
+      "primitive/shadow": "enabled",
+      "primitive/typography": "source"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -331,17 +331,17 @@
     "id": "6564e3eea7c74be2003bb10ce5d4e0f75543d3c1",
     "name": "light",
     "selectedTokenSets": {
-      "Primitive/Spacing": "source",
-      "Primitive/Border": "source",
-      "Primitive/Color": "source",
-      "Primitive/ Size": "source",
-      "Primitive/Opacity": "source",
-      "Primitive/ Shadow": "source",
-      "Semantic/ color mode/ light": "enabled",
-      "Semantic/ Size": "enabled",
-      "Semantic/ Border": "enabled",
-      "Semantic/ Spacing": "enabled",
-      "Semantic/  Opacity": "enabled"
+      "primitive/spacing": "source",
+      "primitive/border": "source",
+      "primitive/color": "source",
+      "primitive/size": "source",
+      "primitive/opacity": "source",
+      "primitive/shadow": "source",
+      "semantic/color-mode/light": "enabled",
+      "semantic/size": "enabled",
+      "semantic/border": "enabled",
+      "semantic/spacing": "enabled",
+      "semantic/opacity": "enabled"
     },
     "$figmaStyleReferences": {
       "Black.50": "S:b32e1a032c619d20a90715ba96ebc522fe572d5f,",
@@ -712,17 +712,17 @@
     "id": "9ad92b26719f488a85ea6362260839526f1d79a5",
     "name": "dark",
     "selectedTokenSets": {
-      "Primitive/Spacing": "source",
-      "Primitive/Border": "source",
-      "Primitive/Color": "source",
-      "Primitive/ Size": "source",
-      "Primitive/Opacity": "source",
-      "Primitive/ Shadow": "source",
-      "Semantic/ color mode/ dark": "enabled",
-      "Semantic/  Opacity": "enabled",
-      "Semantic/ Spacing": "enabled",
-      "Semantic/ Border": "enabled",
-      "Semantic/ Size": "enabled"
+      "primitive/spacing": "source",
+      "primitive/border": "source",
+      "primitive/color": "source",
+      "primitive/size": "source",
+      "primitive/opacity": "source",
+      "primitive/shadow": "source",
+      "semantic/color-mode/dark": "enabled",
+      "semantic/opacity": "enabled",
+      "semantic/spacing": "enabled",
+      "semantic/border": "enabled",
+      "semantic/size": "enabled"
     },
     "$figmaStyleReferences": {
       "display.lg": "S:51b53e6b5549c50bafc06d7a189d0a158bf77117,",
@@ -1170,17 +1170,17 @@
     "id": "5157d128c8145246c94cb28a5c95fcb6c46c6267",
     "name": "light",
     "selectedTokenSets": {
-      "Primitive/Color": "source",
-      "Primitive/Spacing": "source",
-      "Primitive/Border": "source",
-      "Primitive/ Size": "source",
-      "Primitive/Opacity": "source",
-      "Primitive/ Shadow": "source",
-      "Component/ color mode/light": "enabled",
-      "Component/ Spacing": "enabled",
-      "Component/ Size": "enabled",
-      "Component/ Border radius": "enabled",
-      "Semantic/ color mode/ light": "source"
+      "primitive/color": "source",
+      "primitive/spacing": "source",
+      "primitive/border": "source",
+      "primitive/size": "source",
+      "primitive/opacity": "source",
+      "primitive/shadow": "source",
+      "component/color-mode/light": "enabled",
+      "component/spacing": "enabled",
+      "component/size": "enabled",
+      "component/border-radius": "enabled",
+      "semantic/color-mode/light": "source"
     },
     "$figmaStyleReferences": {
       "data-grid.text.color": "S:c93cf3a19fcbd6b412277364ca0409b9728f9d22,",
@@ -1434,17 +1434,17 @@
     "id": "2e81a4bb7dc75e2a3ad66f7304d96292ab9c8648",
     "name": "dark",
     "selectedTokenSets": {
-      "Primitive/Color": "source",
-      "Primitive/Spacing": "source",
-      "Primitive/Border": "source",
-      "Primitive/ Size": "source",
-      "Primitive/Opacity": "source",
-      "Primitive/ Shadow": "source",
-      "Component/ color mode/ dark": "enabled",
-      "Component/ Spacing": "enabled",
-      "Component/ Size": "enabled",
-      "Component/ Border radius": "enabled",
-      "Semantic/ color mode/ dark": "source"
+      "primitive/color": "source",
+      "primitive/spacing": "source",
+      "primitive/border": "source",
+      "primitive/size": "source",
+      "primitive/opacity": "source",
+      "primitive/shadow": "source",
+      "component/color-mode/dark": "enabled",
+      "component/spacing": "enabled",
+      "component/size": "enabled",
+      "component/border-radius": "enabled",
+      "semantic/color-mode/dark": "source"
     },
     "$figmaStyleReferences": {
       "accordion.hover.background": "S:cb6bc82b986c34fc6d283ae043fa26591c666f8e,",
@@ -1703,8 +1703,8 @@
     "id": "079969328aaeab84ddf5cbc173db93b4b89fc8b1",
     "name": "shadow",
     "selectedTokenSets": {
-      "Primitive/ Shadow": "source",
-      "Semantic/ Elevation": "enabled"
+      "primitive/shadow": "source",
+      "semantic/elevation": "enabled"
     },
     "$figmaStyleReferences": {
       "elevation.none": "S:f67fd91a093774bbfa011030beb216a0ba1a4244,",
@@ -1719,9 +1719,9 @@
     "id": "e8fa8d7f924c00796170c197b787bf7ece4d7581",
     "name": "Typography",
     "selectedTokenSets": {
-      "Primitive/Typography": "source",
-      "Semantic/ Typography": "enabled",
-      "Component/Typography": "enabled"
+      "primitive/typography": "source",
+      "semantic/typography": "enabled",
+      "component/typography": "enabled"
     },
     "$figmaStyleReferences": {
       "display.lg": "S:52f5d7cb724dce56cd5448364ca441db30da915e,",
