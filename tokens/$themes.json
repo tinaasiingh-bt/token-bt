@@ -1445,8 +1445,7 @@
       "Component/ Spacing": "enabled",
       "Component/ Size": "enabled",
       "Component/ Border radius": "enabled",
-      "Semantic/ color mode/ dark": "source",
-      "Component/Typography": "enabled"
+      "Semantic/ color mode/ dark": "source"
     },
     "$figmaStyleReferences": {
       "accordion.hover.background": "S:cb6bc82b986c34fc6d283ae043fa26591c666f8e,",
@@ -1518,7 +1517,8 @@
       "menu.default.separator.border.color": "S:b99ebbc393b9a39472031c5ab73a746ffe027ff4,",
       "tab.item.background.color": "S:1f75953c255a432e44d3ebb1822cb7a685e43fdf,",
       "buttongroup.icon.default.color": "S:64841cea48ff27b6be9b5703207b188277e319f6,",
-      "chart-disabled-legend-item-text-decoration": "S:9ef5a0774395df42b3607be7575aad5a1febcd80,"
+      "chart-disabled-legend-item-text-decoration": "S:9ef5a0774395df42b3607be7575aad5a1febcd80,",
+      "chart-disabled-legend-item": "S:85c73e347cd121a37f339011a79355f73a2a507d,"
     },
     "$figmaVariableReferences": {
       "accordion.hover.background": "2358fb6581e1c2d91fb3d22d0244f14fb578e89f",
@@ -1656,7 +1656,7 @@
       "chat.default.ai-avatar.icon": "41f0e9428135f9a11ea1e0629cea299849db1232",
       "chat.default.container.background": "68973ed9e833dd0ac8036af75f0d74ef274d2d47",
       "tile.hover.background.color": "5da4825620e12d4e6af4c3ef1a88a82ef91a3fba",
-      "data-grid.text.color.color": "0197b795a37717f7f41b93875078c6945016ef60",
+      "data-grid.text.color.color": "b230bec648d0296564767cfd8200a369a6aa0cc7",
       "badge.border-radius": "ca2a45aa55bd470af301fd04a1b94db1f435670e",
       "breadcrumb.focus.border-radius": "0078a67e2bb2f4f76104d6df178a56d0bba78dce",
       "checkbox.unselected.box-radius": "340f66b98939046867fd2aeb16f64a7b531c9afa",
@@ -1721,7 +1721,8 @@
     "name": "Typography",
     "selectedTokenSets": {
       "Primitive/Typography": "source",
-      "Semantic/ Typography": "enabled"
+      "Semantic/ Typography": "enabled",
+      "Component/Typography": "enabled"
     },
     "$figmaStyleReferences": {
       "display.lg": "S:52f5d7cb724dce56cd5448364ca441db30da915e,",
