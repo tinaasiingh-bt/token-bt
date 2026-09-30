@@ -66,7 +66,7 @@
     },
     "outline": {
       "xs": {
-        "value": "{border.width.sm}",
+        "value": "{border.width.xs}",
         "type": "borderWidth"
       },
       "sm": {
@@ -74,8 +74,8 @@
         "type": "borderWidth"
       },
       "solid": {
-        "value": "border-width.solid",
-        "type": "borderWidth"
+        "value": "{border.style.solid}",
+        "type": "border"
       }
     }
   }
