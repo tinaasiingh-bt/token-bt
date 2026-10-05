@@ -1821,5 +1821,15 @@
     },
     "$figmaCollectionId": "VariableCollectionId:11914:589",
     "$figmaModeId": "11914:1"
+  },
+  {
+    "id": "99324e832b63d619bcf32f594bde74b762e5dd14",
+    "name": "Motion",
+    "selectedTokenSets": {
+      "primitive/motion": "source",
+      "semantic/motion": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {}
   }
 ]
