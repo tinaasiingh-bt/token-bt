@@ -1,0 +1,48 @@
+{
+  "motion": {
+    "duration": {
+      "hover": {
+        "value": "{duration.xs}",
+        "type": "other",
+        "description": "background, border and text colour changes on hover and focus"
+      },
+      "fade": {
+        "value": "{duration.sm}",
+        "type": "other",
+        "description": "opacity in/out: tooltips, toasts, overlays"
+      },
+      "slide": {
+        "value": "{duration.md}",
+        "type": "other",
+        "description": "translate/position: drawers, side panels, menus"
+      },
+      "expand": {
+        "value": "{duration.lg}",
+        "type": "other",
+        "description": "height/expand-collapse: accordion, expansion panel, tree"
+      }
+    },
+    "easing": {
+      "default": {
+        "value": "{easing.ease}",
+        "type": "other",
+        "description": "everything that has no stronger reason"
+      },
+      "enter": {
+        "value": "{easing.ease-out}",
+        "type": "other",
+        "description": "things appearing or opening"
+      },
+      "symmetric": {
+        "value": "{easing.ease-in-out}",
+        "type": "other",
+        "description": "things that move and come back: slides"
+      },
+      "progress": {
+        "value": "{easing.linear}",
+        "type": "other",
+        "description": "progress bars and determinate loaders only"
+      }
+    }
+  }
+}

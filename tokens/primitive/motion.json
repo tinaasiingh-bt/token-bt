@@ -1,0 +1,51 @@
+{
+  "duration": {
+    "xs": {
+      "value": "100ms",
+      "type": "other",
+      "description": "Colour and opacity changes on hover/focus. Most common duration in shield-kendo-styles and the four-stack wrappers."
+    },
+    "sm": {
+      "value": "150ms",
+      "type": "other",
+      "description": "Fades and small reveals. Most common duration in the shipped demo application."
+    },
+    "md": {
+      "value": "200ms",
+      "type": "other",
+      "description": "Slides and position changes."
+    },
+    "lg": {
+      "value": "250ms",
+      "type": "other",
+      "description": "Expand and collapse. Kendo ExpansionPanel default; Accordion spec \u00a73."
+    },
+    "xl": {
+      "value": "500ms",
+      "type": "other",
+      "description": "Emphasis and long reveals. Use sparingly."
+    }
+  },
+  "easing": {
+    "linear": {
+      "value": "linear",
+      "type": "other",
+      "description": "Constant rate. Progress and determinate indicators only."
+    },
+    "ease": {
+      "value": "ease",
+      "type": "other",
+      "description": "CSS default curve. Most common easing in shipped styles."
+    },
+    "ease-out": {
+      "value": "cubic-bezier(0, 0, 0.58, 1)",
+      "type": "other",
+      "description": "Fast start, soft landing. Identical to CSS ease-out; written out because shipped stylesheets use the explicit form."
+    },
+    "ease-in-out": {
+      "value": "cubic-bezier(0.42, 0, 0.58, 1)",
+      "type": "other",
+      "description": "Symmetric. Identical to CSS ease-in-out."
+    }
+  }
+}
