@@ -1160,7 +1160,7 @@
       "opacity.surface.hidden": "645a12bf322ffaa18881455e8d6ace2d5a5f9c25",
       "opacity.surface.disabled": "76e69f089664b39521b0c4d4958882c09d13a5a2",
       "opacity.surface.visible": "bcac8ca8e3ae6bc29d4858aa48d09ae84a1e0460",
-      "color.background.layer.one": "1eb41375689a222f8f05ac690a3c7261bc489643"
+      "background.layer.one": "badf3f4d1a98515d946ef0bb9322942a6923a908"
     },
     "$figmaCollectionId": "VariableCollectionId:13762:5660",
     "$figmaModeId": "13762:6",
@@ -1655,7 +1655,7 @@
       "chat.default.ai-avatar.icon": "41f0e9428135f9a11ea1e0629cea299849db1232",
       "chat.default.container.background": "68973ed9e833dd0ac8036af75f0d74ef274d2d47",
       "tile.hover.background.color": "5da4825620e12d4e6af4c3ef1a88a82ef91a3fba",
-      "data-grid.text.color.color": "d8cd542fa2f1942a43ba8a8c664d3241bc8b1859",
+      "data-grid.text.color.color": "e566a077bdcfef2620f19112c7102aea2b996d04",
       "badge.border-radius": "ca2a45aa55bd470af301fd04a1b94db1f435670e",
       "breadcrumb.focus.border-radius": "0078a67e2bb2f4f76104d6df178a56d0bba78dce",
       "checkbox.unselected.box-radius": "340f66b98939046867fd2aeb16f64a7b531c9afa",
@@ -1752,7 +1752,8 @@
       "card.md": "S:5fb7ba24a061f36145dc6a45351ea541291e3925,",
       "card.sm": "S:e8a17b8e6103641fb4ad8fe85876ee699354a8e8,",
       "card.xs": "S:ec9df39cd54f6cf6ec90956e4263522cb18efa55,",
-      "chart-disabled-legend-item": "S:94426c3cf2be27fa566527b8c16b5e40b6b319fa,"
+      "chart-disabled-legend-item": "S:94426c3cf2be27fa566527b8c16b5e40b6b319fa,",
+      "chart.disabled.legend.item.text-decoration": "S:46977b33c30e757b03b6c456969e0807c2984bc3,"
     },
     "$figmaVariableReferences": {
       "text.family.display": "7160bb56d6b92134e024cf0b350857a7d04f5ed6",
