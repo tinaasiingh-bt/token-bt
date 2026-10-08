@@ -1,16 +1,10 @@
 {
-  "color": {
-    "background": {
-      "layer": {
-        "one": {
-          "value": "{Gray.200}",
-          "type": "color"
-        }
-      }
-    }
-  },
   "background": {
     "layer": {
+      "one": {
+        "value": "{Gray.200}",
+        "type": "color"
+      },
       "two": {
         "value": "{Gray.100}",
         "type": "color"
