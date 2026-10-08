@@ -544,7 +544,6 @@
       "icon.error": "S:1a20585f2a1345343818671f48ed85ad2a49f382,"
     },
     "$figmaVariableReferences": {
-      "background.layer.one": "1eb41375689a222f8f05ac690a3c7261bc489643",
       "background.layer.two": "208dbfab41136bb12dfb5966c079c45fb6f3ba78",
       "background.layer.three": "672caebd949be37ba8cd837a8c5381ba99defdf6",
       "background.selection": "7b1c953b92f1c55282e029eea1d82e695a3bfe38",
@@ -702,7 +701,8 @@
       "spacing.element.offset.negative.2xs": "4be53de22021deef0abdc9e835e3662de6de5e9a",
       "opacity.surface.hidden": "645a12bf322ffaa18881455e8d6ace2d5a5f9c25",
       "opacity.surface.disabled": "76e69f089664b39521b0c4d4958882c09d13a5a2",
-      "opacity.surface.visible": "bcac8ca8e3ae6bc29d4858aa48d09ae84a1e0460"
+      "opacity.surface.visible": "bcac8ca8e3ae6bc29d4858aa48d09ae84a1e0460",
+      "color.background.layer.one": "1eb41375689a222f8f05ac690a3c7261bc489643"
     },
     "$figmaCollectionId": "VariableCollectionId:13762:5660",
     "$figmaModeId": "13762:5",
@@ -1002,7 +1002,6 @@
       "icon.error": "S:3b8098b008af66c3c5cbd938c40ee7a64daf7c25,"
     },
     "$figmaVariableReferences": {
-      "background.layer.one": "1eb41375689a222f8f05ac690a3c7261bc489643",
       "background.layer.two": "208dbfab41136bb12dfb5966c079c45fb6f3ba78",
       "background.layer.three": "672caebd949be37ba8cd837a8c5381ba99defdf6",
       "background.selection": "7b1c953b92f1c55282e029eea1d82e695a3bfe38",
@@ -1160,7 +1159,8 @@
       "spacing.element.offset.negative.2xs": "4be53de22021deef0abdc9e835e3662de6de5e9a",
       "opacity.surface.hidden": "645a12bf322ffaa18881455e8d6ace2d5a5f9c25",
       "opacity.surface.disabled": "76e69f089664b39521b0c4d4958882c09d13a5a2",
-      "opacity.surface.visible": "bcac8ca8e3ae6bc29d4858aa48d09ae84a1e0460"
+      "opacity.surface.visible": "bcac8ca8e3ae6bc29d4858aa48d09ae84a1e0460",
+      "color.background.layer.one": "1eb41375689a222f8f05ac690a3c7261bc489643"
     },
     "$figmaCollectionId": "VariableCollectionId:13762:5660",
     "$figmaModeId": "13762:6",
