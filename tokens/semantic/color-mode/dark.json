@@ -135,11 +135,6 @@
       "type": "color",
       "description": "Tab, menu item, Slider"
     },
-    "placeholder": {
-      "value": "{Neutral.Ash}",
-      "type": "color",
-      "description": "Placeholder text (Search; any field that carries one). Lighter than typed text and AA on the input surface. UXA ruling 2026-10-13."
-    },
     "active": {
       "value": "{Sky-blue.300}",
       "type": "color"
