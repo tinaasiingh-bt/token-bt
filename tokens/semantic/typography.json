@@ -97,8 +97,7 @@
           "fontWeight": "{text.weight.label.secondary}",
           "lineHeight": "{text.line-height.label.sm}",
           "fontSize": "{text.size.label.sm}",
-          "textCase": "{textCase.none}",
-          "textDecoration": "{text-decoration.none}"
+          "textCase": "{textCase.none}"
         },
         "type": "typography",
         "description": "checkbox, tags"
@@ -178,8 +177,7 @@
           "fontFamily": "{text.family.label}",
           "fontWeight": "{text.weight.label.primary}",
           "fontSize": "{text.size.label.xs}",
-          "lineHeight": "{text.line-height.label.xs}",
-          "textDecoration": "{text-decoration.none}"
+          "lineHeight": "{text.line-height.label.xs}"
         },
         "type": "typography"
       }
