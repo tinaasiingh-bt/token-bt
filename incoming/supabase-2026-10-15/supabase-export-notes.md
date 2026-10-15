@@ -282,7 +282,7 @@ Source: Supabase staging catalog + `supabase-export-rules.json`. Compared with t
 - `semantic/color-mode/light` / `text.interactive.secondary-hover`: add to Supabase as a new alias over primitive blue-gray-200
 - `semantic/typography` / `textCase.none`: text-case is not a Supabase concept; keep in Figma only
 
-## Supabase-only tokens (68) - in `supabase-only/*` sets, not in any Figma set or theme
+## Supabase-only tokens (66) - in `supabase-only/*` sets, not in any Figma set or theme
 
 - `supabase-only/primitive` / `ash-50`
 - `supabase-only/primitive` / `font-family-open-sans`
@@ -292,8 +292,6 @@ Source: Supabase staging catalog + `supabase-export-rules.json`. Compared with t
 - `supabase-only/primitive` / `orange-350`
 - `supabase-only/primitive` / `orange-450`
 - `supabase-only/primitive` / `spacing-negative-10xs`
-- `supabase-only/primitive` / `spread-1`
-- `supabase-only/primitive` / `spread-2`
 - `supabase-only/primitive` / `turquoise-150`
 - `supabase-only/primitive` / `turquoise-250`
 - `supabase-only/semantic` / `color-border-transparent.dark`
