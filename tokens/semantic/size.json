@@ -54,7 +54,7 @@
         "type": "sizing"
       },
       "full": {
-        "value": "{size.100}",
+        "value": "{size.full}",
         "type": "sizing"
       }
     },
@@ -92,7 +92,7 @@
         "type": "sizing"
       },
       "full": {
-        "value": "{size.100}",
+        "value": "{size.full}",
         "type": "sizing"
       },
       "none": {

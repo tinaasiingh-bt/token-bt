@@ -74,8 +74,8 @@
         "type": "borderWidth"
       },
       "solid": {
-        "value": "border-width.solid",
-        "type": "borderWidth"
+        "value": "{border.style.solid}",
+        "type": "border"
       }
     }
   }
