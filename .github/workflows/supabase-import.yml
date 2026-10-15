@@ -1,17 +1,17 @@
 name: Clean Supabase token export
 
-# Andy drops the raw Tokens Studio export into incoming/ on any branch except main.
+# Andy drops the raw Tokens Studio export (one .json file, or a folder with tokens/) into incoming/ on any branch except main.
 # This job cleans it into tokens/**, writes a report, and opens a PR against main.
 # Nothing reaches Tokens Studio until that PR is merged.
 
 on:
   push:
     branches-ignore: [main]
-    paths: ['incoming/*.json']
+    paths: ['incoming/**']
   workflow_dispatch:
     inputs:
       file:
-        description: Path of the export inside incoming/
+        description: Path of the export inside incoming/ (a .json file or a folder)
         required: true
 
 permissions:
@@ -34,9 +34,14 @@ jobs:
           if [ -n "${{ github.event.inputs.file }}" ]; then
             FILE="${{ github.event.inputs.file }}"
           else
-            FILE=$(git diff --name-only --diff-filter=AM "origin/main...origin/${GITHUB_REF_NAME}" -- 'incoming/*.json' | tail -1)
+            # first changed path under incoming/: a file incoming/x.json, or a folder incoming/x/...
+            CHANGED=$(git diff --name-only --diff-filter=AM "origin/main...origin/${GITHUB_REF_NAME}" -- 'incoming/' | grep -v '/README.md$' | head -1)
+            case "$CHANGED" in
+              incoming/*/*) FILE=$(echo "$CHANGED" | cut -d/ -f1-2) ;;
+              *)            FILE="$CHANGED" ;;
+            esac
           fi
-          test -n "$FILE" || { echo "no incoming/*.json changed"; exit 1; }
+          test -n "$FILE" || { echo "nothing changed under incoming/"; exit 1; }
           git checkout "origin/${GITHUB_REF_NAME}" -- "$FILE"
           echo "file=$FILE" >> "$GITHUB_OUTPUT"
 
