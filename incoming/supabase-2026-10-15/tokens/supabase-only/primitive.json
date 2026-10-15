@@ -31,14 +31,6 @@
     "value": "-24px",
     "type": "other"
   },
-  "spread-1": {
-    "value": "1px",
-    "type": "dimension"
-  },
-  "spread-2": {
-    "value": "2px",
-    "type": "dimension"
-  },
   "turquoise-150": {
     "value": "#00c5d3",
     "type": "color"

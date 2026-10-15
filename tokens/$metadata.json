@@ -21,6 +21,7 @@
     "component/size",
     "component/typography",
     "component/spacing",
+    "supabase/primitive/shadow",
     "supabase/supabase-only/component",
     "supabase/supabase-only/primitive",
     "supabase/supabase-only/semantic"

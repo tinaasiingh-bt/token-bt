@@ -1,0 +1,12 @@
+{
+  "spread": {
+    "1": {
+      "value": "1px",
+      "type": "dimension"
+    },
+    "2": {
+      "value": "2px",
+      "type": "dimension"
+    }
+  }
+}

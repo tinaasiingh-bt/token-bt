@@ -58,6 +58,22 @@
   },
   {
    "table": "primitive",
+   "supabase": "spread-1",
+   "theme": "",
+   "set": "primitive/shadow",
+   "path": "spread.1",
+   "note": "new in Figma: sibling of spread.0, needed by the outline elevation shadows (Tina 2026-10-15)"
+  },
+  {
+   "table": "primitive",
+   "supabase": "spread-2",
+   "theme": "",
+   "set": "primitive/shadow",
+   "path": "spread.2",
+   "note": "new in Figma: sibling of spread.0, needed by the outline elevation shadows (Tina 2026-10-15)"
+  },
+  {
+   "table": "primitive",
    "supabase": "amber-100",
    "theme": "",
    "set": "primitive/color",
@@ -7376,7 +7392,7 @@
    "path": "text.line-height.display.lg",
    "keep": "figma",
    "figma": "{line-height.5xl}",
-   "supabase": "{line.height.7xl}",
+   "supabase": "{line-height-7xl}",
    "reason": "line-height ladder: Supabase tier is one above Figma (sheet: renumber tiers)"
   },
   {
@@ -7384,7 +7400,7 @@
    "path": "text.line-height.display.md",
    "keep": "figma",
    "figma": "{line-height.4xl}",
-   "supabase": "{line.height.6xl}",
+   "supabase": "{line-height-6xl}",
    "reason": "line-height ladder: Supabase tier is one above Figma (sheet: renumber tiers)"
   },
   {
