@@ -20,6 +20,9 @@
     "component/border-radius",
     "component/size",
     "component/typography",
-    "component/spacing"
+    "component/spacing",
+    "supabase/supabase-only/component",
+    "supabase/supabase-only/primitive",
+    "supabase/supabase-only/semantic"
   ]
 }
