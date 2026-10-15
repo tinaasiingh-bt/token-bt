@@ -6,13 +6,9 @@ Source: `supabase-2026-10-15`
 
 None.
 
-## Problems inside quarantined sets (not blocking, never pushed; exporter to fix) (3)
+## Problems inside quarantined sets (not blocking, never pushed; exporter to fix) (0)
 
-| issue |
-|---|
-| supabase/supabase-only/semantic:elevation-outline-default.dark references missing token {spread.1} |
-| supabase/supabase-only/semantic:elevation-outline-default.light references missing token {spread.1} |
-| supabase/supabase-only/semantic:elevation-outline-focus.dark references missing token {spread.2} |
+None.
 
 ## Value changes to existing tokens (0)
 
@@ -36,9 +32,12 @@ None.
 
 None.
 
-## Quarantined to `supabase/` (not in tokens/, not in any theme) (0)
+## Quarantined to `supabase/` (not in tokens/, not in any theme) (2)
 
-None.
+| set | token | value | exporter note |
+|---|---|---|---|
+| primitive/shadow | spread.1 | "1px" |  |
+| primitive/shadow | spread.2 | "2px" |  |
 
 ## Tokens in tokens/ missing from export (kept as-is) (0)
 
