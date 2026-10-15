@@ -58,6 +58,20 @@ def same_value(a, b):
         return a.lower() == b.lower()
     return a == b
 
+def load_export(path):
+    """A single-file Tokens Studio JSON, or a folder holding the multi-file layout
+    (set files under <path>/tokens/ or directly under <path>, plus $themes/$metadata)."""
+    if os.path.isfile(path):
+        return load(path)
+    root = os.path.join(path, 'tokens') if os.path.isdir(os.path.join(path, 'tokens')) else path
+    out = {}
+    for f in glob.glob(os.path.join(root, '**', '*.json'), recursive=True):
+        rel = os.path.relpath(f, root)[:-5].replace(os.sep, '/')
+        out[rel] = load(f)
+    if not out:
+        sys.exit(f'no token JSON found under {path}')
+    return out
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('export'); ap.add_argument('--tokens', default='tokens')
@@ -65,7 +79,7 @@ def main():
     ap.add_argument('--dry-run', action='store_true')
     a = ap.parse_args()
 
-    export = load(a.export)
+    export = load_export(a.export)
     base = {}
     for f in glob.glob(os.path.join(a.tokens, '**', '*.json'), recursive=True):
         rel = os.path.relpath(f, a.tokens)[:-5].replace(os.sep, '/')
@@ -126,13 +140,14 @@ def main():
 
     # rule 5: validation
     for name, tree in list(out_sets.items()) + list(quarantine.items()):
+        bucket = 'quarantine_issues' if name in quarantine else 'error'
         for path, leaf in leaves(tree).items():
             v = leaf.get('value', leaf.get('$value'))
             if not isinstance(v, (str, int, float, dict, list)):
-                rep['error'].append(f'{name}:{path} value is {type(v).__name__}')
+                rep[bucket].append(f'{name}:{path} value is {type(v).__name__}')
             for s in strings(v):
                 for r in REF.findall(s):
-                    if r not in all_names: rep['error'].append(f'{name}:{path} references missing token {{{r}}}')
+                    if r not in all_names: rep[bucket].append(f'{name}:{path} references missing token {{{r}}}')
     for light in [s for s in out_sets if s.lower().endswith('color-mode/light')]:
         dark = light[:-5] + 'dark'
         if dark in out_sets:
@@ -152,7 +167,7 @@ def main():
     order = [s for s in meta.get('tokenSetOrder', []) if not s.lower().startswith(quarantine_prefix.lower())]
     order += sorted(quarantine)
     themes_path = os.path.join(a.tokens, '$themes.json')
-    if 'themes' in export and export.get('$themes') != (load(themes_path) if os.path.exists(themes_path) else None):
+    if '$themes' in export and export.get('$themes') != (load(themes_path) if os.path.exists(themes_path) else None):
         rep['notes'].append(('$themes', '', 'export $themes differs from tokens/$themes.json; repo version kept'))
 
     # report
@@ -166,6 +181,7 @@ def main():
         for r in rows: lines.append('| ' + ' | '.join(str(x).replace('|', '\\|') for x in r) + ' |')
         lines.append('')
     section('Blocking errors', [(e,) for e in rep['error']], ['error'])
+    section('Problems inside quarantined sets (not blocking, never pushed; exporter to fix)', [(e,) for e in rep['quarantine_issues']], ['issue'])
     section('Value changes to existing tokens', rep['value_changes'], ['set', 'token', 'before', 'after'])
     section('Type changes to existing tokens', rep['type_changes'], ['set', 'token', 'before', 'after'])
     section('Light/dark parity problems introduced by this import', rep['parity'], ['set', 'token', 'issue'])
