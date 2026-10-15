@@ -1,0 +1,70 @@
+name: Clean Supabase token export
+
+# Andy drops the raw Tokens Studio export into incoming/ on any branch except main.
+# This job cleans it into tokens/**, writes a report, and opens a PR against main.
+# Nothing reaches Tokens Studio until that PR is merged.
+
+on:
+  push:
+    branches-ignore: [main]
+    paths: ['incoming/*.json']
+  workflow_dispatch:
+    inputs:
+      file:
+        description: Path of the export inside incoming/
+        required: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Fetch the export from the pushed branch
+        id: pick
+        run: |
+          git fetch origin "${GITHUB_REF_NAME}"
+          if [ -n "${{ github.event.inputs.file }}" ]; then
+            FILE="${{ github.event.inputs.file }}"
+          else
+            FILE=$(git diff --name-only --diff-filter=AM "origin/main...origin/${GITHUB_REF_NAME}" -- 'incoming/*.json' | tail -1)
+          fi
+          test -n "$FILE" || { echo "no incoming/*.json changed"; exit 1; }
+          git checkout "origin/${GITHUB_REF_NAME}" -- "$FILE"
+          echo "file=$FILE" >> "$GITHUB_OUTPUT"
+
+      - name: Clean into tokens/ and write report
+        id: clean
+        continue-on-error: true
+        shell: bash {0}
+        run: |
+          REPORT="reports/supabase-import-$(date -u +%F).md"
+          python3 -I scripts/clean_supabase_export.py "${{ steps.pick.outputs.file }}" --report "$REPORT"
+          STATUS=$?
+          cp "$REPORT" /tmp/pr-body.md
+          exit $STATUS
+
+      - name: Open or update the review PR
+        uses: peter-evans/create-pull-request@v6
+        with:
+          base: main
+          branch: supabase-import/${{ github.ref_name }}
+          add-paths: |
+            tokens/**
+            reports/**
+          commit-message: "chore(tokens): clean Supabase export ${{ steps.pick.outputs.file }}"
+          title: "Supabase import · ${{ steps.pick.outputs.file }}${{ steps.clean.outcome == 'failure' && ' · HAS BLOCKING ISSUES' || '' }}"
+          body-path: /tmp/pr-body.md
+          labels: supabase-import
+          delete-branch: true
+
+      - name: Fail the job if the cleaner found blocking issues
+        if: steps.clean.outcome == 'failure'
+        run: echo "cleaner reported broken references or light/dark parity problems, see the PR report" && exit 1
