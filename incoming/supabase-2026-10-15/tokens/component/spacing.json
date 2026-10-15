@@ -1,0 +1,114 @@
+{
+  "help-text": {
+    "default": {
+      "content": {
+        "margin": {
+          "negative": {
+            "value": "{spacing.negative.8xs}",
+            "type": "spacing"
+          }
+        },
+        "padding": {
+          "none": {
+            "value": "{spacing.none}",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  },
+  "menu": {
+    "default": {
+      "menu-popup": {
+        "margin": {
+          "value": "{spacing.3xs}",
+          "type": "spacing"
+        }
+      }
+    }
+  },
+  "radio-button": {
+    "default": {
+      "instructional": {
+        "margin": {
+          "value": "{spacing.negative.4xs}",
+          "type": "spacing"
+        }
+      }
+    }
+  },
+  "slider": {
+    "horizontal": {
+      "margin": {
+        "value": "{spacing.2xl}",
+        "type": "spacing"
+      }
+    }
+  },
+  "tab": {
+    "active": {
+      "item": {
+        "margin": {
+          "negative": {
+            "value": "{spacing.negative.3xs}",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  },
+  "tag": {
+    "block": {
+      "container": {
+        "popup": {
+          "margin": {
+            "value": "{spacing.negative.8xs}",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  },
+  "treeview": {
+    "toggle": {
+      "margin": {
+        "negative": {
+          "value": "{spacing.negative.12xs}",
+          "type": "spacing"
+        }
+      }
+    },
+    "left": {
+      "text": {
+        "margin": {
+          "value": "{spacing.lg}",
+          "type": "spacing"
+        }
+      }
+    },
+    "leaf": {
+      "container": {
+        "margin": {
+          "value": "{spacing.3xl}",
+          "type": "spacing"
+        }
+      }
+    }
+  },
+  "time-picker": {
+    "text-button": {
+      "gap": {
+        "value": "{spacing.8xl}",
+        "type": "spacing"
+      }
+    }
+  },
+  "tooltip": {
+    "content": {
+      "gap": {
+        "value": "{spacing.lg}",
+        "type": "spacing"
+      }
+    }
+  }
+}

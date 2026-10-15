@@ -1,0 +1,356 @@
+# Supabase -> Token Studio export notes (2026-10-15)
+
+Source: Supabase staging catalog + `supabase-export-rules.json`. Compared with token-bt at generation time: 985 of 985 tokens identical, 0 deliberate value differences, 0 not generated. Descriptions and $extensions are carried from the source unchanged.
+
+## Deliberate value differences
+
+
+## Figma values kept while Supabase differs (81; each expires once Supabase is fixed)
+
+- `Cyan.400`: value conflict: Figma wins -> fix Supabase (sheet row)
+- `blue-rgba.50`: value conflict: Figma wins -> fix Supabase (sheet row)
+- `sky-blue.rgba.50`: value conflict: Figma wins -> fix Supabase (sheet row)
+- `line-height.xs`: line-height: Supabase is unitless, Figma keeps rem; tiers xl-5xl are also offset by one (sheet: renumber tiers)
+- `line-height.sm`: line-height: Supabase is unitless, Figma keeps rem; tiers xl-5xl are also offset by one (sheet: renumber tiers)
+- `line-height.md`: line-height: Supabase is unitless, Figma keeps rem; tiers xl-5xl are also offset by one (sheet: renumber tiers)
+- `line-height.lg`: line-height: Supabase is unitless, Figma keeps rem; tiers xl-5xl are also offset by one (sheet: renumber tiers)
+- `line-height.xl`: line-height: Supabase is unitless, Figma keeps rem; tiers xl-5xl are also offset by one (sheet: renumber tiers)
+- `line-height.2xl`: line-height: Supabase is unitless, Figma keeps rem; tiers xl-5xl are also offset by one (sheet: renumber tiers)
+- `line-height.3xl`: line-height: Supabase is unitless, Figma keeps rem; tiers xl-5xl are also offset by one (sheet: renumber tiers)
+- `line-height.4xl`: line-height: Supabase is unitless, Figma keeps rem; tiers xl-5xl are also offset by one (sheet: renumber tiers)
+- `line-height.5xl`: line-height: Supabase is unitless, Figma keeps rem; tiers xl-5xl are also offset by one (sheet: renumber tiers)
+- `text.tertiary`: value conflict: Figma wins -> fix Supabase (sheet row)
+- `text.contrast.secondary`: value conflict: Figma wins -> fix Supabase (sheet row)
+- `icon.active`: value conflict: Figma wins -> fix Supabase (sheet row)
+- `text.contrast.secondary`: value conflict: Figma wins -> fix Supabase (sheet row)
+- `border.surface.secondary`: value conflict: Figma wins -> fix Supabase (sheet row)
+- `text-decoration.none`: Figma holds the literal, Supabase refs the primitive; same resolved value
+- `text-decoration.underline`: Figma holds the literal, Supabase refs the primitive; same resolved value
+- `label.sm.secondary`: typography composite differs on textDecoration (sheet: families)
+- `label.xs.default`: typography composite differs on textDecoration (sheet: families)
+- `instructional.strong`: typography composite differs on fontWeight (sheet: families)
+- `card.xs`: typography composite differs on fontWeight (sheet: families)
+- `text.line-height.display.lg`: line-height ladder: Supabase tier is one above Figma (sheet: renumber tiers)
+- `text.line-height.display.md`: line-height ladder: Supabase tier is one above Figma (sheet: renumber tiers)
+- `text.line-height.heading.primary`: line-height ladder: Supabase tier is one above Figma (sheet: renumber tiers)
+- `text.line-height.card.lg`: line-height ladder: Supabase tier is one above Figma (sheet: renumber tiers)
+- `text.line-height.card.md`: line-height ladder: Supabase tier is one above Figma (sheet: renumber tiers)
+- `text.line-height.card.sm`: line-height ladder: Supabase tier is one above Figma (sheet: renumber tiers)
+- `text.line-height.card.xs`: line-height ladder: Supabase tier is one above Figma (sheet: renumber tiers)
+- `slider.track.unselected.background.color`: value conflict: Figma wins -> fix Supabase (sheet row)
+- `tag.severity.text.color`: value conflict: Figma wins -> fix Supabase (sheet row)
+- `chart.stroke.color`: value conflict: Figma wins -> fix Supabase (sheet row)
+- `chart.disabled.legend.item.text-decoration`: Figma models this as a typography composite; Supabase holds only the text-decoration value
+- `menu.default.menu-popup.margin`: value conflict: Figma wins -> fix Supabase (sheet row)
+- `Blue.100`: hex case as in token-bt (cosmetic)
+- `Blue.200`: hex case as in token-bt (cosmetic)
+- `Blue.300`: hex case as in token-bt (cosmetic)
+- `Blue-gray.100`: hex case as in token-bt (cosmetic)
+- `Blue-gray.200`: hex case as in token-bt (cosmetic)
+- `Light-blue.300`: hex case as in token-bt (cosmetic)
+- `Light-blue.400`: hex case as in token-bt (cosmetic)
+- `Sky-blue.100`: hex case as in token-bt (cosmetic)
+- `Sky-blue.200`: hex case as in token-bt (cosmetic)
+- `Sky-blue.300`: hex case as in token-bt (cosmetic)
+- `Sky-blue.400`: hex case as in token-bt (cosmetic)
+- `Steel-blue.100`: hex case as in token-bt (cosmetic)
+- `Steel-blue.200`: hex case as in token-bt (cosmetic)
+- `Steel-blue.300`: hex case as in token-bt (cosmetic)
+- `Orchid.100`: hex case as in token-bt (cosmetic)
+- `Orchid.200`: hex case as in token-bt (cosmetic)
+- `Violet.100`: hex case as in token-bt (cosmetic)
+- `Violet.200`: hex case as in token-bt (cosmetic)
+- `Indigo.100`: hex case as in token-bt (cosmetic)
+- `Indigo.200`: hex case as in token-bt (cosmetic)
+- `Azure.100`: hex case as in token-bt (cosmetic)
+- `Azure.200`: hex case as in token-bt (cosmetic)
+- `Tangerine.100`: hex case as in token-bt (cosmetic)
+- `Tangerine.200`: hex case as in token-bt (cosmetic)
+- `Turquoise.100`: hex case as in token-bt (cosmetic)
+- `Turquoise.200`: hex case as in token-bt (cosmetic)
+- `Amber.100`: hex case as in token-bt (cosmetic)
+- `Amber.200`: hex case as in token-bt (cosmetic)
+- `Emerald.100`: hex case as in token-bt (cosmetic)
+- `Emerald.200`: hex case as in token-bt (cosmetic)
+- `Charcoal-blue.100`: hex case as in token-bt (cosmetic)
+- `Charcoal-blue.200`: hex case as in token-bt (cosmetic)
+- `Cerulean.100`: hex case as in token-bt (cosmetic)
+- `Cerulean.200`: hex case as in token-bt (cosmetic)
+- `Golden.100`: hex case as in token-bt (cosmetic)
+- `Golden.200`: hex case as in token-bt (cosmetic)
+- `Ember.100`: hex case as in token-bt (cosmetic)
+- `Ember.200`: hex case as in token-bt (cosmetic)
+- `Ashen-gray.200`: hex case as in token-bt (cosmetic)
+- `Aqua.100`: hex case as in token-bt (cosmetic)
+- `Aqua.200`: hex case as in token-bt (cosmetic)
+- `Lime.100`: hex case as in token-bt (cosmetic)
+- `Lime.200`: hex case as in token-bt (cosmetic)
+- `Citrus-lime.100`: hex case as in token-bt (cosmetic)
+- `Citrus-lime.200`: hex case as in token-bt (cosmetic)
+- `Teal.200`: hex case as in token-bt (cosmetic)
+
+## Figma paths served from an existing Supabase token (86; not added to Supabase)
+
+- `breadcrumb.focus.border-radius` <- `radius-element-2xs`
+- `tab.container.height` <- `size-width-2xs`
+- `slider.horizontal.margin` <- `spacing-element-gap-2xl`
+- `time-picker.text-button.gap` <- `spacing-element-padding-5xl`
+- `button.danger-icon.active.icon.color` <- `color-icon-error`
+- `button.danger-icon.default.background` <- `color-background-interactive-transparent`
+- `button.danger-icon.default.icon.color` <- `color-icon-error`
+- `button.danger-icon.disabled.background` <- `color-background-interactive-transparent`
+- `button.danger-icon.disabled.icon.color` <- `color-icon-error`
+- `button.danger-icon.focus.border.color` <- `color-border-outline-focus`
+- `button.danger-icon.focus.icon.color` <- `color-icon-error`
+- `button.danger-icon.hover.icon.color` <- `color-icon-error`
+- `button.ghost.hover.label.color` <- `color-text-interactive-hover-primary`
+- `button.secondary-outline.default.label.color` <- `color-background-interactive-secondary`; Figma-only duplicate of color-background-interactive-secondary (same value); ROLE MISMATCH: text use served by a background token - confirm or add a text token
+- `chat.default.ai-avatar.icon` <- `color-text-contrast-primary`; Figma-only duplicate of color-text-contrast-primary (same value); ROLE MISMATCH: icon use served by a text token - confirm or add a icon token
+- `data-grid.default.toolbar.background.color` <- `color-background-interactive-tertiary`
+- `data-grid.default.toolbar.border.color` <- `color-background-surface-row-hover`; Figma-only duplicate of color-background-surface-row-hover (same value); ROLE MISMATCH: border use served by a background token - confirm or add a border token
+- `data-grid.default.toolbar.input.background.color` <- `color-background-input`
+- `data-grid.default.toolbar.row.background.color` <- `color-background-attention`
+- `data-grid.default.toolbar.selection.text.color` <- `color-text-interactive-primary`
+- `data-grid.default.toolbar.text.color` <- `color-text-primary`
+- `data-grid.text.color.color` <- `color-text-contrast-tertiary`
+- `navigation.item.default.background.color` <- `color-background-interactive-tertiary`
+- `navigation.item.hover.background.color` <- `color-background-attention`
+- `tag.color.1.prominent.fill` <- `color-severity-critical`; Figma-only duplicate of color-severity-critical (same value); ROLE MISMATCH: background use served by a severity token - confirm or add a background token
+- `tag.color.2.prominent.fill` <- `color-severity-moderate`; Figma-only duplicate of color-severity-moderate (same value); ROLE MISMATCH: background use served by a severity token - confirm or add a background token
+- `tag.color.3.prominent.fill` <- `color-severity-high`; Figma-only duplicate of color-severity-high (same value); ROLE MISMATCH: background use served by a severity token - confirm or add a background token
+- `tag.color.4.prominent.fill` <- `color-status-success`; Figma-only duplicate of color-status-success (same value); ROLE MISMATCH: background use served by a status token - confirm or add a background token
+- `button.danger-icon.active.icon.color` <- `color-icon-error`
+- `button.danger-icon.default.background` <- `color-background-interactive-transparent`
+- `button.danger-icon.default.icon.color` <- `color-icon-error`
+- `button.danger-icon.disabled.background` <- `color-background-interactive-transparent`
+- `button.danger-icon.disabled.icon.color` <- `color-icon-error`
+- `button.danger-icon.focus.border.color` <- `color-border-outline-focus`
+- `button.danger-icon.focus.icon.color` <- `color-icon-error`
+- `button.danger-icon.hover.icon.color` <- `color-icon-error`
+- `button.ghost.hover.label.color` <- `color-text-interactive-hover-secondary`
+- `button.secondary-outline.default.label.color` <- `color-text-interactive-secondary`
+- `button.secondary-text.default.label.color` <- `color-text-interactive-secondary`
+- `button.secondary.icon.default.background.color` <- `color-background-interactive-secondary`
+- `chat.default.ai-avatar.icon` <- `color-text-contrast-tertiary`; Figma-only duplicate of color-text-contrast-tertiary (same value); ROLE MISMATCH: icon use served by a text token - confirm or add a icon token
+- `data-grid.default.grid-cell.text.color` <- `color-text-contrast-primary`
+- `data-grid.default.toolbar.background.color` <- `color-background-layer-three`
+- `data-grid.default.toolbar.border.color` <- `color-border-primary`
+- `data-grid.default.toolbar.input.background.color` <- `color-background-input`
+- `data-grid.default.toolbar.row.background.color` <- `color-background-input-list-item-hover-primary`
+- `data-grid.default.toolbar.text.color` <- `color-text-contrast-tertiary`
+- `navigation.item.default.background.color` <- `color-background-layer-two`
+- `navigation.item.hover.background.color` <- `color-background-input-list-item-hover-primary`
+- `tag.color.1.prominent.fill` <- `color-severity-critical`; Figma-only duplicate of color-severity-critical (same value); ROLE MISMATCH: background use served by a severity token - confirm or add a background token
+- `tag.color.1.subtle.border` <- `color-border-error`
+- `tag.color.2.prominent.fill` <- `color-severity-moderate`; Figma-only duplicate of color-severity-moderate (same value); ROLE MISMATCH: background use served by a severity token - confirm or add a background token
+- `tag.color.3.prominent.fill` <- `color-severity-high`; Figma-only duplicate of color-severity-high (same value); ROLE MISMATCH: background use served by a severity token - confirm or add a background token
+- `tag.color.4.prominent.fill` <- `color-status-success`; Figma-only duplicate of color-status-success (same value); ROLE MISMATCH: background use served by a status token - confirm or add a background token
+- `tag.color.6.subtle.border` <- `color-border-interactive-primary`
+- `tag.color.6.subtle.text` <- `color-text-interactive-hover-secondary`
+- `tile.hover.background.color` <- `color-background-layer-two`
+- `Teal.150` <- `turquoise-150`; Figma Teal.* = Supabase turquoise-*; rename in Figma, do not duplicate in Supabase
+- `Teal.250` <- `turquoise-250`; Figma Teal.* = Supabase turquoise-*; rename in Figma, do not duplicate in Supabase
+- `black.850` <- `black-850`
+- `spacing.element.padding.3xl` <- `spacing-content-margin-3xl`
+- `background.status.error` <- `color-status-error`; Figma-only duplicate of color-status-error (same value); ROLE MISMATCH: background use served by a status token - confirm or add a background token
+- `background.status.informational` <- `color-status-informational`; Figma-only duplicate of color-status-informational (same value); ROLE MISMATCH: background use served by a status token - confirm or add a background token
+- `background.status.success` <- `color-status-success`; Figma-only duplicate of color-status-success (same value); ROLE MISMATCH: background use served by a status token - confirm or add a background token
+- `background.status.warning` <- `color-status-warning`; Figma-only duplicate of color-status-warning (same value); ROLE MISMATCH: background use served by a status token - confirm or add a background token
+- `background.surface.row-active` <- `color-background-surface-row-selected`
+- `text.hover` <- `color-text-interactive-hover-primary`
+- `text.table.header` <- `color-text-contrast-secondary`
+- `background.status.error` <- `color-status-error`; Figma-only duplicate of color-status-error (same value); ROLE MISMATCH: background use served by a status token - confirm or add a background token
+- `background.status.informational` <- `color-status-informational`; Figma-only duplicate of color-status-informational (same value); ROLE MISMATCH: background use served by a status token - confirm or add a background token
+- `background.status.success` <- `color-status-success`; Figma-only duplicate of color-status-success (same value); ROLE MISMATCH: background use served by a status token - confirm or add a background token
+- `background.status.warning` <- `color-status-warning`; Figma-only duplicate of color-status-warning (same value); ROLE MISMATCH: background use served by a status token - confirm or add a background token
+- `background.surface.row-active` <- `color-background-surface-row-selected`
+- `border.divider` <- `color-background-input-list-item-hover-primary`; Figma-only duplicate of color-background-input-list-item-hover-primary (same value); ROLE MISMATCH: border use served by a background token - confirm or add a border token
+- `text.hover` <- `color-text-interactive-hover-primary`
+- `text.legend.disabled` <- `color-chart-disabled-legend-item`; Figma-only duplicate of color-chart-disabled-legend-item (same value); ROLE MISMATCH: text use served by a chart token - confirm or add a text token
+- `text.table.header` <- `color-text-contrast-secondary`
+- `button.danger.active.background.color` <- `button-danger-active-background-color`
+- `button.danger.hover.background.color` <- `button-danger-hover-background-color`
+- `button.danger-text.active.background.color` <- `button-danger-active-background-color`
+- `button.danger-text.hover.background.color` <- `button-danger-hover-background-color`
+- `button.danger.active.background.color` <- `button-danger-active-background-color`
+- `button.danger.hover.background.color` <- `button-danger-hover-background-color`
+- `button.danger-text.active.background.color` <- `button-danger-active-background-color`
+- `button.danger-text.hover.background.color` <- `button-danger-hover-background-color`
+- `data-grid.header.text.color` <- `color-text-contrast-tertiary`
+
+## Figma-only tokens with no Supabase source yet (101; emitted verbatim)
+
+- `component/border-radius` / `tag.default.container.radius`: add to Supabase as a new alias over primitive border-radius-lg
+- `component/size` / `button.container.height.lg`: add to Supabase as a new alias over primitive size-40
+- `component/spacing` / `tooltip.content.gap`: add to Supabase as a new alias over primitive spacing-lg
+- `component/color-mode/dark` / `button.danger-icon.active.background`: add to Supabase as a new alias over primitive rose-275
+- `component/color-mode/dark` / `button.danger-icon.focus.background`: add to Supabase as a new alias over primitive rose-250
+- `component/color-mode/dark` / `button.danger-icon.hover.background`: add to Supabase as a new alias over primitive rose-250
+- `component/color-mode/dark` / `button.danger-text.active.background`: add to Supabase as a new alias over primitive rose-275
+- `component/color-mode/dark` / `button.danger-text.focus.background`: add to Supabase as a new alias over primitive rose-250
+- `component/color-mode/dark` / `button.danger-text.hover.background`: add to Supabase as a new alias over primitive rose-250
+- `component/color-mode/dark` / `button.danger.focus.background`: add to Supabase as a new alias over primitive orange-800
+- `component/color-mode/dark` / `button.secondary-outline.active.icon.color`: add to Supabase as a new alias over primitive light-blue-400
+- `component/color-mode/dark` / `button.secondary.icon.active.background.color`: add to Supabase as a new alias over primitive light-blue-400
+- `component/color-mode/dark` / `button.secondary.icon.default.background.color`: add to Supabase as a new alias over primitive light-blue-200
+- `component/color-mode/dark` / `button.secondary.icon.hover.background.color`: add to Supabase as a new alias over primitive light-blue-200
+- `component/color-mode/dark` / `data-grid.default.grid-cell.text.color`: add to Supabase as a new alias over primitive white
+- `component/color-mode/dark` / `tag.color.1.subtle.border`: add to Supabase as a new alias over primitive red-100
+- `component/color-mode/dark` / `tag.color.1.subtle.fill`: add to Supabase as a new alias over primitive rose-25
+- `component/color-mode/dark` / `tag.color.2.subtle.border`: add to Supabase as a new alias over primitive peach-200
+- `component/color-mode/dark` / `tag.color.2.subtle.fill`: add to Supabase as a new alias over primitive orange-50
+- `component/color-mode/dark` / `tag.color.2.subtle.text`: add to Supabase as a new alias over primitive peach-200
+- `component/color-mode/dark` / `tag.color.3.subtle.border`: add to Supabase as a new alias over primitive gold-200
+- `component/color-mode/dark` / `tag.color.3.subtle.fill`: add to Supabase as a new alias over primitive gold-50
+- `component/color-mode/dark` / `tag.color.3.subtle.text`: add to Supabase as a new alias over primitive gold-200
+- `component/color-mode/dark` / `tag.color.4.subtle.border`: add to Supabase as a new alias over primitive mint-300
+- `component/color-mode/dark` / `tag.color.4.subtle.fill`: add to Supabase as a new alias over primitive mint-50
+- `component/color-mode/dark` / `tag.color.4.subtle.text`: add to Supabase as a new alias over primitive mint-300
+- `component/color-mode/dark` / `tag.color.5.prominent.fill`: add to Supabase as a new alias over primitive turquoise-250
+- `component/color-mode/dark` / `tag.color.5.subtle.border`: add to Supabase as a new alias over primitive aqua-300
+- `component/color-mode/dark` / `tag.color.5.subtle.fill`: add to Supabase as a new alias over primitive aqua-50
+- `component/color-mode/dark` / `tag.color.5.subtle.text`: add to Supabase as a new alias over primitive aqua-300
+- `component/color-mode/dark` / `tag.color.6.prominent.fill`: add to Supabase as a new alias over primitive sky-blue-500
+- `component/color-mode/dark` / `tag.color.6.subtle.border`: add to Supabase as a new alias over primitive blue-100
+- `component/color-mode/dark` / `tag.color.6.subtle.fill`: add to Supabase as a new alias over primitive sky-blue-50
+- `component/color-mode/dark` / `tag.color.6.subtle.text`: add to Supabase as a new alias over primitive blue-100
+- `component/color-mode/dark` / `tag.color.undetermined.prominent.fill`: add to Supabase as a new alias over primitive stone-300
+- `component/color-mode/dark` / `tile.hover.background.color`: add to Supabase as a new alias over primitive black-700
+- `component/color-mode/light` / `button.danger-icon.active.background`: add to Supabase as a new alias over primitive rose-35
+- `component/color-mode/light` / `button.danger-icon.focus.background`: add to Supabase as a new alias over primitive rose-30
+- `component/color-mode/light` / `button.danger-icon.hover.background`: add to Supabase as a new alias over primitive rose-30
+- `component/color-mode/light` / `button.danger-text.active.background`: add to Supabase as a new alias over primitive rose-35
+- `component/color-mode/light` / `button.danger-text.focus.background`: add to Supabase as a new alias over primitive rose-30
+- `component/color-mode/light` / `button.danger-text.hover.background`: add to Supabase as a new alias over primitive rose-30
+- `component/color-mode/light` / `button.danger.focus.background`: add to Supabase as a new alias over primitive orange-800
+- `component/color-mode/light` / `button.secondary-outline.active.icon.color`: add to Supabase as a new alias over primitive blue-gray-300
+- `component/color-mode/light` / `button.secondary.icon.active.background.color`: add to Supabase as a new alias over primitive blue-gray-300
+- `component/color-mode/light` / `button.secondary.icon.hover.background.color`: add to Supabase as a new alias over primitive blue-gray-200
+- `component/color-mode/light` / `data-grid.default.toolbar.selection.text.color`: add to Supabase as a new alias over primitive sky-blue-100
+- `component/color-mode/light` / `tag.color.1.subtle.fill`: add to Supabase as a new alias over primitive rose-25
+- `component/color-mode/light` / `tag.color.2.subtle.border`: add to Supabase as a new alias over primitive peach-200
+- `component/color-mode/light` / `tag.color.2.subtle.fill`: add to Supabase as a new alias over primitive orange-50
+- `component/color-mode/light` / `tag.color.2.subtle.text`: add to Supabase as a new alias over primitive peach-200
+- `component/color-mode/light` / `tag.color.3.subtle.border`: add to Supabase as a new alias over primitive gold-200
+- `component/color-mode/light` / `tag.color.3.subtle.fill`: add to Supabase as a new alias over primitive gold-50
+- `component/color-mode/light` / `tag.color.3.subtle.text`: add to Supabase as a new alias over primitive gold-200
+- `component/color-mode/light` / `tag.color.4.subtle.border`: add to Supabase as a new alias over primitive mint-300
+- `component/color-mode/light` / `tag.color.4.subtle.fill`: add to Supabase as a new alias over primitive mint-50
+- `component/color-mode/light` / `tag.color.4.subtle.text`: add to Supabase as a new alias over primitive mint-300
+- `component/color-mode/light` / `tag.color.5.prominent.fill`: add to Supabase as a new alias over primitive turquoise-150
+- `component/color-mode/light` / `tag.color.5.subtle.border`: add to Supabase as a new alias over primitive aqua-300
+- `component/color-mode/light` / `tag.color.5.subtle.fill`: add to Supabase as a new alias over primitive aqua-50
+- `component/color-mode/light` / `tag.color.5.subtle.text`: add to Supabase as a new alias over primitive aqua-300
+- `component/color-mode/light` / `tag.color.6.prominent.fill`: add to Supabase as a new alias over primitive sky-blue-600
+- `component/color-mode/light` / `tag.color.6.subtle.fill`: add to Supabase as a new alias over primitive sky-blue-50
+- `component/color-mode/light` / `tag.color.undetermined.prominent.fill`: add to Supabase as a new alias over primitive stone-300
+- `primitive/color` / `Aquamarine`: add to Supabase as a new primitive value
+- `primitive/color` / `Charcoal`: add to Supabase as a new primitive value
+- `primitive/color` / `Cool gray`: add to Supabase as a new primitive value
+- `primitive/color` / `Copper rose`: add to Supabase as a new primitive value
+- `primitive/color` / `Coral pink`: add to Supabase as a new primitive value
+- `primitive/color` / `Crimson red`: add to Supabase as a new primitive value
+- `primitive/color` / `Deep blue`: add to Supabase as a new primitive value
+- `primitive/color` / `Electric purple`: add to Supabase as a new primitive value
+- `primitive/color` / `Emerald.300`: add to Supabase as a new primitive value
+- `primitive/color` / `Forest-green.400`: add to Supabase as a new primitive value
+- `primitive/color` / `Golden yellow`: add to Supabase as a new primitive value
+- `primitive/color` / `Graphite gray`: add to Supabase as a new primitive value
+- `primitive/color` / `Ice blue`: add to Supabase as a new primitive value
+- `primitive/color` / `Indigo.300`: add to Supabase as a new primitive value
+- `primitive/color` / `Lavender`: add to Supabase as a new primitive value
+- `primitive/color` / `Magenta`: add to Supabase as a new primitive value
+- `primitive/color` / `Mint green`: add to Supabase as a new primitive value
+- `primitive/color` / `Pale peach`: add to Supabase as a new primitive value
+- `primitive/color` / `Royal-blue`: add to Supabase as a new primitive value
+- `primitive/color` / `Sand beige`: add to Supabase as a new primitive value
+- `primitive/color` / `Slate gray`: add to Supabase as a new primitive value
+- `primitive/color` / `Teal.300`: add to Supabase as a new primitive value
+- `primitive/color` / `Warm gray`: add to Supabase as a new primitive value
+- `primitive/color` / `Yellow.100`: add to Supabase as a new primitive value
+- `primitive/color` / `Yellow.200`: add to Supabase as a new primitive value
+- `primitive/color` / `amber brown`: add to Supabase as a new primitive value
+- `primitive/color` / `baby blue`: add to Supabase as a new primitive value
+- `primitive/color` / `soft cyan`: add to Supabase as a new primitive value
+- `primitive/color` / `teal blue`: add to Supabase as a new primitive value
+- `primitive/color` / `vivid blue`: add to Supabase as a new primitive value
+- `semantic/border` / `radius.element.xs`: add to Supabase as a new alias over primitive border-radius-xs
+- `semantic/spacing` / `spacing.element.padding.8xl`: add to Supabase as a new alias over primitive spacing-11xl
+- `semantic/color-mode/dark` / `border.divider`: add to Supabase as a new alias over primitive black-700
+- `semantic/color-mode/dark` / `text.interactive.secondary-hover`: add to Supabase as a new alias over primitive blue-gray-200
+- `semantic/color-mode/dark` / `text.legend.disabled`: add to Supabase as a new alias over primitive gray-400
+- `semantic/color-mode/light` / `text.interactive.secondary-hover`: add to Supabase as a new alias over primitive blue-gray-200
+- `semantic/typography` / `textCase.none`: text-case is not a Supabase concept; keep in Figma only
+
+## Supabase-only tokens (68) - in `supabase-only/*` sets, not in any Figma set or theme
+
+- `supabase-only/primitive` / `ash-50`
+- `supabase-only/primitive` / `font-family-open-sans`
+- `supabase-only/primitive` / `line-height-6xl`
+- `supabase-only/primitive` / `line-height-7xl`
+- `supabase-only/primitive` / `orange-250`
+- `supabase-only/primitive` / `orange-350`
+- `supabase-only/primitive` / `orange-450`
+- `supabase-only/primitive` / `spacing-negative-10xs`
+- `supabase-only/primitive` / `spread-1`
+- `supabase-only/primitive` / `spread-2`
+- `supabase-only/primitive` / `turquoise-150`
+- `supabase-only/primitive` / `turquoise-250`
+- `supabase-only/semantic` / `color-border-transparent.dark`
+- `supabase-only/semantic` / `color-border-transparent.light`
+- `supabase-only/semantic` / `color-chart-disabled-legend-item.dark`
+- `supabase-only/semantic` / `color-chart-disabled-legend-item.light`
+- `supabase-only/semantic` / `color-severity-info.dark`
+- `supabase-only/semantic` / `color-severity-info.light`
+- `supabase-only/semantic` / `color-status-error.dark`
+- `supabase-only/semantic` / `color-status-error.light`
+- `supabase-only/semantic` / `color-status-informational.dark`
+- `supabase-only/semantic` / `color-status-informational.light`
+- `supabase-only/semantic` / `color-status-success.dark`
+- `supabase-only/semantic` / `color-status-success.light`
+- `supabase-only/semantic` / `color-status-warning.dark`
+- `supabase-only/semantic` / `color-status-warning.light`
+- `supabase-only/semantic` / `elevation-outline-default.dark`
+- `supabase-only/semantic` / `elevation-outline-default.light`
+- `supabase-only/semantic` / `elevation-outline-focus.dark`
+- `supabase-only/component` / `accordion-content-padding`
+- `supabase-only/component` / `button-danger-outline-active-background-color.dark`
+- `supabase-only/component` / `button-danger-outline-active-background-color.light`
+- `supabase-only/component` / `button-danger-outline-hover-background-color.dark`
+- `supabase-only/component` / `button-danger-outline-hover-background-color.light`
+- `supabase-only/component` / `button-filled-primary-background-focus.dark`
+- `supabase-only/component` / `button-filled-primary-background-focus.light`
+- `supabase-only/component` / `button-filled-primary-background-hover.dark`
+- `supabase-only/component` / `button-filled-primary-background-hover.light`
+- `supabase-only/component` / `button-filled-primary-text-hover.dark`
+- `supabase-only/component` / `button-filled-primary-text-hover.light`
+- `supabase-only/component` / `button-icon-width`
+- `supabase-only/component` / `button-primary-text-active-icon-color.dark`
+- `supabase-only/component` / `button-primary-text-active-icon-color.light`
+- `supabase-only/component` / `button-secondary-text-hover-label-color.light`
+- `supabase-only/component` / `chat-default-transcribing-dot-height`
+- `supabase-only/component` / `chat-default-transcribing-dot-width`
+- `supabase-only/component` / `color-calendar-today-number-text.dark`
+- `supabase-only/component` / `color-calendar-today-number-text.light`
+- `supabase-only/component` / `color-filter-tag-background.dark`
+- `supabase-only/component` / `color-filter-tag-background.light`
+- `supabase-only/component` / `color-filter-tag-border.dark`
+- `supabase-only/component` / `color-filter-tag-border.light`
+- `supabase-only/component` / `color-tab-border-selected.dark`
+- `supabase-only/component` / `color-tab-border-selected.light`
+- `supabase-only/component` / `data-grid-default-header-text-color.dark`
+- `supabase-only/component` / `data-grid-header-row-cell-height`
+- `supabase-only/component` / `data-grid-inner-cell-spacing`
+- `supabase-only/component` / `dropdown-filter-margin-right`
+- `supabase-only/component` / `file-upload-border-style`
+- `supabase-only/component` / `scrollbar-track-border-radius`
+- `supabase-only/component` / `scrollbar-track-width`
+- `supabase-only/component` / `tag-severity-undetermined-container-background-color.dark`
+- `supabase-only/component` / `tag-severity-undetermined-container-background-color.light`
+- `supabase-only/component` / `time-picker-selected-list-border-color.dark`
+- `supabase-only/component` / `time-picker-selected-list-border-color.light`
+- `supabase-only/component` / `toast-default-button-margin`
+- `supabase-only/component` / `width-modal-border`
+- `supabase-only/semantic` / `family.instructional.strong`
+
+## Suppressed (20): deprecated `color-chart-palette-*`

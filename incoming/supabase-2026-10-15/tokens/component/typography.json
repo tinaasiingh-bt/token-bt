@@ -1,0 +1,20 @@
+{
+  "chart": {
+    "disabled": {
+      "legend": {
+        "item": {
+          "text-decoration": {
+            "value": {
+              "fontFamily": "{font.family.inter}",
+              "fontWeight": "{font.weight.regular}",
+              "fontSize": "{font.size.sm}",
+              "lineHeight": "{line-height.sm}",
+              "textDecoration": "{text-decoration.line-through}"
+            },
+            "type": "typography"
+          }
+        }
+      }
+    }
+  }
+}
