@@ -14,9 +14,8 @@ Files in this folder are inputs only; do not edit `tokens/` by hand in the same 
 
 ## Or let the workflow do it
 
-Actions -> **Export Supabase tokens** -> Run workflow (choose staging or prod). It generates the export
-from the Supabase token tables with `scripts/supabase_export.py` and `rules/supabase-export-rules.json`,
-writes it to `incoming/supabase/` on the `incoming/supabase` branch (replaced every run), and then runs
-the cleaner so the review PR is opened or updated. Secrets it needs: `SUPABASE_STAGING_URL`,
-`SUPABASE_STAGING_SERVICE_ROLE_KEY`, `SUPABASE_PROD_URL`, `SUPABASE_PROD_SERVICE_ROLE_KEY`
-(the token tables are readable by authenticated roles only).
+Actions -> **Export Supabase tokens** -> Run workflow. It generates the export from the Supabase
+staging token tables with `scripts/supabase_export.py` and `rules/supabase-export-rules.json`,
+writes it to `incoming/supabase/` on the `incoming/supabase` branch (replaced every run), and then
+runs the cleaner so the review PR is opened or updated. Secrets: `SUPABASE_URL` and
+`SUPABASE_PUBLISHABLE_KEY` (read-only; the token tables grant that key SELECT only).

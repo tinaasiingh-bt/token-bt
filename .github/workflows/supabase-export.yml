@@ -5,15 +5,13 @@ name: Export Supabase tokens
 # + rules/supabase-export-rules.json), writes it to incoming/supabase/ on the incoming/supabase
 # branch (overwritten every run), then runs "Clean Supabase token export" on that branch so the
 # usual review PR is opened or updated. Nothing reaches tokens/ until that PR is merged.
+#
+# Source is the Supabase staging project: token data is edited there and promoted to prod from
+# there, so it is the source of truth. The key is the publishable (anon) key; the token tables
+# grant it SELECT only.
 
 on:
   workflow_dispatch:
-    inputs:
-      source:
-        description: Supabase project to export from
-        type: choice
-        options: [staging, prod]
-        default: staging
 
 permissions:
   contents: write
@@ -34,9 +32,9 @@ jobs:
 
       - name: Generate the export from Supabase
         env:
-          SUPABASE_URL: ${{ inputs.source == 'prod' && secrets.SUPABASE_PROD_URL || secrets.SUPABASE_STAGING_URL }}
-          SUPABASE_SERVICE_ROLE_KEY: ${{ inputs.source == 'prod' && secrets.SUPABASE_PROD_SERVICE_ROLE_KEY || secrets.SUPABASE_STAGING_SERVICE_ROLE_KEY }}
-        run: python3 -I scripts/supabase_export.py --source "${{ inputs.source }}" --out incoming/supabase
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_PUBLISHABLE_KEY: ${{ secrets.SUPABASE_PUBLISHABLE_KEY }}
+        run: python3 -I scripts/supabase_export.py --source staging --out incoming/supabase
 
       - name: Push incoming/supabase (replaced every run)
         run: |
@@ -44,7 +42,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -B incoming/supabase
           git add -f incoming/supabase
-          git commit -m "incoming: Supabase ${{ inputs.source }} export $(date -u +%F)"
+          git commit -m "incoming: Supabase export $(date -u +%F)"
           git push --force origin incoming/supabase
 
       - name: Run the cleaner on that branch

@@ -2,7 +2,7 @@
 """
 Generate the Tokens Studio export from the Supabase design-token tables.
 
-Input : SUPABASE_URL / SUPABASE_ANON_KEY (env), rules/supabase-export-rules.json,
+Input : SUPABASE_URL / SUPABASE_PUBLISHABLE_KEY (env, read-only), rules/supabase-export-rules.json,
         and this repo's tokens/ (for set order, token types, $themes and key order only)
 Output: <out>/tokens/**.json in the multi-file layout + <out>/supabase-export-notes.md,
         ready for scripts/clean_supabase_export.py
@@ -315,9 +315,9 @@ def main():
     ap.add_argument('--source', default=os.environ.get('SUPABASE_SOURCE', 'staging'), help='label for the notes file')
     ap.add_argument('--fixture', help='offline: directory of <table>.json dumps instead of Supabase')
     a = ap.parse_args()
-    url, key = os.environ.get('SUPABASE_URL'), os.environ.get('SUPABASE_SERVICE_ROLE_KEY') or os.environ.get('SUPABASE_KEY')
+    url, key = os.environ.get('SUPABASE_URL'), os.environ.get('SUPABASE_PUBLISHABLE_KEY')
     if not a.fixture and not (url and key):
-        sys.exit('SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY must be set (the token tables are readable by authenticated roles only)')
+        sys.exit('SUPABASE_URL and SUPABASE_PUBLISHABLE_KEY must be set (read-only; the token tables grant SELECT to anon)')
 
     rules = json.load(io.open(a.rules, encoding='utf-8'), object_pairs_hook=OD)
     rows, sparts, fams = load_supabase(url, key, a.fixture)
