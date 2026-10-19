@@ -1,0 +1,54 @@
+name: Export Supabase tokens
+
+# Run from Actions -> "Export Supabase tokens" -> Run workflow.
+# Generates the Tokens Studio export from the Supabase token tables (scripts/supabase_export.py
+# + rules/supabase-export-rules.json), writes it to incoming/supabase/ on the incoming/supabase
+# branch (overwritten every run), then runs "Clean Supabase token export" on that branch so the
+# usual review PR is opened or updated. Nothing reaches tokens/ until that PR is merged.
+
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: Supabase project to export from
+        type: choice
+        options: [staging, prod]
+        default: staging
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: supabase-export
+  cancel-in-progress: false
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Generate the export from Supabase
+        env:
+          SUPABASE_URL: ${{ inputs.source == 'prod' && secrets.SUPABASE_PROD_URL || secrets.SUPABASE_STAGING_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ inputs.source == 'prod' && secrets.SUPABASE_PROD_SERVICE_ROLE_KEY || secrets.SUPABASE_STAGING_SERVICE_ROLE_KEY }}
+        run: python3 -I scripts/supabase_export.py --source "${{ inputs.source }}" --out incoming/supabase
+
+      - name: Push incoming/supabase (replaced every run)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B incoming/supabase
+          git add -f incoming/supabase
+          git commit -m "incoming: Supabase ${{ inputs.source }} export $(date -u +%F)"
+          git push --force origin incoming/supabase
+
+      - name: Run the cleaner on that branch
+        # A push made with GITHUB_TOKEN does not fire other workflows' on:push, so dispatch it.
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run supabase-import.yml --ref incoming/supabase -f file=incoming/supabase
