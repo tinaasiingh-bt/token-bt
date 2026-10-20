@@ -7,7 +7,7 @@ name: Clean Supabase token export
 on:
   push:
     branches-ignore: [main]
-    paths: ['incoming/**']
+    paths: ['incoming/**', '!incoming/README.md']
   workflow_dispatch:
     inputs:
       file:
