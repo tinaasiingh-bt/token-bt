@@ -37,24 +37,17 @@ jobs:
         run: python3 -I scripts/supabase_export.py --source staging --out incoming/supabase
 
       - name: Push incoming/supabase (replaced every run)
-        id: push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -B incoming/supabase
           git add -f incoming/supabase
-          if git diff --cached --quiet; then
-            echo "Supabase export is identical to what main already has; nothing to do."
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
+          # The notes file carries a timestamp, so there is always something to commit and a review PR is always opened.
           git commit -m "incoming: Supabase export $(date -u +%F)"
           git push --force origin incoming/supabase
-          echo "changed=true" >> "$GITHUB_OUTPUT"
 
       - name: Run the cleaner on that branch
         # A push made with GITHUB_TOKEN does not fire other workflows' on:push, so dispatch it.
-        if: steps.push.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run supabase-import.yml --ref incoming/supabase -f file=incoming/supabase
