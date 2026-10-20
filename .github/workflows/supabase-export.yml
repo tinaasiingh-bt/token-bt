@@ -42,6 +42,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -B incoming/supabase
           git add -f incoming/supabase
+          # The notes file carries a timestamp, so there is always something to commit and a review PR is always opened.
           git commit -m "incoming: Supabase export $(date -u +%F)"
           git push --force origin incoming/supabase
 
