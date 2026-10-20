@@ -148,6 +148,12 @@
       "value": "{Red.50}",
       "type": "color"
     },
+    "status": {
+      "error": {
+        "value": "{Red.50}",
+        "type": "color"
+      }
+    },
     "interactive": {
       "primary": {
         "value": "{Sky-blue.100}",

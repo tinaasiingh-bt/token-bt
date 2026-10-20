@@ -148,6 +148,12 @@
       "value": "{Red.100}",
       "type": "color"
     },
+    "status": {
+      "error": {
+        "value": "{Red.100}",
+        "type": "color"
+      }
+    },
     "interactive": {
       "primary": {
         "value": "{Blue.100}",
