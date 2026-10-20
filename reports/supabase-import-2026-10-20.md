@@ -10,12 +10,9 @@ None.
 
 None.
 
-## Value changes to existing tokens (2)
+## Value changes to existing tokens (0)
 
-| set | token | before | after |
-|---|---|---|---|
-| primitive/color | blue-rgba.50 | "rgb(28 99 165 / 50%)" | "rgb(0 66 194 / 50%)" |
-| primitive/color | sky-blue.rgba.50 | "rgb(83 177 253 / 50%)" | "rgb(111 159 255 / 50%)" |
+None.
 
 ## Type changes to existing tokens (0)
 
@@ -58,9 +55,9 @@ None.
 
 | set |
 |---|
+| supabase-only/primitive |
 | supabase-only/semantic |
 | supabase-only/component |
-| supabase-only/primitive |
 
 ## Sets not present in export (unchanged) (0)
 
