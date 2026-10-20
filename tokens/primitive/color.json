@@ -747,14 +747,14 @@
   },
   "blue-rgba": {
     "50": {
-      "value": "rgb(0 66 194 / 50%)",
+      "value": "rgba(0, 66, 194, 0.5)",
       "type": "color"
     }
   },
   "sky-blue": {
     "rgba": {
       "50": {
-        "value": "rgb(111 159 255 / 50%)",
+        "value": "rgba(111, 159, 255, 0.5)",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -771,7 +771,7 @@
   },
   "Slate": {
     "rgba": {
-      "value": "rgb(66 85 99 / 25%)",
+      "value": "rgba(66, 85, 99, 0.25)",
       "type": "color",
       "$extensions": {
         "studio.tokens": {
@@ -788,7 +788,7 @@
   "slate": {
     "rgba": {
       "08": {
-        "value": "rgb(66 85 99 / 8%)",
+        "value": "rgba(66, 85, 99, 0.08)",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
