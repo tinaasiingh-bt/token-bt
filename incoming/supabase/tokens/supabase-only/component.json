@@ -1,0 +1,126 @@
+{
+  "accordion-content-padding": {
+    "value": "{spacing.11xl}",
+    "type": "spacing"
+  },
+  "button-filled-primary-background-focus": {
+    "dark": {
+      "value": "{Sky-blue.200}",
+      "type": "color"
+    },
+    "light": {
+      "value": "{Blue.200}",
+      "type": "color"
+    }
+  },
+  "button-filled-primary-background-hover": {
+    "dark": {
+      "value": "{Sky-blue.200}",
+      "type": "color"
+    },
+    "light": {
+      "value": "{Blue.200}",
+      "type": "color"
+    }
+  },
+  "button-filled-primary-text-hover": {
+    "dark": {
+      "value": "{Black.950}",
+      "type": "color"
+    },
+    "light": {
+      "value": "{Gray.25}",
+      "type": "color"
+    }
+  },
+  "button-icon-width": {
+    "value": "{size.36}",
+    "type": "sizing"
+  },
+  "button-primary-text-active-icon-color": {
+    "dark": {
+      "value": "{Sky-blue.300}",
+      "type": "color"
+    },
+    "light": {
+      "value": "{Blue.300}",
+      "type": "color"
+    }
+  },
+  "button-text-secondary-text-hover": {
+    "dark": {
+      "value": "{Light-blue.200}",
+      "type": "color"
+    },
+    "light": {
+      "value": "{Blue-gray.200}",
+      "type": "color"
+    }
+  },
+  "chat-default-transcribing-dot-height": {
+    "value": "{size.4}",
+    "type": "sizing"
+  },
+  "chat-default-transcribing-dot-width": {
+    "value": "{size.4}",
+    "type": "sizing"
+  },
+  "data-grid-default-header-text-color": {
+    "dark": {
+      "value": "{Black.50}",
+      "type": "color"
+    }
+  },
+  "data-grid-header-row-cell-height": {
+    "value": "{size.26}",
+    "type": "sizing"
+  },
+  "data-grid-inner-cell-spacing": {
+    "value": "{spacing.negative.8xs}",
+    "type": "spacing"
+  },
+  "dropdown-filter-margin-right": {
+    "value": "{spacing.4xl}",
+    "type": "spacing"
+  },
+  "file-upload-border-style": {
+    "value": "{border.style.dashed}",
+    "type": "borderWidth"
+  },
+  "modal-border-width": {
+    "value": "{border.width.xs}",
+    "type": "borderWidth"
+  },
+  "scrollbar-track-border-radius": {
+    "value": "{size.6}",
+    "type": "borderRadius"
+  },
+  "scrollbar-track-width": {
+    "value": "{size.18}",
+    "type": "sizing"
+  },
+  "tag-severity-undetermined-container-background-color": {
+    "dark": {
+      "value": "{Stone.200}",
+      "type": "color"
+    },
+    "light": {
+      "value": "{Stone.200}",
+      "type": "color"
+    }
+  },
+  "time-picker-selected-list-border-color": {
+    "dark": {
+      "value": "{Black.950}",
+      "type": "color"
+    },
+    "light": {
+      "value": "{Gray.200}",
+      "type": "color"
+    }
+  },
+  "toast-default-button-margin": {
+    "value": "{spacing.5xs}",
+    "type": "spacing"
+  }
+}

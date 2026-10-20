@@ -1,0 +1,34 @@
+{
+  "ash-50": {
+    "value": "#f8f9f9",
+    "type": "color"
+  },
+  "font-family-open-sans": {
+    "value": "Open Sans",
+    "type": "fontFamilies"
+  },
+  "line-height-6xl": {
+    "value": "1.222",
+    "type": "lineHeights"
+  },
+  "line-height-7xl": {
+    "value": "1.2",
+    "type": "lineHeights"
+  },
+  "orange-250": {
+    "value": "#f3c781",
+    "type": "color"
+  },
+  "orange-350": {
+    "value": "#f39681",
+    "type": "color"
+  },
+  "orange-450": {
+    "value": "#c67839",
+    "type": "color"
+  },
+  "spacing-negative-10xs": {
+    "value": "-24px",
+    "type": "other"
+  }
+}
