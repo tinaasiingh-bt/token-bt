@@ -30,13 +30,5 @@
   "spacing-negative-10xs": {
     "value": "-24px",
     "type": "other"
-  },
-  "turquoise-150": {
-    "value": "#00c5d3",
-    "type": "color"
-  },
-  "turquoise-250": {
-    "value": "#55f4fc",
-    "type": "color"
   }
 }

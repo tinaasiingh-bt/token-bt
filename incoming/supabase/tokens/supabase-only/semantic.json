@@ -1,0 +1,112 @@
+{
+  "color-border-transparent": {
+    "dark": {
+      "value": "{transparent}",
+      "type": "color"
+    },
+    "light": {
+      "value": "{transparent}",
+      "type": "color"
+    }
+  },
+  "color-status-error": {
+    "dark": {
+      "value": "{Red.50}",
+      "type": "color"
+    },
+    "light": {
+      "value": "{Red.100}",
+      "type": "color"
+    }
+  },
+  "color-status-informational": {
+    "dark": {
+      "value": "{Blue.50}",
+      "type": "color"
+    },
+    "light": {
+      "value": "{Cyan.800}",
+      "type": "color"
+    }
+  },
+  "color-status-success": {
+    "dark": {
+      "value": "{Green.100}",
+      "type": "color"
+    },
+    "light": {
+      "value": "{Green.200}",
+      "type": "color"
+    }
+  },
+  "color-status-warning": {
+    "dark": {
+      "value": "{Orange.275}",
+      "type": "color"
+    },
+    "light": {
+      "value": "{Sunset.250}",
+      "type": "color"
+    }
+  },
+  "color-text-status-error": {
+    "dark": {
+      "value": "{Red.50}",
+      "type": "color"
+    },
+    "light": {
+      "value": "{Red.100}",
+      "type": "color"
+    }
+  },
+  "elevation-outline-default": {
+    "dark": {
+      "value": {
+        "x": "{X.0}",
+        "y": "{Y.0}",
+        "blur": "{blur.none}",
+        "spread": "{spread.1}",
+        "color": "{Black.400}",
+        "type": "dropShadow"
+      },
+      "type": "color"
+    },
+    "light": {
+      "value": {
+        "x": "{X.0}",
+        "y": "{Y.0}",
+        "blur": "{blur.none}",
+        "spread": "{spread.1}",
+        "color": "{Gray.300}",
+        "type": "dropShadow"
+      },
+      "type": "color"
+    }
+  },
+  "elevation-outline-focus": {
+    "dark": {
+      "value": {
+        "x": "{X.0}",
+        "y": "{Y.0}",
+        "blur": "{blur.none}",
+        "spread": "{spread.2}",
+        "color": "{Orange.400}",
+        "type": "dropShadow"
+      },
+      "type": "color"
+    }
+  },
+  "family": {
+    "functional": {
+      "error": {
+        "value": {
+          "lineHeight": "{text.line-height.instructional}",
+          "fontWeight": "{text.weight.instructional.primary}",
+          "fontSize": "{text.size.instructional}",
+          "fontFamily": "{text.family.instructional}"
+        },
+        "type": "typography"
+      }
+    }
+  }
+}

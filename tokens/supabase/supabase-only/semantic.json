@@ -9,26 +9,6 @@
       "type": "color"
     }
   },
-  "color-chart-disabled-legend-item": {
-    "dark": {
-      "value": "{Black.600}",
-      "type": "color"
-    },
-    "light": {
-      "value": "{Gray.400}",
-      "type": "color"
-    }
-  },
-  "color-severity-info": {
-    "dark": {
-      "value": "{Blue.50}",
-      "type": "color"
-    },
-    "light": {
-      "value": "{Cyan.800}",
-      "type": "color"
-    }
-  },
   "color-status-error": {
     "dark": {
       "value": "{Red.50}",
@@ -66,6 +46,16 @@
     },
     "light": {
       "value": "{Sunset.250}",
+      "type": "color"
+    }
+  },
+  "color-text-status-error": {
+    "dark": {
+      "value": "{Red.50}",
+      "type": "color"
+    },
+    "light": {
+      "value": "{Red.100}",
       "type": "color"
     }
   },
@@ -107,13 +97,13 @@
     }
   },
   "family": {
-    "instructional": {
-      "strong": {
+    "functional": {
+      "error": {
         "value": {
-          "fontFamily": "{text.family.instructional}",
+          "lineHeight": "{text.line-height.instructional}",
+          "fontWeight": "{text.weight.instructional.primary}",
           "fontSize": "{text.size.instructional}",
-          "fontWeight": "{text.weight.instructional.secondary}",
-          "lineHeight": "{text.line-height.instructional}"
+          "fontFamily": "{text.family.instructional}"
         },
         "type": "typography"
       }

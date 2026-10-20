@@ -3,26 +3,6 @@
     "value": "{spacing.11xl}",
     "type": "spacing"
   },
-  "button-danger-outline-active-background-color": {
-    "dark": {
-      "value": "{Rose.275}",
-      "type": "color"
-    },
-    "light": {
-      "value": "{Rose.35}",
-      "type": "color"
-    }
-  },
-  "button-danger-outline-hover-background-color": {
-    "dark": {
-      "value": "{Rose.250}",
-      "type": "color"
-    },
-    "light": {
-      "value": "{Rose.30}",
-      "type": "color"
-    }
-  },
   "button-filled-primary-background-focus": {
     "dark": {
       "value": "{Sky-blue.200}",
@@ -67,7 +47,11 @@
       "type": "color"
     }
   },
-  "button-secondary-text-hover-label-color": {
+  "button-text-secondary-text-hover": {
+    "dark": {
+      "value": "{Light-blue.200}",
+      "type": "color"
+    },
     "light": {
       "value": "{Blue-gray.200}",
       "type": "color"
@@ -80,46 +64,6 @@
   "chat-default-transcribing-dot-width": {
     "value": "{size.4}",
     "type": "sizing"
-  },
-  "color-calendar-today-number-text": {
-    "dark": {
-      "value": "{Sky-blue.100}",
-      "type": "color"
-    },
-    "light": {
-      "value": "{Blue.100}",
-      "type": "color"
-    }
-  },
-  "color-filter-tag-background": {
-    "dark": {
-      "value": "{Black.950}",
-      "type": "color"
-    },
-    "light": {
-      "value": "{Gray.25}",
-      "type": "color"
-    }
-  },
-  "color-filter-tag-border": {
-    "dark": {
-      "value": "{Black.400}",
-      "type": "color"
-    },
-    "light": {
-      "value": "{Gray.300}",
-      "type": "color"
-    }
-  },
-  "color-tab-border-selected": {
-    "dark": {
-      "value": "{Sky-blue.100}",
-      "type": "color"
-    },
-    "light": {
-      "value": "{Blue.100}",
-      "type": "color"
-    }
   },
   "data-grid-default-header-text-color": {
     "dark": {
@@ -141,6 +85,10 @@
   },
   "file-upload-border-style": {
     "value": "{border.style.dashed}",
+    "type": "borderWidth"
+  },
+  "modal-border-width": {
+    "value": "{border.width.xs}",
     "type": "borderWidth"
   },
   "scrollbar-track-border-radius": {
@@ -174,9 +122,5 @@
   "toast-default-button-margin": {
     "value": "{spacing.5xs}",
     "type": "spacing"
-  },
-  "width-modal-border": {
-    "value": "{border.width.xs}",
-    "type": "borderWidth"
   }
 }
