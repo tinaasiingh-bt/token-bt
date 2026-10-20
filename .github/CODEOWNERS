@@ -1,0 +1,3 @@
+# Token values need a designer's approval before they reach main (and from there Tokens Studio and Figma).
+# CI, scripts and rules can be merged by the engineer who wrote them.
+/tokens/ @tinaasiingh-bt
