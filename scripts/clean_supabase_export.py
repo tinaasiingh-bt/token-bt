@@ -53,6 +53,18 @@ def strings(v):
     elif isinstance(v, list):
         for x in v: yield from strings(x)
 
+# Tokens Studio reads legacy comma colours (rgba(0, 66, 194, 0.5)) but silently skips the CSS Color 4 form
+# rgb(0 66 194 / 50%) on plain values (blue-rgba.50, 2026-10-20; tokens with a studio.tokens modifier escape
+# because the modifier path parses it). Supabase writes the space form, so rewrite it here.
+RGB_SPACE = re.compile(r'^rgba?\(\s*(\d+)\s+(\d+)\s+(\d+)\s*(?:/\s*([\d.]+)(%?)\s*)?\)$')
+def css_color(v):
+    m = RGB_SPACE.match(v) if isinstance(v, str) else None
+    if not m: return v
+    r, g, b, a, pct = m.groups()
+    if a is None: return f'rgb({r}, {g}, {b})'
+    a = float(a) / 100 if pct else float(a)
+    return f'rgba({r}, {g}, {b}, {a:g})'
+
 def same_value(a, b):
     if isinstance(a, str) and isinstance(b, str) and HEX.match(a) and HEX.match(b):
         return a.lower() == b.lower()
@@ -117,7 +129,7 @@ def main():
             if note and note != b.get('description'):
                 rep['notes'].append((base_name, path, note))
             # rule 2: value changes logged; hex-case-only ignored
-            bv, ev = b.get('value', b.get('$value')), e.get('value', e.get('$value'))
+            bv, ev = b.get('value', b.get('$value')), css_color(e.get('value', e.get('$value')))
             if not same_value(bv, ev):
                 leaf['value'] = ev
                 rep['value_changes'].append((base_name, path, json.dumps(bv), json.dumps(ev)))
