@@ -9,7 +9,7 @@
       "primitive/size": "enabled",
       "primitive/opacity": "enabled",
       "primitive/shadow": "enabled",
-      "primitive/typography": "source"
+      "primitive/typography": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
