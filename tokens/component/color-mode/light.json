@@ -148,6 +148,14 @@
             "type": "color"
           }
         }
+      },
+      "hover": {
+        "label": {
+          "color": {
+            "value": "{Blue-gray.200}",
+            "type": "color"
+          }
+        }
       }
     },
     "icon": {
