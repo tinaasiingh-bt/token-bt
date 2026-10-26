@@ -350,7 +350,7 @@
    "theme": "dark",
    "set": "component/color-mode/dark",
    "path": "button.secondary-text.default.label.color",
-   "note": "added to Supabase 2026-10-19; Figma has no hover label token for secondary-text"
+   "note": "added to Supabase 2026-10-19; Figma hover label token added 2026-10-26"
   },
   {
    "table": "component",
@@ -358,7 +358,23 @@
    "theme": "light",
    "set": "component/color-mode/light",
    "path": "button.secondary-text.default.label.color",
-   "note": "added to Supabase 2026-10-19; Figma has no hover label token for secondary-text"
+   "note": "added to Supabase 2026-10-19; Figma hover label token added 2026-10-26"
+  },
+  {
+   "table": "component",
+   "supabase": "button-text-secondary-text-hover",
+   "theme": "dark",
+   "set": "component/color-mode/dark",
+   "path": "button.secondary-text.hover.label.color",
+   "note": "restored 2026-10-26; removed from the repo 2026-05-01 (f6e50aa) while Supabase, base-styles and the Figma hover variant kept it"
+  },
+  {
+   "table": "component",
+   "supabase": "button-text-secondary-text-hover",
+   "theme": "light",
+   "set": "component/color-mode/light",
+   "path": "button.secondary-text.hover.label.color",
+   "note": "restored 2026-10-26; removed from the repo 2026-05-01 (f6e50aa) while Supabase, base-styles and the Figma hover variant kept it"
   },
   {
    "table": "component",
