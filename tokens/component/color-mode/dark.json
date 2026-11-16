@@ -622,6 +622,10 @@
           "border": {
             "value": "{Red.100}",
             "type": "color"
+          },
+          "text": {
+            "value": "{Red.100}",
+            "type": "color"
           }
         }
       },
