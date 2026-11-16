@@ -148,6 +148,14 @@
             "type": "color"
           }
         }
+      },
+      "hover": {
+        "label": {
+          "color": {
+            "value": "{Light-blue.200}",
+            "type": "color"
+          }
+        }
       }
     },
     "icon": {
@@ -612,6 +620,10 @@
             "type": "color"
           },
           "border": {
+            "value": "{Red.100}",
+            "type": "color"
+          },
+          "text": {
             "value": "{Red.100}",
             "type": "color"
           }

@@ -436,14 +436,14 @@
         "selection": {
           "text": {
             "color": {
-              "value": "{Sky-blue.100}",
+              "value": "{Blue.100}",
               "type": "color"
             }
           },
           "hover": {
             "text": {
               "color": {
-                "value": "{Sky-blue.200}",
+                "value": "{Blue.200}",
                 "type": "color"
               }
             }
