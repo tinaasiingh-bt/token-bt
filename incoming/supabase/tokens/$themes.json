@@ -9,7 +9,7 @@
       "primitive/size": "enabled",
       "primitive/opacity": "enabled",
       "primitive/shadow": "enabled",
-      "primitive/typography": "source"
+      "primitive/typography": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": {
@@ -1269,6 +1269,7 @@
       "button.text.secondary.active.background.color": "7946a3f5c402ac0eff0cfa29f8408737cfb6054f",
       "button.primary-text.hover.background": "332225e10952b82d853749330b288f9522bdb3e5",
       "button.secondary-text.default.label.color": "26c363622bac7a80d78c62825204301fe9862399",
+      "button.secondary-text.hover.label.color": "bf9744d0ba05cbe03b7972be60beaf75b843ab3a",
       "button.icon.active.background.color": "bdbf4d86fa1fcab4846cf539b9ae411dfa90962c",
       "button.danger-icon.default.background": "8b6a5817474a170148e202731cf15c2fa19798e9",
       "button.danger-icon.default.icon.color": "9992b9286334165dc123599a5e9805f9047e67c1",
@@ -1335,6 +1336,7 @@
       "tag.color.1.prominent.fill": "bf8fe8d253025fff0896c277bfb1dad4c6f9d1ec",
       "tag.color.1.subtle.fill": "b3ca74e28b0b66e522fc073d0de17f069efd4690",
       "tag.color.1.subtle.border": "1ee63e26a72fe5517d29b33faf7f82f0401245e3",
+      "tag.color.1.subtle.text": "5966808b3bb9a9cdaf2d87ff8777fa21ea55dc62",
       "tag.color.2.prominent.fill": "530fbe0201163cd806653c6739ef48a5626c5fca",
       "tag.color.2.subtle.fill": "c72081f031c5edddb3c70c098fd51973c7b38541",
       "tag.color.2.subtle.border": "8b096d9ff34ad5aae3d3109d8057a55109f36afc",
@@ -1537,6 +1539,7 @@
       "button.text.secondary.active.background.color": "7946a3f5c402ac0eff0cfa29f8408737cfb6054f",
       "button.primary-text.hover.background": "332225e10952b82d853749330b288f9522bdb3e5",
       "button.secondary-text.default.label.color": "26c363622bac7a80d78c62825204301fe9862399",
+      "button.secondary-text.hover.label.color": "bf9744d0ba05cbe03b7972be60beaf75b843ab3a",
       "button.icon.active.background.color": "bdbf4d86fa1fcab4846cf539b9ae411dfa90962c",
       "button.danger-icon.default.background": "8b6a5817474a170148e202731cf15c2fa19798e9",
       "button.danger-icon.default.icon.color": "9992b9286334165dc123599a5e9805f9047e67c1",
@@ -1603,6 +1606,7 @@
       "tag.color.1.prominent.fill": "bf8fe8d253025fff0896c277bfb1dad4c6f9d1ec",
       "tag.color.1.subtle.fill": "b3ca74e28b0b66e522fc073d0de17f069efd4690",
       "tag.color.1.subtle.border": "1ee63e26a72fe5517d29b33faf7f82f0401245e3",
+      "tag.color.1.subtle.text": "5966808b3bb9a9cdaf2d87ff8777fa21ea55dc62",
       "tag.color.2.prominent.fill": "530fbe0201163cd806653c6739ef48a5626c5fca",
       "tag.color.2.subtle.fill": "c72081f031c5edddb3c70c098fd51973c7b38541",
       "tag.color.2.subtle.border": "8b096d9ff34ad5aae3d3109d8057a55109f36afc",

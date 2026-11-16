@@ -124,7 +124,7 @@
     },
     "icon": {
       "xs": {
-        "value": "{size.16}",
+        "value": "{size.20}",
         "type": "sizing"
       },
       "sm": {
@@ -137,6 +137,14 @@
       },
       "lg": {
         "value": "{size.64}",
+        "type": "sizing"
+      },
+      "2xs": {
+        "value": "{size.16}",
+        "type": "sizing"
+      },
+      "3xs": {
+        "value": "{size.14}",
         "type": "sizing"
       }
     }

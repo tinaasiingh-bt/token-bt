@@ -37,6 +37,16 @@
     "value": "{size.36}",
     "type": "sizing"
   },
+  "button-outline-danger-background-hover": {
+    "dark": {
+      "value": "{Rose.250}",
+      "type": "color"
+    },
+    "light": {
+      "value": "{Rose.30}",
+      "type": "color"
+    }
+  },
   "button-primary-text-active-icon-color": {
     "dark": {
       "value": "{Sky-blue.300}",
@@ -44,16 +54,6 @@
     },
     "light": {
       "value": "{Blue.300}",
-      "type": "color"
-    }
-  },
-  "button-text-secondary-text-hover": {
-    "dark": {
-      "value": "{Light-blue.200}",
-      "type": "color"
-    },
-    "light": {
-      "value": "{Blue-gray.200}",
       "type": "color"
     }
   },

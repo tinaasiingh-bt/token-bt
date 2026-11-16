@@ -148,6 +148,14 @@
             "type": "color"
           }
         }
+      },
+      "hover": {
+        "label": {
+          "color": {
+            "value": "{Blue-gray.200}",
+            "type": "color"
+          }
+        }
       }
     },
     "icon": {
@@ -428,14 +436,14 @@
         "selection": {
           "text": {
             "color": {
-              "value": "{Sky-blue.100}",
+              "value": "{Blue.100}",
               "type": "color"
             }
           },
           "hover": {
             "text": {
               "color": {
-                "value": "{Sky-blue.200}",
+                "value": "{Blue.200}",
                 "type": "color"
               }
             }
@@ -604,6 +612,10 @@
             "type": "color"
           },
           "border": {
+            "value": "{Red.100}",
+            "type": "color"
+          },
+          "text": {
             "value": "{Red.100}",
             "type": "color"
           }
