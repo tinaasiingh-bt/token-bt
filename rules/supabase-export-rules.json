@@ -594,6 +594,22 @@
   },
   {
    "table": "component",
+   "supabase": "tag-color-1-subtle-text",
+   "theme": "light",
+   "set": "component/color-mode/light",
+   "path": "tag.color.1.subtle.text",
+   "note": "added to Supabase 2026-11-10 (SDS-8051); replaces text/error on colour 1 subtle label (SDS-8050)"
+  },
+  {
+   "table": "component",
+   "supabase": "tag-color-1-subtle-text",
+   "theme": "dark",
+   "set": "component/color-mode/dark",
+   "path": "tag.color.1.subtle.text",
+   "note": "added to Supabase 2026-11-10 (SDS-8051); replaces text/error on colour 1 subtle label (SDS-8050)"
+  },
+  {
+   "table": "component",
    "supabase": "tag-color-2-subtle-border",
    "theme": "light",
    "set": "component/color-mode/light",
