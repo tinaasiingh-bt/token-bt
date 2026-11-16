@@ -6,7 +6,7 @@ a single JSON file (`incoming/<name>.json`, sets as top-level keys) or a folder
 
 1. keep every description already in `tokens/` and move exporter notes to a report,
 2. log every value change to an existing token,
-3. quarantine tokens that do not exist in `tokens/` into `tokens/Supabase/` (loaded, never pushed),
+3. add tokens that are new to `tokens/` when `rules/supabase-export-rules.json` maps them; quarantine the rest into `tokens/Supabase/` (loaded, never pushed). New Supabase tokens with no rule are listed first in the report: add a rule line for each and rerun,
 4. open a pull request against `main` with the report as its description.
 
 Nothing reaches Tokens Studio or Figma until that pull request is merged.
