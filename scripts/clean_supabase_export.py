@@ -12,8 +12,11 @@ Rules
      token description; they go to the report instead.
   2. A token that exists in tokens/ keeps its place. Its value may change; that is logged.
      Hex-case-only changes are ignored (base casing kept).
-  3. A token that does NOT exist in tokens/ is quarantined into tokens/Supabase/<set>.json.
-     Those sets are listed in $metadata (so they load) but added to no theme (so they never push).
+  3. A token that does NOT exist in tokens/ is added to its set when the rules file maps it there
+     (a rule is the decision about where it belongs). Without a rule it is quarantined into
+     tokens/Supabase/<set>.json: listed in $metadata (so it loads) but in no theme (never pushes).
+     Supabase tokens with no rule that are new since the last import are listed first in the
+     report, so the rule to add is the first thing a reviewer sees.
   4. $themes is never changed by an import.
   5. Fail (exit 2) on: broken {references}, light/dark name mismatch in a color-mode set,
      or a value that is not a string/number/object.
@@ -89,7 +92,15 @@ def main():
     ap.add_argument('export'); ap.add_argument('--tokens', default='tokens')
     ap.add_argument('--report', default=None); ap.add_argument('--quarantine', default='supabase')
     ap.add_argument('--dry-run', action='store_true')
+    ap.add_argument('--rules', default='rules/supabase-export-rules.json')
     a = ap.parse_args()
+
+    # (set, path) pairs the rules file maps a Supabase token onto; only these may be added to tokens/
+    ruled = set()
+    if os.path.exists(a.rules):
+        R = load(a.rules)
+        for k in ('name_map', 'families', 'aliases', 'figma_only'):
+            ruled |= {(e['set'].lower(), e['path']) for e in R.get(k, []) if 'set' in e and 'path' in e}
 
     export = load_export(a.export)
     base = {}
@@ -111,6 +122,11 @@ def main():
             rep['error'].append(f'export already contains a `{a.quarantine}/` set: {set_name}'); continue
         base_name = base_by_lower.get(set_name.lower())
         if not base_name:
+            # supabase-only sets hold Supabase tokens with no rule; list the ones new since the last import
+            prev = leaves(base.get(base_by_lower.get(f'{quarantine_prefix}{set_name}'.lower()), {}))
+            for path, e in leaves(tree).items():
+                if path not in prev:
+                    rep['needs_rule'].append((set_name, path, json.dumps(e.get('value', e.get('$value')))))
             rep['new_sets'].append(set_name)
             quarantine[f'{a.quarantine}/{set_name}'] = tree
             all_names |= set(leaves(tree)); continue
@@ -141,6 +157,10 @@ def main():
         for path, e in E.items():
             if path in B: continue
             q = dict(e); note = q.pop('description', None)
+            if (base_name.lower(), path) in ruled:
+                q['value'] = css_color(q.get('value', q.get('$value')))
+                rep['added'].append((base_name, path, json.dumps(q['value'])))
+                set_leaf(out, path, q); continue
             rep['quarantined'].append((base_name, path, json.dumps(e.get('value')), note or ''))
             set_leaf(quarantine.setdefault(f'{a.quarantine}/{base_name}', {}), path, q)
         out_sets[base_name] = out
@@ -192,7 +212,9 @@ def main():
         lines.append('| ' + ' | '.join(header) + ' |'); lines.append('|' + '---|' * len(header))
         for r in rows: lines.append('| ' + ' | '.join(str(x).replace('|', '\\|') for x in r) + ' |')
         lines.append('')
+    section('New in Supabase with no rule: add a rule line for each (not imported until then)', rep['needs_rule'], ['set', 'supabase token', 'value'])
     section('Blocking errors', [(e,) for e in rep['error']], ['error'])
+    section('New tokens added (mapped by a rule)', rep['added'], ['set', 'token', 'value'])
     section('Problems inside quarantined sets (not blocking, never pushed; exporter to fix)', [(e,) for e in rep['quarantine_issues']], ['issue'])
     section('Value changes to existing tokens', rep['value_changes'], ['set', 'token', 'before', 'after'])
     section('Type changes to existing tokens', rep['type_changes'], ['set', 'token', 'before', 'after'])
