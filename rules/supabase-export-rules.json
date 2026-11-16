@@ -250,22 +250,6 @@
   },
   {
    "table": "component",
-   "supabase": "button-outline-danger-background-hover",
-   "theme": "light",
-   "set": "component/color-mode/light",
-   "path": "button.danger-text.hover.background",
-   "note": "renamed in Supabase 2026-10-15 (was button-danger-outline-*); Figma names it danger-text, same values"
-  },
-  {
-   "table": "component",
-   "supabase": "button-outline-danger-background-hover",
-   "theme": "dark",
-   "set": "component/color-mode/dark",
-   "path": "button.danger-text.hover.background",
-   "note": "renamed in Supabase 2026-10-15 (was button-danger-outline-*); Figma names it danger-text, same values"
-  },
-  {
-   "table": "component",
    "supabase": "button-outline-secondary-border",
    "theme": "dark",
    "set": "component/color-mode/dark",
@@ -466,6 +450,22 @@
   },
   {
    "table": "component",
+   "supabase": "button-text-danger-background-hover",
+   "theme": "light",
+   "set": "component/color-mode/light",
+   "path": "button.danger-text.hover.background",
+   "note": "Supabase row had no rule; token already in token-bt with the same value (mapped 2026-11-16)"
+  },
+  {
+   "table": "component",
+   "supabase": "button-text-danger-background-hover",
+   "theme": "dark",
+   "set": "component/color-mode/dark",
+   "path": "button.danger-text.hover.background",
+   "note": "Supabase row had no rule; token already in token-bt with the same value (mapped 2026-11-16)"
+  },
+  {
+   "table": "component",
    "supabase": "button-filled-danger-background-focus",
    "theme": "light",
    "set": "component/color-mode/light",
@@ -610,6 +610,22 @@
   },
   {
    "table": "component",
+   "supabase": "tag-color-1-prominent-fill",
+   "theme": "light",
+   "set": "component/color-mode/light",
+   "path": "tag.color.1.prominent.fill",
+   "note": "Supabase row had no rule; token already in token-bt with the same value (mapped 2026-11-16)"
+  },
+  {
+   "table": "component",
+   "supabase": "tag-color-1-prominent-fill",
+   "theme": "dark",
+   "set": "component/color-mode/dark",
+   "path": "tag.color.1.prominent.fill",
+   "note": "Supabase row had no rule; token already in token-bt with the same value (mapped 2026-11-16)"
+  },
+  {
+   "table": "component",
    "supabase": "tag-color-2-subtle-border",
    "theme": "light",
    "set": "component/color-mode/light",
@@ -655,6 +671,22 @@
    "set": "component/color-mode/dark",
    "path": "tag.color.2.subtle.text",
    "note": "added to Supabase 2026-10-19 (Figma-only token; not in base-styles)"
+  },
+  {
+   "table": "component",
+   "supabase": "tag-color-2-prominent-fill",
+   "theme": "light",
+   "set": "component/color-mode/light",
+   "path": "tag.color.2.prominent.fill",
+   "note": "Supabase row had no rule; token already in token-bt with the same value (mapped 2026-11-16)"
+  },
+  {
+   "table": "component",
+   "supabase": "tag-color-2-prominent-fill",
+   "theme": "dark",
+   "set": "component/color-mode/dark",
+   "path": "tag.color.2.prominent.fill",
+   "note": "Supabase row had no rule; token already in token-bt with the same value (mapped 2026-11-16)"
   },
   {
    "table": "component",
@@ -706,6 +738,22 @@
   },
   {
    "table": "component",
+   "supabase": "tag-color-3-prominent-fill",
+   "theme": "light",
+   "set": "component/color-mode/light",
+   "path": "tag.color.3.prominent.fill",
+   "note": "Supabase row had no rule; token already in token-bt with the same value (mapped 2026-11-16)"
+  },
+  {
+   "table": "component",
+   "supabase": "tag-color-3-prominent-fill",
+   "theme": "dark",
+   "set": "component/color-mode/dark",
+   "path": "tag.color.3.prominent.fill",
+   "note": "Supabase row had no rule; token already in token-bt with the same value (mapped 2026-11-16)"
+  },
+  {
+   "table": "component",
    "supabase": "tag-color-4-subtle-border",
    "theme": "light",
    "set": "component/color-mode/light",
@@ -751,6 +799,22 @@
    "set": "component/color-mode/dark",
    "path": "tag.color.4.subtle.text",
    "note": "added to Supabase 2026-10-19 (Figma-only token; not in base-styles)"
+  },
+  {
+   "table": "component",
+   "supabase": "tag-color-4-prominent-fill",
+   "theme": "light",
+   "set": "component/color-mode/light",
+   "path": "tag.color.4.prominent.fill",
+   "note": "Supabase row had no rule; token already in token-bt with the same value (mapped 2026-11-16)"
+  },
+  {
+   "table": "component",
+   "supabase": "tag-color-4-prominent-fill",
+   "theme": "dark",
+   "set": "component/color-mode/dark",
+   "path": "tag.color.4.prominent.fill",
+   "note": "Supabase row had no rule; token already in token-bt with the same value (mapped 2026-11-16)"
   },
   {
    "table": "component",
@@ -3495,6 +3559,22 @@
   },
   {
    "table": "semantic",
+   "supabase": "color-background-surface-row-active",
+   "theme": "light",
+   "set": "semantic/color-mode/light",
+   "path": "background.surface.row-active",
+   "note": "Supabase row had no rule; token already in token-bt with the same value (mapped 2026-11-16)"
+  },
+  {
+   "table": "semantic",
+   "supabase": "color-background-surface-row-active",
+   "theme": "dark",
+   "set": "semantic/color-mode/dark",
+   "path": "background.surface.row-active",
+   "note": "Supabase row had no rule; token already in token-bt with the same value (mapped 2026-11-16)"
+  },
+  {
+   "table": "semantic",
    "supabase": "color-background-surface-row",
    "theme": "dark",
    "set": "semantic/color-mode/dark",
@@ -4253,6 +4333,22 @@
    "theme": "",
    "set": "semantic/size",
    "path": "size.icon.xs"
+  },
+  {
+   "table": "semantic",
+   "supabase": "size-icon-2xs",
+   "theme": "",
+   "set": "semantic/size",
+   "path": "size.icon.2xs",
+   "note": "new icon size 16px (SDS-8054/8057, 2026-11-16)"
+  },
+  {
+   "table": "semantic",
+   "supabase": "size-icon-3xs",
+   "theme": "",
+   "set": "semantic/size",
+   "path": "size.icon.3xs",
+   "note": "new icon size 14px (SDS-8054/8057, 2026-11-16)"
   },
   {
    "table": "semantic",
@@ -6533,46 +6629,6 @@
    "note": "Figma-only duplicate of color-background-attention (same value)"
   },
   {
-   "set": "component/color-mode/dark",
-   "path": "tag.color.1.prominent.fill",
-   "type": "color",
-   "from_table": "semantic",
-   "from": "color-severity-critical",
-   "mode": "ref-primitive",
-   "from_theme": "dark",
-   "note": "Figma-only duplicate of color-severity-critical (same value); ROLE MISMATCH: background use served by a severity token - confirm or add a background token"
-  },
-  {
-   "set": "component/color-mode/dark",
-   "path": "tag.color.2.prominent.fill",
-   "type": "color",
-   "from_table": "semantic",
-   "from": "color-severity-moderate",
-   "mode": "ref-primitive",
-   "from_theme": "dark",
-   "note": "Figma-only duplicate of color-severity-moderate (same value); ROLE MISMATCH: background use served by a severity token - confirm or add a background token"
-  },
-  {
-   "set": "component/color-mode/dark",
-   "path": "tag.color.3.prominent.fill",
-   "type": "color",
-   "from_table": "semantic",
-   "from": "color-severity-high",
-   "mode": "ref-primitive",
-   "from_theme": "dark",
-   "note": "Figma-only duplicate of color-severity-high (same value); ROLE MISMATCH: background use served by a severity token - confirm or add a background token"
-  },
-  {
-   "set": "component/color-mode/dark",
-   "path": "tag.color.4.prominent.fill",
-   "type": "color",
-   "from_table": "semantic",
-   "from": "color-status-success",
-   "mode": "ref-primitive",
-   "from_theme": "dark",
-   "note": "Figma-only duplicate of color-status-success (same value); ROLE MISMATCH: background use served by a status token - confirm or add a background token"
-  },
-  {
    "set": "component/color-mode/light",
    "path": "button.danger-icon.active.icon.color",
    "type": "color",
@@ -6763,46 +6819,6 @@
    "note": "Figma-only duplicate of color-background-input-list-item-hover-primary (same value)"
   },
   {
-   "set": "component/color-mode/light",
-   "path": "tag.color.1.prominent.fill",
-   "type": "color",
-   "from_table": "semantic",
-   "from": "color-severity-critical",
-   "mode": "ref-primitive",
-   "from_theme": "light",
-   "note": "Figma-only duplicate of color-severity-critical (same value); ROLE MISMATCH: background use served by a severity token - confirm or add a background token"
-  },
-  {
-   "set": "component/color-mode/light",
-   "path": "tag.color.2.prominent.fill",
-   "type": "color",
-   "from_table": "semantic",
-   "from": "color-severity-moderate",
-   "mode": "ref-primitive",
-   "from_theme": "light",
-   "note": "Figma-only duplicate of color-severity-moderate (same value); ROLE MISMATCH: background use served by a severity token - confirm or add a background token"
-  },
-  {
-   "set": "component/color-mode/light",
-   "path": "tag.color.3.prominent.fill",
-   "type": "color",
-   "from_table": "semantic",
-   "from": "color-severity-high",
-   "mode": "ref-primitive",
-   "from_theme": "light",
-   "note": "Figma-only duplicate of color-severity-high (same value); ROLE MISMATCH: background use served by a severity token - confirm or add a background token"
-  },
-  {
-   "set": "component/color-mode/light",
-   "path": "tag.color.4.prominent.fill",
-   "type": "color",
-   "from_table": "semantic",
-   "from": "color-status-success",
-   "mode": "ref-primitive",
-   "from_theme": "light",
-   "note": "Figma-only duplicate of color-status-success (same value); ROLE MISMATCH: background use served by a status token - confirm or add a background token"
-  },
-  {
    "set": "primitive/color",
    "path": "black.850",
    "type": "color",
@@ -6859,16 +6875,6 @@
    "mode": "ref-primitive",
    "from_theme": "dark",
    "note": "Figma-only duplicate of color-status-warning (same value); ROLE MISMATCH: background use served by a status token - confirm or add a background token"
-  },
-  {
-   "set": "semantic/color-mode/dark",
-   "path": "background.surface.row-active",
-   "type": "color",
-   "from_table": "semantic",
-   "from": "color-background-surface-row-selected",
-   "mode": "ref-primitive",
-   "from_theme": "dark",
-   "note": "Figma-only duplicate of color-background-surface-row-selected (same value)"
   },
   {
    "set": "semantic/color-mode/dark",
@@ -6929,16 +6935,6 @@
    "mode": "ref-primitive",
    "from_theme": "light",
    "note": "Figma-only duplicate of color-status-warning (same value); ROLE MISMATCH: background use served by a status token - confirm or add a background token"
-  },
-  {
-   "set": "semantic/color-mode/light",
-   "path": "background.surface.row-active",
-   "type": "color",
-   "from_table": "semantic",
-   "from": "color-background-surface-row-selected",
-   "mode": "ref-primitive",
-   "from_theme": "light",
-   "note": "Figma-only duplicate of color-background-surface-row-selected (same value)"
   },
   {
    "set": "semantic/color-mode/light",
