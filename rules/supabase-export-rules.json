@@ -77,256 +77,256 @@
    "supabase": "button-filled-danger-background-active",
    "theme": "dark",
    "set": "component/color-mode/dark",
-   "path": "button.danger.active.background",
-   "note": "renamed in Supabase 2026-10-15 (was button-danger-active-background-color)"
+   "path": "button.filled.danger.background.active",
+   "note": "renamed in Supabase 2026-10-15 (was button-danger-active-background-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-filled-danger-background-active",
    "theme": "light",
    "set": "component/color-mode/light",
-   "path": "button.danger.active.background",
-   "note": "renamed in Supabase 2026-10-15 (was button-danger-active-background-color)"
+   "path": "button.filled.danger.background.active",
+   "note": "renamed in Supabase 2026-10-15 (was button-danger-active-background-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-filled-danger-background",
    "theme": "dark",
    "set": "component/color-mode/dark",
-   "path": "button.danger.default.background",
-   "note": "renamed in Supabase 2026-10-15 (was button-danger-default-background-color)"
+   "path": "button.filled.danger.background",
+   "note": "renamed in Supabase 2026-10-15 (was button-danger-default-background-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-filled-danger-background",
    "theme": "light",
    "set": "component/color-mode/light",
-   "path": "button.danger.default.background",
-   "note": "renamed in Supabase 2026-10-15 (was button-danger-default-background-color)"
+   "path": "button.filled.danger.background",
+   "note": "renamed in Supabase 2026-10-15 (was button-danger-default-background-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-filled-danger-background-hover",
    "theme": "dark",
    "set": "component/color-mode/dark",
-   "path": "button.danger.hover.background",
-   "note": "renamed in Supabase 2026-10-15 (was button-danger-hover-background-color)"
+   "path": "button.filled.danger.background.hover",
+   "note": "renamed in Supabase 2026-10-15 (was button-danger-hover-background-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-filled-danger-background-hover",
    "theme": "light",
    "set": "component/color-mode/light",
-   "path": "button.danger.hover.background",
-   "note": "renamed in Supabase 2026-10-15 (was button-danger-hover-background-color)"
+   "path": "button.filled.danger.background.hover",
+   "note": "renamed in Supabase 2026-10-15 (was button-danger-hover-background-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-outline-primary-border-active",
    "theme": "dark",
    "set": "component/color-mode/dark",
-   "path": "button.ghost.active.border.color",
-   "note": "renamed in Supabase 2026-10-15 (was button-ghost-active-border-color)"
+   "path": "button.outline.primary.border.active",
+   "note": "renamed in Supabase 2026-10-15 (was button-ghost-active-border-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-outline-primary-border-active",
    "theme": "light",
    "set": "component/color-mode/light",
-   "path": "button.ghost.active.border.color",
-   "note": "renamed in Supabase 2026-10-15 (was button-ghost-active-border-color)"
+   "path": "button.outline.primary.border.active",
+   "note": "renamed in Supabase 2026-10-15 (was button-ghost-active-border-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-filled-primary-background-active",
    "theme": "dark",
    "set": "component/color-mode/dark",
-   "path": "button.primary.active.background.color",
-   "note": "renamed in Supabase 2026-10-15 (was button-primary-active-background-color)"
+   "path": "button.filled.primary.background.active",
+   "note": "renamed in Supabase 2026-10-15 (was button-primary-active-background-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-filled-primary-background-active",
    "theme": "light",
    "set": "component/color-mode/light",
-   "path": "button.primary.active.background.color",
-   "note": "renamed in Supabase 2026-10-15 (was button-primary-active-background-color)"
+   "path": "button.filled.primary.background.active",
+   "note": "renamed in Supabase 2026-10-15 (was button-primary-active-background-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-text-primary-background-hover",
    "theme": "dark",
    "set": "component/color-mode/dark",
-   "path": "button.primary-text.hover.background",
-   "note": "renamed in Supabase 2026-10-15 (was button-primary-text-hover-background-color)"
+   "path": "button.text.primary.background.hover",
+   "note": "renamed in Supabase 2026-10-15 (was button-primary-text-hover-background-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-text-primary-background-hover",
    "theme": "light",
    "set": "component/color-mode/light",
-   "path": "button.primary-text.hover.background",
-   "note": "renamed in Supabase 2026-10-15 (was button-primary-text-hover-background-color)"
+   "path": "button.text.primary.background.hover",
+   "note": "renamed in Supabase 2026-10-15 (was button-primary-text-hover-background-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-filled-secondary-background-active",
    "theme": "dark",
    "set": "component/color-mode/dark",
-   "path": "button.secondary.active.background.color",
-   "note": "renamed in Supabase 2026-10-15 (was button-secondary-active-background-color)"
+   "path": "button.filled.secondary.background.active",
+   "note": "renamed in Supabase 2026-10-15 (was button-secondary-active-background-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-filled-secondary-background-active",
    "theme": "light",
    "set": "component/color-mode/light",
-   "path": "button.secondary.active.background.color",
-   "note": "renamed in Supabase 2026-10-15 (was button-secondary-active-background-color)"
+   "path": "button.filled.secondary.background.active",
+   "note": "renamed in Supabase 2026-10-15 (was button-secondary-active-background-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-filled-secondary-background-hover",
    "theme": "dark",
    "set": "component/color-mode/dark",
-   "path": "button.secondary.hover.background.color",
-   "note": "renamed in Supabase 2026-10-15 (was button-secondary-hover-background-color)"
+   "path": "button.filled.secondary.background.hover",
+   "note": "renamed in Supabase 2026-10-15 (was button-secondary-hover-background-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-filled-secondary-background-hover",
    "theme": "light",
    "set": "component/color-mode/light",
-   "path": "button.secondary.hover.background.color",
-   "note": "renamed in Supabase 2026-10-15 (was button-secondary-hover-background-color)"
+   "path": "button.filled.secondary.background.hover",
+   "note": "renamed in Supabase 2026-10-15 (was button-secondary-hover-background-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-text-secondary-background-active",
    "theme": "dark",
    "set": "component/color-mode/dark",
-   "path": "button.text.secondary.active.background.color",
-   "note": "renamed in Supabase 2026-10-15 (was button-secondary-text-active-background-color)"
+   "path": "button.text.secondary.background.active",
+   "note": "renamed in Supabase 2026-10-15 (was button-secondary-text-active-background-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-text-secondary-background-active",
    "theme": "light",
    "set": "component/color-mode/light",
-   "path": "button.text.secondary.active.background.color",
-   "note": "renamed in Supabase 2026-10-15 (was button-secondary-text-active-background-color)"
+   "path": "button.text.secondary.background.active",
+   "note": "renamed in Supabase 2026-10-15 (was button-secondary-text-active-background-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-text-secondary-text-active",
    "theme": "dark",
    "set": "component/color-mode/dark",
-   "path": "button.secondary.active.label.color",
-   "note": "renamed in Supabase 2026-10-15 (was button-secondary-text-active-label-color)"
+   "path": "button.text.secondary.text.active",
+   "note": "renamed in Supabase 2026-10-15 (was button-secondary-text-active-label-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-text-secondary-text-active",
    "theme": "light",
    "set": "component/color-mode/light",
-   "path": "button.secondary.active.label.color",
-   "note": "renamed in Supabase 2026-10-15 (was button-secondary-text-active-label-color)"
+   "path": "button.text.secondary.text.active",
+   "note": "renamed in Supabase 2026-10-15 (was button-secondary-text-active-label-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-outline-danger-background-active",
    "theme": "light",
    "set": "component/color-mode/light",
-   "path": "button.danger-text.active.background",
-   "note": "renamed in Supabase 2026-10-15 (was button-danger-outline-*); Figma names it danger-text, same values"
+   "path": "button.outline.danger.background.active",
+   "note": "renamed in Supabase 2026-10-15 (was button-danger-outline-*); Figma names it danger-text, same values; path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-outline-danger-background-active",
    "theme": "dark",
    "set": "component/color-mode/dark",
-   "path": "button.danger-text.active.background",
-   "note": "renamed in Supabase 2026-10-15 (was button-danger-outline-*); Figma names it danger-text, same values"
+   "path": "button.outline.danger.background.active",
+   "note": "renamed in Supabase 2026-10-15 (was button-danger-outline-*); Figma names it danger-text, same values; path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-outline-secondary-border",
    "theme": "dark",
    "set": "component/color-mode/dark",
-   "path": "button.secondary-outline.default.border.color",
-   "note": "renamed in Supabase 2026-10-15 (was button-secondary-outline-default-border-color)"
+   "path": "button.outline.secondary.border",
+   "note": "renamed in Supabase 2026-10-15 (was button-secondary-outline-default-border-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-outline-secondary-border",
    "theme": "light",
    "set": "component/color-mode/light",
-   "path": "button.secondary-outline.default.border.color",
-   "note": "renamed in Supabase 2026-10-15 (was button-secondary-outline-default-border-color)"
+   "path": "button.outline.secondary.border",
+   "note": "renamed in Supabase 2026-10-15 (was button-secondary-outline-default-border-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-outline-secondary-border-hover",
    "theme": "dark",
    "set": "component/color-mode/dark",
-   "path": "button.secondary-outline.hover.border.color",
-   "note": "renamed in Supabase 2026-10-15 (was button-secondary-outline-hover-border-color)"
+   "path": "button.outline.secondary.border.hover",
+   "note": "renamed in Supabase 2026-10-15 (was button-secondary-outline-hover-border-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-outline-secondary-border-hover",
    "theme": "light",
    "set": "component/color-mode/light",
-   "path": "button.secondary-outline.hover.border.color",
-   "note": "renamed in Supabase 2026-10-15 (was button-secondary-outline-hover-border-color)"
+   "path": "button.outline.secondary.border.hover",
+   "note": "renamed in Supabase 2026-10-15 (was button-secondary-outline-hover-border-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-outline-secondary-border-active",
    "theme": "dark",
    "set": "component/color-mode/dark",
-   "path": "button.secondary-outline.active.border.color",
-   "note": "renamed in Supabase 2026-10-15 (was button-secondary-outline-active-border-color)"
+   "path": "button.outline.secondary.border.active",
+   "note": "renamed in Supabase 2026-10-15 (was button-secondary-outline-active-border-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-outline-secondary-border-active",
    "theme": "light",
    "set": "component/color-mode/light",
-   "path": "button.secondary-outline.active.border.color",
-   "note": "renamed in Supabase 2026-10-15 (was button-secondary-outline-active-border-color)"
+   "path": "button.outline.secondary.border.active",
+   "note": "renamed in Supabase 2026-10-15 (was button-secondary-outline-active-border-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-outline-secondary-text-hover",
    "theme": "dark",
    "set": "component/color-mode/dark",
-   "path": "button.secondary-outline.hover.label.color",
-   "note": "renamed in Supabase 2026-10-15 (was button-secondary-outline-hover-label-color)"
+   "path": "button.outline.secondary.text.hover",
+   "note": "renamed in Supabase 2026-10-15 (was button-secondary-outline-hover-label-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-outline-secondary-text-hover",
    "theme": "light",
    "set": "component/color-mode/light",
-   "path": "button.secondary-outline.hover.label.color",
-   "note": "renamed in Supabase 2026-10-15 (was button-secondary-outline-hover-label-color)"
+   "path": "button.outline.secondary.text.hover",
+   "note": "renamed in Supabase 2026-10-15 (was button-secondary-outline-hover-label-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-outline-secondary-text-active",
    "theme": "dark",
    "set": "component/color-mode/dark",
-   "path": "button.secondary-outline.active.label.color",
-   "note": "renamed in Supabase 2026-10-15 (was button-secondary-outline-active-label-color)"
+   "path": "button.outline.secondary.text.active",
+   "note": "renamed in Supabase 2026-10-15 (was button-secondary-outline-active-label-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",
    "supabase": "button-outline-secondary-text-active",
    "theme": "light",
    "set": "component/color-mode/light",
-   "path": "button.secondary-outline.active.label.color",
-   "note": "renamed in Supabase 2026-10-15 (was button-secondary-outline-active-label-color)"
+   "path": "button.outline.secondary.text.active",
+   "note": "renamed in Supabase 2026-10-15 (was button-secondary-outline-active-label-color); path follows the Supabase name since 2026-11-18 (SDS-7753)"
   },
   {
    "table": "component",

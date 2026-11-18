@@ -8,39 +8,7 @@
     }
   },
   "button": {
-    "primary": {
-      "active": {
-        "background": {
-          "color": {
-            "value": "{Sky-blue.300}",
-            "type": "color"
-          }
-        }
-      }
-    },
     "secondary": {
-      "active": {
-        "background": {
-          "color": {
-            "value": "{Steel-blue.300}",
-            "type": "color"
-          }
-        },
-        "label": {
-          "color": {
-            "value": "{Light-blue.200}",
-            "type": "color"
-          }
-        }
-      },
-      "hover": {
-        "background": {
-          "color": {
-            "value": "{Steel-blue.200}",
-            "type": "color"
-          }
-        }
-      },
       "icon": {
         "hover": {
           "background": {
@@ -71,24 +39,14 @@
     "danger": {
       "active": {
         "background": {
-          "value": "{Orange.900}",
-          "type": "color",
           "color": {
             "value": "{Orange.900}",
             "type": "color"
           }
         }
       },
-      "default": {
-        "background": {
-          "value": "{Red.100}",
-          "type": "color"
-        }
-      },
       "hover": {
         "background": {
-          "value": "{Orange.800}",
-          "type": "color",
           "color": {
             "value": "{Orange.800}",
             "type": "color"
@@ -103,14 +61,6 @@
       }
     },
     "ghost": {
-      "active": {
-        "border": {
-          "color": {
-            "value": "{Sky-blue.300}",
-            "type": "color"
-          }
-        }
-      },
       "hover": {
         "label": {
           "color": {
@@ -121,22 +71,26 @@
       }
     },
     "text": {
-      "secondary": {
-        "active": {
-          "background": {
-            "color": {
-              "value": "{Deep-teal.200}",
-              "type": "color"
-            }
+      "primary": {
+        "background": {
+          "hover": {
+            "value": "{Deep-teal.100}",
+            "type": "color"
           }
         }
-      }
-    },
-    "primary-text": {
-      "hover": {
+      },
+      "secondary": {
         "background": {
-          "value": "{Deep-teal.100}",
-          "type": "color"
+          "active": {
+            "value": "{Deep-teal.200}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "active": {
+            "value": "{Light-blue.200}",
+            "type": "color"
+          }
         }
       }
     },
@@ -250,8 +204,6 @@
     "danger-text": {
       "active": {
         "background": {
-          "value": "{Rose.275}",
-          "type": "color",
           "color": {
             "value": "{Orange.900}",
             "type": "color"
@@ -277,12 +229,6 @@
     },
     "secondary-outline": {
       "default": {
-        "border": {
-          "color": {
-            "value": "{Light-blue.100}",
-            "type": "color"
-          }
-        },
         "label": {
           "color": {
             "value": "{Steel-blue.100}",
@@ -290,35 +236,87 @@
           }
         }
       },
-      "hover": {
-        "border": {
-          "color": {
-            "value": "{Sky-blue.50}",
-            "type": "color"
-          }
-        },
-        "label": {
-          "color": {
-            "value": "{Light-blue.200}",
-            "type": "color"
-          }
-        }
-      },
       "active": {
-        "label": {
-          "color": {
-            "value": "{Light-blue.400}",
-            "type": "color"
-          }
-        },
         "icon": {
           "color": {
             "value": "{Light-blue.400}",
             "type": "color"
           }
-        },
+        }
+      }
+    },
+    "filled": {
+      "danger": {
+        "background": {
+          "value": "{Red.100}",
+          "type": "color",
+          "active": {
+            "value": "{Orange.900}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{Orange.800}",
+            "type": "color"
+          }
+        }
+      },
+      "primary": {
+        "background": {
+          "active": {
+            "value": "{Sky-blue.300}",
+            "type": "color"
+          }
+        }
+      },
+      "secondary": {
+        "background": {
+          "active": {
+            "value": "{Steel-blue.300}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{Steel-blue.200}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "outline": {
+      "primary": {
         "border": {
-          "color": {
+          "active": {
+            "value": "{Sky-blue.300}",
+            "type": "color"
+          }
+        }
+      },
+      "danger": {
+        "background": {
+          "active": {
+            "value": "{Rose.275}",
+            "type": "color"
+          }
+        }
+      },
+      "secondary": {
+        "border": {
+          "value": "{Light-blue.100}",
+          "type": "color",
+          "hover": {
+            "value": "{Sky-blue.50}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{Light-blue.400}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "hover": {
+            "value": "{Light-blue.200}",
+            "type": "color"
+          },
+          "active": {
             "value": "{Light-blue.400}",
             "type": "color"
           }
