@@ -737,6 +737,12 @@
           }
         }
       }
+    },
+    "prominent": {
+      "text": {
+        "value": "{Black.950}",
+        "type": "color"
+      }
     }
   },
   "time-picker": {

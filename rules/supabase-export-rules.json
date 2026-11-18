@@ -6107,6 +6107,22 @@
   },
   {
    "table": "component",
+   "supabase": "tag-prominent-text",
+   "theme": "dark",
+   "set": "component/color-mode/dark",
+   "path": "tag.prominent.text",
+   "note": "added to Supabase 2026-11-17 (SDS-8155); replaces tag-severity-text-color on Prominent tags 2, 3 and 5 (SDS-8157)"
+  },
+  {
+   "table": "component",
+   "supabase": "tag-prominent-text",
+   "theme": "light",
+   "set": "component/color-mode/light",
+   "path": "tag.prominent.text",
+   "note": "added to Supabase 2026-11-17 (SDS-8155); replaces tag-severity-text-color on Prominent tags 2, 3 and 5 (SDS-8157)"
+  },
+  {
+   "table": "component",
    "supabase": "tag-user-container-border-color",
    "theme": "dark",
    "set": "component/color-mode/dark",
