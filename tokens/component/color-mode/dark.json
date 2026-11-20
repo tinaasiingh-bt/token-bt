@@ -595,14 +595,6 @@
         }
       }
     },
-    "severity": {
-      "text": {
-        "color": {
-          "value": "{Black.950}",
-          "type": "color"
-        }
-      }
-    },
     "color": {
       "1": {
         "prominent": {

@@ -6093,20 +6093,6 @@
   },
   {
    "table": "component",
-   "supabase": "tag-severity-text-color",
-   "theme": "dark",
-   "set": "component/color-mode/dark",
-   "path": "tag.severity.text.color"
-  },
-  {
-   "table": "component",
-   "supabase": "tag-severity-text-color",
-   "theme": "light",
-   "set": "component/color-mode/light",
-   "path": "tag.severity.text.color"
-  },
-  {
-   "table": "component",
    "supabase": "tag-prominent-text",
    "theme": "dark",
    "set": "component/color-mode/dark",
@@ -7835,7 +7821,8 @@
   }
  ],
  "suppress": [
-  "^color-chart-palette-\\d+$"
+  "^color-chart-palette-\\d+$",
+  "^tag-severity-text-color$"
  ],
  "descriptions": [
   {
