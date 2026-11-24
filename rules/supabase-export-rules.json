@@ -437,7 +437,7 @@
    "supabase": "button-text-danger-background-focus",
    "theme": "light",
    "set": "component/color-mode/light",
-   "path": "button.danger-text.focus.background",
+   "path": "button.text-danger.background.focus",
    "note": "added to Supabase 2026-10-19 (Figma-only path served by the base-styles-named row)"
   },
   {
@@ -445,7 +445,7 @@
    "supabase": "button-text-danger-background-focus",
    "theme": "dark",
    "set": "component/color-mode/dark",
-   "path": "button.danger-text.focus.background",
+   "path": "button.text-danger.background.focus",
    "note": "added to Supabase 2026-10-19 (Figma-only path served by the base-styles-named row)"
   },
   {
@@ -453,7 +453,7 @@
    "supabase": "button-text-danger-background-hover",
    "theme": "light",
    "set": "component/color-mode/light",
-   "path": "button.danger-text.hover.background",
+   "path": "button.text-danger.background.hover",
    "note": "Supabase row had no rule; token already in token-bt with the same value (mapped 2026-11-16)"
   },
   {
@@ -461,7 +461,7 @@
    "supabase": "button-text-danger-background-hover",
    "theme": "dark",
    "set": "component/color-mode/dark",
-   "path": "button.danger-text.hover.background",
+   "path": "button.text-danger.background.hover",
    "note": "Supabase row had no rule; token already in token-bt with the same value (mapped 2026-11-16)"
   },
   {

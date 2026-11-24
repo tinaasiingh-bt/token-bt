@@ -212,18 +212,10 @@
       },
       "hover": {
         "background": {
-          "value": "{Rose.250}",
-          "type": "color",
           "color": {
             "value": "{Orange.800}",
             "type": "color"
           }
-        }
-      },
-      "focus": {
-        "background": {
-          "value": "{Rose.250}",
-          "type": "color"
         }
       }
     },
@@ -320,6 +312,18 @@
             "value": "{Light-blue.400}",
             "type": "color"
           }
+        }
+      }
+    },
+    "text-danger": {
+      "background": {
+        "hover": {
+          "value": "{Rose.250}",
+          "type": "color"
+        },
+        "focus": {
+          "value": "{Rose.250}",
+          "type": "color"
         }
       }
     }
