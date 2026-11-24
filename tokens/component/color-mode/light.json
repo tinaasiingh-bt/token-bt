@@ -209,14 +209,6 @@
             "type": "color"
           }
         }
-      },
-      "hover": {
-        "background": {
-          "color": {
-            "value": "{Orange.800}",
-            "type": "color"
-          }
-        }
       }
     },
     "secondary-outline": {

@@ -6989,16 +6989,6 @@
    "note": "Figma-only duplicate of button-filled-danger-background-active (value match)"
   },
   {
-   "set": "component/color-mode/light",
-   "path": "button.danger-text.hover.background.color",
-   "type": "color",
-   "from_table": "component",
-   "from": "button-filled-danger-background-hover",
-   "mode": "ref-primitive",
-   "from_theme": "light",
-   "note": "Figma-only duplicate of button-filled-danger-background-hover (value match)"
-  },
-  {
    "set": "component/color-mode/dark",
    "path": "button.danger.active.background.color",
    "type": "color",
@@ -7027,16 +7017,6 @@
    "mode": "ref-primitive",
    "from_theme": "dark",
    "note": "Figma-only duplicate of button-filled-danger-background-active (value match)"
-  },
-  {
-   "set": "component/color-mode/dark",
-   "path": "button.danger-text.hover.background.color",
-   "type": "color",
-   "from_table": "component",
-   "from": "button-filled-danger-background-hover",
-   "mode": "ref-primitive",
-   "from_theme": "dark",
-   "note": "Figma-only duplicate of button-filled-danger-background-hover (value match)"
   },
   {
    "set": "component/color-mode/dark",
